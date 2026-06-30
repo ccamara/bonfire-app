@@ -738,13 +738,13 @@ msgstr "Jeder auf dieser Instanz."
 #: lib/runtime_config.ex:1339
 #, elixir-autogen, elixir-format
 msgid "Follows"
-msgstr "Follower"
+msgstr "Personen, denen du folgst"
 
 #: lib/runtime_config.ex:1342
 #, elixir-autogen, elixir-format
 msgid "Follows: people who I follow may read, like, boost and reply."
 msgstr ""
-"Folge ich: Personen, denen ich folge, dürfen lesen, liken, boosten und "
+"Follows: Personen, denen ich folge, dürfen lesen, liken, boosten und "
 "antworten."
 
 #: lib/runtime_config.ex:336

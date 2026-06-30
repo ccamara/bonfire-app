@@ -1557,13 +1557,13 @@ msgstr ""
 msgid "close"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1184
 #, elixir-autogen, elixir-format
 msgid "Loading messages"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1186
 #, elixir-autogen, elixir-format
 msgid "Some short messages to show (picked randomly each time) when the page or something is loading."
@@ -1761,7 +1761,7 @@ msgstr ""
 msgid "Open language preferences in a new tab"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1174
 #, elixir-autogen, elixir-format
 msgid "Another world is loading..."
@@ -1773,13 +1773,13 @@ msgstr ""
 msgid "Archipelago federation enabled"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1181
 #, elixir-autogen, elixir-format
 msgid "Building solidarity networks..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1173
 #, elixir-autogen, elixir-format
 msgid "Communing with the fediverse..."
@@ -1790,7 +1790,7 @@ msgstr ""
 msgid "Content warning"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1177
 #, elixir-autogen, elixir-format
 msgid "Decentralising all the things..."
@@ -1801,13 +1801,13 @@ msgstr ""
 msgid "In %{name}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1180
 #, elixir-autogen, elixir-format
 msgid "Liberating your data..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1176
 #, elixir-autogen, elixir-format
 msgid "Manifesting digital commons..."
@@ -1831,13 +1831,13 @@ msgstr ""
 msgid "Open menu"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1182
 #, elixir-autogen, elixir-format
 msgid "Organising the bits..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1179
 #, elixir-autogen, elixir-format
 msgid "Queering the database..."
@@ -1874,13 +1874,13 @@ msgstr ""
 msgid "Search keys or default values..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1175
 #, elixir-autogen, elixir-format
 msgid "Seizing the means of communication..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1178
 #, elixir-autogen, elixir-format
 msgid "Tuning into the mycelial network..."

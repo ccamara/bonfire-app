@@ -56,7 +56,7 @@ msgstr ""
 #: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:68
 #, elixir-autogen, elixir-format
 msgid "About"
-msgstr "Über"
+msgstr "About"
 
 #. URLs: https://campground.bonfire.cafe/feed/local
 #. https://campground.bonfire.cafe/@alice_followed/followers
@@ -2285,7 +2285,7 @@ msgstr "Bits werden organisiert..."
 #: lib/ui_common.ex:1166
 #, elixir-autogen, elixir-format
 msgid "Queering the database..."
-msgstr "Die Datenbank wird gequeert..."
+msgstr "Die Datenbank wird hinterfragt..."
 
 #. URLs: https://campground.bonfire.cafe/@Gibson_Group
 #. https://campground.bonfire.cafe/settings/boundaries/acls

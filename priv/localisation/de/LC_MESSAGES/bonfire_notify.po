@@ -246,7 +246,7 @@ msgstr "Aktiviert auf diesem Gerät"
 #: lib/web/push_notifications_live.sface:136
 #, elixir-autogen, elixir-format
 msgid "Follows"
-msgstr "Follows"
+msgstr "Personen, denen du folgst"
 
 #: lib/web/push_notifications_live.sface:59
 #, elixir-autogen, elixir-format
