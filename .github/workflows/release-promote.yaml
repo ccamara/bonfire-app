@@ -60,15 +60,18 @@ jobs:
     with:
       platforms: linux/arm64
       arch: aarch64
-      version: ${{ needs.detect_version.outputs.version }}
-      tag_suffixes: ${{ needs.compute_tags.outputs.tag_suffixes }}
+      # promotion tiers + the version-named tag (minted here, not in step 1)
+      tags: ${{ needs.compute_tags.outputs.tag_suffixes }} ${{ needs.detect_version.outputs.version }}
       flavours: ${{ needs.flavours.outputs.build }}
 
   retag_amd64:
     needs: [detect_version, compute_tags, flavours]
     name: Re-tag amd64 ${{ matrix.flavour }} to promotion tiers
     runs-on: ubuntu-latest
+    # one flavour failing must not cancel the others
+    continue-on-error: true
     strategy:
+      fail-fast: false
       matrix:
         flavour: ${{ fromJSON(needs.flavours.outputs.build) }}
     steps:
@@ -79,29 +82,38 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - name: Add promotion tags to the existing amd64 image (same digest, no rebuild)
+      - name: Add promotion + version tags to the tested unstable amd64 image (same digest, no rebuild)
         run: |
           set -e
-          SOURCE=bonfirenetworks/bonfire:${{ needs.detect_version.outputs.version }}-${{ matrix.flavour }}-amd64
-          for SUFFIX in ${{ needs.compute_tags.outputs.tag_suffixes }}; do
-            TARGET=bonfirenetworks/bonfire:${SUFFIX}-${{ matrix.flavour }}-amd64
+          # Source is the untested amd64 image from step 1 (release.yaml); only latest-unstable exists yet.
+          SOURCE=bonfirenetworks/bonfire:latest-unstable-${{ matrix.flavour }}-amd64
+          if ! docker buildx imagetools inspect "$SOURCE" > /dev/null 2>&1; then
+            echo "Source image $SOURCE not found (was ${{ matrix.flavour }} built+pushed in step 1?), skipping this flavour."
+            exit 0
+          fi
+          for PREFIX in ${{ needs.compute_tags.outputs.tag_suffixes }} ${{ needs.detect_version.outputs.version }}; do
+            TARGET=bonfirenetworks/bonfire:${PREFIX}-${{ matrix.flavour }}-amd64
             echo "Re-tagging $SOURCE -> $TARGET"
             docker buildx imagetools create -t "$TARGET" "$SOURCE"
           done
 
   docker_multi_arch_image:
     needs: [detect_version, compute_tags, flavours, docker_arm64, retag_amd64]
+    # run even if some build/retag legs failed — the manifest step skips missing images
+    if: ${{ !cancelled() && needs.detect_version.result == 'success' && needs.compute_tags.result == 'success' }}
     uses: ./.github/workflows/_docker_manifest.yaml
     secrets: inherit
     with:
-      version: ${{ needs.detect_version.outputs.version }}
-      tag_suffixes: ${{ needs.compute_tags.outputs.tag_suffixes }}
+      tags: ${{ needs.compute_tags.outputs.tag_suffixes }} ${{ needs.detect_version.outputs.version }}
       flavours: ${{ needs.flavours.outputs.manifest }}
 
   otp_release_amd64:
     needs: [detect_version, compute_tags, flavours]
     name: ${{ matrix.flavour }} - OTP on ${{ matrix.distro }}-${{ matrix.distro_version }} / amd64
+    # one flavour/distro failing must not cancel the others
+    continue-on-error: true
     strategy:
+      fail-fast: false
       matrix:
         flavour: ${{ fromJSON(needs.flavours.outputs.otp) }}
         distro: ["debian", "rhel"]

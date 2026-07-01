@@ -10,12 +10,8 @@ on:
         description: 'Arch suffix for image tags (e.g. amd64, aarch64)'
         required: true
         type: string
-      version:
-        description: 'Version string used for the :<version>-<flavour>-<arch> tag'
-        required: true
-        type: string
-      tag_suffixes:
-        description: 'Space-separated latest-* suffixes to emit (e.g. "latest-unstable" or "latest-alpha latest-beta")'
+      tags:
+        description: 'Space-separated tag prefixes to emit as :<prefix>-<flavour>-<arch> (e.g. "latest-unstable" or "latest-alpha latest-beta 1.0.6-alpha.2")'
         required: true
         type: string
       flavours:
@@ -96,10 +92,9 @@ jobs:
         id: read_tags
         run: |
           : > docker_tags.txt
-          for SUFFIX in ${{ inputs.tag_suffixes }}; do
-            echo "bonfirenetworks/${{ env.DOCKER_REPO }}:${SUFFIX}-${{ env.FLAVOUR }}-${{ inputs.arch }}" >> docker_tags.txt
+          for PREFIX in ${{ inputs.tags }}; do
+            echo "bonfirenetworks/${{ env.DOCKER_REPO }}:${PREFIX}-${{ env.FLAVOUR }}-${{ inputs.arch }}" >> docker_tags.txt
           done
-          echo "bonfirenetworks/${{ env.DOCKER_REPO }}:${{ inputs.version }}-${{ env.FLAVOUR }}-${{ inputs.arch }}" >> docker_tags.txt
           TAGS=$(paste -sd, docker_tags.txt)
           echo "DOCKER_TAGS=$TAGS" >> $GITHUB_ENV
           echo "Tags: $TAGS"

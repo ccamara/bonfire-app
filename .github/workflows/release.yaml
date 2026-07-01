@@ -48,22 +48,22 @@ jobs:
             grep -m 1 'version:' mix.exs | cut -d '"' -f2
 
   docker:
-    needs: [check_version_changed, otp_tag, flavours]
+    needs: [check_version_changed, flavours]
     if: ${{ needs.check_version_changed.outputs.version_changed == 'true' }}
     uses: ./.github/workflows/_docker_build.yaml
     secrets: inherit
     with:
       platforms: linux/amd64
       arch: amd64
-      version: ${{ needs.otp_tag.outputs.version }}
-      tag_suffixes: latest-unstable
+      # Untested amd64 build: ONLY the `latest-unstable` tier. The version-named tag
+      # (e.g. 1.0.6-alpha.2-...) is minted during promotion in release-promote.yaml.
+      tags: latest-unstable
       flavours: ${{ needs.flavours.outputs.build }}
 
   docker_multi_arch_image:
-    needs: [otp_tag, flavours, docker]
+    needs: [flavours, docker]
     uses: ./.github/workflows/_docker_manifest.yaml
     secrets: inherit
     with:
-      version: ${{ needs.otp_tag.outputs.version }}
-      tag_suffixes: latest-unstable
+      tags: latest-unstable
       flavours: ${{ needs.flavours.outputs.manifest }}

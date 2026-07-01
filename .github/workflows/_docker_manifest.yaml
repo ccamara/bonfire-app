@@ -2,12 +2,8 @@ name: Docker multi-arch manifest (reusable)
 on:
   workflow_call:
     inputs:
-      version:
-        description: 'Version string for the :<version>-<flavour> manifest'
-        required: true
-        type: string
-      tag_suffixes:
-        description: 'Space-separated latest-* suffixes to build manifests for (e.g. "latest-unstable" or "latest-alpha latest-beta")'
+      tags:
+        description: 'Space-separated tag prefixes to build manifests for (e.g. "latest-unstable" or "latest-alpha latest-beta 1.0.6-alpha.2")'
         required: true
         type: string
       flavours:
@@ -19,7 +15,10 @@ jobs:
   manifest:
     name: Create and push multi-arch manifest for ${{ matrix.flavour }}
     runs-on: ubuntu-latest
+    # one flavour failing must not cancel the others
+    continue-on-error: true
     strategy:
+      fail-fast: false
       matrix:
         flavour: ${{ fromJSON(inputs.flavours) }}
     steps:
@@ -33,8 +32,8 @@ jobs:
       - name: Create and push manifest
         run: |
           set -e
-          # Combine each applicable tag suffix plus the bare version into a multi-arch manifest
-          for TAG in ${{ inputs.tag_suffixes }} ${{ inputs.version }}; do
+          # Combine each requested tag prefix into a multi-arch manifest
+          for TAG in ${{ inputs.tags }}; do
             images=""
             for platform in amd64 aarch64 arm32v7; do
               image=bonfirenetworks/bonfire:${TAG}-${{ matrix.flavour }}-$(echo $platform | sed 's#/#-#g')
