@@ -15,9 +15,8 @@ jobs:
   manifest:
     name: Create and push multi-arch manifest for ${{ matrix.flavour }}
     runs-on: ubuntu-latest
-    # one flavour failing must not cancel the others
-    continue-on-error: true
     strategy:
+      # one flavour failing must not cancel the others
       fail-fast: false
       matrix:
         flavour: ${{ fromJSON(inputs.flavours) }}

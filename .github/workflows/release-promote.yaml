@@ -68,9 +68,8 @@ jobs:
     needs: [detect_version, compute_tags, flavours]
     name: Re-tag amd64 ${{ matrix.flavour }} to promotion tiers
     runs-on: ubuntu-latest
-    # one flavour failing must not cancel the others
-    continue-on-error: true
     strategy:
+      # one flavour failing must not cancel the others
       fail-fast: false
       matrix:
         flavour: ${{ fromJSON(needs.flavours.outputs.build) }}
@@ -110,9 +109,8 @@ jobs:
   otp_release_amd64:
     needs: [detect_version, compute_tags, flavours]
     name: ${{ matrix.flavour }} - OTP on ${{ matrix.distro }}-${{ matrix.distro_version }} / amd64
-    # one flavour/distro failing must not cancel the others
-    continue-on-error: true
     strategy:
+      # one flavour/distro failing must not cancel the others
       fail-fast: false
       matrix:
         flavour: ${{ fromJSON(needs.flavours.outputs.otp) }}
