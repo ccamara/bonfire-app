@@ -1774,7 +1774,7 @@ msgstr ""
 msgid "Silencing user or instance"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/feed/local
 #: lib/components/activity/media/media_live.sface:132
 #, elixir-autogen, elixir-format
 msgid "Sorry, no caption provided by author"

@@ -3238,12 +3238,14 @@ msgstr ""
 msgid "follow"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/profile_hero/profile_stats_live.sface:22
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:74
 #, elixir-autogen, elixir-format
 msgid "followers"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/profile_hero/profile_stats_live.sface:32
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:84
 #, elixir-autogen, elixir-format
@@ -3280,6 +3282,7 @@ msgstr ""
 msgid "please try again."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/profile_hero/profile_stats_live.sface:12
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:54
 #, elixir-autogen, elixir-format
@@ -3438,6 +3441,7 @@ msgstr ""
 msgid "Add a visual separator between sidebar navigation sections (Feeds, Circles, Groups)."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/links/profile_links_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "Also on"
