@@ -1362,6 +1362,7 @@ msgstr ""
 msgid "This feature (from extension %{app}) is disabled. You can enabled it in Settings -> Extensions "
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/LiveHandler/Bonfire.Poll/submit_vote https://campground.bonfire.cafe/LiveHandler/reset_instance_pinned
 #: lib/live_handlers_graceful_degradation_controller.ex:53
 #, elixir-autogen, elixir-format
 msgid "This feature usually requires JavaScript, but the app attempted to do what was expected anyway. Did it not work for you? Feedback is welcome! "

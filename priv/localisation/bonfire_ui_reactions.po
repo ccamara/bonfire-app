@@ -156,7 +156,7 @@ msgstr ""
 msgid "Pin to your profile"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF https://campground.bonfire.cafe/&Featured_Group
 #: lib/live_handlers/pins_live_handler.ex:115
 #, elixir-autogen, elixir-format
 msgid "Pinned!"
@@ -285,7 +285,7 @@ msgstr ""
 msgid "pending approval"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF https://campground.bonfire.cafe/&Featured_Group
 #: lib/live_handlers/pins_live_handler.ex:57
 #, elixir-autogen, elixir-format
 msgid "pin"
@@ -306,7 +306,7 @@ msgstr ""
 msgid "This is pinned to your profile"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF
 #: lib/components/pin/pin_modal_live.sface:18
 #, elixir-autogen, elixir-format
 msgid "This will appear in the pinned widget on the dashboard for all users."
@@ -344,13 +344,13 @@ msgstr ""
 msgid "Broadcast and notify users"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/instance/pins/embed
+#. URLs: https://campground.bonfire.cafe/instance/pins/carousel/embed https://campground.bonfire.cafe/instance/pins/embed
 #: lib/views/embed_instance_pins_controller.ex:12
 #, elixir-autogen, elixir-format
 msgid "Featured content"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
+#. URLs: https://campground.bonfire.cafe/instance/pins/carousel/embed https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
 #: lib/views/instance_pins_live.ex:12
 #: lib/views/instance_pins_live.ex:12
 #, elixir-autogen, elixir-format
@@ -363,7 +363,7 @@ msgstr ""
 msgid "No instance pins yet."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/index.html https://campground.bonfire.cafe/ https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/instance/pins/carousel/embed https://campground.bonfire.cafe/index.html https://campground.bonfire.cafe/ https://campground.bonfire.cafe/dashboard
 #: lib/components/pin/widget_instance_pinned_carousel_live.sface:3
 #: lib/components/pin/widget_instance_pinned_live.sface:7
 #, elixir-autogen, elixir-format
@@ -401,7 +401,7 @@ msgstr ""
 msgid "Pin or unpin from spotlight"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF
 #: lib/components/pin/pin_modal_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Pin to spotlight"

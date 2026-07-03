@@ -1774,7 +1774,7 @@ msgstr ""
 msgid "Silencing user or instance"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/feed/local
 #: lib/components/activity/media/media_live.sface:132
 #, elixir-autogen, elixir-format
 msgid "Sorry, no caption provided by author"
@@ -3180,6 +3180,7 @@ msgstr ""
 msgid "requested to follow"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/my
 #: lib/components/feeds/feed_live.sface:83
 #, elixir-autogen, elixir-format
 msgid "Jump to top"
@@ -3557,6 +3558,7 @@ msgstr ""
 msgid "Replies:"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/my
 #: lib/components/feeds/feed_live.sface:72
 #, elixir-autogen, elixir-format
 msgid "Resumed where you left off"
