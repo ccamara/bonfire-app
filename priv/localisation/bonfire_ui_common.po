@@ -1906,7 +1906,7 @@ msgstr ""
 msgid "type here"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/comments/embed/01KVWYEGSP482RYKC4WK0K5X1J https://campground.bonfire.cafe/comments/embed/01KVWYEGEZH0KVSNB61N3XYCV0 https://campground.bonfire.cafe/comments/embed/01KVWYEFVX9E8Z65G8A25FF1S2
+#. URLs: https://campground.bonfire.cafe/comments/embed/01KWJFG3PKVWZV0KJHR33RY9F3 https://campground.bonfire.cafe/comments/embed/01KVWYEGSP482RYKC4WK0K5X1J https://campground.bonfire.cafe/comments/embed/01KVWYEGEZH0KVSNB61N3XYCV0 https://campground.bonfire.cafe/comments/embed/01KVWYEFVX9E8Z65G8A25FF1S2
 #: lib/components/smart_input/smart_input_live.sface:360
 #: lib/components/smart_input/smart_input_live.sface:363
 #, elixir-autogen, elixir-format

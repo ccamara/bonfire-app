@@ -2441,6 +2441,7 @@ msgstr ""
 msgid "successful"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/articles
 #: lib/components/activity/actions/advanced_actions_live.ex:48
 #: lib/components/activity/actions/more_actions_live.ex:48
 #, elixir-autogen, elixir-format
