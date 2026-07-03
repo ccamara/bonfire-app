@@ -44,6 +44,7 @@ msgstr ""
 msgid "Accept"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/notifications
 #: lib/components/activity/quote_request_footer_live.sface:23
 #, elixir-autogen, elixir-format
 msgid "Accept quote"
@@ -121,21 +122,21 @@ msgstr ""
 msgid "Already imported some data? You can check the status of each import."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/controls/sort_items_live.sface:23
 #: lib/components/feeds/settings/feeds_settings_live.sface:58
 #, elixir-autogen, elixir-format
 msgid "Amount of boosts"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/controls/sort_items_live.sface:24
 #: lib/components/feeds/settings/feeds_settings_live.sface:59
 #, elixir-autogen, elixir-format
 msgid "Amount of likes"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/controls/sort_items_live.sface:22
 #: lib/components/feeds/controls/sort_items_live.sface:28
 #: lib/components/feeds/settings/feeds_settings_live.sface:57
@@ -357,13 +358,13 @@ msgstr ""
 msgid "Curated"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:3
 #, elixir-autogen, elixir-format
 msgid "Customize your feed experience by configuring default display settings and managing which feed presets appear in your sidebar navigation."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:130
 #, elixir-autogen, elixir-format
 msgid "Dark Pattern"
@@ -381,18 +382,19 @@ msgstr ""
 msgid "Date format"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:30
 #, elixir-autogen, elixir-format
 msgid "Day"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:176
 #, elixir-autogen, elixir-format
 msgid "Decide which feed you want to show in your sidebar."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/notifications
 #: lib/components/activity/quote_request_footer_live.sface:15
 #, elixir-autogen, elixir-format
 msgid "Decline"
@@ -403,13 +405,13 @@ msgstr ""
 msgid "Default Feeds Nav Open"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:19
 #, elixir-autogen, elixir-format
 msgid "Default settings"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:67
 #, elixir-autogen, elixir-format
 msgid "Default sort"
@@ -527,7 +529,7 @@ msgstr ""
 msgid "Edition"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:132
 #, elixir-autogen, elixir-format
 msgid "Enable infinite scrolling (doom scrolling) instead of pre-loading activities that require clicking 'Show more' to see them"
@@ -549,6 +551,7 @@ msgstr ""
 msgid "Error preparing your archive"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/local
 #: lib/components/activity/activity_live.ex:2261
 #: lib/components/activity/object/unknown/event_activity_streams_live.sface:5
 #: lib/components/activity/object/unknown/event_activity_streams_live.sface:39
@@ -614,7 +617,7 @@ msgstr ""
 msgid "Feed inclusion"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.ex:36
 #: lib/components/feeds/settings/feeds_settings_live.sface:175
 #, elixir-autogen, elixir-format
@@ -822,7 +825,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:83
 #, elixir-autogen, elixir-format
 msgid "How many items to show in feeds and other lists"
@@ -936,7 +939,7 @@ msgstr ""
 msgid "Infinite Scrolling"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:131
 #, elixir-autogen, elixir-format
 msgid "Infinite scrolling"
@@ -1159,7 +1162,7 @@ msgstr ""
 msgid "Messages"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:30
 #, elixir-autogen, elixir-format
 msgid "Month"
@@ -1675,13 +1678,13 @@ msgstr ""
 msgid "See discussion"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:68
 #, elixir-autogen, elixir-format
 msgid "Select the default sorting options for your feeds (can always change in the feed controls options)"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:33
 #, elixir-autogen, elixir-format
 msgid "Select the time limit you want to use by default (can always change in the feed controls options)"
@@ -1699,7 +1702,7 @@ msgstr ""
 msgid "Sensitive content"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:27
 #, elixir-autogen, elixir-format
 msgid "Set default time limit"
@@ -1780,19 +1783,19 @@ msgstr ""
 msgid "Sorry, no caption provided by author"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWY561VWBHN8JJYB137QDG1 https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. URLs: https://campground.bonfire.cafe/discussion/01KV5ETNHXB1X932P3V5XYWBSV https://campground.bonfire.cafe/post/01KVWY561VWBHN8JJYB137QDG1 https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
 #: lib/live_handlers/objects_live_handler.ex:503
 #, elixir-autogen, elixir-format
 msgid "Sorry, you can't view this %{thing}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWY561VWBHN8JJYB137QDG1 https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. URLs: https://campground.bonfire.cafe/discussion/01KV5ETNHXB1X932P3V5XYWBSV https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/post/01KVWY561VWBHN8JJYB137QDG1 https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
 #: lib/components/object_with_thread/object_thread_live.sface:10
 #, elixir-autogen, elixir-format
 msgid "Sorry, you cannot view this."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:52
 #, elixir-autogen, elixir-format
 msgid "Sort by"
@@ -1856,7 +1859,7 @@ msgstr ""
 msgid "Text"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/circle/01KVWY1EXJW0GE4GNX8BS5HVE2
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/circle/01KVWY1EXJW0GE4GNX8BS5HVE2
 #: lib/components/feeds/feed_live.sface:231
 #, elixir-autogen, elixir-format
 msgid "That's all folks..."
@@ -1952,7 +1955,7 @@ msgstr ""
 msgid "Threaded replies"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/controls/feed_controls_lite_live.sface:37
 #: lib/components/feeds/settings/feeds_settings_live.sface:32
 #, elixir-autogen, elixir-format
@@ -2142,7 +2145,7 @@ msgstr ""
 msgid "Views"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:30
 #, elixir-autogen, elixir-format
 msgid "Week"
@@ -2171,7 +2174,7 @@ msgstr ""
 msgid "Write something"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:30
 #, elixir-autogen, elixir-format
 msgid "Year"
@@ -2325,7 +2328,7 @@ msgstr ""
 msgid "from"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:85
 #, elixir-autogen, elixir-format
 msgid "items"
@@ -2495,7 +2498,7 @@ msgstr ""
 msgid "%{count} hidden"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/discussion/01KVWY9TVQHREBK39K53X071TH https://campground.bonfire.cafe/discussion/01KVWY9QTASHP63V7PN3PSTHP7
+#. URLs: https://campground.bonfire.cafe/discussion/01KWHZDSBREK2SE1Q4CG6Y6TB7/reply/01KWJ3SK0PNYTGN8Z53Y7PKYQJ https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/discussion/01KVWY9TVQHREBK39K53X071TH https://campground.bonfire.cafe/discussion/01KVWY9QTASHP63V7PN3PSTHP7
 #: lib/components/thread/thread_branch_live.sface:117
 #: lib/components/thread/thread_branch_live.sface:134
 #, elixir-autogen, elixir-format
@@ -2739,14 +2742,14 @@ msgstr ""
 msgid "Optional — what's this feed for?"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:249
 #: lib/components/feeds/settings/feeds_settings_live.sface:252
 #, elixir-autogen, elixir-format
 msgid "Pin to sidebar"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:241
 #, elixir-autogen, elixir-format
 msgid "Pinned to sidebar"
@@ -2775,7 +2778,7 @@ msgstr ""
 msgid "Recently active"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:146
 #, elixir-autogen, elixir-format
 msgid "Remember reading position"
@@ -2941,7 +2944,7 @@ msgstr ""
 msgid "Unlock discussion"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:238
 #, elixir-autogen, elixir-format
 msgid "Unpin from sidebar"
@@ -2953,7 +2956,7 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:147
 #, elixir-autogen, elixir-format
 msgid "When enabled, feeds will resume from where you left off. When disabled, feeds always start from the newest."
@@ -3540,13 +3543,13 @@ msgstr ""
 msgid "Photography"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:161
 #, elixir-autogen, elixir-format
 msgid "Positions older than this are not resumed from (feeds open at the top instead)."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:160
 #, elixir-autogen, elixir-format
 msgid "Reading position expiry"
@@ -3622,7 +3625,7 @@ msgstr ""
 msgid "Yesterday"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/instance/feeds https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:163
 #, elixir-autogen, elixir-format
 msgid "days"

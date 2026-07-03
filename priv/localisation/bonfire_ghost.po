@@ -59,6 +59,7 @@ msgstr ""
 msgid "Configure Ghost blog integration and view members"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:92
 #: lib/web/components/ghost_settings_live.sface:102
 #, elixir-autogen, elixir-format
