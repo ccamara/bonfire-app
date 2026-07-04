@@ -189,6 +189,7 @@ FROM builder as final-builder
 
 # Copy the pre-built CSS assets from the assets-builder stage
 COPY --from=assets-builder /opt/build/priv/static/ /opt/app/priv/static/
+RUN if [ -d "extensions/${FLAVOUR}/priv/static" ]; then cp -R "extensions/${FLAVOUR}/priv/static/." priv/static/; elif [ -d "deps/${FLAVOUR}/priv/static" ]; then cp -R "deps/${FLAVOUR}/priv/static/." priv/static/; else echo "No flavour static assets found for ${FLAVOUR}"; fi
 
 # Prepare docs/guides
 COPY --link README.md ./

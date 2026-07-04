@@ -2991,7 +2991,7 @@ msgstr ""
 msgid "Welcome Title"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login/forgot-password/IJLL247EE2FCK5YDW6UDQRWTZE https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/login/forgot-password/QZGWH2X4F3J3RRBUKKFOS352LU https://campground.bonfire.cafe/login/forgot-password/IJLL247EE2FCK5YDW6UDQRWTZE https://campground.bonfire.cafe/login
 #: lib/views/login/login_controller.ex:64
 #, elixir-autogen, elixir-format
 msgid "Welcome back!"

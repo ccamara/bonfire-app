@@ -1392,6 +1392,7 @@ _rel-compile-assets USE_EXT="local" ARGS="":
 	just js-ext-deps
 	just rel-mix {{ USE_EXT }} bonfire.gen_tailwind_sources
 	cd ./assets && yarn && yarn build && cd ..
+	@if [ -d "extensions/$FLAVOUR/priv/static" ]; then cp -R "extensions/$FLAVOUR/priv/static/." priv/static/; elif [ -d "deps/$FLAVOUR/priv/static" ]; then cp -R "deps/$FLAVOUR/priv/static/." priv/static/; else echo "No flavour static assets found for $FLAVOUR"; fi
 	just rel-mix {{ USE_EXT }} phx.digest {{ ARGS }}
 
 _rel-release-OTP USE_EXT="local" ARGS="": 
@@ -1824,4 +1825,3 @@ cloudron-secrets-generate location:
 	cloudron env set --app {{location}} SECRET_KEY_BASE="$(just rand)"
 	cloudron env set --app {{location}} SIGNING_SALT="$(just rand)"
 	cloudron env set --app {{location}} ENCRYPTION_SALT="$(just rand)"
-
