@@ -42,6 +42,7 @@ bonfire_classify = "https://github.com/bonfire-networks/bonfire_classify"
 
 bonfire_notify = "https://github.com/bonfire-networks/bonfire_notify"
 
+bonfire_articles = "https://github.com/bonfire-networks/bonfire_articles"
 
 # bonfire_search = "https://github.com/bonfire-networks/bonfire_search"
 # bonfire_files = "https://github.com/bonfire-networks/bonfire_files"

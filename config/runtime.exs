@@ -198,6 +198,9 @@ finch_conn_opts =
         [proxy: {String.to_existing_atom(uri.scheme), uri.host, uri.port, []}]
     end
 
+# Connect (TCP+TLS) timeout for outbound HTTP (federation etc.): without it, connections to dead/blackholed fediverse instances otherwise would hang for Mint's default (~30s), pinning a pool connection + Oban worker each. Healthy servers connect in well under a second, refused connections fail instantly, and deliveries retry via Oban anyway, so failing fast is cheap.
+finch_connect_timeout = String.to_integer(System.get_env("FINCH_CONNECT_TIMEOUT", "5000"))
+
 finch_pools = %{
   :default => [
     # Number of connections to maintain in each pool (HTTP1)
@@ -206,17 +209,18 @@ finch_pools = %{
     count: String.to_integer(System.get_env("FINCH_POOL_COUNT", "1")),
     # 10 min by default
     pool_max_idle_time: String.to_integer(System.get_env("FINCH_POOL_MAX_IDLE_TIME", "600000")),
-    conn_opts: finch_conn_opts
+    conn_opts: [transport_opts: [timeout: finch_connect_timeout]] ++ finch_conn_opts
   ],
+  # NOTE pool option shapes: `size:` is a top-level pool option (it was previously nested inside
+  # transport_opts where it was silently ignored); Mint options like `case_sensitive_headers`/proxy
+  # go in `conn_opts`; only gen_tcp/ssl options (like the connect `timeout`) go in `transport_opts`.
   "https://icons.duckduckgo.com" => [
-    conn_opts: [
-      transport_opts: [size: 8, timeout: to_timeout(second: 3), conn_opts: finch_conn_opts]
-    ]
+    size: 8,
+    conn_opts: [transport_opts: [timeout: to_timeout(second: 3)]] ++ finch_conn_opts
   ],
   "https://www.google.com/s2/favicons" => [
-    conn_opts: [
-      transport_opts: [size: 8, timeout: to_timeout(second: 3), conn_opts: finch_conn_opts]
-    ]
+    size: 8,
+    conn_opts: [transport_opts: [timeout: to_timeout(second: 3)]] ++ finch_conn_opts
   ]
 }
 
