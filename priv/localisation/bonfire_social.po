@@ -108,7 +108,7 @@ msgstr ""
 msgid "Context Preload Rules"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWXZ355J1NPDFD6D6VPQH94
+#. URLs: https://campground.bonfire.cafe/post/01KWRR17SZ4ET24DKVJTRXZFWS https://campground.bonfire.cafe/post/01KVWXZ355J1NPDFD6D6VPQH94
 #: lib/quotes.ex:800
 #, elixir-autogen, elixir-format
 msgid "Could not federate the quote request"

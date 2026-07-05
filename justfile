@@ -1288,7 +1288,7 @@ _test-db-dance-reset: services db-pre-migrations
 
 test_convert_path path:
 	#!/usr/bin/env bash
-	input={{path}}
+	input="{{path}}"
 	
 	if [[ "$input" =~ ^https:// ]]; then
 		# Extract the path and line number

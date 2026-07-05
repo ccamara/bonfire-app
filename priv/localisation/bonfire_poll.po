@@ -88,7 +88,7 @@ msgstr ""
 msgid "Starts"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my
+#. URLs: https://campground.bonfire.cafe/discussion/01KWRR09PNKKNPZ5HYMDGGCQ20 https://campground.bonfire.cafe/feed/my
 #: lib/web/poll_live_handler.ex:260
 #, elixir-autogen, elixir-format
 msgid "Thanks for participating!"

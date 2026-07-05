@@ -1491,7 +1491,7 @@ msgstr ""
 msgid "Loading your stats..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_community_rules https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/components/settings/preferences/extension_settings_live.ex:46
 #, elixir-autogen, elixir-format
 msgid "Loading..."

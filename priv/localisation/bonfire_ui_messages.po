@@ -59,7 +59,7 @@ msgstr ""
 msgid "Me"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
+#. URLs: https://campground.bonfire.cafe/messages/@Dietrich_Fadel_and_Bahringer https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #: lib/live_handlers/messages_live_handler.ex:191
 #: lib/live_handlers/messages_live_handler.ex:208
 #, elixir-autogen, elixir-format

@@ -93,7 +93,7 @@ msgstr ""
 msgid "Tag"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/hashtag/PaginationTest https://campground.bonfire.cafe/hashtag/test
+#. URLs: https://campground.bonfire.cafe/hashtag/differenthashtag https://campground.bonfire.cafe/hashtag/testhashtag https://campground.bonfire.cafe/hashtag/PaginationTest https://campground.bonfire.cafe/hashtag/test
 #: lib/web/tag_live_handler.ex:9
 #: lib/web/tag_live_handler.ex:9
 #, elixir-autogen, elixir-format
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Enter one or more tags or categories..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/hashtag/PaginationTest https://campground.bonfire.cafe/hashtag/test
+#. URLs: https://campground.bonfire.cafe/hashtag/differenthashtag https://campground.bonfire.cafe/hashtag/testhashtag https://campground.bonfire.cafe/hashtag/PaginationTest https://campground.bonfire.cafe/hashtag/test
 #: lib/web/components/widget_follow_hashtag/widget_follow_hashtag_live.sface:1
 #, elixir-autogen, elixir-format
 msgid "Hashtag"

@@ -1784,7 +1784,7 @@ msgstr ""
 msgid "Sorry, no caption provided by author"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KV5ETNHXB1X932P3V5XYWBSV https://campground.bonfire.cafe/post/01KVWY561VWBHN8JJYB137QDG1 https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. URLs: https://campground.bonfire.cafe/post/01KWRR03QQF66FG3SM5RS7BHY6 https://campground.bonfire.cafe/discussion/01KV5ETNHXB1X932P3V5XYWBSV https://campground.bonfire.cafe/post/01KVWY561VWBHN8JJYB137QDG1 https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
 #: lib/live_handlers/objects_live_handler.ex:503
 #, elixir-autogen, elixir-format
 msgid "Sorry, you can't view this %{thing}"
