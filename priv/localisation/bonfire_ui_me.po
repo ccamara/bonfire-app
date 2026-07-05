@@ -957,6 +957,7 @@ msgstr ""
 msgid "Federation & Privacy"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/federation_status
 #: lib/views/settings/instance_settings_live.ex:131
 #: lib/views/settings/instance_settings_live.sface:304
 #: lib/views/settings/settings_live.sface:66
@@ -4099,6 +4100,7 @@ msgstr ""
 msgid "Federation Allowlist"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/allowlisted
 #: lib/views/safety/allowlisted_live.ex:14
 #, elixir-autogen, elixir-format
 msgid "Federation Archipelago"

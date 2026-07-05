@@ -122,3 +122,8 @@ config :wallaby,
   ]
 
 config :phoenix_live_view, debug_heex_annotations: true
+
+# never ALTER SYSTEM the test database (settings would persist in postgresql.auto.conf);
+# InstanceTuning unit tests swap in their own mock applier via Config.put
+config :bonfire_common, Bonfire.Common.Settings.Calm.InstanceTuning,
+  applier: Bonfire.Common.Settings.Calm.InstanceTuning.DisabledApplier

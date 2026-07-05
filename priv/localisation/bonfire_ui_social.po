@@ -1266,6 +1266,7 @@ msgstr ""
 msgid "Next image"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/import_status https://campground.bonfire.cafe/settings/instance/federation_status
 #: lib/components/settings/import_export/background_processing_status_live.sface:151
 #, elixir-autogen, elixir-format
 msgid "No import history"
@@ -2242,6 +2243,7 @@ msgstr ""
 msgid "Your feed is empty"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/import_status https://campground.bonfire.cafe/settings/instance/federation_status
 #: lib/components/settings/import_export/background_processing_status_live.sface:154
 #, elixir-autogen, elixir-format
 msgid "Your import history will appear here once you start importing data."
