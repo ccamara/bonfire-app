@@ -157,7 +157,12 @@ config :bonfire, Bonfire.Web.Endpoint,
   http: http_options,
   thousand_island: [transport_ports: [hibernate_after: to_timeout(second: 15)]],
   secret_key_base: secret_key_base,
-  live_view: [signing_salt: signing_salt]
+  live_view: [
+    signing_salt: signing_salt,
+    # inactivity before a LiveView compresses its memory/state; read HERE (not config.exs) so
+    # the env var works in releases; also live-tunable via the instance-tuning knob
+    hibernate_after: String.to_integer(System.get_env("LV_HIBERNATE_AFTER", "7000"))
+  ]
 
 if test_instance? do
   test_instance_hostname = System.get_env("TEST_INSTANCE_HOSTNAME", "localhost")
@@ -522,9 +527,6 @@ if config_env() != :test do
     queue_target: String.to_integer(System.get_env("DB_QUEUE_TARGET", "5000")),
     # queue_interval: How often to check if queue_target is being exceeded. Default is 1000ms.
     queue_interval: String.to_integer(System.get_env("DB_QUEUE_INTERVAL", "2000")),
-    # pool_timeout: Overall timeout for getting a connection from the pool. Default is 5000ms.
-    # Increasing to 30000ms allows workers to wait patiently during load spikes.
-    pool_timeout: String.to_integer(System.get_env("DB_POOL_TIMEOUT", "30000")),
     parameters: [
       # Abort any statement that takes more than the specified amount of time. The timeout is measured from the time a command arrives at the server until it is completed by the server. NOTE: must stay BELOW the client-side `timeout` (DB_QUERY_TIMEOUT) so the server cancels cleanly before DBConnection gives up and drops the connection (a disconnect forces an expensive reconnect exactly when the DB is already struggling). Derived default: client timeout minus a 5s cancel margin, but never below 75% of it — both branches stay strictly below the client value whatever DB_QUERY_TIMEOUT is set to (20s→15s, 60s→55s, 6s→4.5s).
       statement_timeout:

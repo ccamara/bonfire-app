@@ -2084,6 +2084,7 @@ msgstr ""
 msgid "Profile is hidden"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@1
 #: lib/live_handlers/profiles_live_handler.ex:235
 #, elixir-autogen, elixir-format
 msgid "Profile not found"
@@ -4089,6 +4090,7 @@ msgstr ""
 msgid "Enter their emails or usernames, comma seperated"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/error
 #: lib/views/error/error_live.html.heex:53
 #, elixir-autogen, elixir-format
 msgid "Explore"
@@ -4112,11 +4114,13 @@ msgstr ""
 msgid "Federation allowlist"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/error
 #: lib/views/error/error_live.html.heex:39
 #, elixir-autogen, elixir-format
 msgid "Go back"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/error
 #: lib/views/error/error_live.html.heex:46
 #, elixir-autogen, elixir-format
 msgid "Home"
@@ -4127,6 +4131,7 @@ msgstr ""
 msgid "Instance Federation Archipelago"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@test1
 #: lib/views/profile/profile_seo.ex:36
 #, elixir-autogen, elixir-format
 msgid "Profile of %{name} on %{instance}"
@@ -4137,6 +4142,7 @@ msgstr ""
 msgid "Something didn't load"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/error
 #: lib/views/error/error_live.html.heex:28
 #, elixir-autogen, elixir-format
 msgid "Something interrupted that page. You can head back, return home, or keep exploring."
@@ -4175,6 +4181,7 @@ msgstr ""
 msgid "ref"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@test1
 #: lib/views/profile/profile_seo.ex:52
 #, elixir-autogen, elixir-format
 msgid "this instance"

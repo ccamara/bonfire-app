@@ -3204,7 +3204,7 @@ msgstr ""
 msgid "No popular discussions yet. Why not start one? Your post could be tomorrow's top thread."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVWYDC8TEGW4M796RPWXD1S8 https://campground.bonfire.cafe/post_comments/01KVWYAK7H4TJRVA05N4JCS1BC/index.html https://campground.bonfire.cafe/post_comments/01KVWYAJK82Y7PZCF7KJPNDJSE/index.html
+#. URLs: https://campground.bonfire.cafe/discussion/01KVQKJRCM7VZJYQV74VKP4D9D https://campground.bonfire.cafe/discussion/01KVWYDC8TEGW4M796RPWXD1S8 https://campground.bonfire.cafe/post_comments/01KVWYAK7H4TJRVA05N4JCS1BC/index.html https://campground.bonfire.cafe/post_comments/01KVWYAJK82Y7PZCF7KJPNDJSE/index.html
 #: lib/views/threads/post_content_seo_helper.ex:49
 #, elixir-autogen, elixir-format
 msgid "Post by %{author}"
