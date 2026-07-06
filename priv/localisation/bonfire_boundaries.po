@@ -16,6 +16,7 @@ msgstr ""
 msgid "Add, edit or remove boundaries"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/post/01KWVNV92KGTZ1DTG74DQQWPTK https://campground.bonfire.cafe/post/01KWVNV8DRCDTKWQP2G4AMZW96 https://campground.bonfire.cafe/post/01KWVNJF101WYAQATZSAKXGWZM https://campground.bonfire.cafe/post/01KWVNJDEQ85MB2Q4C8BEAKDHT
 #: lib/roles.ex:325
 #, elixir-autogen, elixir-format
 msgid "Administer"
@@ -260,6 +261,7 @@ msgstr ""
 msgid "Like an object (and notify the author)"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries
 #: lib/presets.ex:152
 #: lib/runtime_config.ex:575
 #: lib/runtime_config.ex:1180
@@ -269,6 +271,7 @@ msgstr ""
 msgid "Local"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/post/01KWVNV9W9GYWXAQNVKCZQ5806 https://campground.bonfire.cafe/circle/01KWVNQTMBSMVP2E2BK6MHSBDD https://campground.bonfire.cafe/circle/01KWVNDY2NHPQ61GDVAKCKHA7T
 #: lib/presets.ex:346
 #: lib/presets.ex:378
 #: lib/presets.ex:378
@@ -326,6 +329,7 @@ msgstr ""
 msgid "Mention a user or object (and notify them)"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Form_RT_private_club_198210 https://campground.bonfire.cafe/+My_Test_Topic https://campground.bonfire.cafe/+Test_Topic https://campground.bonfire.cafe/group/Custom_Dims_126786
 #: lib/presets.ex:155
 #: lib/presets.ex:347
 #: lib/presets.ex:379
@@ -417,7 +421,7 @@ msgstr ""
 msgid "Private"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/presets.ex:149
 #: lib/presets.ex:344
 #: lib/presets.ex:377

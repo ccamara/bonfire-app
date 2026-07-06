@@ -11,13 +11,13 @@
 msgid ""
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/web/components/composer/milkdown.sface:15
 #, elixir-autogen, elixir-format
 msgid "Content"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/web/components/composer/milkdown.sface:28
 #, elixir-autogen, elixir-format
 msgid "Write something..."

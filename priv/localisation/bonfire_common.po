@@ -29,7 +29,7 @@ msgstr ""
 msgid "Aug"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/discussion/01KWVNPDCFVN4ZYG1ZXEPVDQD5 https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/uris.ex:291
 #: lib/uris.ex:291
 #, elixir-autogen, elixir-format
@@ -63,13 +63,14 @@ msgstr ""
 msgid "Default avatar image"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Custom_Dims_126786 https://campground.bonfire.cafe/group/Persistence_Test_124130 https://campground.bonfire.cafe/groups https://campground.bonfire.cafe/feed/likes
 #: lib/media.ex:442
 #: lib/media.ex:442
 #, elixir-autogen, elixir-format
 msgid "Default banner image"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/discussion/01KWVNPDCFVN4ZYG1ZXEPVDQD5 https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/uris.ex:285
 #: lib/uris.ex:285
 #, elixir-autogen, elixir-format
@@ -82,7 +83,7 @@ msgstr ""
 msgid "Feb"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/discussion/01KWVNCV77CTRVND5PAPZDK2Z7 https://campground.bonfire.cafe/discussion/01KWVNCSQ169W55PM4RMHX97E6 https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/dates_times.ex:178
 #: lib/dates_times.ex:178
 #: lib/dates_times.ex:199
@@ -129,7 +130,7 @@ msgstr ""
 msgid "Jun"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/discussion/01KWVNCV77CTRVND5PAPZDK2Z7 https://campground.bonfire.cafe/discussion/01KWVNCSQ169W55PM4RMHX97E6 https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/dates_times.ex:178
 #: lib/dates_times.ex:178
 #: lib/dates_times.ex:199
@@ -150,7 +151,7 @@ msgstr ""
 msgid "May"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/discussion/01KWVNCV77CTRVND5PAPZDK2Z7 https://campground.bonfire.cafe/discussion/01KWVNCSQ169W55PM4RMHX97E6 https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/dates_times.ex:178
 #: lib/dates_times.ex:178
 #: lib/dates_times.ex:199
@@ -183,7 +184,7 @@ msgstr ""
 msgid "Sep"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/discussion/01KWVNCV77CTRVND5PAPZDK2Z7 https://campground.bonfire.cafe/discussion/01KWVNCSQ169W55PM4RMHX97E6 https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/dates_times.ex:178
 #: lib/dates_times.ex:178
 #: lib/dates_times.ex:199
@@ -192,14 +193,14 @@ msgstr ""
 msgid "Short"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/discussion/01KWVNPDCFVN4ZYG1ZXEPVDQD5 https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/uris.ex:293
 #: lib/uris.ex:293
 #, elixir-autogen, elixir-format
 msgid "What route/view to use for character types that don't have one (eg. topics or groups with related UI enabled)"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/discussion/01KWVNPDCFVN4ZYG1ZXEPVDQD5 https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/uris.ex:286
 #: lib/uris.ex:286
 #, elixir-autogen, elixir-format

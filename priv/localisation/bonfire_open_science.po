@@ -422,7 +422,7 @@ msgstr ""
 msgid "Submit"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed/local
 #: lib/web/routes.ex:11
 #: lib/web/routes.ex:11
 #, elixir-autogen, elixir-format
@@ -562,7 +562,7 @@ msgstr ""
 msgid "someone"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed/local
 #: lib/web/routes.ex:8
 #, elixir-autogen, elixir-format
 msgid "Open Science"

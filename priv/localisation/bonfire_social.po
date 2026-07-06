@@ -108,6 +108,7 @@ msgstr ""
 msgid "Context Preload Rules"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/post/01KWVNTQGNF1Q9V1EDZTEETY1F
 #: lib/quotes.ex:800
 #, elixir-autogen, elixir-format
 msgid "Could not federate the quote request"
@@ -152,6 +153,7 @@ msgstr ""
 msgid "Did you know you can customise which activities you want to be notified for in your settings ?"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/notifications
 #: lib/feeds.ex:304
 #, elixir-autogen, elixir-format
 msgid "Email on Mentions/Replies"
@@ -220,6 +222,7 @@ msgstr ""
 msgid "Following"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/notifications
 #: lib/feeds.ex:305
 #, elixir-autogen, elixir-format
 msgid "Get email notifications for replies or mentions."
@@ -240,7 +243,7 @@ msgstr ""
 msgid "Have you not liked anything yet?"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my
+#. URLs: https://campground.bonfire.cafe/user/01KWVNE817CTXFBGK0F5JMWYKQ https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/my
 #: lib/feeds.ex:631
 #: lib/feeds.ex:631
 #: lib/feeds.ex:631
@@ -248,7 +251,7 @@ msgstr ""
 msgid "Include Followed Categories"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my
+#. URLs: https://campground.bonfire.cafe/user/01KWVNE817CTXFBGK0F5JMWYKQ https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/my
 #: lib/feeds.ex:615
 #: lib/feeds.ex:615
 #: lib/feeds.ex:615
@@ -256,7 +259,7 @@ msgstr ""
 msgid "Include Notifications"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my
+#. URLs: https://campground.bonfire.cafe/user/01KWVNE817CTXFBGK0F5JMWYKQ https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/my
 #: lib/feeds.ex:632
 #: lib/feeds.ex:632
 #: lib/feeds.ex:632
@@ -264,7 +267,7 @@ msgstr ""
 msgid "Include content from categories you follow in your feed."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my
+#. URLs: https://campground.bonfire.cafe/user/01KWVNE817CTXFBGK0F5JMWYKQ https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/my
 #: lib/feeds.ex:604
 #: lib/feeds.ex:604
 #: lib/feeds.ex:604
@@ -272,7 +275,7 @@ msgstr ""
 msgid "Include my content"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my
+#. URLs: https://campground.bonfire.cafe/user/01KWVNE817CTXFBGK0F5JMWYKQ https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/my
 #: lib/feeds.ex:605
 #: lib/feeds.ex:605
 #: lib/feeds.ex:605
@@ -280,7 +283,7 @@ msgstr ""
 msgid "Include my own posts in your feed."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my
+#. URLs: https://campground.bonfire.cafe/user/01KWVNE817CTXFBGK0F5JMWYKQ https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/my
 #: lib/feeds.ex:616
 #: lib/feeds.ex:616
 #: lib/feeds.ex:616
@@ -382,7 +385,7 @@ msgstr ""
 msgid "Posts (not including replies)"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/circle/01KWVNDWT7WJPQ771FV0ENS39N https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/feeds.ex:42
 #, elixir-autogen, elixir-format
 msgid "Predefined feed configurations available to users."
@@ -443,6 +446,7 @@ msgstr ""
 msgid "Sorry, that language code is not supported, please select another or ask the instance operators or app maintainers if they can add it."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/post/01KWVNFH1QEJH8ZCWX36EQYEYJ
 #: lib/boosts.ex:127
 #: lib/boosts.ex:127
 #: lib/boosts.ex:145
@@ -472,6 +476,7 @@ msgstr ""
 msgid "Sorry, you cannot pin to the instance"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/post/01KWVNJGV5Y89GAVXEAT2QPM3D https://campground.bonfire.cafe/post/01KWVNGE1AQ4SFD01VR84AMF74 https://campground.bonfire.cafe/post/01KWVNFGE4X4F0TSJGRP4TPBDE https://campground.bonfire.cafe/post/01KWVNFFSFT02XJMVZ8JXNPNQF
 #: lib/likes.ex:172
 #: lib/likes.ex:172
 #: lib/likes.ex:190
@@ -647,7 +652,7 @@ msgstr ""
 msgid "Users followed by a specific user"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
 #: lib/activities.ex:425
 #: lib/integration.ex:438
 #, elixir-autogen, elixir-format

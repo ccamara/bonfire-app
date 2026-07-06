@@ -16,6 +16,7 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/&Paginated_Group https://campground.bonfire.cafe/group/UI_Test_Group_82276 https://campground.bonfire.cafe/group/Custom_Dims_126786 https://campground.bonfire.cafe/group/Persistence_Test_124130
 #: lib/components/new_topic/new_topic_live.sface:3
 #, elixir-autogen, elixir-format
 msgid "Create a new topic"
@@ -52,11 +53,13 @@ msgstr ""
 msgid "Moderation"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/&Paginated_Group https://campground.bonfire.cafe/group/UI_Test_Group_82276 https://campground.bonfire.cafe/group/Custom_Dims_126786 https://campground.bonfire.cafe/group/Persistence_Test_124130
 #: lib/components/new_topic/new_topic_live.sface:76
 #, elixir-autogen, elixir-format
 msgid "New Topic"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/+My_Test_Topic https://campground.bonfire.cafe/+Beta_topic https://campground.bonfire.cafe/+Alpha_topic https://campground.bonfire.cafe/+Test_Topic
 #: lib/pages/categories/categories_live.ex:7
 #: lib/pages/categories/categories_live.ex:7
 #, elixir-autogen, elixir-format
@@ -79,6 +82,7 @@ msgstr ""
 msgid "Timeline"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/+My_Test_Topic https://campground.bonfire.cafe/+Beta_topic https://campground.bonfire.cafe/+Alpha_topic https://campground.bonfire.cafe/+Test_Topic
 #: lib/pages/categories/categories_live.ex:4
 #: lib/pages/categories/categories_live.ex:25
 #: lib/pages/old/local/local_categories_live.ex:26
@@ -97,6 +101,7 @@ msgstr ""
 msgid "Type the topic name"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/&Paginated_Group https://campground.bonfire.cafe/group/UI_Test_Group_82276 https://campground.bonfire.cafe/group/Custom_Dims_126786 https://campground.bonfire.cafe/group/Persistence_Test_124130
 #: lib/components/new_topic/new_topic_live.ex:8
 #, elixir-autogen, elixir-format
 msgid "in %{parent_category}"
@@ -107,11 +112,13 @@ msgstr ""
 msgid "Discussions"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/+Alpha_topic https://campground.bonfire.cafe/+Test_Topic https://campground.bonfire.cafe/group/Nienow_Upton_and_Carter/topic/Nested_Topic https://campground.bonfire.cafe/group/Parent_Group/topic/Planning
 #: lib/components/hero/topic_hero_live.sface:34
 #, elixir-autogen, elixir-format
 msgid "Show or hide this topic in your feed"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/+Alpha_topic https://campground.bonfire.cafe/+Test_Topic https://campground.bonfire.cafe/group/Nienow_Upton_and_Carter/topic/Nested_Topic https://campground.bonfire.cafe/group/Parent_Group/topic/Planning
 #: lib/components/hero/topic_hero_live.sface:3
 #: lib/components/hero/topic_hero_live.sface:3
 #, elixir-autogen, elixir-format
@@ -124,11 +131,13 @@ msgstr ""
 msgid "Untitled topic"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/+My_Test_Topic https://campground.bonfire.cafe/+Beta_topic https://campground.bonfire.cafe/+Alpha_topic https://campground.bonfire.cafe/+Test_Topic
 #: lib/pages/category/category_live.sface:55
 #, elixir-autogen, elixir-format
 msgid "Write in %{name}"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/+My_Test_Topic https://campground.bonfire.cafe/+Beta_topic https://campground.bonfire.cafe/+Alpha_topic https://campground.bonfire.cafe/+Test_Topic
 #: lib/pages/category/category_live.sface:56
 #, elixir-autogen, elixir-format
 msgid "topic"
@@ -154,6 +163,7 @@ msgstr ""
 msgid "Danger zone"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/+Alpha_topic https://campground.bonfire.cafe/+Test_Topic https://campground.bonfire.cafe/group/Nienow_Upton_and_Carter/topic/Nested_Topic https://campground.bonfire.cafe/group/Parent_Group/topic/Planning
 #: lib/components/hero/topic_hero_live.sface:43
 #: lib/components/hero/topic_hero_live.sface:45
 #, elixir-autogen, elixir-format

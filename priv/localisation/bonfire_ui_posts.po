@@ -21,6 +21,7 @@ msgstr ""
 msgid "Download Markdown"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/post/01KWVNV92KGTZ1DTG74DQQWPTK https://campground.bonfire.cafe/post/01KWVNV8DRCDTKWQP2G4AMZW96 https://campground.bonfire.cafe/post/01KWVNJF101WYAQATZSAKXGWZM https://campground.bonfire.cafe/post/01KWVNJDEQ85MB2Q4C8BEAKDHT
 #: lib/components/download_markdown/download_mark_live.sface:2
 #: lib/components/download_markdown/download_mark_live.sface:40
 #, elixir-autogen, elixir-format
@@ -47,11 +48,13 @@ msgstr ""
 msgid "Include replies"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/post/01KWVNFFSFT02XJMVZ8JXNPNQF https://campground.bonfire.cafe/post/01KWVNFF3FY9P2FXPCTS4TR8JH https://campground.bonfire.cafe/post/01KWVNEG48E0T1RA6ZVTGNYG72 https://campground.bonfire.cafe/post/01KWVNDHBBS4E0GQX447YXAHFQ
 #: lib/views/post_live.ex:21
 #, elixir-autogen, elixir-format
 msgid "Post"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/write https://campground.bonfire.cafe/post/01KWVNHJ4CG2KEDQ1M7EHRGR4W https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/local
 #: lib/live_handlers/posts_live_handler.ex:109
 #, elixir-autogen, elixir-format
 msgid "Posted!"
@@ -62,11 +65,13 @@ msgstr ""
 msgid "Posts"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/write https://campground.bonfire.cafe/post/01KWVNHJ4CG2KEDQ1M7EHRGR4W https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/local
 #: lib/live_handlers/posts_live_handler.ex:109
 #, elixir-autogen, elixir-format
 msgid "Show"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/post/01KWVNFFSFT02XJMVZ8JXNPNQF https://campground.bonfire.cafe/post/01KWVNFF3FY9P2FXPCTS4TR8JH https://campground.bonfire.cafe/post/01KWVNEG48E0T1RA6ZVTGNYG72 https://campground.bonfire.cafe/post/01KWVNDHBBS4E0GQX447YXAHFQ
 #: lib/views/post_live.ex:10
 #: lib/views/post_live.ex:10
 #, elixir-autogen, elixir-format
@@ -79,6 +84,7 @@ msgstr ""
 msgid "Could not publish your post"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/post/01KWVNFFSFT02XJMVZ8JXNPNQF https://campground.bonfire.cafe/post/01KWVNFF3FY9P2FXPCTS4TR8JH https://campground.bonfire.cafe/post/01KWVNEG48E0T1RA6ZVTGNYG72 https://campground.bonfire.cafe/post/01KWVNDHBBS4E0GQX447YXAHFQ
 #: lib/views/post_live.ex:7
 #, elixir-autogen, elixir-format
 msgid "UI for posts"

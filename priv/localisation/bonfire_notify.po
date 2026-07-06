@@ -31,6 +31,7 @@ msgstr ""
 msgid "Disable"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/web/email_notifications_live.ex:4
 #, elixir-autogen, elixir-format
 msgid "Email Notifications"
@@ -79,12 +80,14 @@ msgstr ""
 msgid "Install as app"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/notify.ex:34
 #: lib/notify.ex:34
 #, elixir-autogen, elixir-format
 msgid "Manage your notification settings and registered devices"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/web/push_notifications_live.ex:13
 #: lib/web/push_notifications_live.ex:13
 #: lib/web/push_notifications_live.ex:13
@@ -92,6 +95,7 @@ msgstr ""
 msgid "Manage your push notification settings and registered devices"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/web/push_notifications_live.ex:11
 #: lib/web/push_notify_live.ex:40
 #, elixir-autogen, elixir-format
@@ -163,6 +167,7 @@ msgstr ""
 msgid "Test"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/web/email_notifications_live.ex:6
 #: lib/web/email_notifications_live.ex:6
 #: lib/web/email_notifications_live.ex:6
@@ -306,11 +311,13 @@ msgstr ""
 msgid "Local"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/web/admin_broadcast_live.ex:5
 #, elixir-autogen, elixir-format
 msgid "Make an announcement"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/web/admin_broadcast_live.ex:8
 #: lib/web/admin_broadcast_live.ex:8
 #: lib/web/admin_broadcast_live.ex:8
@@ -318,6 +325,7 @@ msgstr ""
 msgid "Write an announcement to send to all local users, or to custom circle(s). It will appear in their notifications feed and trigger push notifications where enabled."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/notify.ex:32
 #, elixir-autogen, elixir-format
 msgid "Notifications"

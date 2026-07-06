@@ -16,7 +16,7 @@ msgstr ""
 msgid " You need to reload to see updates, if any."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/web/create_article_live.ex:45
 #, elixir-autogen, elixir-format
 msgid "Article"

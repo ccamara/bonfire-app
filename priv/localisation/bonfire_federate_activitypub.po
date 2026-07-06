@@ -11,6 +11,7 @@
 msgid ""
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/user/01KWVNE817CTXFBGK0F5JMWYKQ https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/groups https://campground.bonfire.cafe/feed/likes
 #: lib/adapter/adapter_utils.ex:1452
 #, elixir-autogen, elixir-format
 msgid "Location"

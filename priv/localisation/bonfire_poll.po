@@ -571,7 +571,7 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/web/components/preview/question_live.ex:351
 #: lib/web/create_poll_live.ex:53
 #, elixir-autogen, elixir-format

@@ -51,6 +51,7 @@ msgstr ""
 msgid "All %{total} Ghost tier(s) already in sync — nothing to update"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/web/components/ghost_settings_live.ex:16
 #: lib/web/components/ghost_settings_live.ex:16
 #: lib/web/components/ghost_settings_live.ex:16
@@ -90,6 +91,7 @@ msgstr ""
 msgid "Free"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/web/components/ghost_settings_live.ex:14
 #, elixir-autogen, elixir-format
 msgid "Ghost"
@@ -106,6 +108,7 @@ msgstr ""
 msgid "Ghost Blog"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/integration.ex:36
 #: lib/integration.ex:36
 #, elixir-autogen, elixir-format
@@ -319,6 +322,7 @@ msgstr ""
 msgid "Default author for imported articles"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/instance/boundaries/acl https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags
 #: lib/integration.ex:34
 #, elixir-autogen, elixir-format
 msgid "Ghost blog"
