@@ -1682,12 +1682,48 @@ localise-extract:
 
 @localise-tx-pull lang='-a':
 	tx pull --minimum-perc 5 -f {{lang}}
-	mkdir -p priv/localisation/es_AR/LC_MESSAGES/ && mv priv/localisation/es_AR-C/LC_MESSAGES/* priv/localisation/es_AR/LC_MESSAGES/
-	mkdir -p priv/localisation/es_AR_x_B/LC_MESSAGES/ && mv priv/localisation/es_AR-B/LC_MESSAGES/* priv/localisation/es_AR_x_B/LC_MESSAGES/
-	for lang in co kha kmr la lmo mi nv oc qu sm tg he; do rm -rf "priv/localisation/$lang"; done
+	just localise-prune
 	just mix deps.compile bonfire_common --force
-# NOTE: should only rename es_AR-C to es_AR if we don't also have es_AR ^
-# TODO: re-enable those languages once this is fixed in ex_cldr: (KeyError) Key :tg not found
+
+# Locales that ex_cldr/CLDR cannot compile even when translated (no CLDR definition, or known ex_cldr bugs).
+# Keep this list SMALL: only for locales that DO have translations but still break the build.
+# Empty/untranslated locales are handled automatically below and must NOT be listed here.
+# TODO: re-enable once fixed in ex_cldr or workaround found: (KeyError) Key :tg not found
+# known unsupported: co kha kmr la lmo mi nv oc qu sm tg he
+localise_blocked_locales := ""
+
+# Remove locales that would break ex_cldr compilation: those with no actual translations
+# (freshly-added on Transifex, otherwise gettext picks them up and ex_cldr fails with "Locale definition was not found"), plus an explicit blocklist of known unsupported locales.
+localise-prune:
+	#!/usr/bin/env bash
+	set -euo pipefail
+	
+	# NOTE: should only rename es_AR-C to es_AR if we don't also have es_AR ^
+	mkdir -p priv/localisation/es_AR/LC_MESSAGES/ && mv priv/localisation/es_AR-C/LC_MESSAGES/* priv/localisation/es_AR/LC_MESSAGES/ || echo "skipped"
+	mkdir -p priv/localisation/es_AR_x_B/LC_MESSAGES/ && mv priv/localisation/es_AR-B/LC_MESSAGES/* priv/localisation/es_AR_x_B/LC_MESSAGES/ || echo "skipped"
+
+	for lang in {{localise_blocked_locales}}; do
+		if [ -d "priv/localisation/$lang" ]; then
+			echo "Pruning blocked locale: $lang"
+			rm -rf "priv/localisation/$lang"
+		fi
+	done
+	for dir in priv/localisation/*/; do
+		lang=$(basename "$dir")
+		[ "$lang" = "en" ] && continue
+		translated=$({ cat "$dir"LC_MESSAGES/*.po 2>/dev/null || true; } | awk '
+			function flush(){ if(instr && !inhdr && content!="") c++; content=""; instr=0 }
+			/^msgid "/ { flush(); inhdr=($0=="msgid \"\"") }
+			/^msgstr/ { flush(); instr=1; s=$0; sub(/^msgstr(\[[0-9]+\])? /,"",s); gsub(/^"|"$/,"",s); content=s; next }
+			/^"/ { if(instr){ s=$0; gsub(/^"|"$/,"",s); content=content s } next }
+			/^[[:space:]]*$/ { flush() }
+			END { flush(); print c+0 }
+		')
+		if [ "${translated:-0}" -eq 0 ]; then
+			echo "Pruning empty locale: $lang"
+			rm -rf "$dir"
+		fi
+	done
 
 @localise-tx-push:
 	tx push
