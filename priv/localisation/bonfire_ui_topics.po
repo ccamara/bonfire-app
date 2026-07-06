@@ -11,6 +11,7 @@
 msgid ""
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/test_public
 #: lib/components/new_topic/new_topic_live.sface:70
 #, elixir-autogen, elixir-format
 msgid "Create"
@@ -94,6 +95,7 @@ msgstr ""
 msgid "Type the group name"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/test_public
 #: lib/components/new_topic/new_topic_live.sface:26
 #, elixir-autogen, elixir-format
 msgid "Type the topic name"
@@ -178,6 +180,7 @@ msgstr ""
 msgid "Take the topic offline. You can restore it later."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/test_public
 #: lib/components/new_topic/new_topic_live.sface:35
 #: lib/components/settings/general/general_live.sface:33
 #, elixir-autogen, elixir-format
