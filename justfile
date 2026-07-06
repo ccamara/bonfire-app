@@ -1685,12 +1685,8 @@ localise-extract:
 	just localise-prune
 	just mix deps.compile bonfire_common --force
 
-# Locales that ex_cldr/CLDR cannot compile even when translated (no CLDR definition, or known ex_cldr bugs).
-# Keep this list SMALL: only for locales that DO have translations but still break the build.
-# Empty/untranslated locales are handled automatically below and must NOT be listed here.
-# TODO: re-enable once fixed in ex_cldr or workaround found: (KeyError) Key :tg not found
-# known unsupported: co kha kmr la lmo mi nv oc qu sm tg he
-localise_blocked_locales := ""
+# Locales that ex_cldr/CLDR cannot compile even when translated (no CLDR definition, or known ex_cldr bugs). Keep this list SMALL: only for locales that DO have translations but still break the build. Empty/untranslated locales are handled automatically below and do NOT need to be listed here. TODO: re-enable once fixed in ex_cldr or workaround found: (KeyError) Key :tg not found
+localise_blocked_locales := "co kha kmr la lmo mi nv oc qu sm tg he"
 
 # Remove locales that would break ex_cldr compilation: those with no actual translations
 # (freshly-added on Transifex, otherwise gettext picks them up and ex_cldr fails with "Locale definition was not found"), plus an explicit blocklist of known unsupported locales.
