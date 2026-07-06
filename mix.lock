@@ -63,7 +63,7 @@
   "bonfire_tag": {:git, "https://github.com/bonfire-networks/bonfire_tag", "b84cac5130a7773a2699b893bfad0c03573a2c5a", []},
   "bonfire_translation": {:git, "https://github.com/bonfire-networks/bonfire_translation", "753b05d7c454d9761d1f512ac783566302e6f1a6", []},
   "bonfire_ui_boundaries": {:git, "https://github.com/bonfire-networks/bonfire_ui_boundaries", "1f0cf9faa47d1fa42ccaf0cc3e9140e8bd7b142f", []},
-  "bonfire_ui_common": {:git, "https://github.com/bonfire-networks/bonfire_ui_common", "13a5fda4361155b81b71b64cc51637a48daaefc7", []},
+  "bonfire_ui_common": {:git, "https://github.com/bonfire-networks/bonfire_ui_common", "785d0dcc2d4901fad5763bb084a478095281be5c", []},
   "bonfire_ui_groups": {:git, "https://github.com/bonfire-networks/bonfire_ui_groups", "43eb49b7f8ffd4e4ee55759934ac699874ec549e", []},
   "bonfire_ui_me": {:git, "https://github.com/bonfire-networks/bonfire_ui_me", "b3205e79cb680d5a7a992ed25fdad4310ddd3fcc", []},
   "bonfire_ui_messages": {:git, "https://github.com/bonfire-networks/bonfire_ui_messages", "ea93ac7559fbbe7d0b10ac6de2fdd7be1434a4ef", []},
