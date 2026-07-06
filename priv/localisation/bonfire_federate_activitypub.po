@@ -11,13 +11,12 @@
 msgid ""
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Closed_Group https://campground.bonfire.cafe/&Feed_Post_Group_for_Author https://campground.bonfire.cafe/&Feed_Post_Group_Public https://campground.bonfire.cafe/&Label_Test_Group
-#: lib/adapter/adapter_utils.ex:1448
+#: lib/adapter/adapter_utils.ex:1452
 #, elixir-autogen, elixir-format
 msgid "Location"
 msgstr ""
 
-#: lib/adapter/adapter_utils.ex:1915
+#: lib/adapter/adapter_utils.ex:1927
 #, elixir-autogen, elixir-format
 msgid "Website"
 msgstr ""

@@ -10,12 +10,12 @@
 # 
 # Translators:
 # BollerwagenPicard, 2026
-# Joshua Samuel Strack, 2026
 # Magdalena Berger, 2026
+# Joshua Samuel Strack, 2026
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Magdalena Berger, 2026\n"
+"Last-Translator: Joshua Samuel Strack, 2026\n"
 "Language-Team: German (https://app.transifex.com/bonfire/teams/138385/de/)\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -36,38 +36,39 @@ msgstr "Anzahl der Likes"
 msgid "Amount of replies"
 msgstr "Anzahl der Antworten"
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFHYEBJHE8ME3CMFNW61M14
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
 #: lib/components/bookmark/bookmark_action_live.sface:8
 #: lib/components/bookmark/bookmark_action_live.sface:11
 #, elixir-autogen, elixir-format
 msgid "Bookmark"
 msgstr "Lesezeichen"
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFHYEBJHE8ME3CMFNW61M14
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
 #: lib/components/boost/boost_action_live.sface:37
 #: lib/components/boost/boost_action_live.sface:54
 #, elixir-autogen, elixir-format
 msgid "Boost"
 msgstr "Boosten"
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFHYEBJHE8ME3CMFNW61M14
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
 #: lib/components/boost/boost_action_live.sface:11
 #: lib/components/boost/boost_action_live.sface:13
 #, elixir-autogen, elixir-format
 msgid "Boost or quote"
 msgstr "Boosten oder zitieren"
 
-#. URLs: https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/post/01KVFJ8AG1YSVQ0AGWBQPJC7H4
+#. URLs: https://campground.bonfire.cafe/post/01KVWY3DPS0013YCVSFJBGXPFM
+#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
+#. https://campground.bonfire.cafe/feed/local
 #: lib/components/boost/boost_action_live.sface:51
 #, elixir-autogen, elixir-format
 msgid "Boosted"
@@ -89,12 +90,14 @@ msgid "Cannot bookmark"
 msgstr "Lesezeichen setzen nicht möglich"
 
 #. URLs: https://campground.bonfire.cafe/search
-#: lib/components/boost/boost_action_live.sface:186
+#: lib/components/boost/boost_action_live.sface:187
 #, elixir-autogen, elixir-format
 msgid "Cannot boost this"
 msgstr "Boosten nicht möglich"
 
-#: lib/components/like/like_action_live.sface:114
+#. URLs: https://campground.bonfire.cafe/discussion/01KVWY9GDAWM3KSYTKSC107FR6
+#. https://campground.bonfire.cafe/discussion/01KVWY9FDWN8FNA3T8X3VK7QA6
+#: lib/components/like/like_action_live.sface:122
 #, elixir-autogen, elixir-format
 msgid "Cannot like this"
 msgstr "Liken nicht möglich"
@@ -127,27 +130,28 @@ msgstr ""
 msgid "It will then be highlighted in the thread."
 msgstr "Es wird dann im Thread hervorgehoben."
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFHYEBJHE8ME3CMFNW61M14
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
-#: lib/components/like/like_action_live.sface:11
-#: lib/components/like/like_action_live.sface:22
-#: lib/components/like/like_action_live.sface:24
-#: lib/components/like/like_action_live.sface:33
-#: lib/components/like/like_action_live.sface:44
-#: lib/components/like/like_action_live.sface:46
-#: lib/components/like/like_action_live.sface:60
-#: lib/components/like/like_action_live.sface:71
-#: lib/components/like/like_action_live.sface:83
-#: lib/components/like/like_action_live.sface:94
+#: lib/components/like/like_action_live.sface:13
+#: lib/components/like/like_action_live.sface:27
+#: lib/components/like/like_action_live.sface:29
+#: lib/components/like/like_action_live.sface:38
+#: lib/components/like/like_action_live.sface:52
+#: lib/components/like/like_action_live.sface:54
+#: lib/components/like/like_action_live.sface:68
+#: lib/components/like/like_action_live.sface:79
+#: lib/components/like/like_action_live.sface:91
+#: lib/components/like/like_action_live.sface:102
 #, elixir-autogen, elixir-format
 msgid "Like"
 msgstr "Like"
 
-#. URLs: https://campground.bonfire.cafe/messages
-#. https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/&Featured_Group
 #. https://campground.bonfire.cafe/instance/pins/embed
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/local
 #: lib/runtime_config.ex:11 lib/runtime_config.ex:11
 #, elixir-autogen, elixir-format
 msgid "Likes, boosts, pins, bookmarks, etc."
@@ -160,11 +164,19 @@ msgstr "Likes, Boosts, Pins, Lesezeichen, etc."
 msgid "Mark as answer"
 msgstr "Als Antwort markieren"
 
+#. URLs: https://campground.bonfire.cafe/discussion/01KVWXYA832JBZRY3BZT2K6HTB
+#. https://campground.bonfire.cafe/discussion/01KVWXY8GPAN34SFWVMWND6GJ9
+#. https://campground.bonfire.cafe/discussion/01KVWXY6KQ652KNVT7Z1W1B7TR
+#. https://campground.bonfire.cafe/discussion/01KVWXY4ASA6WGDRQ0MDS8RVEV
 #: lib/components/pin/pin_action_live.ex:29
 #, elixir-autogen, elixir-format
 msgid "Pin to thread"
 msgstr "An den Thread anheften"
 
+#. URLs: https://campground.bonfire.cafe/discussion/01KVWXYA832JBZRY3BZT2K6HTB
+#. https://campground.bonfire.cafe/discussion/01KVWXY8GPAN34SFWVMWND6GJ9
+#. https://campground.bonfire.cafe/discussion/01KVWXY6KQ652KNVT7Z1W1B7TR
+#. https://campground.bonfire.cafe/discussion/01KVWXY4ASA6WGDRQ0MDS8RVEV
 #: lib/components/pin/pin_action_live.sface:70
 #: lib/components/pin/pin_action_live.sface:166
 #, elixir-autogen, elixir-format
@@ -178,7 +190,8 @@ msgstr "Am Anfang des Threads anheften"
 msgid "Pin to your profile"
 msgstr "An dein Profil anheften"
 
-#. URLs: https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF
+#. https://campground.bonfire.cafe/&Featured_Group
 #: lib/live_handlers/pins_live_handler.ex:115
 #, elixir-autogen, elixir-format
 msgid "Pinned!"
@@ -189,15 +202,15 @@ msgstr "Angeheftet!"
 msgid "Pins will be shown at the top of the thread."
 msgstr "Angeheftete Beiträge werden oben im Thread angezeigt."
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFHYEBJHE8ME3CMFNW61M14
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
-#: lib/components/boost/boost_action_live.sface:103
-#: lib/components/boost/boost_action_live.sface:116
-#: lib/components/boost/boost_action_live.sface:132
-#: lib/components/boost/boost_action_live.sface:144
-#: lib/components/boost/boost_action_live.sface:159
+#: lib/components/boost/boost_action_live.sface:104
+#: lib/components/boost/boost_action_live.sface:117
+#: lib/components/boost/boost_action_live.sface:133
+#: lib/components/boost/boost_action_live.sface:145
+#: lib/components/boost/boost_action_live.sface:160
 #, elixir-autogen, elixir-format
 msgid "Quote"
 msgstr "Zitieren "
@@ -208,7 +221,8 @@ msgstr "Zitieren "
 msgid "Reaction sent to author"
 msgstr "Reaktion an die Autor:in gesendet."
 
-#. URLs: https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my
+#. https://campground.bonfire.cafe/feed/local
 #. https://campground.bonfire.cafe/feed/bookmarks
 #: lib/components/bookmark/bookmark_action_live.sface:8
 #, elixir-autogen, elixir-format
@@ -241,6 +255,7 @@ msgstr "Nicht mehr oben im Thread anheften"
 msgid "Unpin from your profile"
 msgstr "Nicht mehr in deinem Profil anheften"
 
+#. URLs: https://campground.bonfire.cafe/post/01KVWY87NAAZ850QE1P0WMCQCZ
 #: lib/live_handlers/pins_live_handler.ex:115
 #, elixir-autogen, elixir-format
 msgid "Unpinned"
@@ -252,7 +267,7 @@ msgid "You can remove it if you like"
 msgstr "Du kannst das entfernen, wenn du möchtest"
 
 #. URLs: https://campground.bonfire.cafe/search
-#: lib/components/boost/boost_action_live.sface:191
+#: lib/components/boost/boost_action_live.sface:192
 #, elixir-autogen, elixir-format
 msgid "You can't boost this"
 msgstr "Du kannst das nicht boosten"
@@ -262,19 +277,25 @@ msgstr "Du kannst das nicht boosten"
 msgid "You can't boost this activity"
 msgstr "Du kannst diese Aktivität nicht boosten"
 
-#: lib/components/like/like_action_live.sface:119
+#. URLs: https://campground.bonfire.cafe/discussion/01KVWY9GDAWM3KSYTKSC107FR6
+#. https://campground.bonfire.cafe/discussion/01KVWY9FDWN8FNA3T8X3VK7QA6
+#: lib/components/like/like_action_live.sface:127
 #, elixir-autogen, elixir-format
 msgid "You can't like this"
 msgstr "Du kannst das nicht liken"
 
-#: lib/components/boost/boost_action_live.sface:98
-#: lib/components/boost/boost_action_live.sface:154
+#. URLs: https://campground.bonfire.cafe/discussion/01KVWY9GDAWM3KSYTKSC107FR6
+#. https://campground.bonfire.cafe/discussion/01KVWY9FDWN8FNA3T8X3VK7QA6
+#: lib/components/boost/boost_action_live.sface:99
+#: lib/components/boost/boost_action_live.sface:155
 #, elixir-autogen, elixir-format
 msgid "You can't quote this activity"
 msgstr "Du kannst diese Aktivität nicht zitieren"
 
-#: lib/components/boost/boost_action_live.sface:104
-#: lib/components/boost/boost_action_live.sface:160
+#. URLs: https://campground.bonfire.cafe/discussion/01KVWY9GDAWM3KSYTKSC107FR6
+#. https://campground.bonfire.cafe/discussion/01KVWY9FDWN8FNA3T8X3VK7QA6
+#: lib/components/boost/boost_action_live.sface:105
+#: lib/components/boost/boost_action_live.sface:161
 #, elixir-autogen, elixir-format
 msgid "You cannot quote this post"
 msgstr "Du kannst diesen Beitrag nicht zitieren"
@@ -290,27 +311,28 @@ msgstr "Du hast das bereits als Antwort markiert"
 msgid "bookmark"
 msgstr "Lesezeichen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFJ9YG4WDS183C00AA1W46F
+#. URLs: https://campground.bonfire.cafe/post/01KVWY065HS6YPVZE6XAJNDXR7
 #: lib/live_handlers/boosts_live_handler.ex:56
 #, elixir-autogen, elixir-format
 msgid "boost"
 msgstr "boosten"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFJFSVDFEC9R5Z92TP3MQ41
-#. https://campground.bonfire.cafe/post/01KVFJAXPZCJB2C5GXPWWWYMEH
-#. https://campground.bonfire.cafe/post/01KVFJ9XRFXZFW4H40T58BHYJ6
-#. https://campground.bonfire.cafe/post/01KVFJ9W9VNQGZ0M0SQ52ETSAE
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/post/01KVWY54FRKHSMWJBDNZS0T9Y7
+#. https://campground.bonfire.cafe/post/01KVWY07H26R7P8XPVMSPJA64W
+#. https://campground.bonfire.cafe/post/01KVWY06T9KB0FKJMRMQ6EGZEC
 #: lib/live_handlers/likes_live_handler.ex:92
 #, elixir-autogen, elixir-format
 msgid "like"
 msgstr "liken"
 
-#: lib/components/boost/boost_action_live.sface:145
+#: lib/components/boost/boost_action_live.sface:146
 #, elixir-autogen, elixir-format
 msgid "pending approval"
 msgstr "Genehmigung ausstehend"
 
-#. URLs: https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF
+#. https://campground.bonfire.cafe/&Featured_Group
 #: lib/live_handlers/pins_live_handler.ex:57
 #, elixir-autogen, elixir-format
 msgid "pin"
@@ -331,6 +353,7 @@ msgstr "Das ist an den Thread angeheftet"
 msgid "This is pinned to your profile"
 msgstr "Das ist an deinem Profil angeheftet"
 
+#. URLs: https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF
 #: lib/components/pin/pin_modal_live.sface:18
 #, elixir-autogen, elixir-format
 msgid "This will appear in the pinned widget on the dashboard for all users."
@@ -348,6 +371,8 @@ msgstr "Nicht mehr am Profil anheften"
 msgid "Unpin from thread"
 msgstr "Nicht mehr am Thread anheften"
 
+#. URLs: https://campground.bonfire.cafe/post/01KVWY89J35FM1EVNSK01ZBMW3
+#. https://campground.bonfire.cafe/post/01KVWY87NAAZ850QE1P0WMCQCZ
 #: lib/components/pin/pin_modal_live.sface:3
 #, elixir-autogen, elixir-format
 msgid "Unpin to remove it from the dashboard widget."
@@ -363,11 +388,11 @@ msgstr "Nicht mehr anheften, um es vom Anfang des Threads zu entfernen."
 msgid "Unpin to remove it from your profile highlights."
 msgstr "Nicht mehr anheften, um es von deinen Profil-Highlights zu entfernen."
 
-#. URLs: https://campground.bonfire.cafe/feed/bookmarks
-#. https://campground.bonfire.cafe/post/01KVFJ4H29BRA85PG9XV7ETQ0Y
-#. https://campground.bonfire.cafe/post/01KVFJ4EWGWX5D33YMGR0EY5HE
-#. https://campground.bonfire.cafe/post/01KVFJ4DWW9W6T4RMA07FH0TBN
-#: lib/components/boost/boost_action_live.sface:177
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/posts
+#. https://campground.bonfire.cafe/feed/my_boosts
+#: lib/components/boost/boost_action_live.sface:178
 #, elixir-autogen, elixir-format
 msgid "Broadcast and notify users"
 msgstr "An alle Nutzer:innen senden und benachrichtigen"
@@ -387,11 +412,14 @@ msgstr "Instanz Pins"
 
 #. URLs: https://campground.bonfire.cafe/instance/pins
 #. https://campground.bonfire.cafe/instance/pins/embed
-#: lib/components/pin/widget_instance_pinned_live.sface:10
+#: lib/components/pin/widget_instance_pinned_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "No instance pins yet."
 msgstr "Noch keine Instanzpins."
 
+#. URLs: https://campground.bonfire.cafe/index.html
+#. https://campground.bonfire.cafe/ https://campground.bonfire.cafe/dashboard
+#: lib/components/pin/widget_instance_pinned_carousel_live.sface:3
 #: lib/components/pin/widget_instance_pinned_live.sface:7
 #, elixir-autogen, elixir-format
 msgid "Spotlight"
@@ -413,29 +441,36 @@ msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/instance/pins
 #. https://campground.bonfire.cafe/instance/pins/embed
-#: lib/components/pin/widget_instance_pinned_live.sface:18
+#: lib/components/pin/widget_instance_pinned_live.sface:20
 #, elixir-autogen, elixir-format
 msgid "View all"
 msgstr "Alles anzeigen"
 
 #. URLs: https://campground.bonfire.cafe/instance/pins
 #. https://campground.bonfire.cafe/instance/pins/embed
-#: lib/components/pin/widget_instance_pinned_live.sface:16
+#: lib/components/pin/widget_instance_pinned_live.sface:18
 #, elixir-autogen, elixir-format
 msgid "View all instance pins"
 msgstr "Alle Instanzpins anzeigen"
 
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/posts
+#. https://campground.bonfire.cafe/feed/my_boosts
 #: lib/components/pin/pin_action_live.ex:33
 #: lib/components/pin/pin_action_live.sface:155
 #, elixir-autogen, elixir-format
 msgid "Pin or unpin from spotlight"
 msgstr "An Spotlight anheften oder davon lösen"
 
+#. URLs: https://campground.bonfire.cafe/post/01KVWY88AV04N1FPB3AHQR7RJF
 #: lib/components/pin/pin_modal_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Pin to spotlight"
 msgstr "An Spotlight anheften"
 
+#. URLs: https://campground.bonfire.cafe/post/01KVWY89J35FM1EVNSK01ZBMW3
+#. https://campground.bonfire.cafe/post/01KVWY87NAAZ850QE1P0WMCQCZ
 #: lib/components/pin/pin_modal_live.sface:15
 #, elixir-autogen, elixir-format
 msgid "Unpin from spotlight"
@@ -448,22 +483,38 @@ msgstr ""
 "Es wird in der Seitenleiste deiner Gruppen angezeigt, damit du schnell "
 "darauf zugreifen kannst."
 
+#. URLs: https://campground.bonfire.cafe/&Joined_Label_Regression_Group
+#. https://campground.bonfire.cafe/&Gated_Private_Group
+#. https://campground.bonfire.cafe/&Announce_Channel
+#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
 #: lib/components/pin/pin_action_live.ex:38
 #, elixir-autogen, elixir-format
 msgid "Pin this group to your sidebar"
 msgstr "Diese Gruppe an deine Seitenleiste anheften"
 
+#. URLs: https://campground.bonfire.cafe/&Joined_Label_Regression_Group
+#. https://campground.bonfire.cafe/&Gated_Private_Group
+#. https://campground.bonfire.cafe/&Announce_Channel
+#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
 #: lib/components/pin/pin_action_live.sface:114
 #: lib/components/pin/pin_action_live.sface:168
 #, elixir-autogen, elixir-format
 msgid "Pin to sidebar"
 msgstr "An die Seitenleiste pinnen"
 
+#. URLs: https://campground.bonfire.cafe/&Creator_Composer_Group
+#. https://campground.bonfire.cafe/&Feed_Post_Group_for_Author
+#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. https://campground.bonfire.cafe/&Label_Test_Group
 #: lib/components/pin/pin_action_live.ex:37
 #, elixir-autogen, elixir-format
 msgid "This group is pinned to your sidebar"
 msgstr "Diese Gruppe ist in deiner Seitenleiste angeheftet"
 
+#. URLs: https://campground.bonfire.cafe/&Creator_Composer_Group
+#. https://campground.bonfire.cafe/&Feed_Post_Group_for_Author
+#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. https://campground.bonfire.cafe/&Label_Test_Group
 #: lib/components/pin/pin_action_live.sface:98
 #: lib/components/pin/pin_action_live.sface:161
 #, elixir-autogen, elixir-format
@@ -476,3 +527,47 @@ msgid "Unpin to remove this group from your sidebar (you'll stay a member)."
 msgstr ""
 "Löse die Anheftung, um diese Gruppe aus deiner Seitenleiste zu entfernen (du"
 " bleibst Mitglied)."
+
+#: lib/components/pin/widget_instance_pinned_live.ex:27
+#, elixir-autogen, elixir-format
+msgid " You need to reload to see updates, if any."
+msgstr "Du musst die Seite neu laden, um etwaige Aktualisierungen zu sehen."
+
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
+#: lib/components/boost/boost_action_live.sface:28
+#, elixir-autogen, elixir-format
+msgid "Boost options"
+msgstr "Boost-Optionen"
+
+#. URLs: https://campground.bonfire.cafe/index.html
+#. https://campground.bonfire.cafe/ https://campground.bonfire.cafe/dashboard
+#: lib/components/pin/widget_instance_pinned_carousel_live.sface:8
+#, elixir-autogen, elixir-format
+msgid ""
+"Nothing in the spotlight yet. Pinned posts from this instance will show up "
+"here."
+msgstr ""
+"Noch keine Inhalte im Spotlight. Angeheftete Beiträge dieser Instanz werden "
+"hier angezeigt."
+
+#. URLs: https://campground.bonfire.cafe/index.html
+#. https://campground.bonfire.cafe/ https://campground.bonfire.cafe/dashboard
+#: lib/components/pin/widget_instance_pinned_carousel_live.sface:17
+#, elixir-autogen, elixir-format
+msgid "Scroll left"
+msgstr "Nach links scrollen"
+
+#. URLs: https://campground.bonfire.cafe/index.html
+#. https://campground.bonfire.cafe/ https://campground.bonfire.cafe/dashboard
+#: lib/components/pin/widget_instance_pinned_carousel_live.sface:25
+#, elixir-autogen, elixir-format
+msgid "Scroll right"
+msgstr "Nach rechts scrollen"
+
+#: lib/components/pin/widget_instance_pinned_live.ex:27
+#, elixir-autogen, elixir-format
+msgid "Spotlight has been reset."
+msgstr "Spotlight wurde zurückgesetzt."

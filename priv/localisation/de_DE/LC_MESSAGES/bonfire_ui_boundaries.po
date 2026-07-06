@@ -26,10 +26,10 @@ msgstr ""
 msgid " Members"
 msgstr " Mitglieder"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/ghosted
-#. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
+#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/silenced
 #. https://campground.bonfire.cafe/blocked
-#. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
+#. https://campground.bonfire.cafe/ghosted
+#. https://campground.bonfire.cafe/silenced
 #: lib/web/components/circles/circle_members_live.sface:92
 #: lib/web/components/circles/circle_members_live.sface:94
 #, elixir-autogen, elixir-format
@@ -58,7 +58,7 @@ msgstr "%{silence} instanzweit"
 msgid "1 permission defined"
 msgstr "1 Berechtigung definiert"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
 #: lib/web/components/display/boundaries_preset_name_live.sface:89
 #, elixir-autogen, elixir-format
 msgid "A custom boundary"
@@ -75,17 +75,17 @@ msgid "Add some roles to get started!"
 msgstr "Füge einige Rollen hinzu, um loszulegen!"
 
 #. URLs:
-#. https://campground.bonfire.cafe/circle/01KVFJGEKHXWGZK7J5BNG9HHFH/members
-#. https://campground.bonfire.cafe/settings/boundaries/circle/01KVFJ8MRATWM8K27Z5JB6SP4Z
+#. https://campground.bonfire.cafe/circle/01KVWYDMB5AANQ5X09BVXJ9KJG/members
+#. https://campground.bonfire.cafe/settings/boundaries/circle/01KVWY5WY5EMYRRX8KWFS8D17K
 #: lib/web/components/circles/circle_members_live.sface:214
 #, elixir-autogen, elixir-format
 msgid "Add some users to get started!"
 msgstr "Füge einige User hinzu, um loszulegen! "
 
-#. URLs: https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
-#. https://campground.bonfire.cafe/@Cassin_Morar
-#. https://campground.bonfire.cafe/@Gibson_Group
+#. URLs: https://campground.bonfire.cafe/feed/posts
+#. https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/components/circles/add_to_circle/add_to_circle_live.sface:5
 #: lib/web/components/circles/add_to_circle/add_to_circle_live.sface:17
 #: lib/web/components/circles/add_to_circle/add_to_circle_live.sface:20
@@ -95,7 +95,7 @@ msgstr "Füge einige User hinzu, um loszulegen! "
 msgid "Add to circles"
 msgstr "Zu Circles hinzufügen"
 
-#. URLs: https://campground.bonfire.cafe/@Denesik_Rosenbaum
+#. URLs: https://campground.bonfire.cafe/@O_Conner_Beatty
 #: lib/web/components/circles/add_to_circle/add_to_circle_widget_live.ex:87
 #: lib/web/live_handlers/circles_live_handler.ex:333
 #, elixir-autogen, elixir-format
@@ -112,10 +112,10 @@ msgstr "Verwaltung"
 msgid "Advanced"
 msgstr "Fortgeschritten"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/set/set_boundaries_live.sface:20
 #, elixir-autogen, elixir-format
 msgid "Advanced permissions"
@@ -152,10 +152,10 @@ msgstr ""
 "Bist du sicher, dass du die Rolle '%{role}' löschen möchtest? Diese Aktion "
 "kann nicht rückgängig gemacht werden."
 
-#. URLs: https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
-#. https://campground.bonfire.cafe/@Cassin_Morar
-#. https://campground.bonfire.cafe/@Gibson_Group
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/components/block/block_button_live.ex:31
 #: lib/web/components/block/block_button_live.sface:258
 #: lib/web/components/block/block_menu_buttons_live.sface:13
@@ -256,7 +256,7 @@ msgstr "Eingebaut"
 msgid "Built-in Roles"
 msgstr "Eingebaute Rollen"
 
-#. URLs: https://campground.bonfire.cafe/@Langworth_Group
+#. URLs: https://campground.bonfire.cafe/@Gerhold_Ltd
 #: lib/web/components/block/block_button_live.sface:145
 #, elixir-autogen, elixir-format
 msgid ""
@@ -266,7 +266,7 @@ msgstr ""
 "Durch das Ghosten von %{user_or_instance_name} verhinderst du, dass diese "
 "Person dich oder deine Inhalte sehen oder mit ihnen interagieren kann."
 
-#. URLs: https://campground.bonfire.cafe/@Dickens_Cruickshank
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Murphy
 #: lib/web/components/block/block_button_live.sface:40
 #, elixir-autogen, elixir-format
 msgid ""
@@ -303,20 +303,22 @@ msgstr ""
 "Durch das Aufheben der Stummschaltung von %{user_or_instance_name} siehst du"
 " wieder Beiträge dieser Person. "
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs:
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/display/yes_maybe_false_live.sface:23
 #: lib/web/components/roles/tabled_roles/tabled_roles_live.sface:49
 #, elixir-autogen, elixir-format
 msgid "Can"
 msgstr "Kann"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs:
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/display/yes_maybe_false_live.sface:66
 #: lib/web/components/roles/tabled_roles/tabled_roles_live.sface:54
 #, elixir-autogen, elixir-format
@@ -328,10 +330,10 @@ msgstr "Unmöglich"
 msgid "Cannot block yourself."
 msgstr "Du kannst dich nicht selbst blockieren."
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDGN1NW6CVH8Q5EZ1JQX
-#. https://campground.bonfire.cafe/circle/01KVFJB5WZDM84J8J3FVHEYGP3
-#. https://campground.bonfire.cafe/circle/01KVFJB4STA516D7KD7410H70M
-#. https://campground.bonfire.cafe/circle/01KVFJ12CWE5E68HXSCN3JY61G
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDJ5D0T2DTWNF2Y5WBDPE
+#. https://campground.bonfire.cafe/circle/01KVWY3C2MFT100P81VH9DG8E2
+#. https://campground.bonfire.cafe/circle/01KVWY1EXJW0GE4GNX8BS5HVE2
+#. https://campground.bonfire.cafe/circle/01KVWY1E683P3EC6GN42QCKEWZ
 #: lib/web/components/circles/circle_live.ex:67
 #: lib/web/components/circles/circle_members_live.ex:43
 #: lib/web/components/circles/circle_members_live.ex:165
@@ -339,15 +341,16 @@ msgstr "Du kannst dich nicht selbst blockieren."
 msgid "Circle"
 msgstr "Kreis"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
 #: lib/web/components/circles/manage_circle_live.sface:16
 #, elixir-autogen, elixir-format
 msgid "Circle name"
 msgstr "Circle-Name"
 
-#. URLs: https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/messages
-#. https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/&Featured_Group
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/components/sidebar/sidebar_circles_live.sface:11
 #: lib/web/components/sidebar/sidebar_circles_live.sface:57
 #: lib/web/components/sidebar/sidebar_nav_live.sface:10
@@ -369,10 +372,10 @@ msgstr ""
 "nach Beziehung, gemeinsamen Interessen, Zugehörigkeiten oder anderen "
 "Faktoren."
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJ12CWE5E68HXSCN3JY61G
-#. https://campground.bonfire.cafe/settings/user/feeds
-#. https://campground.bonfire.cafe/settings/boundaries/acls
-#. https://campground.bonfire.cafe/settings/boundaries/acl/7W1DE1YAVA11AB1ET0SEENREAD
+#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
+#. https://campground.bonfire.cafe/settings/user/flags
+#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/web/views/boundaries_live.ex:12 lib/web/views/boundaries_live.ex:12
 #, elixir-autogen, elixir-format
 msgid ""
@@ -564,7 +567,7 @@ msgstr "Stummschaltung aufheben nicht möglich"
 msgid "Could not unsilence instance-wide"
 msgstr "Instanzweite Stummschaltung konnte nicht aufgehoben werden"
 
-#. URLs: https://campground.bonfire.cafe/@Denesik_Rosenbaum
+#. URLs: https://campground.bonfire.cafe/@O_Conner_Beatty
 #. https://campground.bonfire.cafe/settings/boundaries/circles
 #. https://campground.bonfire.cafe/settings/boundaries/acls
 #: lib/web/components/acls/new_acl_live.sface:31
@@ -579,7 +582,7 @@ msgstr "erstellen"
 msgid "Create a new %{user_or_group_or_instance} role"
 msgstr "Neue %{user_or_group_or_instance}-Rolle erstellen"
 
-#. URLs: https://campground.bonfire.cafe/@Denesik_Rosenbaum
+#. URLs: https://campground.bonfire.cafe/@O_Conner_Beatty
 #. https://campground.bonfire.cafe/settings/boundaries/circles
 #: lib/web/components/circles/add_to_circle/add_to_circle_widget_live.sface:10
 #: lib/web/components/circles/add_to_circle/add_to_circle_widget_live.sface:88
@@ -596,18 +599,20 @@ msgstr "Einen neuen Circle erstellen"
 msgid "Create a role to customize permissions"
 msgstr "Rolle zur Anpassung von Berechtigungen erstellen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs:
 #. https://campground.bonfire.cafe/settings/boundaries/acl/7W1DE1YAVA11AB1ET0SEENREAD
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
 #: lib/web/components/acls/acl_live.ex:81
 #, elixir-autogen, elixir-format
 msgid "Create and manage your boundary preset."
 msgstr "Grenz-Voreinstellung erstellen und verwalten"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/ghosted
-#. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
-#. https://campground.bonfire.cafe/blocked
+#. URLs:
+#. https://campground.bonfire.cafe/settings/boundaries/circle/01KVWY5WY5EMYRRX8KWFS8D17K
+#. https://campground.bonfire.cafe/ghosted
+#. https://campground.bonfire.cafe/silenced
 #. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
 #: lib/web/components/circles/circle_members_live.ex:73
 #: lib/web/components/circles/drag_drop_WIP/edit_circle_live.ex:55
@@ -621,10 +626,10 @@ msgstr "Circle erstellen und verwalten"
 msgid "Create role"
 msgstr "Rolle erstellen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/acls/edit_acl_live.sface:55
 #: lib/web/components/display/boundary_icon_live.ex:43
 #: lib/web/components/display/boundary_icon_live.ex:44
@@ -656,10 +661,10 @@ msgstr "Benutzerdefinierte Rollen"
 msgid "Default"
 msgstr "Standard"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/user/feeds
-#. https://campground.bonfire.cafe/settings/boundaries/acls
-#. https://campground.bonfire.cafe/settings/boundaries/acl/7W1DE1YAVA11AB1ET0SEENREAD
+#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
+#. https://campground.bonfire.cafe/settings/user/flags
+#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/web/components/settings/default_boundary_live.ex:6
 #, elixir-autogen, elixir-format
 msgid "Default boundary"
@@ -675,10 +680,10 @@ msgstr "Standard-Rollen"
 msgid "Define a new boundary"
 msgstr "Neue Grenze definieren"
 
-#. URLs: https://campground.bonfire.cafe/@Gibson_Group
-#. https://campground.bonfire.cafe/settings/boundaries/acls
-#. https://campground.bonfire.cafe/settings/boundaries/acl/7W1DE1YAVA11AB1ET0SEENREAD
-#. https://campground.bonfire.cafe/events
+#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/components/set/set_boundaries_button_live.sface:10
 #, elixir-autogen, elixir-format
 msgid "Define the activity boundary"
@@ -689,7 +694,7 @@ msgstr "Aktivitätsgrenze definieren"
 msgid "Define who can do what on this instance"
 msgstr "Festlegen, wer was auf dieser Instanz tun kann"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
 #. https://campground.bonfire.cafe/settings/boundaries/default_roles
 #. https://campground.bonfire.cafe/settings/boundaries/roles
 #: lib/web/components/acls/edit_acl_button/edit_acl_button_live.sface:62
@@ -729,13 +734,13 @@ msgstr "Diese Begrenzung löschen"
 msgid "Delete this boundary preset"
 msgstr "Dieses Begrenzung-Preset löschen"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
 #: lib/web/components/circles/manage_circle_live.sface:100
 #, elixir-autogen, elixir-format
 msgid "Delete this circle"
 msgstr "Diesen Circle löschen"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
 #: lib/web/live_handlers/boundaries_live_handler.ex:489
 #: lib/web/live_handlers/circles_live_handler.ex:216
 #, elixir-autogen, elixir-format
@@ -759,13 +764,13 @@ msgstr ""
 msgid "Deny"
 msgstr "Verweigern"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
 #: lib/web/components/circles/manage_circle_live.sface:41
 #, elixir-autogen, elixir-format
 msgid "Describe this circle..."
 msgstr "Diesen Circle beschreiben..."
 
-#. URLs: https://campground.bonfire.cafe/@Denesik_Rosenbaum
+#. URLs: https://campground.bonfire.cafe/@O_Conner_Beatty
 #. https://campground.bonfire.cafe/settings/boundaries/circles
 #: lib/web/components/circles/new_circle_live.sface:24
 #, elixir-autogen, elixir-format
@@ -813,10 +818,10 @@ msgstr ""
 "Möchtest du die Stummschaltung von %{user_or_instance_name} instanzweit "
 "aufheben?"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
 #: lib/web/components/acls/instance_permissions_live.sface:18
 #: lib/web/components/display/boundary_details_live.sface:125
 #, elixir-autogen, elixir-format
@@ -824,9 +829,9 @@ msgid "Done"
 msgstr "Erledigt"
 
 #. URLs:
-#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVFJB1XP7YGGCHQYMER7R99P
-#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVFJ8J2J8DXGFDTJA4445S08
-#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVFJ6E96FA4T2DCWJDZN4SWC
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3MW7H6D53JJFVTAPANDV
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
 #. https://campground.bonfire.cafe/settings/instance/boundaries/acl
 #: lib/web/components/acls/edit_acl_button/edit_acl_button_live.sface:83
 #: lib/web/components/acls/instance_permissions_live.sface:21
@@ -842,29 +847,29 @@ msgstr "Bearbeiten"
 msgid "Edit Role"
 msgstr "Rolle bearbeiten"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/display/boundary_details_live.sface:122
 #, elixir-autogen, elixir-format
 msgid "Edit boundaries"
 msgstr "Grenzen bearbeiten"
 
 #. URLs:
-#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVFJB2VNFJQA9KRVE8NZRHVZ
-#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVFJB1XP7YGGCHQYMER7R99P
-#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVFJ8J2J8DXGFDTJA4445S08
-#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVFJ6E96FA4T2DCWJDZN4SWC
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY5V5KG70J90HHWJC0N8Z2
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3MW7H6D53JJFVTAPANDV
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
 #: lib/web/components/acls/edit_acl_button/edit_acl_button_live.sface:9
 #, elixir-autogen, elixir-format
 msgid "Edit boundary preset"
 msgstr "Begrenzung-Preset bearbeiten"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
-#. https://campground.bonfire.cafe/circle/01KVFJGDGN1NW6CVH8Q5EZ1JQX
-#. https://campground.bonfire.cafe/circle/01KVFJB4STA516D7KD7410H70M
-#. https://campground.bonfire.cafe/circle/01KVFJ12CWE5E68HXSCN3JY61G
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
+#. https://campground.bonfire.cafe/circle/01KVWYDJ5D0T2DTWNF2Y5WBDPE
+#. https://campground.bonfire.cafe/circle/01KVWY3C2MFT100P81VH9DG8E2
+#. https://campground.bonfire.cafe/circle/01KVWY1E683P3EC6GN42QCKEWZ
 #: lib/web/components/circles/circle_live.sface:16
 #: lib/web/components/circles/circle_live.sface:32
 #: lib/web/components/circles/my_circles_live.sface:24
@@ -909,8 +914,8 @@ msgstr "Bearbeitet!"
 msgid "Enable this role for all users"
 msgstr "Diese Rolle für alle Nutzer:innen aktivieren"
 
-#. URLs: https://campground.bonfire.cafe/@Denesik_Rosenbaum
-#. https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
+#. URLs: https://campground.bonfire.cafe/@O_Conner_Beatty
+#. https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
 #. https://campground.bonfire.cafe/settings/boundaries/circles
 #: lib/web/components/circles/manage_circle_live.sface:37
 #: lib/web/components/circles/new_circle_live.sface:19
@@ -924,7 +929,7 @@ msgstr "Beschreibung für den Circle eingeben"
 msgid "Enter a name for the boundary preset"
 msgstr "Name für das Begrenzungs-Preset eingeben"
 
-#. URLs: https://campground.bonfire.cafe/@Denesik_Rosenbaum
+#. URLs: https://campground.bonfire.cafe/@O_Conner_Beatty
 #. https://campground.bonfire.cafe/settings/boundaries/circles
 #: lib/web/components/circles/new_circle_live.sface:5
 #, elixir-autogen, elixir-format
@@ -937,17 +942,17 @@ msgstr "Name für den Circle eingeben"
 msgid "Enter a name for the role"
 msgstr "Name für die Rolle eingeben"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDGN1NW6CVH8Q5EZ1JQX
-#. https://campground.bonfire.cafe/circle/01KVFJB5WZDM84J8J3FVHEYGP3
-#. https://campground.bonfire.cafe/circle/01KVFJB4STA516D7KD7410H70M
-#. https://campground.bonfire.cafe/circle/01KVFJ12CWE5E68HXSCN3JY61G
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDJ5D0T2DTWNF2Y5WBDPE
+#. https://campground.bonfire.cafe/circle/01KVWY3C2MFT100P81VH9DG8E2
+#. https://campground.bonfire.cafe/circle/01KVWY1EXJW0GE4GNX8BS5HVE2
+#. https://campground.bonfire.cafe/circle/01KVWY1E683P3EC6GN42QCKEWZ
 #: lib/web/components/circles/circle_live.sface:123
 #, elixir-autogen, elixir-format
 msgid "Feed"
 msgstr "Feed"
 
 #. URLs:
-#. https://campground.bonfire.cafe/circle/01KVFJGEKHXWGZK7J5BNG9HHFH/members
+#. https://campground.bonfire.cafe/circle/01KVWYDMB5AANQ5X09BVXJ9KJG/members
 #: lib/web/components/circles/circle_members_live.sface:108
 #, elixir-autogen, elixir-format
 msgid "Follow all members"
@@ -964,25 +969,25 @@ msgid "Followers"
 msgstr "Followers"
 
 #. URLs:
-#. https://campground.bonfire.cafe/circle/01KVFJGEKHXWGZK7J5BNG9HHFH/members
+#. https://campground.bonfire.cafe/circle/01KVWYDMB5AANQ5X09BVXJ9KJG/members
 #: lib/web/components/circles/circle_members_live.sface:103
 #, elixir-autogen, elixir-format
 msgid "Following all..."
 msgstr "Allen folgen..."
 
-#. URLs: https://campground.bonfire.cafe/@Gibson_Group
-#. https://campground.bonfire.cafe/settings/boundaries/acls
-#. https://campground.bonfire.cafe/settings/boundaries/acl/7W1DE1YAVA11AB1ET0SEENREAD
-#. https://campground.bonfire.cafe/events
+#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/live_handlers/boundaries_live_handler.ex:973
 #, elixir-autogen, elixir-format
 msgid "Follows"
 msgstr "Folgt"
 
-#. URLs: https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
-#. https://campground.bonfire.cafe/@Cassin_Morar
-#. https://campground.bonfire.cafe/@Gibson_Group
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/components/block/block_button_live.ex:33
 #: lib/web/components/block/block_button_live.sface:192
 #, elixir-autogen, elixir-format
@@ -1023,17 +1028,17 @@ msgstr ""
 msgid "Grant"
 msgstr "Gewähren"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYQSKCANR9514TEWBM1BY
+#. URLs: https://campground.bonfire.cafe/feed/posts
+#. https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/feed/explore
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
 #: lib/web/components/block/block_button_live.ex:34
 #, elixir-autogen, elixir-format
 msgid "Hide"
 msgstr "Ausblenden"
 
-#. URLs: https://campground.bonfire.cafe/silenced
-#. https://campground.bonfire.cafe/ghosted
+#. URLs: https://campground.bonfire.cafe/ghosted
+#. https://campground.bonfire.cafe/silenced
 #: lib/web/components/circles/circle_members_live.sface:178
 #, elixir-autogen, elixir-format
 msgid "Instance"
@@ -1101,10 +1106,10 @@ msgstr "Mitglieder verwalten"
 msgid "Member was removed"
 msgstr "Mitglied wurde entfernt"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDGN1NW6CVH8Q5EZ1JQX
-#. https://campground.bonfire.cafe/circle/01KVFJB5WZDM84J8J3FVHEYGP3
-#. https://campground.bonfire.cafe/circle/01KVFJB4STA516D7KD7410H70M
-#. https://campground.bonfire.cafe/circle/01KVFJ12CWE5E68HXSCN3JY61G
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDJ5D0T2DTWNF2Y5WBDPE
+#. https://campground.bonfire.cafe/circle/01KVWY3C2MFT100P81VH9DG8E2
+#. https://campground.bonfire.cafe/circle/01KVWY1EXJW0GE4GNX8BS5HVE2
+#. https://campground.bonfire.cafe/circle/01KVWY1E683P3EC6GN42QCKEWZ
 #: lib/web/components/circles/circle_live.sface:128
 #, elixir-autogen, elixir-format
 msgid "Members"
@@ -1195,7 +1200,7 @@ msgstr ""
 "Niemand auf dieser Instanz erhält irgendwelche Updates von den "
 "Benutzer:innen oder Instanzen auf dieser Liste"
 
-#. URLs: https://campground.bonfire.cafe/@Langworth_Group
+#. URLs: https://campground.bonfire.cafe/@Gerhold_Ltd
 #: lib/web/components/block/block_button_live.sface:165
 #, elixir-autogen, elixir-format
 msgid ""
@@ -1259,9 +1264,9 @@ msgid "Previewing boundaries for"
 msgstr "Vorschau der Grenzen für"
 
 #. URLs:
-#. https://campground.bonfire.cafe/circle/01KVFJGEKHXWGZK7J5BNG9HHFH/members
-#. https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
-#. https://campground.bonfire.cafe/circle/01KVFJGDGN1NW6CVH8Q5EZ1JQX
+#. https://campground.bonfire.cafe/circle/01KVWYDMB5AANQ5X09BVXJ9KJG/members
+#. https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
+#. https://campground.bonfire.cafe/circle/01KVWYDJ5D0T2DTWNF2Y5WBDPE
 #: lib/web/components/circles/circle_live.ex:161
 #: lib/web/components/circles/manage_circle_live.ex:129
 #: lib/web/components/set/general_access_list/general_access_list_live.sface:148
@@ -1295,8 +1300,8 @@ msgstr "wieder aktivieren."
 msgid "Re-enable user"
 msgstr "Benutzer:in wieder freischalten"
 
-#. URLs: https://campground.bonfire.cafe/@Dickens_Cruickshank
-#. https://campground.bonfire.cafe/@Langworth_Group
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Murphy
+#. https://campground.bonfire.cafe/@Gerhold_Ltd
 #: lib/web/components/block/block_button_live.sface:51
 #: lib/web/components/block/block_button_live.sface:157
 #: lib/web/components/blocks/silence_description_live.sface:12
@@ -1304,8 +1309,8 @@ msgstr "Benutzer:in wieder freischalten"
 msgid "Read less"
 msgstr "weniger lesen"
 
-#. URLs: https://campground.bonfire.cafe/@Dickens_Cruickshank
-#. https://campground.bonfire.cafe/@Langworth_Group
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Murphy
+#. https://campground.bonfire.cafe/@Gerhold_Ltd
 #: lib/web/components/block/block_button_live.sface:50
 #: lib/web/components/block/block_button_live.sface:156
 #: lib/web/components/blocks/silence_description_live.sface:11
@@ -1313,10 +1318,10 @@ msgstr "weniger lesen"
 msgid "Read more"
 msgstr "mehr lesen"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/ghosted
-#. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
+#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/silenced
 #. https://campground.bonfire.cafe/blocked
-#. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
+#. https://campground.bonfire.cafe/ghosted
+#. https://campground.bonfire.cafe/silenced
 #: lib/web/components/acls/edit_acl_live.sface:96
 #: lib/web/components/acls/edit_acl_live.sface:99
 #: lib/web/components/circles/circle_members_live.sface:138
@@ -1338,7 +1343,7 @@ msgid "Removed from boundary"
 msgstr "Aus der Begrenzung entfernt"
 
 #. URLs:
-#. https://campground.bonfire.cafe/circle/01KVFJGEKHXWGZK7J5BNG9HHFH/members
+#. https://campground.bonfire.cafe/circle/01KVWYDMB5AANQ5X09BVXJ9KJG/members
 #: lib/web/components/circles/circle_members_live.ex:325
 #, elixir-autogen, elixir-format
 msgid "Removed from circle!"
@@ -1390,7 +1395,7 @@ msgstr ""
 "Rollen definieren eine Reihe von Berechtigungen, die du Nutzer:innen und "
 "Circles zuweisen kannst"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
 #. https://campground.bonfire.cafe/settings/boundaries/roles
 #: lib/web/components/acls/edit_acl_button/edit_acl_button_live.sface:40
 #: lib/web/components/circles/manage_circle_live.sface:50
@@ -1413,9 +1418,10 @@ msgstr ""
 "Nutzer:in suchen, um in der Vorschau zu sehen, wie die Begrenzungen "
 "angewendet werden"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/ghosted
-#. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
-#. https://campground.bonfire.cafe/blocked
+#. URLs:
+#. https://campground.bonfire.cafe/settings/boundaries/circle/01KVWY5WY5EMYRRX8KWFS8D17K
+#. https://campground.bonfire.cafe/ghosted
+#. https://campground.bonfire.cafe/silenced
 #. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
 #: lib/web/components/circles/circle_members_live.sface:28
 #, elixir-autogen, elixir-format
@@ -1423,19 +1429,19 @@ msgid "Search for circles or users to add"
 msgstr "Circles oder Nutzer:innen suchen, um sie hinzuzufügen"
 
 #. URLs:
-#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVFJB2VNFJQA9KRVE8NZRHVZ
-#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVFJB1XP7YGGCHQYMER7R99P
-#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVFJ8J2J8DXGFDTJA4445S08
-#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVFJ6E96FA4T2DCWJDZN4SWC
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY5V5KG70J90HHWJC0N8Z2
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3MW7H6D53JJFVTAPANDV
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
 #: lib/web/components/set/set_boundaries_live.sface:49
 #, elixir-autogen, elixir-format
 msgid "Search for someone to add custom permissions"
 msgstr "Person suchen, um benutzerdefinierte Berechtigungen hinzuzufügen"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/ghosted
-#. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
-#. https://campground.bonfire.cafe/blocked
-#. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
+#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/blocked
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3MW7H6D53JJFVTAPANDV
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
 #: lib/web/components/acls/edit_acl_live.sface:4
 #: lib/web/components/circles/circle_members_live.sface:18
 #: lib/web/components/set/set_boundaries_live.sface:39
@@ -1456,16 +1462,16 @@ msgstr ""
 msgid "Select role"
 msgstr "Rolle auswählen"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
 #: lib/web/components/circles/manage_circle_live.sface:54
 #, elixir-autogen, elixir-format
 msgid "Share this circle"
 msgstr "Diesen Circle teilen"
 
-#. URLs: https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
-#. https://campground.bonfire.cafe/@Cassin_Morar
-#. https://campground.bonfire.cafe/@Gibson_Group
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/components/block/block_button_live.ex:32
 #, elixir-autogen, elixir-format
 msgid "Silence"
@@ -1499,10 +1505,10 @@ msgstr ""
 msgid "Some permissions edited successfully"
 msgstr "Einige Berechtigungen erfolgreich bearbeitet"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/user/feeds
-#. https://campground.bonfire.cafe/settings/boundaries/acls
-#. https://campground.bonfire.cafe/settings/boundaries/acl/7W1DE1YAVA11AB1ET0SEENREAD
+#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
+#. https://campground.bonfire.cafe/settings/user/flags
+#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/web/components/settings/default_boundary_live.ex:8
 #: lib/web/components/settings/default_boundary_live.ex:8
 #: lib/web/components/settings/default_boundary_live.ex:8
@@ -1544,14 +1550,14 @@ msgstr ""
 msgid "The boundary preset..."
 msgstr "Das Begrenzungs-Preset..."
 
-#. URLs: https://campground.bonfire.cafe/@Denesik_Rosenbaum
+#. URLs: https://campground.bonfire.cafe/@O_Conner_Beatty
 #. https://campground.bonfire.cafe/settings/boundaries/circles
 #: lib/web/components/circles/new_circle_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "The circle name..."
 msgstr "Der Name des Circles..."
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
 #: lib/web/components/circles/manage_circle_live.sface:101
 #, elixir-autogen, elixir-format
 msgid ""
@@ -1572,29 +1578,29 @@ msgstr "Der Name der Rolle..."
 msgid "There are not roles yet"
 msgstr "Es gibt noch keine Rollen"
 
-#. URLs: https://campground.bonfire.cafe/@Langworth_Group
+#. URLs: https://campground.bonfire.cafe/@Gerhold_Ltd
 #: lib/web/components/block/block_button_live.sface:168
 #, elixir-autogen, elixir-format
 msgid "They may still be able to see things you post publicly."
 msgstr "Sie können möglicherweise weiterhin sehen, was du öffentlich postest."
 
-#. URLs: https://campground.bonfire.cafe/@Langworth_Group
+#. URLs: https://campground.bonfire.cafe/@Gerhold_Ltd
 #: lib/web/components/block/block_button_live.sface:174
 #, elixir-autogen, elixir-format
 msgid "They won't be able to follow you."
 msgstr "es wird ihnen nicht möglich sein dir zu folgen."
 
 #. URLs:
-#. https://campground.bonfire.cafe/circle/01KVFJGEKHXWGZK7J5BNG9HHFH/members
-#. https://campground.bonfire.cafe/settings/boundaries/circle/01KVFJ8MRATWM8K27Z5JB6SP4Z
+#. https://campground.bonfire.cafe/circle/01KVWYDMB5AANQ5X09BVXJ9KJG/members
+#. https://campground.bonfire.cafe/settings/boundaries/circle/01KVWY5WY5EMYRRX8KWFS8D17K
 #: lib/web/components/circles/circle_members_live.sface:213
 #, elixir-autogen, elixir-format
 msgid "This circle has no members yet"
 msgstr "Dieser Circle hat noch keine Mitglieder."
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/ghosted
-#. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
-#. https://campground.bonfire.cafe/blocked
+#. URLs: https://campground.bonfire.cafe/blocked
+#. https://campground.bonfire.cafe/ghosted
+#. https://campground.bonfire.cafe/silenced
 #. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
 #: lib/web/components/blocks/blocks_live.sface:22
 #: lib/web/components/blocks/blocks_live.sface:51
@@ -1603,10 +1609,10 @@ msgstr "Dieser Circle hat noch keine Mitglieder."
 msgid "This list is empty"
 msgstr "Diese Liste ist leer"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/display/yes_maybe_false_live.sface:20
 #: lib/web/components/display/yes_maybe_false_live.sface:41
 #: lib/web/components/display/yes_maybe_false_live.sface:63
@@ -1634,26 +1640,27 @@ msgstr "Entsperren"
 msgid "Unblock instance-wide"
 msgstr "Instanzweite Entsperrung"
 
-#. URLs: https://campground.bonfire.cafe/ghosted
-#. https://campground.bonfire.cafe/blocked
+#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/blocked
 #. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
-#. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
+#. https://campground.bonfire.cafe/ghosted
+#. https://campground.bonfire.cafe/blocked
 #: lib/web/components/circles/circle_members_live.ex:310
 #, elixir-autogen, elixir-format
 msgid "Unblocked!"
 msgstr "Entblockiert!"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs:
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/display/yes_maybe_false_live.sface:44
 #: lib/web/components/roles/tabled_roles/tabled_roles_live.sface:59
 #, elixir-autogen, elixir-format
 msgid "Undefined"
 msgstr "Unbestimmt"
 
-#. URLs: https://campground.bonfire.cafe/@Blanda_and_Sons
+#. URLs: https://campground.bonfire.cafe/@Walker_Inc
 #: lib/web/components/block/block_button_live.sface:141
 #: lib/web/components/profiles/profile_blocked_indicator.sface:110
 #, elixir-autogen, elixir-format
@@ -1682,26 +1689,26 @@ msgstr "Instanzweites Einblenden wird aufgehoben"
 msgid "Unknown"
 msgstr "Unbekannt"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFJ3WCWQVJBFTW6NV5E226A
-#. https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7VVJ5AAF94P8QYP2VBTN
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/display/boundary_details_live.ex:71
 #: lib/web/components/display/boundary_details_live.ex:71
 #, elixir-autogen, elixir-format
 msgid "Unnamed preset boundary"
 msgstr "Unbenanntes Begrenzungs-Preset"
 
-#. URLs: https://campground.bonfire.cafe/@Douglas_Bruen_and_Johnston
-#. https://campground.bonfire.cafe/@Farrell_LLC
+#. URLs: https://campground.bonfire.cafe/@Bednar_and_Sons
+#. https://campground.bonfire.cafe/@Bins_LLC
 #: lib/web/components/block/block_button_live.sface:28
 #: lib/web/components/profiles/profile_blocked_indicator.sface:94
 #, elixir-autogen, elixir-format
 msgid "Unsilence"
 msgstr "Stummschaltung aufheben"
 
-#. URLs: https://campground.bonfire.cafe/@Douglas_Bruen_and_Johnston
-#. https://campground.bonfire.cafe/@Farrell_LLC
+#. URLs: https://campground.bonfire.cafe/@Bednar_and_Sons
+#. https://campground.bonfire.cafe/@Bins_LLC
 #: lib/web/components/profiles/profile_blocked_indicator.sface:92
 #, elixir-autogen, elixir-format
 msgid "Unsilence %{user}"
@@ -1803,10 +1810,11 @@ msgstr ""
 "oder wenn Du einfach nur auf Spam oder Trolle gestoßen bist, kannst Du "
 "jederzeit auf die Sperrung zurückgreifen."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs:
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/set/customize_boundary/customize_boundary_live.ex:194
 #: lib/web/components/set/customize_boundary/customize_boundary_live.ex:194
 #, elixir-autogen, elixir-format
@@ -1879,7 +1887,7 @@ msgstr ""
 "Du kannst %{this_object} ausblenden, wenn du es nicht mehr sehen möchtest. "
 "Du kannst es bei Bedarf weiterhin über die vollständige URL aufrufen."
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
 #: lib/web/components/circles/manage_circle_live.sface:56
 #, elixir-autogen, elixir-format
 msgid ""
@@ -1899,7 +1907,7 @@ msgstr ""
 msgid "You have blocked this user."
 msgstr "Du hast diese:n Benutzer:in blockiert."
 
-#. URLs: https://campground.bonfire.cafe/@Blanda_and_Sons
+#. URLs: https://campground.bonfire.cafe/@Walker_Inc
 #: lib/web/components/profiles/profile_blocked_indicator.sface:101
 #, elixir-autogen, elixir-format
 msgid "You have ghosted this user."
@@ -1915,14 +1923,14 @@ msgstr "Du hast diese Diskussion gesperrt."
 msgid "You have previously hidden %{user_or_instance_name}."
 msgstr "Du hast %{user_or_instance_name} bereits ausgeblendet."
 
-#. URLs: https://campground.bonfire.cafe/@Douglas_Bruen_and_Johnston
-#. https://campground.bonfire.cafe/@Farrell_LLC
+#. URLs: https://campground.bonfire.cafe/@Bednar_and_Sons
+#. https://campground.bonfire.cafe/@Bins_LLC
 #: lib/web/components/profiles/profile_blocked_indicator.sface:84
 #, elixir-autogen, elixir-format
 msgid "You have silenced this user."
 msgstr "Du hast diese:n Nutzer:in stummgeschaltet."
 
-#. URLs: https://campground.bonfire.cafe/@Klocko_Group
+#. URLs: https://campground.bonfire.cafe/@Price_Reinger_and_Walker
 #: lib/web/live_handlers/blocks_live_handlers.ex:103
 #, elixir-autogen, elixir-format
 msgid "You have successfully blocked instance-wide this user"
@@ -1939,7 +1947,7 @@ msgstr "Sie haben diesen Benutzer erfolgreich gesperrt"
 msgid "You have successfully ghosted instance-wide this user"
 msgstr "Du hast diese:n Nutzer:in erfolgreich instanzweite geghostet."
 
-#. URLs: https://campground.bonfire.cafe/@Langworth_Group
+#. URLs: https://campground.bonfire.cafe/@Gerhold_Ltd
 #: lib/web/live_handlers/blocks_live_handlers.ex:175
 #, elixir-autogen, elixir-format
 msgid "You have successfully ghosted this user"
@@ -1960,7 +1968,7 @@ msgstr "Du hast dies instanzweite erfolgreich ausgeblendet."
 msgid "You have successfully silenced instance-wide this user"
 msgstr "Du hast diese:n Nutzer:in erfolgreich instanzweite stummgeschaltet."
 
-#. URLs: https://campground.bonfire.cafe/@Dickens_Cruickshank
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Murphy
 #: lib/web/live_handlers/blocks_live_handlers.ex:245
 #, elixir-autogen, elixir-format
 msgid "You have successfully silenced this user"
@@ -2018,7 +2026,7 @@ msgstr "Du hast die Stummschaltung dieser Person erfolgreich aufgehoben."
 msgid "You need to create at list one circle"
 msgstr "Du musst mindestens einen Circle erstellen."
 
-#. URLs: https://campground.bonfire.cafe/@Dickens_Cruickshank
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Murphy
 #: lib/web/components/block/block_button_live.sface:71
 #: lib/web/components/blocks/silence_description_live.sface:32
 #, elixir-autogen, elixir-format
@@ -2029,7 +2037,7 @@ msgstr ""
 "Du kannst das später rückgängig machen, aber du wirst möglicherweise keine "
 "Aktivitäten sehen, die du verpasst hast."
 
-#. URLs: https://campground.bonfire.cafe/@Langworth_Group
+#. URLs: https://campground.bonfire.cafe/@Gerhold_Ltd
 #: lib/web/components/block/block_button_live.sface:177
 #, elixir-autogen, elixir-format
 msgid ""
@@ -2049,7 +2057,7 @@ msgstr ""
 "Du wirst keine Updates von den Nutzer:innen oder Instanzen auf dieser Liste "
 "erhalten."
 
-#. URLs: https://campground.bonfire.cafe/@Dickens_Cruickshank
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Murphy
 #: lib/web/components/block/block_button_live.sface:62
 #: lib/web/components/blocks/silence_description_live.sface:23
 #, elixir-autogen, elixir-format
@@ -2060,7 +2068,7 @@ msgstr ""
 "Es wird dir weiterhin möglich sein deren Profile und Posts uber einen "
 "Direktlink zu sehen."
 
-#. URLs: https://campground.bonfire.cafe/@Langworth_Group
+#. URLs: https://campground.bonfire.cafe/@Gerhold_Ltd
 #: lib/web/components/block/block_button_live.sface:171
 #, elixir-autogen, elixir-format
 msgid "You won't be able to @ mention or message them."
@@ -2068,14 +2076,14 @@ msgstr ""
 "Es wird dir nicht möglich sein die Personen mit @ zu erwähnen oder diese "
 "anzuschreiben."
 
-#. URLs: https://campground.bonfire.cafe/@Dickens_Cruickshank
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Murphy
 #: lib/web/components/block/block_button_live.sface:68
 #: lib/web/components/blocks/silence_description_live.sface:29
 #, elixir-autogen, elixir-format
 msgid "You won't be able to follow them."
 msgstr "es wird dir nicht möglich sein ihnen zu folgen."
 
-#. URLs: https://campground.bonfire.cafe/@Dickens_Cruickshank
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Murphy
 #: lib/web/components/block/block_button_live.sface:65
 #: lib/web/components/blocks/silence_description_live.sface:26
 #, elixir-autogen, elixir-format
@@ -2084,7 +2092,7 @@ msgstr ""
 "Sie werden keine @-Erwähnungen oder Nachrichten sehen, die sie Ihnen "
 "schicken."
 
-#. URLs: https://campground.bonfire.cafe/@Dickens_Cruickshank
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Murphy
 #: lib/web/components/block/block_button_live.sface:59
 #: lib/web/components/blocks/silence_description_live.sface:20
 #, elixir-autogen, elixir-format
@@ -2155,7 +2163,7 @@ msgstr "Details"
 msgid "items"
 msgstr "Elemente"
 
-#. URLs: https://campground.bonfire.cafe/@Denesik_Rosenbaum
+#. URLs: https://campground.bonfire.cafe/@O_Conner_Beatty
 #: lib/web/components/circles/add_to_circle/add_to_circle_widget_live.sface:38
 #: lib/web/components/circles/add_to_circle/add_to_circle_widget_live.sface:66
 #, elixir-autogen, elixir-format
@@ -2167,10 +2175,10 @@ msgstr "Mitglieder"
 msgid "removed from circle!"
 msgstr "aus dem Circle entfernt!"
 
-#. URLs: https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
-#. https://campground.bonfire.cafe/@Cassin_Morar
-#. https://campground.bonfire.cafe/@Gibson_Group
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/components/block/block_menu_buttons_live.sface:60
 #: lib/web/components/block/block_menu_buttons_live.sface:60
 #: lib/web/components/block/block_menu_buttons_live.sface:74
@@ -2193,10 +2201,10 @@ msgstr "aus dem Circle entfernt!"
 msgid "this user"
 msgstr "dieser Benutzer"
 
-#. URLs: https://campground.bonfire.cafe/@Hintz_Spinka_and_Crist
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/circle/01KVWY1EXJW0GE4GNX8BS5HVE2
 #. https://campground.bonfire.cafe/@alice_followed/followers
-#. https://campground.bonfire.cafe/discussion/01KVFJ08T7Q07EJTZ45HJTAK77
+#. https://campground.bonfire.cafe/@Wuckert_Nitzsche
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/components/block/block_menu_buttons_live.sface:7
 #, elixir-autogen, elixir-format
 msgid "this user or instance"
@@ -2231,44 +2239,47 @@ msgid "+%{count} more"
 msgstr "+%{count} mehr"
 
 #. URLs:
-#. https://campground.bonfire.cafe/circle/01KVFJGEKHXWGZK7J5BNG9HHFH/members
-#. https://campground.bonfire.cafe/circle/01KVFJB5WZDM84J8J3FVHEYGP3
-#. https://campground.bonfire.cafe/circle/01KVFJB4STA516D7KD7410H70M
-#. https://campground.bonfire.cafe/circle/01KVFJ12CWE5E68HXSCN3JY61G
+#. https://campground.bonfire.cafe/circle/01KVWYDMB5AANQ5X09BVXJ9KJG/members
+#. https://campground.bonfire.cafe/circle/01KVWY3C2MFT100P81VH9DG8E2
+#. https://campground.bonfire.cafe/circle/01KVWY1EXJW0GE4GNX8BS5HVE2
+#. https://campground.bonfire.cafe/circle/01KVWY1E683P3EC6GN42QCKEWZ
 #: lib/web/components/circles/circle_live.sface:53
 #, elixir-autogen, elixir-format
 msgid "1 member"
 msgstr "1 Mitglied"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs:
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/set/per_action_defaults/per_action_defaults_live.ex:62
 #, elixir-autogen, elixir-format
 msgid "Allow quote posts?"
 msgstr "Zitieren von Beiträgen erlauben?"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs:
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/set/per_action_defaults/per_action_defaults_live.ex:60
 #, elixir-autogen, elixir-format
 msgid "Allow reading?"
 msgstr "Lesen erlauben?"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs:
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/set/per_action_defaults/per_action_defaults_live.ex:61
 #, elixir-autogen, elixir-format
 msgid "Allow replies?"
 msgstr "Antworten zulassen?"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFJ3XDCP0HG6B3TNBQCJ167
-#. https://campground.bonfire.cafe/post/01KVFJ3WCWQVJBFTW6NV5E226A
+#. URLs: https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/acls/acl_live.ex:367
 #, elixir-autogen, elixir-format
 msgid "Boundary updated!"
@@ -2279,19 +2290,19 @@ msgstr "Grenze aktualisiert!"
 msgid "Choose a topic in this group"
 msgstr "Wähle ein Thema in dieser Gruppe"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/user/feeds
-#. https://campground.bonfire.cafe/settings/boundaries/acls
-#. https://campground.bonfire.cafe/settings/boundaries/acl/7W1DE1YAVA11AB1ET0SEENREAD
+#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
+#. https://campground.bonfire.cafe/settings/user/flags
+#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/web/components/sidebar/sidebar_circles_live.ex:9
 #, elixir-autogen, elixir-format
 msgid "Circles list in sidebar nav"
 msgstr "Circle-Liste in der Seitenleiste"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/user/feeds
-#. https://campground.bonfire.cafe/settings/boundaries/acls
-#. https://campground.bonfire.cafe/settings/boundaries/acl/7W1DE1YAVA11AB1ET0SEENREAD
+#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
+#. https://campground.bonfire.cafe/settings/user/flags
+#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/web/views/my_circles_page_live.ex:9
 #, elixir-autogen, elixir-format
 msgid "Circles page link in sidebar nav"
@@ -2303,10 +2314,11 @@ msgid "Could not update boundary: object not found"
 msgstr ""
 "Die Begrenzung konnte nicht aktualisiert werden: Objekt nicht gefunden"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs:
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3KNJFJ1AFCSAWSZ83M7B
+#. https://campground.bonfire.cafe/settings/boundaries/acl/01KVWY3JSC7VVF726FAEEKY4B3
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/set/set_boundaries_live.sface:21
 #, elixir-autogen, elixir-format
 msgid "Customise per person or circle"
@@ -2317,10 +2329,10 @@ msgstr "Individuelle Anpassung pro Person oder Circle"
 msgid "Except allow:"
 msgstr "Ausnahme erlauben:"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/set/customize_boundary/customize_boundary_live.sface:3
 #, elixir-autogen, elixir-format
 msgid "General audience"
@@ -2341,10 +2353,10 @@ msgstr "Meine Circles"
 msgid "No specific permissions found."
 msgstr "Keine spezifischen Berechtigungen gefunden."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/set/per_action_defaults/per_action_defaults_live.sface:2
 #, elixir-autogen, elixir-format
 msgid "Override the audience for specific actions."
@@ -2365,19 +2377,19 @@ msgstr ""
 msgid "Set by the author."
 msgstr "Von dem:der Autor:in festgelegt. "
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDGN1NW6CVH8Q5EZ1JQX
-#. https://campground.bonfire.cafe/circle/01KVFJB5WZDM84J8J3FVHEYGP3
-#. https://campground.bonfire.cafe/circle/01KVFJB4STA516D7KD7410H70M
-#. https://campground.bonfire.cafe/circle/01KVFJ12CWE5E68HXSCN3JY61G
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDJ5D0T2DTWNF2Y5WBDPE
+#. https://campground.bonfire.cafe/circle/01KVWY3C2MFT100P81VH9DG8E2
+#. https://campground.bonfire.cafe/circle/01KVWY1EXJW0GE4GNX8BS5HVE2
+#. https://campground.bonfire.cafe/circle/01KVWY1E683P3EC6GN42QCKEWZ
 #: lib/web/components/circles/circle_live.sface:152
 #, elixir-autogen, elixir-format
 msgid "Showing activities from people in this circle"
 msgstr "Aktivitäten von Personen aus diesem Circle anzeigen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/set/general_access_list/general_access_list_live.sface:130
 #, elixir-autogen, elixir-format
 msgid "Start from scratch."
@@ -2398,10 +2410,10 @@ msgstr "Themen"
 msgid "View all %{count} members"
 msgstr "Alle %{count} Mitglieder anzeigen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/set/customize_boundary/customize_boundary_live.sface:4
 #, elixir-autogen, elixir-format
 msgid "Who can see and interact with this activity?"
@@ -2412,19 +2424,19 @@ msgstr "Wer kann diese Aktivität sehen und mit ihr interagieren?"
 msgid "Whole group"
 msgstr "Die gesamte Gruppe"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/roles/your_role_live.sface:7
 #, elixir-autogen, elixir-format
 msgid "You can perform any action and edit boundaries."
 msgstr "Du kannst jede Aktion durchführen und Grenzen bearbeiten."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/roles/your_role_live.sface:6
 #, elixir-autogen, elixir-format
 msgid "You have full control"
@@ -2435,29 +2447,29 @@ msgstr "Du hast die volle Kontrolle"
 msgid "You're in this circle"
 msgstr "Du bist in diesem Circle"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYNJ6AY9YF50HMXT5PXWW
-#. https://campground.bonfire.cafe/post/01KVFHYMVM91YX3R6TMFTDD405
-#. https://campground.bonfire.cafe/post/01KVFHYM5MMRQ4F7JTX81VJNAZ
-#. https://campground.bonfire.cafe/post/01KVFHYKF36ANDPECNR2YC672N
+#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9
+#. https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313
+#. https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
+#. https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/web/components/display/boundary_details_live.sface:17
 #: lib/web/components/roles/your_role_live.sface:14
 #, elixir-autogen, elixir-format
 msgid "Your permissions"
 msgstr "Deine Berechtigungen"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDGN1NW6CVH8Q5EZ1JQX
-#. https://campground.bonfire.cafe/circle/01KVFJB5WZDM84J8J3FVHEYGP3
-#. https://campground.bonfire.cafe/circle/01KVFJB4STA516D7KD7410H70M
-#. https://campground.bonfire.cafe/circle/01KVFJ12CWE5E68HXSCN3JY61G
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDJ5D0T2DTWNF2Y5WBDPE
+#. https://campground.bonfire.cafe/circle/01KVWY3C2MFT100P81VH9DG8E2
+#. https://campground.bonfire.cafe/circle/01KVWY1EXJW0GE4GNX8BS5HVE2
+#. https://campground.bonfire.cafe/circle/01KVWY1E683P3EC6GN42QCKEWZ
 #: lib/web/components/circles/circle_live.sface:43
 #, elixir-autogen, elixir-format
 msgid "by "
 msgstr "von "
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDGN1NW6CVH8Q5EZ1JQX
-#. https://campground.bonfire.cafe/circle/01KVFJB5WZDM84J8J3FVHEYGP3
-#. https://campground.bonfire.cafe/circle/01KVFJB4STA516D7KD7410H70M
-#. https://campground.bonfire.cafe/circle/01KVFJ12CWE5E68HXSCN3JY61G
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDJ5D0T2DTWNF2Y5WBDPE
+#. https://campground.bonfire.cafe/circle/01KVWY3C2MFT100P81VH9DG8E2
+#. https://campground.bonfire.cafe/circle/01KVWY1EXJW0GE4GNX8BS5HVE2
+#. https://campground.bonfire.cafe/circle/01KVWY1E683P3EC6GN42QCKEWZ
 #: lib/web/components/circles/circle_live.sface:65
 #, elixir-autogen, elixir-format
 msgid "created %{ago}"
@@ -2470,9 +2482,9 @@ msgstr ""
 "Eine kurze Beschreibung, die dir hilft, dich daran zu erinnern, worum es bei"
 " dieser Grenze geht."
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/ghosted
-#. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
-#. https://campground.bonfire.cafe/blocked
+#. URLs: https://campground.bonfire.cafe/blocked
+#. https://campground.bonfire.cafe/ghosted
+#. https://campground.bonfire.cafe/silenced
 #. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
 #: lib/web/components/circles/circle_members_live.sface:71
 #: lib/web/components/circles/circle_members_live.sface:77
@@ -2485,9 +2497,9 @@ msgstr "Akteurs-URL, Domäne oder @handle@domäne"
 msgid "Actor or instance not found"
 msgstr "Akteur oder Instanz nicht gefunden"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/ghosted
-#. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
-#. https://campground.bonfire.cafe/blocked
+#. URLs: https://campground.bonfire.cafe/blocked
+#. https://campground.bonfire.cafe/ghosted
+#. https://campground.bonfire.cafe/silenced
 #. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
 #: lib/web/components/circles/circle_members_live.sface:80
 #, elixir-autogen, elixir-format
@@ -2511,7 +2523,7 @@ msgstr "Circle nicht gefunden"
 msgid "Could not add"
 msgstr "Konnte nicht hinzugefügt werden"
 
-#. URLs: https://campground.bonfire.cafe/circle/01KVFJGDWAJCAE4A0SKNND428R
+#. URLs: https://campground.bonfire.cafe/circle/01KVWYDK7E8JSG2J31YFA7GHH1
 #: lib/web/components/acls/edit_acl_button/edit_acl_button_live.sface:22
 #: lib/web/components/circles/manage_circle_live.sface:23
 #, elixir-autogen, elixir-format
@@ -2523,9 +2535,9 @@ msgstr "Hier tippen"
 msgid "Your allowlist is empty"
 msgstr "Deine Zulassungsliste ist leer"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/ghosted
-#. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
-#. https://campground.bonfire.cafe/blocked
+#. URLs: https://campground.bonfire.cafe/blocked
+#. https://campground.bonfire.cafe/ghosted
+#. https://campground.bonfire.cafe/silenced
 #. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
 #: lib/web/components/circles/circle_members_live.sface:54
 #, elixir-autogen, elixir-format
@@ -2539,10 +2551,10 @@ msgid "Add, edit or remove boundaries and assign roles to others"
 msgstr ""
 "Grenzen hinzufügen, bearbeiten oder entfernen und anderen Rollen zuweisen"
 
-#. URLs: https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
-#. https://campground.bonfire.cafe/@Cassin_Morar
-#. https://campground.bonfire.cafe/@Gibson_Group
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/components/block/block_button_live.ex:45
 #, elixir-autogen, elixir-format
 msgid "Block %{user_or_instance_name}"
@@ -2586,10 +2598,10 @@ msgid "Edit info and metadata across the instance, such as thread titles"
 msgstr ""
 "Informationen und Metadaten instanzweit bearbeiten, z. B. Thread-Titel"
 
-#. URLs: https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
-#. https://campground.bonfire.cafe/@Cassin_Morar
-#. https://campground.bonfire.cafe/@Gibson_Group
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/components/block/block_button_live.ex:47
 #, elixir-autogen, elixir-format
 msgid "Ghost %{user_or_instance_name}"
@@ -2613,10 +2625,10 @@ msgstr ""
 msgid "Grant roles & permissions"
 msgstr "Rollen und Berechtigungen zuweisen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVFHYQSKCANR9514TEWBM1BY
+#. URLs: https://campground.bonfire.cafe/feed/posts
+#. https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/feed/explore
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
 #: lib/web/components/block/block_button_live.ex:48
 #, elixir-autogen, elixir-format
 msgid "Hide %{user_or_instance_name}"
@@ -2675,10 +2687,10 @@ msgstr ""
 "Flaggen erkennen, Streitigkeiten schlichten und Sperren, Ghosting und "
 "Stummschaltungen verwalten"
 
-#. URLs: https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
-#. https://campground.bonfire.cafe/@Cassin_Morar
-#. https://campground.bonfire.cafe/@Gibson_Group
+#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/web/components/block/block_button_live.ex:46
 #, elixir-autogen, elixir-format
 msgid "Silence %{user_or_instance_name}"

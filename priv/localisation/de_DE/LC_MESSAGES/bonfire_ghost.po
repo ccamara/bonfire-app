@@ -66,10 +66,10 @@ msgstr ""
 "Alle %{total} Ghost-Ebene(n) bereits synchronisiert - nichts zu "
 "aktualisieren"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/appearance
-#. https://campground.bonfire.cafe/settings/instance/flags
+#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
 #. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_community_rules
+#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/web/components/ghost_settings_live.ex:16
 #: lib/web/components/ghost_settings_live.ex:16
 #: lib/web/components/ghost_settings_live.ex:16
@@ -88,6 +88,7 @@ msgstr "Deaktiviert"
 msgid "Email"
 msgstr "E-Mail"
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:90
 #: lib/web/components/ghost_settings_live.sface:100
 #, elixir-autogen, elixir-format
@@ -109,10 +110,10 @@ msgstr "Fehler beim Laden von Beiträgen"
 msgid "Free"
 msgstr "Kostenlos"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/appearance
-#. https://campground.bonfire.cafe/settings/instance/flags
+#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
 #. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_community_rules
+#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/web/components/ghost_settings_live.ex:14
 #, elixir-autogen, elixir-format
 msgid "Ghost"
@@ -128,10 +129,10 @@ msgstr "Ghost Admin API ist nicht konfiguriert"
 msgid "Ghost Blog"
 msgstr "Ghost Blog"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/appearance
-#. https://campground.bonfire.cafe/settings/instance/flags
+#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
 #. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_community_rules
+#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/integration.ex:36 lib/integration.ex:36
 #, elixir-autogen, elixir-format
 msgid "Ghost blog integration"
@@ -154,6 +155,7 @@ msgstr ""
 msgid "Joined"
 msgstr "Beigetreten"
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:79
 #, elixir-autogen, elixir-format
 msgid "Language"
@@ -174,6 +176,7 @@ msgstr "mehr laden"
 msgid "Loading posts..."
 msgstr "Beiträge laden..."
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:87
 #: lib/web/components/ghost_settings_live.sface:276
 #, elixir-autogen, elixir-format
@@ -200,6 +203,7 @@ msgstr "Keine Mitglieder gefunden"
 msgid "No posts found in your Ghost blog."
 msgstr "Keine Beiträge in Ihrem Ghost-Blog gefunden."
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:97
 #, elixir-autogen, elixir-format
 msgid "Paid Tiers"
@@ -215,6 +219,7 @@ msgstr "Beiträge von deinem verbundenen Ghost-Blog"
 msgid "Read on Ghost"
 msgstr "Lies auf Ghost weiter"
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:15
 #, elixir-autogen, elixir-format
 msgid "Refresh"
@@ -270,6 +275,7 @@ msgstr ""
 msgid "Syncing…"
 msgstr "Synchronisieren..."
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:83
 #, elixir-autogen, elixir-format
 msgid "Timezone"
@@ -314,16 +320,19 @@ msgstr "mo"
 msgid "yr"
 msgstr "yr"
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:134
 #, elixir-autogen, elixir-format
 msgid "External signup URL"
 msgstr "Externe Anmelde-URL"
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:118
 #, elixir-autogen, elixir-format
 msgid "Gated login (Ghost members only)"
 msgstr "Geschützter Login (nur für Ghost-Mitglieder)"
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:119
 #, elixir-autogen, elixir-format
 msgid ""
@@ -334,6 +343,7 @@ msgstr ""
 "Bestehende Ghost-Mitglieder erhalten stattdessen einen passwortlosen Login-"
 "Link per E-Mail."
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:135
 #, elixir-autogen, elixir-format
 msgid ""

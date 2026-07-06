@@ -9,13 +9,14 @@
 #  effect: edit them in PO (.po) files instead.
 # 
 # Translators:
-# BollerwagenPicard, 2023
-# Steven Bond, 2026
 # Magdalena Berger, 2026
+# Steven Bond, 2026
+# BollerwagenPicard, 2026
+# Joshua Samuel Strack, 2026
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Magdalena Berger, 2026\n"
+"Last-Translator: Joshua Samuel Strack, 2026\n"
 "Language-Team: German (Germany) (https://app.transifex.com/bonfire/teams/138385/de_DE/)\n"
 "Language: de_DE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -35,10 +36,10 @@ msgstr "Apr."
 msgid "Aug"
 msgstr "Aug."
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFMB3H96EZX105FSC2H103P
-#. https://campground.bonfire.cafe/feed/polls
-#. https://campground.bonfire.cafe/post/01KVFJDF04VN4KCVTXTF8ZTY17
-#. https://campground.bonfire.cafe/discussion/01KVFJDC6TYZY6G4AS9PKMQ583
+#. URLs: https://campground.bonfire.cafe/
+#. https://campground.bonfire.cafe/feed/articles
+#. https://campground.bonfire.cafe/discussion/01KVWYC20Z1C140W61WMMSF4YJ
+#. https://campground.bonfire.cafe/post/01KVWYC0ZJRHYH07Z57SFM005G
 #: lib/uris.ex:291 lib/uris.ex:291
 #, elixir-autogen, elixir-format
 msgid "Character fallback route"
@@ -61,29 +62,28 @@ msgstr "Die Codedatei(en) konnte(n) nicht gelesen werden."
 msgid "Dec"
 msgstr "Dez."
 
-#. URLs:
-#. https://campground.bonfire.cafe/api/v1-bonfire/groups/01KVFF8B9WC9SQS9GTZHPZ7GXN/members
-#. https://campground.bonfire.cafe/api/v1/statuses
-#. https://campground.bonfire.cafe/api/v1-bonfire/groups/01KVFF87R9QEHPW9C4YBJN1D0P/join
-#. https://campground.bonfire.cafe/api/v1-bonfire/groups
+#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/media.ex:278 lib/media.ex:278
 #, elixir-autogen, elixir-format
 msgid "Default avatar image"
 msgstr "Standard-Avatarbild"
 
-#. URLs: https://campground.bonfire.cafe/.well-known/webfinger
-#. https://campground.bonfire.cafe/pub/shared_inbox
-#. https://campground.bonfire.cafe/api/v1-bonfire/groups/01KVFF8RAKJP594JRE15X82VSA/leave
-#. https://campground.bonfire.cafe/api/v1/statuses
+#. URLs: https://campground.bonfire.cafe/&Announce_Channel
+#. https://campground.bonfire.cafe/&Regular_Group/settings
+#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. https://campground.bonfire.cafe/&Label_Test_Group
 #: lib/media.ex:442 lib/media.ex:442
 #, elixir-autogen, elixir-format
 msgid "Default banner image"
 msgstr "Standard-Bannerbild"
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFMB3H96EZX105FSC2H103P
-#. https://campground.bonfire.cafe/feed/polls
-#. https://campground.bonfire.cafe/post/01KVFJDF04VN4KCVTXTF8ZTY17
-#. https://campground.bonfire.cafe/discussion/01KVFJDC6TYZY6G4AS9PKMQ583
+#. URLs: https://campground.bonfire.cafe/
+#. https://campground.bonfire.cafe/feed/articles
+#. https://campground.bonfire.cafe/discussion/01KVWYC20Z1C140W61WMMSF4YJ
+#. https://campground.bonfire.cafe/post/01KVWYC0ZJRHYH07Z57SFM005G
 #: lib/uris.ex:285 lib/uris.ex:285
 #, elixir-autogen, elixir-format
 msgid "Default fallback route"
@@ -94,29 +94,29 @@ msgstr "Standard-Ausweichroute"
 msgid "Feb"
 msgstr "Feb."
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFHYEBJHE8ME3CMFNW61M14
+#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
 #: lib/dates_times.ex:178 lib/dates_times.ex:178 lib/dates_times.ex:199
 #: lib/dates_times.ex:199
 #, elixir-autogen, elixir-format
 msgid "Full"
 msgstr "Vollständig"
 
-#. URLs: https://campground.bonfire.cafe/@Gibson_Group
-#. https://campground.bonfire.cafe/settings/boundaries/acls
-#. https://campground.bonfire.cafe/settings/boundaries/acl/7W1DE1YAVA11AB1ET0SEENREAD
-#. https://campground.bonfire.cafe/events
+#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/media.ex:557 lib/media.ex:557
 #, elixir-autogen, elixir-format
 msgid "Hide Avatars"
 msgstr "Avatare ausblenden"
 
-#. URLs: https://campground.bonfire.cafe/@Gibson_Group
-#. https://campground.bonfire.cafe/settings/boundaries/acls
-#. https://campground.bonfire.cafe/settings/boundaries/acl/7W1DE1YAVA11AB1ET0SEENREAD
-#. https://campground.bonfire.cafe/events
+#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
+#. https://campground.bonfire.cafe/feed/local
 #: lib/media.ex:558 lib/media.ex:558
 #, elixir-autogen, elixir-format
 msgid "Hide user avatars throughout the interface."
@@ -142,10 +142,10 @@ msgstr "Jul."
 msgid "Jun"
 msgstr "Jun."
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFHYEBJHE8ME3CMFNW61M14
+#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
 #: lib/dates_times.ex:178 lib/dates_times.ex:178 lib/dates_times.ex:199
 #: lib/dates_times.ex:199
 #, elixir-autogen, elixir-format
@@ -162,10 +162,10 @@ msgstr "Mär."
 msgid "May"
 msgstr "Mai"
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFHYEBJHE8ME3CMFNW61M14
+#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
 #: lib/dates_times.ex:178 lib/dates_times.ex:178 lib/dates_times.ex:199
 #: lib/dates_times.ex:199
 #, elixir-autogen, elixir-format
@@ -182,7 +182,7 @@ msgstr "Nov."
 msgid "Oct"
 msgstr "Okt."
 
-#: lib/config_settings/settings.ex:860 lib/config_settings/settings.ex:860
+#: lib/config_settings/settings.ex:870 lib/config_settings/settings.ex:870
 #, elixir-autogen, elixir-format
 msgid "Please contact an admin."
 msgstr "Bitte kontaktieren Sie einen Administrator."
@@ -192,20 +192,20 @@ msgstr "Bitte kontaktieren Sie einen Administrator."
 msgid "Sep"
 msgstr "Sep."
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFHYEBJHE8ME3CMFNW61M14
+#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/explore
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed/daily
-#. https://campground.bonfire.cafe/feed/likes
 #: lib/dates_times.ex:178 lib/dates_times.ex:178 lib/dates_times.ex:199
 #: lib/dates_times.ex:199
 #, elixir-autogen, elixir-format
 msgid "Short"
 msgstr "Kurz"
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFMB3H96EZX105FSC2H103P
-#. https://campground.bonfire.cafe/feed/polls
-#. https://campground.bonfire.cafe/post/01KVFJDF04VN4KCVTXTF8ZTY17
-#. https://campground.bonfire.cafe/discussion/01KVFJDC6TYZY6G4AS9PKMQ583
+#. URLs: https://campground.bonfire.cafe/
+#. https://campground.bonfire.cafe/feed/articles
+#. https://campground.bonfire.cafe/discussion/01KVWYC20Z1C140W61WMMSF4YJ
+#. https://campground.bonfire.cafe/post/01KVWYC0ZJRHYH07Z57SFM005G
 #: lib/uris.ex:293 lib/uris.ex:293
 #, elixir-autogen, elixir-format
 msgid ""
@@ -215,23 +215,102 @@ msgstr ""
 "Welche Route/Ansicht soll für Zeichentypen verwendet werden, die keine haben"
 " (z.B. Themen oder Gruppen mit aktivierter verwandter UI)"
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KVFMB3H96EZX105FSC2H103P
-#. https://campground.bonfire.cafe/feed/polls
-#. https://campground.bonfire.cafe/post/01KVFJDF04VN4KCVTXTF8ZTY17
-#. https://campground.bonfire.cafe/discussion/01KVFJDC6TYZY6G4AS9PKMQ583
+#. URLs: https://campground.bonfire.cafe/
+#. https://campground.bonfire.cafe/feed/articles
+#. https://campground.bonfire.cafe/discussion/01KVWYC20Z1C140W61WMMSF4YJ
+#. https://campground.bonfire.cafe/post/01KVWYC0ZJRHYH07Z57SFM005G
 #: lib/uris.ex:286 lib/uris.ex:286
 #, elixir-autogen, elixir-format
 msgid "What route/view to use for data types that don't have one"
 msgstr ""
 "Welche Route/Ansicht ist für Datentypen zu verwenden, für die es keine gibt?"
 
-#: lib/config_settings/settings.ex:838 lib/config_settings/settings.ex:838
+#: lib/config_settings/settings.ex:848 lib/config_settings/settings.ex:848
 #, elixir-autogen, elixir-format
 msgid "You need to be authenticated to change settings."
 msgstr ""
 "Du musst angemeldet sein, um Änderungen an den Einstellungen vorzunehmen."
 
-#: lib/config_settings/settings.ex:860 lib/config_settings/settings.ex:860
+#: lib/config_settings/settings.ex:870 lib/config_settings/settings.ex:870
 #, elixir-autogen, elixir-format
 msgid "to change instance settings."
 msgstr "um die Instanzeinstellungen zu ändern."
+
+#: lib/runtime_config.ex:224 lib/runtime_config.ex:224
+#, elixir-autogen, elixir-format
+msgid "As configured by server admins, your app flavour, or developers."
+msgstr ""
+"Je nachdem, wie dies von den Server-Administratoren, Ihrer App-Variante oder"
+" den Entwicklern konfiguriert wurde."
+
+#: lib/runtime_config.ex:234 lib/runtime_config.ex:234
+#, elixir-autogen, elixir-format
+msgid "Custom"
+msgstr "benutzerdefiniert"
+
+#: lib/runtime_config.ex:223 lib/runtime_config.ex:223
+#, elixir-autogen, elixir-format
+msgid "Default"
+msgstr "Standard"
+
+#: lib/runtime_config.ex:230 lib/runtime_config.ex:230
+#, elixir-autogen, elixir-format
+msgid ""
+"Double the concurrency for faster federation and such on capable servers."
+msgstr ""
+"Verdoppeln Sie die Parallelität, um auf geeigneten Servern eine schnellere "
+"Föderierung und Ähnliches zu erreichen."
+
+#: lib/runtime_config.ex:215 lib/runtime_config.ex:215
+#, elixir-autogen, elixir-format
+msgid "Eco"
+msgstr "Eco"
+
+#: lib/runtime_config.ex:235 lib/runtime_config.ex:235
+#, elixir-autogen, elixir-format
+msgid "Fine-tune individual queue concurrency."
+msgstr ""
+
+#: lib/runtime_config.ex:217 lib/runtime_config.ex:217
+#, elixir-autogen, elixir-format
+msgid ""
+"Gentler on the server (half the default concurrency). Good for small or "
+"shared hosting."
+msgstr ""
+"Schonend für den Server (nur die Hälfte der standardmäßigen Parallelität). "
+"Gut geeignet für kleine oder geteilte Hosting-Lösungen."
+
+#: lib/runtime_config.ex:247 lib/runtime_config.ex:247
+#, elixir-autogen, elixir-format
+msgid "Incoming"
+msgstr "Eingehend"
+
+#: lib/runtime_config.ex:243 lib/runtime_config.ex:243
+#, elixir-autogen, elixir-format
+msgid "Keep incoming messages, mentions and follow requests snappy."
+msgstr "Eingehende Nachrichten, Erwähnungen und Follow-Anfragen kurz halten."
+
+#: lib/runtime_config.ex:242 lib/runtime_config.ex:242
+#, elixir-autogen, elixir-format
+msgid "Mentions & follows"
+msgstr "Erwähnungen & Personen, denen du folgst"
+
+#: lib/runtime_config.ex:252 lib/runtime_config.ex:252
+#, elixir-autogen, elixir-format
+msgid "Outgoing delivery"
+msgstr "Ausgehende Zusendung"
+
+#: lib/runtime_config.ex:248 lib/runtime_config.ex:248
+#, elixir-autogen, elixir-format
+msgid "See remote activities appear faster in feeds."
+msgstr "Remote Aktivitäten schneller in Feeds anzeigen."
+
+#: lib/runtime_config.ex:253 lib/runtime_config.ex:253
+#, elixir-autogen, elixir-format
+msgid "Sending local activities out to the fediverse."
+msgstr "Lokale Aktivitäten an das Fediverse senden."
+
+#: lib/runtime_config.ex:228 lib/runtime_config.ex:228
+#, elixir-autogen, elixir-format
+msgid "Turbo"
+msgstr "Turbo"

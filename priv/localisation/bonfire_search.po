@@ -11,13 +11,11 @@
 msgid ""
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search/ https://campground.bonfire.cafe/search
 #: lib/web/widgets/filters_search_live.sface:18
 #, elixir-autogen, elixir-format
 msgid "All"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/pub/actors/Alice/outbox
 #: lib/indexer.ex:40
 #, elixir-autogen, elixir-format
 msgid "Default searchable fields"
@@ -44,14 +42,13 @@ msgstr ""
 msgid "Fuzzy search"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search/ https://campground.bonfire.cafe/search
 #: lib/web/widgets/filters_search_live.sface:40
 #: lib/web/widgets/filters_search_live.sface:47
 #, elixir-autogen, elixir-format
 msgid "Hashtags"
 msgstr ""
 
-#: lib/web/results_live.sface:50
+#: lib/web/results_live.sface:51
 #, elixir-autogen, elixir-format
 msgid "No posts found"
 msgstr ""
@@ -61,13 +58,12 @@ msgstr ""
 msgid "No search term found"
 msgstr ""
 
-#: lib/web/results_live.sface:35
+#: lib/web/results_live.sface:36
 #, elixir-autogen, elixir-format
 msgid "No users found"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search
-#: lib/web/results_live.sface:72
+#: lib/web/results_live.sface:73
 #, elixir-autogen, elixir-format
 msgid "Nothing relevant was found"
 msgstr ""
@@ -77,72 +73,66 @@ msgstr ""
 msgid "Number of results to include"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search/ https://campground.bonfire.cafe/search
-#: lib/web/results_live.sface:111
+#: lib/web/results_live.sface:113
 #: lib/web/widgets/filters_search_live.sface:32
 #, elixir-autogen, elixir-format
 msgid "Posts"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search
-#: lib/web/widgets/filters_search_live.sface:149
+#: lib/web/widgets/filters_search_live.sface:139
 #, elixir-autogen, elixir-format
 msgid "Private (eg. DMs or custom boundaries)"
 msgstr ""
 
-#: lib/web/widgets/filters_search_live.sface:118
+#: lib/web/widgets/filters_search_live.sface:117
 #, elixir-autogen, elixir-format
 msgid "Private included"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search
-#: lib/web/results_live.sface:81
+#: lib/web/results_live.sface:82
 #, elixir-autogen, elixir-format
 msgid "Profiles"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search
-#: lib/web/widgets/filters_search_live.sface:115
-#: lib/web/widgets/filters_search_live.sface:136
+#: lib/web/widgets/filters_search_live.sface:114
+#: lib/web/widgets/filters_search_live.sface:126
 #, elixir-autogen, elixir-format
 msgid "Public only"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search
 #: lib/web/widgets/filters_search_live.sface:103
 #, elixir-autogen, elixir-format
 msgid "Results"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/remote https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/web/form_live.sface:32
 #: lib/web/form_live.sface:59
 #: lib/web/form_live.sface:62
+#: lib/web/search_live.ex:8
 #, elixir-autogen, elixir-format
 msgid "Search"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/remote https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/web/form_live.sface:35
 #, elixir-autogen, elixir-format
 msgid "Search content"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search
 #: lib/web/search_live.ex:11
 #: lib/web/search_live.ex:11
 #, elixir-autogen, elixir-format
 msgid "Search for users or content."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/pub/actors/Alice/outbox
 #: lib/indexer.ex:18
 #: lib/indexer.ex:39
 #, elixir-autogen, elixir-format
 msgid "Search indexing"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/remote https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/web/form_live.sface:44
 #, elixir-autogen, elixir-format
 msgid "Search..."
@@ -158,18 +148,17 @@ msgstr ""
 msgid "Searching for a matching federated profile..."
 msgstr ""
 
-#: lib/web/results_live.sface:88
-#: lib/web/results_live.sface:118
+#: lib/web/results_live.sface:89
+#: lib/web/results_live.sface:120
 #, elixir-autogen, elixir-format
 msgid "See all"
 msgstr ""
 
-#: lib/web/results_live.sface:64
+#: lib/web/results_live.sface:65
 #, elixir-autogen, elixir-format
 msgid "That's all the search results!"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search/ https://campground.bonfire.cafe/search
 #: lib/web/widgets/filters_search_live.sface:25
 #, elixir-autogen, elixir-format
 msgid "Users"
@@ -188,4 +177,9 @@ msgstr ""
 #: lib/web/search_live_handler.ex:333
 #, elixir-autogen, elixir-format
 msgid "This instance only federates with allow-listed servers, so that profile or post may not be reachable."
+msgstr ""
+
+#: lib/web/widgets/filters_search_live.sface:109
+#, elixir-autogen, elixir-format
+msgid "Search visibility"
 msgstr ""

@@ -21,7 +21,6 @@ msgstr ""
 msgid "Download Markdown"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWY7V7RSACAM7ZT3FK406B9 https://campground.bonfire.cafe/post/01KVWY7TM71P9VS19R3SC6X313 https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R https://campground.bonfire.cafe/post/01KVWY1BS1XF75MAVR1RJW80XK
 #: lib/components/download_markdown/download_mark_live.sface:2
 #: lib/components/download_markdown/download_mark_live.sface:40
 #, elixir-autogen, elixir-format
@@ -48,13 +47,11 @@ msgstr ""
 msgid "Include replies"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWY04PE3FJAEW9FS2V3NPR8 https://campground.bonfire.cafe/post/01KVWXZ355J1NPDFD6D6VPQH94 https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9 https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
 #: lib/views/post_live.ex:21
 #, elixir-autogen, elixir-format
 msgid "Post"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Closed_Group https://campground.bonfire.cafe/&Feed_Post_Group_for_Author https://campground.bonfire.cafe/&Feed_Post_Group_Public https://campground.bonfire.cafe/&Label_Test_Group
 #: lib/live_handlers/posts_live_handler.ex:109
 #, elixir-autogen, elixir-format
 msgid "Posted!"
@@ -65,13 +62,11 @@ msgstr ""
 msgid "Posts"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Closed_Group https://campground.bonfire.cafe/&Feed_Post_Group_for_Author https://campground.bonfire.cafe/&Feed_Post_Group_Public https://campground.bonfire.cafe/&Label_Test_Group
 #: lib/live_handlers/posts_live_handler.ex:109
 #, elixir-autogen, elixir-format
 msgid "Show"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWY04PE3FJAEW9FS2V3NPR8 https://campground.bonfire.cafe/post/01KVWXZ355J1NPDFD6D6VPQH94 https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9 https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
 #: lib/views/post_live.ex:10
 #: lib/views/post_live.ex:10
 #, elixir-autogen, elixir-format
@@ -82,4 +77,9 @@ msgstr ""
 #: lib/live_handlers/posts_live_handler.ex:126
 #, elixir-autogen, elixir-format
 msgid "Could not publish your post"
+msgstr ""
+
+#: lib/views/post_live.ex:7
+#, elixir-autogen, elixir-format
+msgid "UI for posts"
 msgstr ""

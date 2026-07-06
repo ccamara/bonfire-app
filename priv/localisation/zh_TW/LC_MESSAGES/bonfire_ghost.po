@@ -61,10 +61,10 @@ msgstr ""
 msgid "All %{total} Ghost tier(s) already in sync — nothing to update"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/appearance
-#. https://campground.bonfire.cafe/settings/instance/flags
+#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
 #. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_community_rules
+#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/web/components/ghost_settings_live.ex:16
 #: lib/web/components/ghost_settings_live.ex:16
 #: lib/web/components/ghost_settings_live.ex:16
@@ -83,6 +83,7 @@ msgstr "已停用"
 msgid "Email"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:90
 #: lib/web/components/ghost_settings_live.sface:100
 #, elixir-autogen, elixir-format
@@ -104,10 +105,10 @@ msgstr ""
 msgid "Free"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/appearance
-#. https://campground.bonfire.cafe/settings/instance/flags
+#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
 #. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_community_rules
+#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/web/components/ghost_settings_live.ex:14
 #, elixir-autogen, elixir-format
 msgid "Ghost"
@@ -123,10 +124,10 @@ msgstr ""
 msgid "Ghost Blog"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/appearance
-#. https://campground.bonfire.cafe/settings/instance/flags
+#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
 #. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_community_rules
+#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/integration.ex:36 lib/integration.ex:36
 #, elixir-autogen, elixir-format
 msgid "Ghost blog integration"
@@ -148,6 +149,7 @@ msgstr ""
 msgid "Joined"
 msgstr "已加入"
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:79
 #, elixir-autogen, elixir-format
 msgid "Language"
@@ -168,6 +170,7 @@ msgstr "載入更多"
 msgid "Loading posts..."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:87
 #: lib/web/components/ghost_settings_live.sface:276
 #, elixir-autogen, elixir-format
@@ -194,6 +197,7 @@ msgstr ""
 msgid "No posts found in your Ghost blog."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:97
 #, elixir-autogen, elixir-format
 msgid "Paid Tiers"
@@ -209,6 +213,7 @@ msgstr ""
 msgid "Read on Ghost"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:15
 #, elixir-autogen, elixir-format
 msgid "Refresh"
@@ -258,6 +263,7 @@ msgstr ""
 msgid "Syncing…"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:83
 #, elixir-autogen, elixir-format
 msgid "Timezone"
@@ -300,16 +306,19 @@ msgstr ""
 msgid "yr"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:134
 #, elixir-autogen, elixir-format
 msgid "External signup URL"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:118
 #, elixir-autogen, elixir-format
 msgid "Gated login (Ghost members only)"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:119
 #, elixir-autogen, elixir-format
 msgid ""
@@ -317,6 +326,7 @@ msgid ""
 "Ghost get a passwordless email link instead."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:135
 #, elixir-autogen, elixir-format
 msgid ""

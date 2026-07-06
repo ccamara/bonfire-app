@@ -455,10 +455,10 @@ msgstr "Tipos de publicação"
 msgid "Publication preview"
 msgstr "Prévia da publicação"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/feeds
-#. https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/&Featured_Group
+#. https://campground.bonfire.cafe/feed
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/login/forgot-password
 #: lib/runtime_config.ex:22 lib/web/routes.ex:17
 #, elixir-autogen, elixir-format
 msgid "Publications"
@@ -469,10 +469,10 @@ msgstr "Publicações"
 msgid "Submit"
 msgstr "Enviar"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/flags
+#. URLs: https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
+#. https://campground.bonfire.cafe/feed
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/settings/instance/bonfire_community_rules
-#. https://campground.bonfire.cafe/login/forgot-password
 #: lib/web/routes.ex:11 lib/web/routes.ex:11
 #, elixir-autogen, elixir-format
 msgid "The next generation of digital spaces for open science."

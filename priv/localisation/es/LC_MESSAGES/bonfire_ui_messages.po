@@ -19,8 +19,8 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
 #: lib/components/message_threads_live.sface:58
 #, elixir-autogen, elixir-format
@@ -43,24 +43,25 @@ msgstr ""
 msgid "Could not load more threads"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/&Featured_Group
 #. https://campground.bonfire.cafe/messages
-#. https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/local
 #: lib/views/messages_live.ex:13 lib/views/messages_live.ex:171
 #, elixir-autogen, elixir-format
 msgid "Direct Messages"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
-#: lib/components/message_threads_live.sface:251
+#: lib/components/message_threads_live.sface:257
 #, elixir-autogen, elixir-format
 msgid "Drop a line, write a direct message with other users in the fediverse."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
 #: lib/components/message_threads_live.sface:67
 #, elixir-autogen, elixir-format
@@ -68,22 +69,22 @@ msgid "Followed only"
 msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/messages
-#: lib/components/message_threads_live.sface:206
-#: lib/components/message_threads_live.sface:210
+#: lib/components/message_threads_live.sface:211
+#: lib/components/message_threads_live.sface:215
 #, elixir-autogen, elixir-format
 msgid "Me"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #: lib/live_handlers/messages_live_handler.ex:191
 #: lib/live_handlers/messages_live_handler.ex:208
 #, elixir-autogen, elixir-format
 msgid "Message"
 msgstr "Enviar un mensaje"
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Schmeler_Medhurst_and_Simonis
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Schowalter_Kshlerin
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
 #: lib/views/messages_live.ex:52 lib/views/messages_live.ex:123
 #: lib/views/messages_live.ex:123
@@ -91,8 +92,8 @@ msgstr "Enviar un mensaje"
 msgid "Messages"
 msgstr "Mensajes"
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
 #: lib/components/contact_picker_live.sface:14
 #: lib/components/message_threads_live.sface:16
@@ -101,14 +102,14 @@ msgstr "Mensajes"
 msgid "New message"
 msgstr ""
 
-#: lib/components/message_threads_live.sface:235
+#: lib/components/message_threads_live.sface:240
 #, elixir-autogen, elixir-format
 msgid "No conversations match your search"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Schmeler_Medhurst_and_Simonis
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Schowalter_Kshlerin
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
 #: lib/views/messages_live.ex:58
 #, elixir-autogen, elixir-format
@@ -125,8 +126,8 @@ msgstr ""
 msgid "Note to self"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
 #: lib/components/message_threads_live.sface:76
 #, elixir-autogen, elixir-format
@@ -144,16 +145,16 @@ msgstr ""
 msgid "Search for people to start a conversation"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
 #: lib/components/message_threads_live.sface:27
 #, elixir-autogen, elixir-format
 msgid "Search messages"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
 #: lib/components/message_threads_live.sface:31
 #, elixir-autogen, elixir-format
@@ -166,19 +167,19 @@ msgstr ""
 msgid "Search people..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Schmeler_Medhurst_and_Simonis
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Schowalter_Kshlerin
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
 #: lib/views/messages_live.ex:59
 #, elixir-autogen, elixir-format
 msgid "Select a thread or start a new one..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
-#: lib/components/message_threads_live.sface:258
+#: lib/components/message_threads_live.sface:264
 #, elixir-autogen, elixir-format
 msgid "Send a message"
 msgstr "Enviar un mensaje"
@@ -210,9 +211,10 @@ msgstr ""
 msgid "User %{username} not found"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/&Featured_Group
 #. https://campground.bonfire.cafe/messages
-#. https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/feed/local
 #: lib/views/messages_live.ex:10 lib/views/messages_live.ex:10
 #, elixir-autogen, elixir-format
 msgid "User interface for writing and reading private messages."
@@ -229,10 +231,10 @@ msgstr ""
 msgid "View more"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
-#: lib/components/message_threads_live.sface:249
+#: lib/components/message_threads_live.sface:255
 #, elixir-autogen, elixir-format
 msgid "Welcome to your inbox"
 msgstr ""
@@ -243,7 +245,6 @@ msgstr ""
 #: lib/components/contact_picker_live.sface:95
 #: lib/components/new_conversation_live.ex:15
 #: lib/components/new_conversation_live.ex:15
-#: lib/live_handlers/messages_live_handler.ex:458
 #, elixir-autogen, elixir-format
 msgid "someone"
 msgstr "alguien"
@@ -271,8 +272,8 @@ msgstr ""
 msgid "Could not send the message"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/messages/01KVFJ3Q42TA86MA5B2R6SGCTQ
-#. https://campground.bonfire.cafe/messages/@Pollich_Inc
+#. URLs: https://campground.bonfire.cafe/messages/01KVWY8XXGH829657QFRXGAKQE
+#. https://campground.bonfire.cafe/messages/@Bednar_Jast_and_Rogahn
 #. https://campground.bonfire.cafe/messages
 #: lib/components/message_threads_live.sface:19
 #, elixir-autogen, elixir-format

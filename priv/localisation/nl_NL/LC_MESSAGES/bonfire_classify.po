@@ -136,9 +136,9 @@ msgstr ""
 msgid "Join"
 msgstr "Lid worden"
 
-#. URLs: https://campground.bonfire.cafe/&Planning
-#. https://campground.bonfire.cafe/+Beta_topic
-#. https://campground.bonfire.cafe/+Alpha_topic
+#. URLs: https://campground.bonfire.cafe/&Join_Flow_Group/about
+#. https://campground.bonfire.cafe/&Member_Check_Group/about
+#. https://campground.bonfire.cafe/&My_Topic
 #. https://campground.bonfire.cafe/groups
 #: lib/web/components/category_actions/category_actions_live.sface:26
 #: lib/web/components/category_actions/join_button_live.sface:74
@@ -182,8 +182,8 @@ msgstr ""
 msgid "Please log in..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Archived_Discoverable_Group
-#. https://campground.bonfire.cafe/&Discoverable_Group
+#. URLs: https://campground.bonfire.cafe/&Discoverable_Group
+#. https://campground.bonfire.cafe/&Archived_Discoverable_Group
 #. https://campground.bonfire.cafe/&Gated_Private_Group
 #: lib/web/components/category_actions/join_button_live.sface:22
 #: lib/web/components/category_header_aside/category_header_aside_live.sface:143
@@ -234,10 +234,10 @@ msgstr ""
 msgid "Type the category name..."
 msgstr "Typ de naam van de categorie..."
 
-#. URLs: https://campground.bonfire.cafe/&Hero_Campfire_Group
-#. https://campground.bonfire.cafe/group/UI_Test_Group_176546
-#. https://campground.bonfire.cafe/group/Custom_Dims_46596
-#. https://campground.bonfire.cafe/group/Persistence_Test_174114
+#. URLs: https://campground.bonfire.cafe/&Announce_Channel
+#. https://campground.bonfire.cafe/&Regular_Group/settings
+#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. https://campground.bonfire.cafe/&Label_Test_Group
 #: lib/web/classify_live_handler.ex:90 lib/web/classify_live_handler.ex:90
 #: lib/web/components/hero/category_hero_live.sface:75
 #: lib/web/components/hero/category_hero_live.sface:75
@@ -263,19 +263,19 @@ msgstr ""
 msgid "Visit the original url"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Hero_Campfire_Group
-#. https://campground.bonfire.cafe/group/UI_Test_Group_176546
-#. https://campground.bonfire.cafe/group/Custom_Dims_46596
-#. https://campground.bonfire.cafe/group/Persistence_Test_174114
+#. URLs: https://campground.bonfire.cafe/&Announce_Channel
+#. https://campground.bonfire.cafe/&Regular_Group/settings
+#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. https://campground.bonfire.cafe/&Label_Test_Group
 #: lib/web/classify_live_handler.ex:252
 #, elixir-autogen, elixir-format
 msgid "follow"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Hero_Campfire_Group
-#. https://campground.bonfire.cafe/group/UI_Test_Group_176546
-#. https://campground.bonfire.cafe/group/Custom_Dims_46596
-#. https://campground.bonfire.cafe/group/Persistence_Test_174114
+#. URLs: https://campground.bonfire.cafe/&Announce_Channel
+#. https://campground.bonfire.cafe/&Regular_Group/settings
+#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. https://campground.bonfire.cafe/&Label_Test_Group
 #: lib/web/classify_live_handler.ex:98 lib/web/classify_live_handler.ex:151
 #, elixir-autogen, elixir-format
 msgid "Private"
@@ -358,18 +358,18 @@ msgstr ""
 msgid "Group shows in public lists and search."
 msgstr "Groep is zichtbaar in openbare lijsten en zoekresultaten."
 
-#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_Public
-#. https://campground.bonfire.cafe/&Open_Participation_Group
+#. URLs: https://campground.bonfire.cafe/&Open_Participation_Group
 #. https://campground.bonfire.cafe/&Join_Flow_Group/about
 #. https://campground.bonfire.cafe/&Member_Check_Group/about
+#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
 #: lib/web/components/category_actions/join_button_live.sface:22
 #, elixir-autogen, elixir-format
 msgid "Join group"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Planning
-#. https://campground.bonfire.cafe/+Beta_topic
-#. https://campground.bonfire.cafe/+Alpha_topic
+#. URLs: https://campground.bonfire.cafe/&Join_Flow_Group/about
+#. https://campground.bonfire.cafe/&Member_Check_Group/about
+#. https://campground.bonfire.cafe/&My_Topic
 #. https://campground.bonfire.cafe/groups
 #: lib/web/components/category_actions/join_button_live.sface:81
 #, elixir-autogen, elixir-format
@@ -381,7 +381,7 @@ msgstr "Verlaat de groep"
 msgid "Moderators review each join request."
 msgstr ""
 
-#: lib/categories.ex:777
+#: lib/categories.ex:788
 #, elixir-autogen, elixir-format
 msgid "Only admins can create groups"
 msgstr ""
@@ -439,10 +439,10 @@ msgstr ""
 msgid "Write in group"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Planning
-#. https://campground.bonfire.cafe/+Beta_topic
-#. https://campground.bonfire.cafe/+Alpha_topic
+#. URLs: https://campground.bonfire.cafe/&My_Topic
 #. https://campground.bonfire.cafe/groups
+#. https://campground.bonfire.cafe/&Gated_Private_Group
+#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
 #: lib/web/components/category_actions/join_button_live.sface:5
 #: lib/web/components/category_actions/join_button_live.sface:12
 #: lib/web/components/category_actions/join_button_live.sface:58
