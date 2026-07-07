@@ -766,7 +766,7 @@ msgstr ""
 msgid "No groups are pinned to everyone's sidebar yet."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Discover_Group https://campground.bonfire.cafe/&Admin_Cozy_Club https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/group/test5 https://campground.bonfire.cafe/&Discover_Group https://campground.bonfire.cafe/&Admin_Cozy_Club https://campground.bonfire.cafe/&Featured_Group
 #: lib/components/instance_sidebar_pin/instance_sidebar_pin_live.sface:25
 #, elixir-autogen, elixir-format
 msgid "Pin to everyone's sidebar"
@@ -808,7 +808,7 @@ msgstr ""
 msgid "Unarchive"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/group/oltan https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups https://campground.bonfire.cafe/&Featured_Group
 #: lib/components/instance_sidebar_pin/instance_sidebar_pin_live.sface:12
 #: lib/components/sidebar_groups_order/sidebar_groups_order_live.sface:34
 #: lib/components/sidebar_groups_order/sidebar_groups_order_live.sface:35

@@ -317,7 +317,7 @@ msgstr ""
 msgid "Completed"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/search
 #: lib/components/activity/object/cw/cw_live.sface:16
 #, elixir-autogen, elixir-format
 msgid "Content Warning"
@@ -1355,6 +1355,7 @@ msgstr ""
 msgid "Open in new tab"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/local
 #: lib/components/activity/media/remote_media_live.sface:119
 #: lib/components/activity/media/remote_media_live.sface:187
 #, elixir-autogen, elixir-format
@@ -1885,6 +1886,7 @@ msgstr ""
 msgid "There was an error when trying to verify the quote authorisation."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/local
 #: lib/components/activity/media/remote_media_live.sface:179
 #, elixir-autogen, elixir-format
 msgid "This audio cannot be previewed"
@@ -2476,7 +2478,7 @@ msgstr ""
 msgid "%{count} hidden"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KWVNJ0SN0CRJWZB23WXNQ0DJ https://campground.bonfire.cafe/discussion/01KWVNHZ4RMX4JTV1QGFPMYBSE
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/discussion/01KWVNJ0SN0CRJWZB23WXNQ0DJ https://campground.bonfire.cafe/discussion/01KWVNHZ4RMX4JTV1QGFPMYBSE
 #: lib/components/thread/thread_branch_live.sface:117
 #: lib/components/thread/thread_branch_live.sface:134
 #, elixir-autogen, elixir-format
@@ -2946,7 +2948,7 @@ msgstr ""
 msgid "read"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX https://campground.bonfire.cafe/discussion/01KWVNJ0SN0CRJWZB23WXNQ0DJ https://campground.bonfire.cafe/discussion/01KWVNHZ4RMX4JTV1QGFPMYBSE
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX https://campground.bonfire.cafe/discussion/01KWVNJ0SN0CRJWZB23WXNQ0DJ https://campground.bonfire.cafe/discussion/01KWVNHZ4RMX4JTV1QGFPMYBSE
 #: lib/components/activity/preview/discussion_preview_live.sface:34
 #: lib/components/thread/thread_branch_live.sface:126
 #: lib/components/widgets/widget_participants/widget_participants_live.sface:36
@@ -3560,7 +3562,7 @@ msgstr ""
 msgid "Tomorrow"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX
 #: lib/components/widgets/widget_participants/widget_participants_live.sface:10
 #: lib/components/widgets/widget_participants/widget_participants_live.sface:10
 #, elixir-autogen, elixir-format
@@ -3599,7 +3601,7 @@ msgstr ""
 msgid "Broadcast"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX
 #: lib/components/thread/thread_live.sface:184
 #, elixir-autogen, elixir-format
 msgid "Loading…"
