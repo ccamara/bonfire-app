@@ -94,6 +94,7 @@ msgstr ""
 msgid "An exceptional error occurred"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #: lib/components/settings/change_themes_live.sface:265
 #: lib/components/settings/change_themes_live.sface:343
 #: lib/components/settings/change_themes_live.sface:417
@@ -227,6 +228,7 @@ msgstr ""
 msgid "Collapse"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #: lib/components/settings/change_themes_live.sface:246
 #: lib/components/settings/change_themes_live.sface:324
 #: lib/components/settings/change_themes_live.sface:398
@@ -744,11 +746,13 @@ msgstr ""
 msgid "Minimize composer"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #: lib/components/settings/extra_locales_live.sface:48
 #, elixir-autogen, elixir-format
 msgid "Move %{locale} down"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #: lib/components/settings/extra_locales_live.sface:36
 #, elixir-autogen, elixir-format
 msgid "Move %{locale} up"
@@ -848,6 +852,7 @@ msgstr ""
 msgid "Open composer"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #: lib/components/settings/extra_locales_live.sface:6
 #, elixir-autogen, elixir-format
 msgid "Order the languages you understand by preference. Content will be shown in the first available language from your list."
@@ -975,6 +980,7 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #: lib/components/settings/extra_locales_live.sface:61
 #, elixir-autogen, elixir-format
 msgid "Remove %{locale}"
@@ -1124,7 +1130,7 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local_media https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/paginate/load_more_live.sface:41
 #, elixir-autogen, elixir-format
 msgid "Show %{num} more"
@@ -1314,6 +1320,7 @@ msgstr ""
 msgid "The name to display for this instance."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #: lib/components/settings/settings_live_handler.ex:81
 #, elixir-autogen, elixir-format
 msgid "Theme changed and loaded :-)"
@@ -2035,6 +2042,7 @@ msgstr ""
 msgid "Accept quote"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #: lib/components/nav/user_menu/user_menu_live.sface:25
 #: lib/components/nav/user_menu/user_menu_live.sface:25
 #, elixir-autogen, elixir-format

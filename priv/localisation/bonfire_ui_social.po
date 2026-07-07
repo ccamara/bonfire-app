@@ -1706,6 +1706,7 @@ msgstr ""
 msgid "Shared!"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/local_media
 #: lib/components/activity/media/trending_media_actions_live.sface:29
 #, elixir-autogen, elixir-format
 msgid "Shares"
@@ -2455,7 +2456,7 @@ msgstr ""
 msgid "%{a} only · %{b} hidden"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local_media https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/feed_controls_live.sface:41
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.sface:52
 #, elixir-autogen, elixir-format
@@ -2658,7 +2659,7 @@ msgstr ""
 msgid "Liked by"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local_media https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/feed_controls_live.ex:63
 #, elixir-autogen, elixir-format
 msgid "Local only"
