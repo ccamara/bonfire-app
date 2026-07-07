@@ -144,7 +144,7 @@ msgstr ""
 msgid "Add an optional description to share more details about your site"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Considine_Paucek https://campground.bonfire.cafe/@clotilde_koch
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/switch-user https://campground.bonfire.cafe/@Considine_Paucek https://campground.bonfire.cafe/@clotilde_koch
 #: lib/components/profile/profile_hero/profile_hero_full_live.sface:206
 #: lib/components/profile/user_preview_live.sface:65
 #: lib/components/settings/members/member_live.sface:27
@@ -778,7 +778,7 @@ msgstr ""
 msgid "Email Configuration"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login https://campground.bonfire.cafe/signup
+#. URLs: https://campground.bonfire.cafe/login/ https://campground.bonfire.cafe/login https://campground.bonfire.cafe/signup
 #: lib/components/login/login_view_live.sface:20
 #: lib/components/signup/signup_form_live.sface:96
 #, elixir-autogen, elixir-format
@@ -1245,7 +1245,7 @@ msgstr ""
 msgid "Icon changed!"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/settings/instance
 #: lib/components/settings/nav_sidebar/instance_sidebar_settings_nav_live.sface:441
 #, elixir-autogen, elixir-format
 msgid "Icons"
@@ -1262,6 +1262,7 @@ msgstr ""
 msgid "If you are sure you want to delete your user, please enter your password below to confirm."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/live_handlers/profiles_live_handler.ex:550
 #, elixir-autogen, elixir-format
 msgid "Image changed!"
@@ -1409,7 +1410,7 @@ msgstr ""
 msgid "Invites"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/@test
 #: lib/components/profile/profile_hero/profile_stats_live.sface:41
 #, elixir-autogen, elixir-format
 msgid "Joined"
@@ -2030,7 +2031,7 @@ msgstr ""
 msgid "Preparing your archive... You will notified here when it is ready to download (you can continue browsing Bonfire but please keep it open)."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/about
+#. URLs: https://campground.bonfire.cafe/login/ https://campground.bonfire.cafe/login https://campground.bonfire.cafe/about
 #: lib/components/settings/instance/config/instance_summary_live.sface:298
 #: lib/views/login/login_live.sface:69
 #: lib/views/signup/signup_live.sface:116
@@ -2326,7 +2327,7 @@ msgstr ""
 msgid "SendGrid"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login https://campground.bonfire.cafe/login/forgot-password
+#. URLs: https://campground.bonfire.cafe/login/ https://campground.bonfire.cafe/login https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/login/login_view_live.sface:38
 #: lib/views/forgot_password/forgot_password_live.sface:124
 #, elixir-autogen, elixir-format
@@ -2497,7 +2498,7 @@ msgstr ""
 msgid "Sign in"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login https://campground.bonfire.cafe/signup
+#. URLs: https://campground.bonfire.cafe/login/ https://campground.bonfire.cafe/login https://campground.bonfire.cafe/signup
 #: lib/components/login/login_view_live.sface:50
 #: lib/components/login/login_view_live.sface:219
 #: lib/components/signup/signup_form_live.sface:213
@@ -2875,7 +2876,7 @@ msgstr ""
 msgid "User timeline"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance https://campground.bonfire.cafe/settings/instance/configuration
+#. URLs: https://campground.bonfire.cafe/login/ https://campground.bonfire.cafe/login https://campground.bonfire.cafe/settings/instance https://campground.bonfire.cafe/settings/instance/configuration
 #: lib/components/settings/instance/config/instance_config_live.sface:135
 #: lib/views/login/login_live.sface:71
 #: lib/views/signup/signup_live.sface:118
@@ -2972,7 +2973,7 @@ msgstr ""
 msgid "Welcome Title"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/login/forgot-password/A77LH7WJNAZCHU5VIRM7UG66VU https://campground.bonfire.cafe/login/forgot-password/RW5QUDEMVGPYJKZPFX2TLDZU2A https://campground.bonfire.cafe/login
 #: lib/views/login/login_controller.ex:64
 #, elixir-autogen, elixir-format
 msgid "Welcome back!"
@@ -3224,14 +3225,14 @@ msgstr ""
 msgid "follow"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/@test
 #: lib/components/profile/profile_hero/profile_stats_live.sface:22
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:74
 #, elixir-autogen, elixir-format
 msgid "followers"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/@test
 #: lib/components/profile/profile_hero/profile_stats_live.sface:32
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:84
 #, elixir-autogen, elixir-format
@@ -3268,7 +3269,7 @@ msgstr ""
 msgid "please try again."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/@test
 #: lib/components/profile/profile_hero/profile_stats_live.sface:12
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:54
 #, elixir-autogen, elixir-format
@@ -3427,6 +3428,7 @@ msgstr ""
 msgid "Add a visual separator between sidebar navigation sections (Feeds, Circles, Groups)."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/links/profile_links_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "Also on"
@@ -3437,6 +3439,7 @@ msgstr ""
 msgid "Are you a fediverse user?"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:62
 #, elixir-autogen, elixir-format
 msgid "Auth page logo"
@@ -3465,6 +3468,7 @@ msgstr ""
 msgid "Choose a profile"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:10
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:15
 #, elixir-autogen, elixir-format
@@ -3477,6 +3481,7 @@ msgstr ""
 msgid "Click to copy username"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/login/ https://campground.bonfire.cafe/login
 #: lib/views/login/login_live.sface:67
 #: lib/views/signup/signup_live.sface:114
 #, elixir-autogen, elixir-format
@@ -3586,6 +3591,7 @@ msgstr ""
 msgid "Hidden"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/login/forgot-password
 #: lib/views/forgot_password/forgot_password_live.sface:41
 #, elixir-autogen, elixir-format
 msgid "If your email is on our list, your link is on its way. No password needed, one click and you're in."
@@ -3619,6 +3625,7 @@ msgstr ""
 msgid "Interact remotely"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:28
 #, elixir-autogen, elixir-format
 msgid "Left panel background image"
@@ -3635,6 +3642,7 @@ msgstr ""
 msgid "Links shown to visitors on the guest homepage (e.g., forum, chat, documentation)."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:9
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:14
 #, elixir-autogen, elixir-format
@@ -3653,6 +3661,7 @@ msgstr ""
 msgid "Maximum number of nested reply levels to display before keeping them at the same indentation level"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "Minimal"
@@ -3684,6 +3693,7 @@ msgstr ""
 msgid "Open navigation sidebar"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/upload_auth_background_live.sface:33
 #, elixir-autogen, elixir-format
 msgid "PNG, JPG, GIF, WebP up to %{size} MB"
@@ -3742,7 +3752,7 @@ msgstr ""
 msgid "Send it again"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/login/ https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:40
 #: lib/views/forgot_password/forgot_password_live.sface:129
 #, elixir-autogen, elixir-format
@@ -3787,32 +3797,37 @@ msgstr ""
 msgid "This sign-in link is invalid or has expired. Please request a new one."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Considine_Paucek https://campground.bonfire.cafe/@clotilde_koch
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/@Considine_Paucek https://campground.bonfire.cafe/@clotilde_koch
 #: lib/components/profile/profile_hero/profile_hero_full_live.sface:203
 #, elixir-autogen, elixir-format
 msgid "This user is an instance administrator"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "Two panels"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/upload_auth_background_live.sface:22
 #, elixir-autogen, elixir-format
 msgid "Upload a background image"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:29
 #, elixir-autogen, elixir-format
 msgid "Upload a custom image for the left panel of the login and signup pages."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:63
 #, elixir-autogen, elixir-format
 msgid "Upload a custom logo for the login and signup pages. Defaults to the instance icon if not set."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance
 #: lib/components/settings/instance/config/instance_config_live.sface:220
 #, elixir-autogen, elixir-format
 msgid "Upload divider image"
@@ -3824,12 +3839,13 @@ msgstr ""
 msgid "We sent a reset link to"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/login/forgot-password
 #: lib/views/forgot_password/forgot_password_live.sface:33
 #, elixir-autogen, elixir-format
 msgid "We sent a sign-in link to"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/login/ https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:55
 #, elixir-autogen, elixir-format
 msgid "We'll email you a one-time link to sign in. No password needed."
@@ -3885,6 +3901,7 @@ msgstr ""
 msgid "Your profiles"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/upload_auth_background_live.sface:23
 #, elixir-autogen, elixir-format
 msgid "or drag and drop"
@@ -3906,6 +3923,7 @@ msgstr ""
 msgid "Avatar removed!"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/profile
 #: lib/live_handlers/profiles_live_handler.ex:68
 #, elixir-autogen, elixir-format
 msgid "Background image removed!"
@@ -4368,6 +4386,7 @@ msgstr ""
 msgid "Please confirm the required acknowledgements before creating your profile."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:44
 #, elixir-autogen, elixir-format
 msgid "Project branding image"
@@ -4385,6 +4404,7 @@ msgstr ""
 msgid "UI for accounts, user profiles and settings"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:45
 #, elixir-autogen, elixir-format
 msgid "Upload a custom PNG wordmark or project name image for the login and signup pages."

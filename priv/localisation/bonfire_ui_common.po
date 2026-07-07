@@ -623,7 +623,7 @@ msgstr ""
 msgid "Instance logo"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/users https://campground.bonfire.cafe/known_instances
+#. URLs: https://campground.bonfire.cafe/conduct https://campground.bonfire.cafe/about https://campground.bonfire.cafe/users https://campground.bonfire.cafe/known_instances
 #: lib/components/nav/header/guest_actions_live.sface:41
 #: lib/components/nav/header/guest_header_live.sface:72
 #, elixir-autogen, elixir-format
@@ -729,7 +729,7 @@ msgstr ""
 msgid "Maximum number of files that can be uploaded at once."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/users https://campground.bonfire.cafe/known_instances
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/login https://campground.bonfire.cafe/users https://campground.bonfire.cafe/known_instances
 #: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:81
 #, elixir-autogen, elixir-format
 msgid "Members"
@@ -1130,7 +1130,7 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local_media https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/local_media https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/paginate/load_more_live.sface:41
 #, elixir-autogen, elixir-format
 msgid "Show %{num} more"
@@ -1559,13 +1559,13 @@ msgstr ""
 msgid "close"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1219
 #, elixir-autogen, elixir-format
 msgid "Loading messages"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1221
 #, elixir-autogen, elixir-format
 msgid "Some short messages to show (picked randomly each time) when the page or something is loading."
@@ -1760,7 +1760,7 @@ msgstr ""
 msgid "Open language preferences in a new tab"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1209
 #, elixir-autogen, elixir-format
 msgid "Another world is loading..."
@@ -1772,13 +1772,13 @@ msgstr ""
 msgid "Archipelago federation enabled"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1216
 #, elixir-autogen, elixir-format
 msgid "Building solidarity networks..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1208
 #, elixir-autogen, elixir-format
 msgid "Communing with the fediverse..."
@@ -1789,7 +1789,7 @@ msgstr ""
 msgid "Content warning"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1212
 #, elixir-autogen, elixir-format
 msgid "Decentralising all the things..."
@@ -1800,13 +1800,13 @@ msgstr ""
 msgid "In %{name}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1215
 #, elixir-autogen, elixir-format
 msgid "Liberating your data..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1211
 #, elixir-autogen, elixir-format
 msgid "Manifesting digital commons..."
@@ -1833,13 +1833,13 @@ msgstr ""
 msgid "Open menu"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1217
 #, elixir-autogen, elixir-format
 msgid "Organising the bits..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1214
 #, elixir-autogen, elixir-format
 msgid "Queering the database..."
@@ -1877,13 +1877,13 @@ msgstr ""
 msgid "Search keys or default values..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1210
 #, elixir-autogen, elixir-format
 msgid "Seizing the means of communication..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/@test https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/ui_common.ex:1213
 #, elixir-autogen, elixir-format
 msgid "Tuning into the mycelial network..."
@@ -2042,7 +2042,7 @@ msgstr ""
 msgid "Accept quote"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. URLs: https://campground.bonfire.cafe/settings/user/profile https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #: lib/components/nav/user_menu/user_menu_live.sface:25
 #: lib/components/nav/user_menu/user_menu_live.sface:25
 #, elixir-autogen, elixir-format

@@ -69,19 +69,19 @@ msgstr ""
 msgid "Number of days to include when calculating trending tags."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/events https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/events https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
 #: lib/tag.ex:160
 #, elixir-autogen, elixir-format
 msgid "Set object IDs to exclude."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/events https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/events https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
 #: lib/tag.ex:152
 #, elixir-autogen, elixir-format
 msgid "Set object types to exclude."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/events https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/events https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
 #: lib/tag.ex:144
 #, elixir-autogen, elixir-format
 msgid "Set object types to include."
@@ -113,7 +113,7 @@ msgstr ""
 msgid "Tagged!"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/events https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/events https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
 #: lib/tag.ex:143
 #: lib/tag.ex:151
 #: lib/tag.ex:159

@@ -11,6 +11,7 @@
 msgid ""
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/local
 #: lib/web/components/preview/question_live.ex:306
 #: lib/web/components/preview/question_live.ex:398
 #: lib/web/components/preview/question_live.ex:402
@@ -34,6 +35,7 @@ msgstr ""
 msgid "Create a poll"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.sface:455
 #, elixir-autogen, elixir-format
 msgid "Hide results"
@@ -54,6 +56,7 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.sface:445
 #: lib/web/components/preview/question_live.sface:454
 #, elixir-autogen, elixir-format
@@ -118,6 +121,7 @@ msgstr ""
 msgid "1 day"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.ex:325
 #, elixir-autogen, elixir-format
 msgid "1 day left"
@@ -144,6 +148,7 @@ msgid_plural "%{count} minutes left"
 msgstr[0] ""
 msgstr[1] ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.ex:333
 #, elixir-autogen, elixir-format
 msgid "1 vote"
@@ -216,6 +221,7 @@ msgstr ""
 msgid "Get a fast read on a question."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/local
 #: lib/contexts/presets.ex:47
 #: lib/web/components/preview/question_live.ex:349
 #, elixir-autogen, elixir-format
@@ -369,6 +375,7 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.sface:408
 #, elixir-autogen, elixir-format
 msgid "Sign in to vote"
@@ -439,6 +446,7 @@ msgstr ""
 msgid "Twice as much"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard
 #: lib/web/components/preview/question_live.sface:420
 #, elixir-autogen, elixir-format
 msgid "Voted"
@@ -484,6 +492,7 @@ msgstr ""
 msgid "Your suggestion"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard
 #: lib/web/components/preview/choice_live.sface:118
 #: lib/web/components/preview/choice_live.sface:237
 #, elixir-autogen, elixir-format
@@ -524,6 +533,7 @@ msgid_plural "%{count} neutral"
 msgstr[0] ""
 msgstr[1] ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/local
 #: lib/web/components/preview/choice_live.ex:80
 #, elixir-autogen, elixir-format
 msgid "1 reaction"
@@ -566,6 +576,7 @@ msgstr ""
 msgid "No consensus"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.ex:395
 #, elixir-autogen, elixir-format
 msgid "Open"
@@ -598,6 +609,7 @@ msgstr ""
 msgid "You need to sign in to vote."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
 #: lib/web/components/preview/choice_live.sface:51
 #: lib/web/components/preview/choice_live.sface:225
 #, elixir-autogen, elixir-format
