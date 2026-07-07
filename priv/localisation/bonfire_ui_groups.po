@@ -180,7 +180,7 @@ msgstr ""
 msgid "Topics"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/groups https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/groups https://campground.bonfire.cafe/dashboard
 #: lib/components/preview/group_live.ex:19
 #, elixir-autogen, elixir-format
 msgid "Unnamed group"
