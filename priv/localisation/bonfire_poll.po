@@ -35,7 +35,7 @@ msgstr ""
 msgid "Create a poll"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.sface:455
 #, elixir-autogen, elixir-format
 msgid "Hide results"
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.sface:445
 #: lib/web/components/preview/question_live.sface:454
 #, elixir-autogen, elixir-format
@@ -96,6 +96,7 @@ msgstr ""
 msgid "Thanks for participating!"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/local
 #: lib/web/components/preview/question_live.sface:434
 #, elixir-autogen, elixir-format
 msgid "Vote"
@@ -121,7 +122,7 @@ msgstr ""
 msgid "1 day"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/
+#. URLs: https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.ex:325
 #, elixir-autogen, elixir-format
 msgid "1 day left"
@@ -148,7 +149,7 @@ msgid_plural "%{count} minutes left"
 msgstr[0] ""
 msgstr[1] ""
 
-#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/
+#. URLs: https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.ex:333
 #, elixir-autogen, elixir-format
 msgid "1 vote"
@@ -253,6 +254,7 @@ msgstr ""
 msgid "Make a 'concerned' or 'disagree' vote count for more than a 'great' vote."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/local
 #: lib/web/components/preview/question_live.ex:350
 #: lib/web/components/tuning_toggles_live.sface:74
 #, elixir-autogen, elixir-format
@@ -446,7 +448,7 @@ msgstr ""
 msgid "Twice as much"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard
 #: lib/web/components/preview/question_live.sface:420
 #, elixir-autogen, elixir-format
 msgid "Voted"
@@ -492,7 +494,7 @@ msgstr ""
 msgid "Your suggestion"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard
 #: lib/web/components/preview/choice_live.sface:118
 #: lib/web/components/preview/choice_live.sface:237
 #, elixir-autogen, elixir-format
@@ -576,7 +578,7 @@ msgstr ""
 msgid "No consensus"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/
+#. URLs: https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.ex:395
 #, elixir-autogen, elixir-format
 msgid "Open"
@@ -609,7 +611,7 @@ msgstr ""
 msgid "You need to sign in to vote."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
 #: lib/web/components/preview/choice_live.sface:51
 #: lib/web/components/preview/choice_live.sface:225
 #, elixir-autogen, elixir-format

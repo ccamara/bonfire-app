@@ -76,6 +76,7 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:464
 #, elixir-autogen, elixir-format
 msgid "Error"
@@ -115,6 +116,7 @@ msgstr ""
 msgid "Ghost blog integration"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:30
 #: lib/web/views/ghost_posts_live.sface:23
 #, elixir-autogen, elixir-format
@@ -202,6 +204,7 @@ msgstr ""
 msgid "Set GHOST_ADMIN_API_KEY to access member data"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Set the following environment variables to connect your Ghost blog:"

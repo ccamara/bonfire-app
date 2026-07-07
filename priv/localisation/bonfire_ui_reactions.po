@@ -47,7 +47,7 @@ msgstr ""
 msgid "Boost or quote"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/feed/local
 #: lib/components/boost/boost_action_live.sface:38
 #, elixir-autogen, elixir-format
 msgid "Boosted"
@@ -182,7 +182,7 @@ msgstr ""
 msgid "Reaction sent to author"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
 #: lib/components/bookmark/bookmark_action_live.sface:9
 #, elixir-autogen, elixir-format
 msgid "Remove bookmark"
