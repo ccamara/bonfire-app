@@ -180,7 +180,7 @@ msgstr ""
 msgid "Topics"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/groups https://campground.bonfire.cafe/dashboard
+#. URLs: https://campground.bonfire.cafe/group/Solarpunk_Book_club https://campground.bonfire.cafe/ https://campground.bonfire.cafe/groups https://campground.bonfire.cafe/dashboard
 #: lib/components/preview/group_live.ex:19
 #, elixir-autogen, elixir-format
 msgid "Unnamed group"
@@ -808,7 +808,7 @@ msgstr ""
 msgid "Unarchive"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/group/oltan https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/group/jjjjj https://campground.bonfire.cafe/group/oltan https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups https://campground.bonfire.cafe/&Featured_Group
 #: lib/components/instance_sidebar_pin/instance_sidebar_pin_live.sface:12
 #: lib/components/sidebar_groups_order/sidebar_groups_order_live.sface:34
 #: lib/components/sidebar_groups_order/sidebar_groups_order_live.sface:35

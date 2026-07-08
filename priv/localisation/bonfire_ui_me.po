@@ -4171,13 +4171,13 @@ msgstr ""
 msgid "Note: You can also delete [your entire account](/settings/account) and all associated users instead."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/group/oltan https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/group/jjjjj https://campground.bonfire.cafe/group/oltan https://campground.bonfire.cafe/&Featured_Group
 #: lib/components/profile/profile_hero/hero_more_actions_live.sface:122
 #, elixir-autogen, elixir-format
 msgid "Pinned by admins"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/group/oltan https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/group/jjjjj https://campground.bonfire.cafe/group/oltan https://campground.bonfire.cafe/&Featured_Group
 #: lib/components/profile/profile_hero/hero_more_actions_live.sface:120
 #, elixir-autogen, elixir-format
 msgid "This group is pinned to everyone's sidebar by the admins"
