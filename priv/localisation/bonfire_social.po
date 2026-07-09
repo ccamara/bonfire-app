@@ -108,7 +108,7 @@ msgstr ""
 msgid "Context Preload Rules"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KWVNTQGNF1Q9V1EDZTEETY1F
+#. URLs: https://campground.bonfire.cafe/post/01KX324JX5D1E61MCVCT7TXT2A https://campground.bonfire.cafe/post/01KX318J0EC7BY3C0SB5EVT8KN https://campground.bonfire.cafe/post/01KWVNTQGNF1Q9V1EDZTEETY1F
 #: lib/quotes.ex:800
 #, elixir-autogen, elixir-format
 msgid "Could not federate the quote request"
@@ -446,7 +446,7 @@ msgstr ""
 msgid "Sorry, that language code is not supported, please select another or ask the instance operators or app maintainers if they can add it."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KWVNFH1QEJH8ZCWX36EQYEYJ
+#. URLs: https://campground.bonfire.cafe/post/01KX328VK87QK3230JG0485MDF https://campground.bonfire.cafe/post/01KX319V54M9EGNCE9DH9EC3A2 https://campground.bonfire.cafe/post/01KWVNFH1QEJH8ZCWX36EQYEYJ
 #: lib/boosts.ex:127
 #: lib/boosts.ex:127
 #: lib/boosts.ex:145

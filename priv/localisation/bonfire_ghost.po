@@ -65,6 +65,7 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/settings/user/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:402
 #, elixir-autogen, elixir-format
 msgid "Email"
@@ -128,6 +129,7 @@ msgstr ""
 msgid "Ghost tier sync failed: %{reason}"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/settings/user/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:406
 #, elixir-autogen, elixir-format
 msgid "Joined"
@@ -153,6 +155,7 @@ msgstr ""
 msgid "Loading posts..."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:87
 #: lib/web/components/ghost_settings_live.sface:370
 #, elixir-autogen, elixir-format
@@ -164,6 +167,7 @@ msgstr ""
 msgid "Membership Tiers"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/settings/user/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:403
 #, elixir-autogen, elixir-format
 msgid "Name"
@@ -210,16 +214,19 @@ msgstr ""
 msgid "Set the following environment variables to connect your Ghost blog:"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/settings/user/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:404
 #, elixir-autogen, elixir-format
 msgid "Status"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/settings/user/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:405
 #, elixir-autogen, elixir-format
 msgid "Subscribed"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/components/ghost_settings_live.sface:277
 #, elixir-autogen, elixir-format
 msgid "Sync tiers"
@@ -230,6 +237,7 @@ msgstr ""
 msgid "Synced %{total} Ghost tier(s) with %{errors} error(s): %{created} new, %{updated} refreshed, %{unchanged} unchanged, %{archived} archived"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
 #: lib/web/live_handler.ex:206
 #, elixir-autogen, elixir-format
 msgid "Synced %{total} Ghost tier(s): %{created} new, %{updated} refreshed, %{unchanged} unchanged, %{archived} archived"

@@ -173,7 +173,7 @@ msgstr ""
 msgid "this %{object}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Donnelly_Inc https://campground.bonfire.cafe/@alice_followed/followers
+#. URLs: https://campground.bonfire.cafe/@Paucek_Waelchi https://campground.bonfire.cafe/@Gorczany_Botsford_and_Welch https://campground.bonfire.cafe/@Donnelly_Inc https://campground.bonfire.cafe/@alice_followed/followers
 #: lib/components/action/flag_action_live.sface:7
 #, elixir-autogen, elixir-format
 msgid "this activity or user"

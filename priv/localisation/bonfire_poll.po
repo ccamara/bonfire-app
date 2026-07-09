@@ -35,7 +35,7 @@ msgstr ""
 msgid "Create a poll"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/
+#. URLs: https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.sface:455
 #, elixir-autogen, elixir-format
 msgid "Hide results"
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/
+#. URLs: https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.sface:445
 #: lib/web/components/preview/question_live.sface:454
 #, elixir-autogen, elixir-format
@@ -96,7 +96,7 @@ msgstr ""
 msgid "Thanks for participating!"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/feed/local
 #: lib/web/components/preview/question_live.sface:434
 #, elixir-autogen, elixir-format
 msgid "Vote"
@@ -142,6 +142,7 @@ msgid_plural "%{count} hours left"
 msgstr[0] ""
 msgstr[1] ""
 
+#. URLs: https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
 #: lib/web/components/preview/question_live.ex:317
 #, elixir-autogen, elixir-format
 msgid "1 minute left"
@@ -377,7 +378,7 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/
+#. URLs: https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed https://campground.bonfire.cafe/
 #: lib/web/components/preview/question_live.sface:408
 #, elixir-autogen, elixir-format
 msgid "Sign in to vote"
