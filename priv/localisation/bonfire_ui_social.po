@@ -457,7 +457,6 @@ msgstr ""
 msgid "Deleting from feeds means this %{verb} and this %{object} still exist, but this activity won't be discoverable via the local instance's feeds. Remote feeds won't be affected."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/profile https://campground.bonfire.cafe/settings
 #: lib/components/activity/actions/delete_object_live.sface:47
 #, elixir-autogen, elixir-format
 msgid "Deleting..."
@@ -544,7 +543,6 @@ msgstr ""
 msgid "Enable infinite scrolling in feeds, or choose a hybrid approach."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/profile https://campground.bonfire.cafe/settings
 #: lib/components/activity/actions/delete_object_live.sface:19
 #, elixir-autogen, elixir-format
 msgid "Enter password to confirm"
@@ -729,7 +727,6 @@ msgstr ""
 msgid "Follows"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/profile https://campground.bonfire.cafe/settings
 #: lib/components/activity/actions/delete_object_live.sface:21
 #, elixir-autogen, elixir-format
 msgid "For security purposes please enter the password of your account"
@@ -2401,6 +2398,7 @@ msgstr ""
 msgid "reacted to your activity"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard
 #: lib/components/activity/preview/discussion_preview_live.sface:34
 #: lib/live_handlers/threads_live_handler.ex:383
 #, elixir-autogen, elixir-format
@@ -2419,6 +2417,7 @@ msgstr ""
 msgid "scheduled for %{date}"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/dashboard
 #: lib/live_handlers/threads_live_handler.ex:424
 #: lib/live_handlers/threads_live_handler.ex:424
 #, elixir-autogen, elixir-format
@@ -3188,7 +3187,6 @@ msgstr ""
 msgid "The author has limited who can reply to this post."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/profile https://campground.bonfire.cafe/settings
 #: lib/components/activity/actions/delete_object_live.sface:26
 #: lib/components/settings/import_export/import_live.sface:155
 #, elixir-autogen, elixir-format
@@ -3602,7 +3600,7 @@ msgstr ""
 msgid "Tomorrow"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX
+#. URLs: https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX
 #: lib/components/widgets/widget_participants/widget_participants_live.sface:10
 #: lib/components/widgets/widget_participants/widget_participants_live.sface:10
 #, elixir-autogen, elixir-format
@@ -3642,7 +3640,7 @@ msgstr ""
 msgid "Broadcast"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX
+#. URLs: https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/discussion/01KWW0MZ8AGW84E9B9C5BDM9ZX
 #: lib/components/thread/thread_live.sface:184
 #, elixir-autogen, elixir-format
 msgid "Loading…"
