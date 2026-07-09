@@ -73,7 +73,7 @@ msgstr ""
 msgid "Existing custom emoji"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/settings https://campground.bonfire.cafe/settings/user/profile
 #: lib/definitions/icon_uploader.ex:25
 #, elixir-autogen, elixir-format
 msgid "Icon/avatar max size"
@@ -122,7 +122,7 @@ msgstr ""
 msgid "Set a maximum width for automatically resizing banner images"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/settings https://campground.bonfire.cafe/settings/user/profile
 #: lib/definitions/icon_uploader.ex:27
 #, elixir-autogen, elixir-format
 msgid "Set a maximum width/height for automatically resizing avatar or icon images"

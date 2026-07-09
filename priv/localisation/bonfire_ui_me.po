@@ -108,6 +108,7 @@ msgstr ""
 msgid "Accept"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/create-user/team https://campground.bonfire.cafe/settings/user/shared_user
 #: lib/live_handlers/users_live_handler.ex:81
 #, elixir-autogen, elixir-format
 msgid "Access granted to the team!"
@@ -215,6 +216,7 @@ msgstr ""
 msgid "An unexpected error occured... "
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/shared_user
 #: lib/components/settings/shared_user/shared_user_live.sface:9
 #, elixir-autogen, elixir-format
 msgid "Anyone you add will have admin-level access over this user identity, meaning they can post as @%{username}, read private messages, etc. You might want to %{a} first create a new user %{b} for this purpose?"
@@ -243,7 +245,7 @@ msgstr ""
 msgid "Available fonts for the user interface."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/settings https://campground.bonfire.cafe/settings/user/profile
 #: lib/live_handlers/profiles_live_handler.ex:99
 #, elixir-autogen, elixir-format
 msgid "Avatar changed!"
@@ -657,6 +659,7 @@ msgstr ""
 msgid "Deleting your user profile will remove all associated data from this server. This includes all posts, comments, and any other data associated with this user profile. It will also send requests to delete your data to other fediverse servers."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/deleted/user/01KX3BMYNB1E27R8DTTWEJEC3D https://campground.bonfire.cafe/settings/deleted/user/01KCXN2SSTX74C2M76XGNA8XA2
 #: lib/views/deletion/deleted_live.ex:14
 #, elixir-autogen, elixir-format
 msgid "Deletion in progress"
@@ -763,6 +766,7 @@ msgstr ""
 msgid "Edit profile"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/shared_user
 #: lib/components/settings/shared_user/shared_user_live.sface:26
 #, elixir-autogen, elixir-format
 msgid "Eg. Team, Cooperative, Non-profit Organisation, or Moderation Team, ..."
@@ -1113,6 +1117,7 @@ msgstr ""
 msgid "Ghosted instance-wide"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/shared_user
 #: lib/components/settings/shared_user/shared_user_live.sface:4
 #, elixir-autogen, elixir-format
 msgid "Give access to the @%{username} user to your team"
@@ -1978,6 +1983,7 @@ msgstr ""
 msgid "Please note that a high limit may be desired in order to properly display nested threads"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/shared_user
 #: lib/components/settings/shared_user/shared_user_live.sface:48
 #, elixir-autogen, elixir-format
 msgid "Please note they need to already be signed up on this instance."
@@ -2366,11 +2372,13 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/shared_user
 #: lib/components/settings/shared_user/shared_user_live.sface:62
 #, elixir-autogen, elixir-format
 msgid "Share access"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/shared_user
 #: lib/components/settings/shared_user/shared_user_live.sface:42
 #, elixir-autogen, elixir-format
 msgid "Share full access to this user identity (@%{username}) with the following users."
@@ -2633,6 +2641,7 @@ msgstr ""
 msgid "Team Profiles"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/shared_user
 #: lib/views/settings/settings_live.ex:76
 #, elixir-autogen, elixir-format
 msgid "Team profiles"
@@ -2674,6 +2683,7 @@ msgstr ""
 msgid "That page is only accessible to instance administrators."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/deleted/user/01KX3BMYNB1E27R8DTTWEJEC3D https://campground.bonfire.cafe/settings/deleted/user/01KCXN2SSTX74C2M76XGNA8XA2
 #: lib/views/deletion/deleted_live.sface:2
 #, elixir-autogen, elixir-format
 msgid "The %{type} has been queued for deletion. Should be done in a few minutes... So long, and thanks for all the fish!"
@@ -3011,6 +3021,7 @@ msgstr ""
 msgid "What activities to include in home feeds by default"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/shared_user
 #: lib/components/settings/shared_user/shared_user_live.sface:23
 #, elixir-autogen, elixir-format
 msgid "What kind of team or organisation is it?"
@@ -3228,6 +3239,7 @@ msgstr ""
 msgid "days"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/deleted/user/01KX3BMYNB1E27R8DTTWEJEC3D https://campground.bonfire.cafe/settings/deleted/user/01KCXN2SSTX74C2M76XGNA8XA2
 #: lib/views/deletion/deleted_live.ex:13
 #, elixir-autogen, elixir-format
 msgid "deleted"
@@ -3326,6 +3338,7 @@ msgstr ""
 msgid "topics"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/deleted/user/01KX3BMYNB1E27R8DTTWEJEC3D https://campground.bonfire.cafe/settings/deleted/user/01KCXN2SSTX74C2M76XGNA8XA2
 #: lib/views/deletion/deleted_controller.ex:7
 #, elixir-autogen, elixir-format
 msgid "user"
@@ -3816,7 +3829,11 @@ msgstr ""
 msgid "This sign-in link is invalid or has expired. Please request a new one."
 msgstr ""
 
+<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/@Stoltenberg_Ltd https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/@Considine_Paucek https://campground.bonfire.cafe/@clotilde_koch
+=======
+#. URLs: https://campground.bonfire.cafe/@bonfire https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/@Considine_Paucek https://campground.bonfire.cafe/@clotilde_koch
+>>>>>>> 4635a5ae7d (https://github.com/bonfire-networks/bonfire-app/issues/2112)
 #: lib/components/profile/profile_hero/profile_hero_full_live.sface:203
 #, elixir-autogen, elixir-format
 msgid "This user is an instance administrator"
@@ -4063,6 +4080,7 @@ msgstr ""
 msgid "Please double check your inputs: "
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/shared_user
 #: lib/components/settings/shared_user/shared_user_live.sface:57
 #, elixir-autogen, elixir-format
 msgid "Enter their emails or usernames, comma seperated"

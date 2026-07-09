@@ -457,6 +457,7 @@ msgstr ""
 msgid "Deleting from feeds means this %{verb} and this %{object} still exist, but this activity won't be discoverable via the local instance's feeds. Remote feeds won't be affected."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/profile https://campground.bonfire.cafe/settings
 #: lib/components/activity/actions/delete_object_live.sface:47
 #, elixir-autogen, elixir-format
 msgid "Deleting..."
@@ -543,6 +544,7 @@ msgstr ""
 msgid "Enable infinite scrolling in feeds, or choose a hybrid approach."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/profile https://campground.bonfire.cafe/settings
 #: lib/components/activity/actions/delete_object_live.sface:19
 #, elixir-autogen, elixir-format
 msgid "Enter password to confirm"
@@ -727,6 +729,7 @@ msgstr ""
 msgid "Follows"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/profile https://campground.bonfire.cafe/settings
 #: lib/components/activity/actions/delete_object_live.sface:21
 #, elixir-autogen, elixir-format
 msgid "For security purposes please enter the password of your account"
@@ -3185,6 +3188,7 @@ msgstr ""
 msgid "The author has limited who can reply to this post."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/profile https://campground.bonfire.cafe/settings
 #: lib/components/activity/actions/delete_object_live.sface:26
 #: lib/components/settings/import_export/import_live.sface:155
 #, elixir-autogen, elixir-format
