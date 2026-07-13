@@ -370,6 +370,12 @@ msgstr ""
 msgid "Open Access"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/settings/user/profile https://campground.bonfire.cafe/login/forgot-password https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
+#: lib/web/routes.ex:8
+#, elixir-autogen, elixir-format
+msgid "Open Science"
+msgstr ""
+
 #: lib/web/widgets/author_info_live.sface:9
 #, elixir-autogen, elixir-format
 msgid "OpenAlex"
@@ -422,7 +428,7 @@ msgstr ""
 msgid "Submit"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/settings/user/profile https://campground.bonfire.cafe/login/forgot-password https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
 #: lib/web/routes.ex:11
 #: lib/web/routes.ex:11
 #, elixir-autogen, elixir-format
@@ -560,10 +566,4 @@ msgstr ""
 #: lib/notifications/doi_coauthor_notifications.ex:68
 #, elixir-autogen, elixir-format
 msgid "someone"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/flags https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed/local
-#: lib/web/routes.ex:8
-#, elixir-autogen, elixir-format
-msgid "Open Science"
 msgstr ""

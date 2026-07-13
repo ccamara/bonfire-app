@@ -1321,9 +1321,13 @@ config :bonfire_files, Media,
          foreign_key: :newest_activity_id
        )
 
-       # [multi]mixins 
+       # [multi]mixins
        # , :boost_count, :like_count
-       unquote_splicing(common.([:controlled, :created, :activity, :caretaker, :peered]))
+       # :replied + :tags so media can participate in reply threading and mention/tag people
+       # (e.g. Feeds.target_feeds preloads both when publishing)
+       unquote_splicing(
+         common.([:controlled, :created, :activity, :caretaker, :peered, :replied, :tags])
+       )
      end)
 
 config :bonfire_tag, Tagged,

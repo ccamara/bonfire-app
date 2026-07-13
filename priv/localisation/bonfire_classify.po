@@ -11,10 +11,30 @@
 msgid ""
 msgstr ""
 
+#: lib/web/components/settings/settings_live.sface:27
+#, elixir-autogen, elixir-format
+msgid "A short description to help you remember what this topic is about"
+msgstr ""
+
 #: lib/web/components/nav/categories_sidebar_live.sface:12
 #: lib/web/components/nav/topics_nav/topics_nav_live.sface:10
 #, elixir-autogen, elixir-format
 msgid "All topics"
+msgstr ""
+
+#: lib/runtime_config.ex:113
+#, elixir-autogen, elixir-format
+msgid "Announcement channel"
+msgstr ""
+
+#: lib/runtime_config.ex:77
+#, elixir-autogen, elixir-format
+msgid "Any eligible user can post, not just members."
+msgstr ""
+
+#: lib/runtime_config.ex:76
+#, elixir-autogen, elixir-format
+msgid "Anyone can post"
 msgstr ""
 
 #: lib/web/components/settings/settings_live.sface:49
@@ -29,6 +49,21 @@ msgstr ""
 msgid "Archive this topic"
 msgstr ""
 
+#: lib/web/classify_live_handler.ex:723
+#, elixir-autogen, elixir-format
+msgid "Archived"
+msgstr ""
+
+#: lib/web/classify_live_handler.ex:713
+#, elixir-autogen, elixir-format
+msgid "Auto-join disabled."
+msgstr ""
+
+#: lib/web/classify_live_handler.ex:708
+#, elixir-autogen, elixir-format
+msgid "Auto-join enabled."
+msgstr ""
+
 #: lib/web/classify_live_handler.ex:781
 #, elixir-autogen, elixir-format
 msgid "Background image changed!"
@@ -41,16 +76,41 @@ msgstr ""
 msgid "Boundary updated!"
 msgstr ""
 
+#: lib/web/components/category_actions/join_button_live.sface:50
+#, elixir-autogen, elixir-format
+msgid "Cancel"
+msgstr ""
+
 #: lib/web/classify_live_handler.ex:14
 #: lib/web/classify_live_handler.ex:14
 #, elixir-autogen, elixir-format
 msgid "Categorise content. Integrates with other extensions such as Tag, Topics, Groups..."
 msgstr ""
 
+#: lib/web/components/category_header_aside/category_header_aside_live.sface:10
+#, elixir-autogen, elixir-format
+msgid "Category actions"
+msgstr ""
+
 #. URLs: https://campground.bonfire.cafe/&Old_Name/settings
 #: lib/web/classify_live_handler.ex:604
 #, elixir-autogen, elixir-format
 msgid "Category updated!"
+msgstr ""
+
+#: lib/web/classify_live_handler.ex:10
+#, elixir-autogen, elixir-format
+msgid "Classify"
+msgstr ""
+
+#: lib/web/classify_live_handler.ex:491
+#, elixir-autogen, elixir-format
+msgid "Could not create, please try again."
+msgstr ""
+
+#: lib/web/classify_live_handler.ex:702
+#, elixir-autogen, elixir-format
+msgid "Could not update boundary"
 msgstr ""
 
 #: lib/web/components/create_old/new_category_live.sface:33
@@ -91,6 +151,11 @@ msgstr ""
 msgid "Describe your category..."
 msgstr ""
 
+#: lib/runtime_config.ex:61
+#, elixir-autogen, elixir-format
+msgid "Discoverable in group listings"
+msgstr ""
+
 #: lib/web/components/settings/settings_live.sface:22
 #, elixir-autogen, elixir-format
 msgid "Edit the description"
@@ -99,197 +164,6 @@ msgstr ""
 #: lib/web/components/settings/settings_live.sface:7
 #, elixir-autogen, elixir-format
 msgid "Edit the topic name"
-msgstr ""
-
-#: lib/web/components/nav/categories_sidebar_live.sface:38
-#, elixir-autogen, elixir-format
-msgid "Followed topics"
-msgstr ""
-
-#: lib/web/components/widgets/about/widget_about_live.sface:39
-#, elixir-autogen, elixir-format
-msgid "Followers"
-msgstr ""
-
-#: lib/web/components/settings/settings_live.sface:3
-#, elixir-autogen, elixir-format
-msgid "General"
-msgstr ""
-
-#: lib/web/classify_live_handler.ex:760
-#, elixir-autogen, elixir-format
-msgid "Icon changed!"
-msgstr ""
-
-#: lib/web/components/category_actions/category_actions_live.sface:24
-#: lib/web/components/category_header_aside/category_header_aside_live.sface:141
-#, elixir-autogen, elixir-format
-msgid "Join"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/&Join_Flow_Group/about https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/groups
-#: lib/web/components/category_actions/category_actions_live.sface:26
-#: lib/web/components/category_actions/join_button_live.sface:74
-#, elixir-autogen, elixir-format
-msgid "Joined"
-msgstr ""
-
-#: lib/web/components/category_actions/category_actions_live.sface:25
-#, elixir-autogen, elixir-format
-msgid "Leave"
-msgstr ""
-
-#: lib/web/components/category_header_aside/category_header_aside_live.sface:142
-#: lib/web/components/category_header_aside/category_header_aside_live.sface:143
-#, elixir-autogen, elixir-format
-msgid "Leave the group"
-msgstr ""
-
-#: lib/web/components/nav/topics_nav/topics_nav_live.sface:15
-#, elixir-autogen, elixir-format
-msgid "Local"
-msgstr ""
-
-#: lib/web/components/nav/categories_sidebar_live.sface:25
-#, elixir-autogen, elixir-format
-msgid "Local topics"
-msgstr ""
-
-#: lib/web/components/widgets/about/widget_about_live.sface:39
-#, elixir-autogen, elixir-format
-msgid "Members"
-msgstr ""
-
-#: lib/web/components/category_header_aside/category_header_aside_live.sface:24
-#, elixir-autogen, elixir-format
-msgid "New topic"
-msgstr ""
-
-#: lib/web/classify_live_handler.ex:587
-#, elixir-autogen, elixir-format
-msgid "Please log in..."
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/&Discoverable_Group https://campground.bonfire.cafe/&Archived_Discoverable_Group https://campground.bonfire.cafe/&Gated_Private_Group
-#: lib/web/components/category_actions/join_button_live.sface:22
-#: lib/web/components/category_header_aside/category_header_aside_live.sface:141
-#, elixir-autogen, elixir-format
-msgid "Request to join"
-msgstr ""
-
-#: lib/web/components/settings/settings_live.sface:33
-#, elixir-autogen, elixir-format
-msgid "Save"
-msgstr ""
-
-#: lib/web/components/category_header_aside/category_header_aside_live.sface:54
-#, elixir-autogen, elixir-format
-msgid "Settings"
-msgstr ""
-
-#: lib/web/components/settings/settings_live.sface:87
-#, elixir-autogen, elixir-format
-msgid "Sorry, you cannot edit this topic."
-msgstr ""
-
-#: lib/web/components/widgets/subtopics/widget_subtopics_live.sface:1
-#, elixir-autogen, elixir-format
-msgid "Sub topics"
-msgstr ""
-
-#: lib/web/components/settings/settings_live.sface:45
-#, elixir-autogen, elixir-format
-msgid "The topic will be permanently archived, so that new things can no longer be published in it. People who already follow this topic will still be able to access it."
-msgstr ""
-
-#: lib/web/components/nav/categories_sidebar_live.sface:1
-#, elixir-autogen, elixir-format
-msgid "Topic navigation"
-msgstr ""
-
-#: lib/web/components/nav/categories_nav_live.sface:5
-#, elixir-autogen, elixir-format
-msgid "Topics"
-msgstr ""
-
-#: lib/web/components/create_old/new_category_live.sface:43
-#, elixir-autogen, elixir-format
-msgid "Type the category name..."
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/&Planning https://campground.bonfire.cafe/group/UI_Test_Group_82276 https://campground.bonfire.cafe/group/Custom_Dims_126786 https://campground.bonfire.cafe/group/Persistence_Test_124130
-#: lib/web/classify_live_handler.ex:89
-#: lib/web/classify_live_handler.ex:89
-#: lib/web/components/hero/category_hero_live.sface:75
-#: lib/web/components/hero/category_hero_live.sface:75
-#: lib/web/components/nav/topics_nav/topics_nav_live.sface:25
-#: lib/web/components/nav/topics_nav/topics_nav_live.sface:25
-#: lib/web/components/taxonomy/subcategory_badges_live.sface:7
-#: lib/web/components/taxonomy/subcategory_badges_live.sface:7
-#: lib/web/components/widgets/about/widget_about_live.sface:7
-#: lib/web/components/widgets/about/widget_about_live.sface:7
-#: lib/web/components/widgets/subtopics/widget_subtopics_live.sface:22
-#: lib/web/components/widgets/subtopics/widget_subtopics_live.sface:22
-#, elixir-autogen, elixir-format
-msgid "Untitled topic"
-msgstr ""
-
-#: lib/web/components/category_header_aside/category_header_aside_live.sface:39
-#, elixir-autogen, elixir-format
-msgid "View group info"
-msgstr ""
-
-#: lib/web/components/category_header_aside/category_header_aside_live.sface:74
-#, elixir-autogen, elixir-format
-msgid "Visit the original url"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/&Planning https://campground.bonfire.cafe/group/UI_Test_Group_82276 https://campground.bonfire.cafe/group/Custom_Dims_126786 https://campground.bonfire.cafe/group/Persistence_Test_124130
-#: lib/web/classify_live_handler.ex:251
-#, elixir-autogen, elixir-format
-msgid "follow"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/&Planning https://campground.bonfire.cafe/group/UI_Test_Group_82276 https://campground.bonfire.cafe/group/Custom_Dims_126786 https://campground.bonfire.cafe/group/Persistence_Test_124130
-#: lib/web/classify_live_handler.ex:97
-#: lib/web/classify_live_handler.ex:150
-#, elixir-autogen, elixir-format
-msgid "Private"
-msgstr ""
-
-#: lib/web/components/preview/category_live.ex:17
-#, elixir-autogen, elixir-format
-msgid "Unnamed category"
-msgstr ""
-
-#: lib/runtime_config.ex:113
-#, elixir-autogen, elixir-format
-msgid "Announcement channel"
-msgstr ""
-
-#: lib/runtime_config.ex:77
-#, elixir-autogen, elixir-format
-msgid "Any eligible user can post, not just members."
-msgstr ""
-
-#: lib/runtime_config.ex:76
-#, elixir-autogen, elixir-format
-msgid "Anyone can post"
-msgstr ""
-
-#: lib/web/components/category_actions/join_button_live.sface:50
-#, elixir-autogen, elixir-format
-msgid "Cancel"
-msgstr ""
-
-#: lib/web/classify_live_handler.ex:702
-#, elixir-autogen, elixir-format
-msgid "Could not update boundary"
-msgstr ""
-
-#: lib/runtime_config.ex:61
-#, elixir-autogen, elixir-format
-msgid "Discoverable in group listings"
 msgstr ""
 
 #: lib/runtime_config.ex:66
@@ -302,9 +176,24 @@ msgstr ""
 msgid "Follow"
 msgstr ""
 
+#: lib/web/components/nav/categories_sidebar_live.sface:38
+#, elixir-autogen, elixir-format
+msgid "Followed topics"
+msgstr ""
+
+#: lib/web/components/widgets/about/widget_about_live.sface:39
+#, elixir-autogen, elixir-format
+msgid "Followers"
+msgstr ""
+
 #: lib/web/components/category_actions/join_button_live.sface:99
 #, elixir-autogen, elixir-format
 msgid "Following"
+msgstr ""
+
+#: lib/web/components/settings/settings_live.sface:3
+#, elixir-autogen, elixir-format
+msgid "General"
 msgstr ""
 
 #: lib/web/components/category_actions/category_actions_live.sface:7
@@ -332,10 +221,33 @@ msgstr ""
 msgid "Group shows in public lists and search."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_Public https://campground.bonfire.cafe/&Open_Participation_Group https://campground.bonfire.cafe/&Join_Flow_Group/about https://campground.bonfire.cafe/&Member_Check_Group/about
+#: lib/web/classify_live_handler.ex:760
+#, elixir-autogen, elixir-format
+msgid "Icon changed!"
+msgstr ""
+
+#: lib/web/components/category_actions/category_actions_live.sface:24
+#: lib/web/components/category_header_aside/category_header_aside_live.sface:141
+#, elixir-autogen, elixir-format
+msgid "Join"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/&Join_Flow_Group/about https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/&Open_Participation_Group https://campground.bonfire.cafe/&Feed_Post_Group_Public
 #: lib/web/components/category_actions/join_button_live.sface:22
 #, elixir-autogen, elixir-format
 msgid "Join group"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/&Join_Flow_Group/about https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/groups
+#: lib/web/components/category_actions/category_actions_live.sface:26
+#: lib/web/components/category_actions/join_button_live.sface:74
+#, elixir-autogen, elixir-format
+msgid "Joined"
+msgstr ""
+
+#: lib/web/components/category_actions/category_actions_live.sface:25
+#, elixir-autogen, elixir-format
+msgid "Leave"
 msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/&Join_Flow_Group/about https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/groups
@@ -344,14 +256,57 @@ msgstr ""
 msgid "Leave group"
 msgstr ""
 
+#: lib/web/components/category_header_aside/category_header_aside_live.sface:142
+#: lib/web/components/category_header_aside/category_header_aside_live.sface:143
+#, elixir-autogen, elixir-format
+msgid "Leave the group"
+msgstr ""
+
+#: lib/web/components/nav/topics_nav/topics_nav_live.sface:15
+#, elixir-autogen, elixir-format
+msgid "Local"
+msgstr ""
+
+#: lib/web/components/nav/categories_sidebar_live.sface:25
+#, elixir-autogen, elixir-format
+msgid "Local topics"
+msgstr ""
+
+#: lib/web/components/widgets/about/widget_about_live.sface:39
+#, elixir-autogen, elixir-format
+msgid "Members"
+msgstr ""
+
 #: lib/runtime_config.ex:72
 #, elixir-autogen, elixir-format
 msgid "Moderators review each join request."
 msgstr ""
 
-#: lib/categories.ex:788
+#: lib/web/components/category_header_aside/category_header_aside_live.sface:24
+#, elixir-autogen, elixir-format
+msgid "New topic"
+msgstr ""
+
+#: lib/categories.ex:796
 #, elixir-autogen, elixir-format
 msgid "Only admins can create groups"
+msgstr ""
+
+#: lib/web/components/category_header_aside/category_header_aside_live.sface:86
+#, elixir-autogen, elixir-format
+msgid "Pinned by admins"
+msgstr ""
+
+#: lib/web/classify_live_handler.ex:587
+#, elixir-autogen, elixir-format
+msgid "Please log in..."
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/+My_Test_Topic https://campground.bonfire.cafe/+Beta_topic https://campground.bonfire.cafe/+Alpha_topic https://campground.bonfire.cafe/&Hero_Campfire_Group
+#: lib/web/classify_live_handler.ex:97
+#: lib/web/classify_live_handler.ex:150
+#, elixir-autogen, elixir-format
+msgid "Private"
 msgstr ""
 
 #: lib/runtime_config.ex:125
@@ -374,6 +329,13 @@ msgstr ""
 msgid "Reachable from other fediverse servers."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/&Discoverable_Group https://campground.bonfire.cafe/&Gated_Private_Group https://campground.bonfire.cafe/&Archived_Discoverable_Group
+#: lib/web/components/category_actions/join_button_live.sface:22
+#: lib/web/components/category_header_aside/category_header_aside_live.sface:141
+#, elixir-autogen, elixir-format
+msgid "Request to join"
+msgstr ""
+
 #: lib/web/components/category_actions/join_button_live.sface:43
 #, elixir-autogen, elixir-format
 msgid "Requested"
@@ -384,72 +346,24 @@ msgstr ""
 msgid "Require approval to join"
 msgstr ""
 
-#: lib/web/components/category_actions/join_button_live.sface:98
-#, elixir-autogen, elixir-format
-msgid "Unfollow"
-msgstr ""
-
-#: lib/runtime_config.ex:104
-#, elixir-autogen, elixir-format
-msgid "Visible to everyone. Users of this instance are free to join and participate."
-msgstr ""
-
-#: lib/web/components/composer/compose_in_category_live.sface:9
-#, elixir-autogen, elixir-format
-msgid "Write in group"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/&Archived_Discoverable_Group https://campground.bonfire.cafe/&Gated_Private_Group https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/groups
-#: lib/web/components/category_actions/join_button_live.sface:5
-#: lib/web/components/category_actions/join_button_live.sface:12
-#: lib/web/components/category_actions/join_button_live.sface:58
-#, elixir-autogen, elixir-format
-msgid "loading..."
-msgstr ""
-
-#: lib/web/classify_live_handler.ex:723
-#, elixir-autogen, elixir-format
-msgid "Archived"
-msgstr ""
-
-#: lib/web/classify_live_handler.ex:713
-#, elixir-autogen, elixir-format
-msgid "Auto-join disabled."
-msgstr ""
-
-#: lib/web/classify_live_handler.ex:708
-#, elixir-autogen, elixir-format
-msgid "Auto-join enabled."
-msgstr ""
-
-#: lib/web/components/settings/settings_live.sface:27
-#, elixir-autogen, elixir-format
-msgid "A short description to help you remember what this topic is about"
-msgstr ""
-
-#: lib/web/components/settings/settings_live.sface:14
-#, elixir-autogen, elixir-format
-msgid "Type here"
-msgstr ""
-
-#: lib/web/classify_live_handler.ex:491
-#, elixir-autogen, elixir-format
-msgid "Could not create, please try again."
-msgstr ""
-
-#: lib/web/classify_live_handler.ex:486
-#, elixir-autogen, elixir-format
-msgid "You don't have permission to create a topic in this group."
-msgstr ""
-
-#: lib/web/components/category_header_aside/category_header_aside_live.sface:86
-#, elixir-autogen, elixir-format
-msgid "Pinned by admins"
-msgstr ""
-
 #: lib/web/classify_live_handler.ex:735
 #, elixir-autogen, elixir-format
 msgid "Restored"
+msgstr ""
+
+#: lib/web/components/settings/settings_live.sface:33
+#, elixir-autogen, elixir-format
+msgid "Save"
+msgstr ""
+
+#: lib/web/components/category_header_aside/category_header_aside_live.sface:54
+#, elixir-autogen, elixir-format
+msgid "Settings"
+msgstr ""
+
+#: lib/web/components/settings/settings_live.sface:87
+#, elixir-autogen, elixir-format
+msgid "Sorry, you cannot edit this topic."
 msgstr ""
 
 #: lib/web/classify_live_handler.ex:739
@@ -457,17 +371,103 @@ msgstr ""
 msgid "Sorry, you cannot restore this group."
 msgstr ""
 
+#: lib/web/components/widgets/subtopics/widget_subtopics_live.sface:1
+#, elixir-autogen, elixir-format
+msgid "Sub topics"
+msgstr ""
+
+#: lib/web/components/settings/settings_live.sface:45
+#, elixir-autogen, elixir-format
+msgid "The topic will be permanently archived, so that new things can no longer be published in it. People who already follow this topic will still be able to access it."
+msgstr ""
+
 #: lib/web/components/category_header_aside/category_header_aside_live.sface:83
 #, elixir-autogen, elixir-format
 msgid "This group is pinned to everyone's sidebar by the admins"
 msgstr ""
 
-#: lib/web/components/category_header_aside/category_header_aside_live.sface:10
+#: lib/web/components/nav/categories_sidebar_live.sface:1
 #, elixir-autogen, elixir-format
-msgid "Category actions"
+msgid "Topic navigation"
 msgstr ""
 
-#: lib/web/classify_live_handler.ex:10
+#: lib/web/components/nav/categories_nav_live.sface:5
 #, elixir-autogen, elixir-format
-msgid "Classify"
+msgid "Topics"
+msgstr ""
+
+#: lib/web/components/settings/settings_live.sface:14
+#, elixir-autogen, elixir-format
+msgid "Type here"
+msgstr ""
+
+#: lib/web/components/create_old/new_category_live.sface:43
+#, elixir-autogen, elixir-format
+msgid "Type the category name..."
+msgstr ""
+
+#: lib/web/components/category_actions/join_button_live.sface:98
+#, elixir-autogen, elixir-format
+msgid "Unfollow"
+msgstr ""
+
+#: lib/web/components/preview/category_live.ex:17
+#, elixir-autogen, elixir-format
+msgid "Unnamed category"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/+My_Test_Topic https://campground.bonfire.cafe/+Beta_topic https://campground.bonfire.cafe/+Alpha_topic https://campground.bonfire.cafe/&Hero_Campfire_Group
+#: lib/web/classify_live_handler.ex:89
+#: lib/web/classify_live_handler.ex:89
+#: lib/web/components/hero/category_hero_live.sface:75
+#: lib/web/components/hero/category_hero_live.sface:75
+#: lib/web/components/nav/topics_nav/topics_nav_live.sface:25
+#: lib/web/components/nav/topics_nav/topics_nav_live.sface:25
+#: lib/web/components/taxonomy/subcategory_badges_live.sface:7
+#: lib/web/components/taxonomy/subcategory_badges_live.sface:7
+#: lib/web/components/widgets/about/widget_about_live.sface:7
+#: lib/web/components/widgets/about/widget_about_live.sface:7
+#: lib/web/components/widgets/subtopics/widget_subtopics_live.sface:22
+#: lib/web/components/widgets/subtopics/widget_subtopics_live.sface:22
+#, elixir-autogen, elixir-format
+msgid "Untitled topic"
+msgstr ""
+
+#: lib/web/components/category_header_aside/category_header_aside_live.sface:39
+#, elixir-autogen, elixir-format
+msgid "View group info"
+msgstr ""
+
+#: lib/runtime_config.ex:104
+#, elixir-autogen, elixir-format
+msgid "Visible to everyone. Users of this instance are free to join and participate."
+msgstr ""
+
+#: lib/web/components/category_header_aside/category_header_aside_live.sface:74
+#, elixir-autogen, elixir-format
+msgid "Visit the original url"
+msgstr ""
+
+#: lib/web/components/composer/compose_in_category_live.sface:9
+#, elixir-autogen, elixir-format
+msgid "Write in group"
+msgstr ""
+
+#: lib/web/classify_live_handler.ex:486
+#, elixir-autogen, elixir-format
+msgid "You don't have permission to create a topic in this group."
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/+My_Test_Topic https://campground.bonfire.cafe/+Beta_topic https://campground.bonfire.cafe/+Alpha_topic https://campground.bonfire.cafe/&Hero_Campfire_Group
+#: lib/web/classify_live_handler.ex:251
+#, elixir-autogen, elixir-format
+msgid "follow"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/&Gated_Private_Group https://campground.bonfire.cafe/&Feed_Post_Group_Public https://campground.bonfire.cafe/&Archived_Discoverable_Group https://campground.bonfire.cafe/groups
+#: lib/web/components/category_actions/join_button_live.sface:5
+#: lib/web/components/category_actions/join_button_live.sface:12
+#: lib/web/components/category_actions/join_button_live.sface:58
+#, elixir-autogen, elixir-format
+msgid "loading..."
 msgstr ""

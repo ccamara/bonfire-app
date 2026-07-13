@@ -38,6 +38,16 @@ msgstr ""
 msgid "Could not delete:"
 msgstr ""
 
+#: lib/runtime_config.ex:5
+#, elixir-autogen, elixir-format
+msgid "Fail"
+msgstr ""
+
+#: lib/runtime_config.ex:59
+#, elixir-autogen, elixir-format
+msgid "Files with the format of %s are not allowed"
+msgstr ""
+
 #: lib/runtime_config.ex:29
 #, elixir-autogen, elixir-format
 msgid "Invalid arguments passed."
@@ -71,6 +81,11 @@ msgstr ""
 #: lib/runtime_config.ex:62
 #, elixir-autogen, elixir-format
 msgid "There was an error."
+msgstr ""
+
+#: lib/runtime_config.ex:58
+#, elixir-autogen, elixir-format
+msgid "This file exceeds the maximum upload size of %s"
 msgstr ""
 
 #: lib/runtime_config.ex:48
@@ -120,27 +135,12 @@ msgstr ""
 msgid "You do not have permission %s"
 msgstr ""
 
-#: lib/runtime_config.ex:33
-#, elixir-autogen, elixir-format
-msgid "You need to log in first."
-msgstr ""
-
-#: lib/runtime_config.ex:59
-#, elixir-autogen, elixir-format
-msgid "Files with the format of %s are not allowed"
-msgstr ""
-
-#: lib/runtime_config.ex:58
-#, elixir-autogen, elixir-format
-msgid "This file exceeds the maximum upload size of %s"
-msgstr ""
-
 #: lib/runtime_config.ex:60
 #, elixir-autogen, elixir-format
 msgid "You have selected too many files."
 msgstr ""
 
-#: lib/runtime_config.ex:5
+#: lib/runtime_config.ex:33
 #, elixir-autogen, elixir-format
-msgid "Fail"
+msgid "You need to log in first."
 msgstr ""
