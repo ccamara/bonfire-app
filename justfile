@@ -1127,7 +1127,7 @@ test_default_excludes:
 	@echo "--exclude live_federation --exclude test_instance --exclude masto_api --exclude masto_api_coverage --exclude rate_limit --exclude integration `just test_minimum_excludes`"
 
 test_minimum_excludes:
-	@echo "--exclude todo --exclude skip --exclude benchmark"
+	@echo "--exclude todo --exclude skip --exclude fixme --exclude benchmark"
 
 # Run only stale tests
 test-stale path='' *args='': services

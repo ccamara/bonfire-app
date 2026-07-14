@@ -22,71 +22,135 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. URLs: https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/conduct
 #. https://campground.bonfire.cafe/notifications
-#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/messages
 #: lib/components/placeholders/badge_counter_live.sface:13
 #, elixir-autogen, elixir-format
 msgid "%{amount} new notifications"
 msgstr "%{amount} neue Benachrichtigungen"
+
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6
+#. https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/notifications
+#: lib/components/paginate/load_more_live.sface:10
+#, elixir-autogen, elixir-format
+msgid "%{count} more items loaded"
+msgstr "%{count} weitere Artikel wurden geladen"
 
 #: lib/components/placeholders/empty_feed.sface:15
 #, elixir-autogen, elixir-format
 msgid "%{feed_name} feed is empty"
 msgstr "%{feed_name} Feed ist leer"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/safety
-#. https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6
+#. https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/notifications
+#: lib/components/paginate/load_more_live.sface:9
+#, elixir-autogen, elixir-format
+msgid "1 more item loaded"
+msgstr "1 weiterer Artikel wurde geladen"
+
+#: lib/styleguide/styleguide_live.sface:202
+#, elixir-autogen, elixir-format
+msgid "18-based scale — from the Figma \"dashboard with spaces\" annotations"
+msgstr ""
+"18er-Skala – aus den Anmerkungen zu „Dashboard mit Leerzeichen“ in Figma"
+
+#: lib/styleguide/notification_card.sface:49
+#: lib/styleguide/notification_card.sface:69
+#: lib/styleguide/notification_card.sface:81
+#, elixir-autogen, elixir-format
+msgid "3 days ago"
+msgstr "vor 3 Tagen"
+
+#: lib/styleguide/styleguide_live.sface:454
+#, elixir-autogen, elixir-format
+msgid ""
+"3-column shell from the Figma \"layout\" artboard — 75px edge gutters "
+"(#ffeaea), 0.7px secondary divider lines between columns + a header divider,"
+" base-200 surfaces, and the 106px page header. Bare structural shell — "
+"columns are empty."
+msgstr ""
+"3-spaltiges Grundgerüst aus dem Figma-Artboard „layout“ – 75px Randabstände "
+"(#ffeaea), 0,7px sekundäre Trennlinien zwischen den Spalten + eine "
+"Kopfzeilentrennlinie, „base-200“-Flächen und die 106px breite "
+"Seitenkopfzeile. Reine strukturelle Hülle – die Spalten sind leer."
+
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. https://campground.bonfire.cafe/settings/user/safety
 #. https://campground.bonfire.cafe/settings/user/feeds
-#: lib/components/settings/settings_live_handler.ex:320
+#: lib/components/settings/settings_live_handler.ex:324
 #, elixir-autogen, elixir-format
 msgid "A default value is already provided. Enter your own to override it."
 msgstr ""
 "Ein Standardwert ist bereits vorhanden. Gib einen eigenen Wert ein, um ihn "
 "zu überschreiben."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
-#: lib/components/nav/footer_impressum/impressum_live.sface:2
-#: lib/components/nav/header/guest_actions_live.sface:30
+#. https://campground.bonfire.cafe/login/forgot-password
+#: lib/components/nav/footer_impressum/impressum_live.sface:13
+#: lib/components/nav/header/guest_actions_live.sface:33
 #: lib/components/nav/header/guest_header_live.sface:8
-#: lib/components/nav/header/guest_header_live.sface:76
-#: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:68
+#: lib/components/nav/header/guest_header_live.sface:64
+#: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:61
 #, elixir-autogen, elixir-format
 msgid "About"
 msgstr "Über "
 
-#. URLs: https://campground.bonfire.cafe/@alice_followed/followers
-#. https://campground.bonfire.cafe/@Wuckert_Nitzsche
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/impressum
+#. https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST
 #. https://campground.bonfire.cafe/feed
-#: lib/components/nav/header/guest_actions_live.sface:40
-#: lib/components/nav/header/guest_header_live.sface:86
+#: lib/components/nav/header/guest_actions_live.sface:43
+#: lib/components/nav/header/guest_header_live.sface:74
 #, elixir-autogen, elixir-format
 msgid "About Bonfire"
 msgstr "Über Bonfire"
 
-#: lib/components/links/link_live.ex:193
+#: lib/components/links/link_live.ex:210
 #, elixir-autogen, elixir-format
 msgid "AbuseIPDB"
 msgstr "AbuseIPDB"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:447
+#: lib/components/settings/change_themes_live.sface:467
 #, elixir-autogen, elixir-format
 msgid "Accent"
 msgstr "Akzent"
+
+#: lib/styleguide/notification_card.sface:95
+#, elixir-autogen, elixir-format
+msgid "Accept quote"
+msgstr "Zitat akzeptieren"
 
 #: lib/components/core_components.ex:574
 #, elixir-autogen, elixir-format
 msgid "Actions"
 msgstr "Aktionen"
 
-#: lib/components/smart_input/input_controls_live.sface:260
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:23
+#: lib/components/settings/change_themes_live.sface:44
+#: lib/components/settings/change_themes_live.sface:65
+#: lib/components/settings/change_themes_live.sface:87
+#, elixir-autogen, elixir-format
+msgid "Active"
+msgstr "Aktiv"
+
+#: lib/components/settings/change_themes_live.sface:139
+#, elixir-autogen, elixir-format
+msgid "Active now"
+msgstr "Derzeit aktiv"
+
+#: lib/components/smart_input/input_controls_live.sface:243
 #, elixir-autogen, elixir-format
 msgid "Add a Title"
 msgstr "Titel hinzufügen"
@@ -105,7 +169,12 @@ msgstr "Sprache hinzufügen"
 msgid "Add language..."
 msgstr "Sprache hinzufügen..."
 
-#: lib/components/links/link_live.ex:150 lib/components/links/link_live.ex:199
+#: lib/components/settings/templates/settings_links_editor_live.sface:48
+#, elixir-autogen, elixir-format
+msgid "Add link"
+msgstr "Link hinzufügen"
+
+#: lib/components/links/link_live.ex:167 lib/components/links/link_live.ex:216
 #, elixir-autogen, elixir-format
 msgid "AlienVault OTX"
 msgstr "AlienVault OTX"
@@ -120,18 +189,43 @@ msgstr "Bereits ausgewählt"
 msgid "An exceptional error occurred"
 msgstr "Ein außergewöhnlicher Fehler ist aufgetreten"
 
-#: lib/components/settings/change_themes_live.sface:265
-#: lib/components/settings/change_themes_live.sface:343
-#: lib/components/settings/change_themes_live.sface:417
-#: lib/components/settings/change_themes_live.sface:492
-#: lib/components/settings/change_themes_live.sface:566
-#: lib/components/settings/change_themes_live.sface:641
-#: lib/components/settings/change_themes_live.sface:715
-#: lib/components/settings/change_themes_live.sface:789
-#: lib/components/settings/change_themes_live.sface:863
+#: lib/components/nav/user_menu/user_menu_live.sface:25
+#: lib/components/nav/user_menu/user_menu_live.sface:25
+#, elixir-autogen, elixir-format
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: lib/ui_common.ex:1209
+#, elixir-autogen, elixir-format
+msgid "Another world is loading..."
+msgstr "Eine andere Welt wird geladen..."
+
+#: lib/components/settings/change_themes_live.sface:288
+#: lib/components/settings/change_themes_live.sface:364
+#: lib/components/settings/change_themes_live.sface:437
+#: lib/components/settings/change_themes_live.sface:511
+#: lib/components/settings/change_themes_live.sface:584
+#: lib/components/settings/change_themes_live.sface:658
+#: lib/components/settings/change_themes_live.sface:731
+#: lib/components/settings/change_themes_live.sface:804
+#: lib/components/settings/change_themes_live.sface:877
 #, elixir-autogen, elixir-format
 msgid "Apply"
 msgstr "Anwenden"
+
+#. URLs: https://campground.bonfire.cafe/settings/user/safety
+#. https://campground.bonfire.cafe/settings/instance/configuration
+#. https://campground.bonfire.cafe/discussion/01KXCBHX5MA1R6919ACBJR51QE
+#. https://campground.bonfire.cafe/@karen@mocked.local
+#: lib/components/nav/footer_impressum/impressum_live.sface:105
+#, elixir-autogen, elixir-format
+msgid "Archipelago federation enabled"
+msgstr "Archipelago-Föderation aktiviert"
+
+#: lib/styleguide/media_preview.sface:21
+#, elixir-autogen, elixir-format
+msgid "Article image"
+msgstr "Artikelbild"
 
 #: lib/common_routes.ex:31
 #, elixir-autogen, elixir-format
@@ -152,26 +246,31 @@ msgstr ""
 msgid "Attempting to reconnect"
 msgstr "Es wird versucht, die Verbindung wiederherzustellen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
-#: lib/components/nav/footer_impressum/impressum_live.sface:94
+#: lib/components/nav/footer_impressum/impressum_live.sface:107
 #, elixir-autogen, elixir-format
 msgid "Automatic federation enabled"
 msgstr "Automatische Föderation aktiviert"
 
+#: lib/components/widgets/widget_instance_info/widget_instance_info_live.sface:6
+#, elixir-autogen, elixir-format
+msgid "Banner for %{instance}"
+msgstr "Banner für %{instance}"
+
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:220
+#: lib/components/settings/change_themes_live.sface:244
 #, elixir-autogen, elixir-format
 msgid "Base"
 msgstr "Basis"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/nav/user_menu/user_menu_links_live.sface:55
 #, elixir-autogen, elixir-format
 msgid "Blocked"
@@ -204,22 +303,44 @@ msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:937
+#: lib/components/settings/change_themes_live.sface:951
 #, elixir-autogen, elixir-format
 msgid "Boxes"
 msgstr "Boxen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#: lib/styleguide/styleguide_live.sface:46
+#, elixir-autogen, elixir-format
+msgid "Brand"
+msgstr "Marke"
+
+#: lib/ui_common.ex:1216
+#, elixir-autogen, elixir-format
+msgid "Building solidarity networks..."
+msgstr "Solidaritätsnetzwerke werden gebaut..."
+
+#: lib/styleguide/styleguide_live.sface:232
+#, elixir-autogen, elixir-format
+msgid "Buttons & actions"
+msgstr "Buttons & Aktionen"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/smart_input/headers/smart_input_header_modal_live.sface:8
-#: lib/components/smart_input/smart_input_live.sface:350
+#: lib/components/smart_input/input_controls_live.sface:276
+#: lib/components/smart_input/smart_input_live.sface:228
 #, elixir-autogen, elixir-format
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: lib/components/settings/change_themes_live.sface:164
+#: lib/components/smart_input/input_controls_live.sface:273
+#: lib/components/smart_input/input_controls_live.sface:274
+#, elixir-autogen, elixir-format
+msgid "Cancel reply"
+msgstr "Antwort abbrechen"
+
+#: lib/components/settings/change_themes_live.sface:188
 #, elixir-autogen, elixir-format
 msgid ""
 "Caution: Modifying the color palette can affect readability and "
@@ -229,35 +350,88 @@ msgstr ""
 "beeinträchtigen. Beachte die Richtlinien zur Barrierefreiheit bei "
 "Änderungen."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#: lib/styleguide/styleguide_live.sface:315
+#, elixir-autogen, elixir-format
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:103
+#: lib/components/settings/change_themes_live.sface:122
+#, elixir-autogen, elixir-format
+msgid "Choose"
+msgstr "Wählen"
+
+#: lib/components/settings/change_theme_live.sface:63
+#, elixir-autogen, elixir-format
+msgid "Choose theme"
+msgstr "Aussehen wählen"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/button/smart_input_buttons_live.sface:28
+#: lib/components/smart_input/smart_input_live.sface:56
+#: lib/components/smart_input/smart_input_live.sface:57
+#, elixir-autogen, elixir-format
+msgid "Choose what to create"
+msgstr "Auswählen, was du erstellen möchtest"
+
+#: lib/components/smart_input/smart_input_live.sface:238
+#: lib/components/smart_input/smart_input_live.sface:241
+#, elixir-autogen, elixir-format
+msgid "Clear the composer"
+msgstr "Editor leeren"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/keyboard_shortcuts/keyboard_shortcuts_help_live.sface:28
 #: lib/components/keyboard_shortcuts/keyboard_shortcuts_help_live.sface:33
 #: lib/components/modals/inline_modal_live.sface:26
 #: lib/components/modals/inline_modal_live.sface:46
-#: lib/components/modals/reusable_modal_live.sface:55
+#: lib/components/modals/reusable_modal_live.sface:69
 #: lib/components/notification/notification_live.sface:71
 #: lib/components/notification/notification_live.sface:100
 #: lib/components/notification/notification_live.sface:128
-#: lib/components/notification/notification_live.sface:170
+#: lib/components/notification/notification_live.sface:166
 #: lib/components/smart_input/headers/smart_input_header_modal_live.sface:17
 #, elixir-autogen, elixir-format
 msgid "Close"
 msgstr "Schließen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/modals/reusable_modal_live.sface:48
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/groups
+#. https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT
+#. https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
+#: lib/components/modals/reusable_modal_live.sface:62
 #, elixir-autogen, elixir-format
 msgid "Close modal"
 msgstr "Modal schließen"
 
+#. URLs: https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
+#: lib/layout/layout_live.sface:149
+#, elixir-autogen, elixir-format
+msgid "Close sidebar"
+msgstr "Seitenleiste schließen"
+
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/feed
+#: lib/layout/layout_live.sface:95
+#, elixir-autogen, elixir-format
+msgid "Close widgets sidebar"
+msgstr "Widgets-Seitenleiste schließen"
+
 #: lib/components/smart_input/headers/smart_input_header_modal_live.sface:12
-#: lib/components/smart_input/smart_input_live.sface:354
+#: lib/components/smart_input/smart_input_live.sface:232
 #, elixir-autogen, elixir-format
 msgid ""
 "Closing the composer will discard your post. Are you sure you want to close "
@@ -266,22 +440,22 @@ msgstr ""
 "Wenn du den Composer schließt, wird dein Beitrag verworfen. Bist du sicher, "
 "dass du ihn schließen möchtest?"
 
-#. URLs: https://campground.bonfire.cafe/@Wuckert_Nitzsche
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/login/forgot-password
+#. URLs: https://campground.bonfire.cafe/impressum
+#. https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST
 #. https://campground.bonfire.cafe/feed
-#: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:98
+#. https://campground.bonfire.cafe/login/forgot-password
+#: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:91
 #: lib/components/widgets/widget_links/widget_links_live.sface:13
 #, elixir-autogen, elixir-format
 msgid "Code of Conduct"
 msgstr "Verhaltenskodex"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
-#: lib/components/nav/footer_impressum/impressum_live.sface:8
-#: lib/components/nav/header/guest_actions_live.sface:31
+#: lib/components/nav/footer_impressum/impressum_live.sface:16
+#: lib/components/nav/header/guest_actions_live.sface:34
 #, elixir-autogen, elixir-format
 msgid "Code of conduct"
 msgstr "Verhaltenskodex"
@@ -292,55 +466,72 @@ msgstr "Verhaltenskodex"
 msgid "Collapse"
 msgstr "Einklappen"
 
-#: lib/components/settings/change_themes_live.sface:246
-#: lib/components/settings/change_themes_live.sface:324
-#: lib/components/settings/change_themes_live.sface:398
-#: lib/components/settings/change_themes_live.sface:473
-#: lib/components/settings/change_themes_live.sface:547
-#: lib/components/settings/change_themes_live.sface:622
-#: lib/components/settings/change_themes_live.sface:696
-#: lib/components/settings/change_themes_live.sface:770
-#: lib/components/settings/change_themes_live.sface:844
+#: lib/styleguide/styleguide_live.sface:42
+#, elixir-autogen, elixir-format
+msgid "Color system"
+msgstr "Farbsystem"
+
+#: lib/components/settings/change_themes_live.sface:268
+#: lib/components/settings/change_themes_live.sface:344
+#: lib/components/settings/change_themes_live.sface:417
+#: lib/components/settings/change_themes_live.sface:491
+#: lib/components/settings/change_themes_live.sface:564
+#: lib/components/settings/change_themes_live.sface:638
+#: lib/components/settings/change_themes_live.sface:711
+#: lib/components/settings/change_themes_live.sface:784
+#: lib/components/settings/change_themes_live.sface:857
 #, elixir-autogen, elixir-format
 msgid "Color value"
 msgstr "Farbwert"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:213
+#: lib/components/settings/change_themes_live.sface:237
 #, elixir-autogen, elixir-format
 msgid "Colors"
 msgstr "Farben"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
-#. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:2
+#. URLs: https://campground.bonfire.cafe/dashboard
+#. https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/login/forgot-password
+#: lib/ui_common.ex:10
 #, elixir-autogen, elixir-format
-msgid "Colour mode"
-msgstr "Farbmodus"
+msgid "Common UI components"
+msgstr "Gängige UI-Komponenten"
 
 #: lib/common_routes.ex:18
 #, elixir-autogen, elixir-format
 msgid "Common assets to send as early hints"
 msgstr "Häufig genutzte Assets, die als frühe Hinweise gesendet werden"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#: lib/ui_common.ex:1208
+#, elixir-autogen, elixir-format
+msgid "Communing with the fediverse..."
+msgstr "Mit dem Fediversum kommunizieren..."
+
+#: lib/styleguide/styleguide_live.sface:347
+#, elixir-autogen, elixir-format
+msgid "Components"
+msgstr "Komponenten"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/smart_input/button/smart_input_button_live.sface:19
 #: lib/components/smart_input/button/smart_input_button_live.sface:29
 #: lib/components/smart_input/button/smart_input_buttons_live.sface:16
 #: lib/components/smart_input/button/smart_input_buttons_live.sface:16
 #: lib/components/smart_input/smart_input_container_live.sface:10
 #: lib/components/smart_input/smart_input_container_live.sface:10
-#: lib/layout/layout_live.sface:328 lib/layout/layout_live.sface:331
+#: lib/layout/layout_live.sface:288 lib/layout/layout_live.sface:291
 #, elixir-autogen, elixir-format
 msgid "Compose"
 msgstr "Erstellen"
 
 #: lib/components/nav/header/guest_header_live.sface:10
-#: lib/components/nav/header/guest_header_live.sface:77
+#: lib/components/nav/header/guest_header_live.sface:65
 #, elixir-autogen, elixir-format
 msgid "Conduct"
 msgstr "Durchführen"
@@ -351,36 +542,52 @@ msgid "Contact the admins to enable this extension"
 msgstr ""
 "Kontaktiere die Administrator:innen, um diese Erweiterung zu aktivieren"
 
-#: lib/components/links/link_live.ex:107
+#: lib/components/smart_input/input_controls_live.sface:38
+#, elixir-autogen, elixir-format
+msgid "Content warning"
+msgstr "Inhaltswarnung"
+
+#. URLs: https://campground.bonfire.cafe/+My_Test_Topic
+#. https://campground.bonfire.cafe/+Beta_topic
+#. https://campground.bonfire.cafe/+Alpha_topic
+#. https://campground.bonfire.cafe/&Hero_Campfire_Group
+#: lib/components/smart_input/button/smart_input_button_live.sface:28
+#: lib/components/smart_input/inline_composer_placeholder_live.sface:46
+#, elixir-autogen, elixir-format
+msgid "Continue"
+msgstr "Weiter"
+
+#: lib/components/links/link_live.ex:124
 #, elixir-autogen, elixir-format
 msgid "Copy"
 msgstr "Kopieren"
+
+#: lib/components/settings/templates/settings_links_editor_live.ex:59
+#, elixir-autogen, elixir-format
+msgid "Could not save links"
+msgstr "Links konnten nicht gespeichert werden"
 
 #: lib/components/smart_input/upload/upload_previews_live.sface:103
 #, elixir-autogen, elixir-format
 msgid "Cover image"
 msgstr "Titelbild"
 
-#. URLs: https://campground.bonfire.cafe/@alice_followed/followers
-#. https://campground.bonfire.cafe/@Wuckert_Nitzsche
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/layout/layout_live.sface:156
-#, elixir-autogen, elixir-format
-msgid "Create account"
-msgstr "Konto erstellen"
-
-#: lib/components/nav/header/guest_header_live.sface:65
+#: lib/components/nav/header/guest_header_live.sface:53
 #, elixir-autogen, elixir-format
 msgid "Create an account"
 msgstr "Konto erstellen"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:75
+#: lib/components/settings/change_themes_live.sface:138
 #, elixir-autogen, elixir-format
-msgid "Custom"
-msgstr "benutzerdefiniert"
+msgid "Custom theme"
+msgstr "Benutzerdefiniertes Design"
+
+#: lib/components/settings/settings_live_handler.ex:139
+#, elixir-autogen, elixir-format
+msgid "Custom theme reset to defaults"
+msgstr "Benutzerdefiniertes Design auf Standard zurücksetzen"
 
 #: lib/components/extensions/extensions_live.sface:42
 #, elixir-autogen, elixir-format
@@ -408,32 +615,25 @@ msgstr ""
 "Deaktivieren einer Feature-Erweiterung deren zugehörige Funktionen "
 "ausschaltet."
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
-#. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:115
-#, elixir-autogen, elixir-format
-msgid "Customize your theme"
-msgstr "Passe dein Theme an"
-
-#. URLs: https://campground.bonfire.cafe/&Announce_Channel
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#: lib/ui_common.ex:1158
+#: lib/ui_common.ex:1193
 #, elixir-autogen, elixir-format
 msgid "Cute GIFs"
 msgstr "Süße GIFs"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:20
+#: lib/components/settings/change_themes_live.sface:94
 #, elixir-autogen, elixir-format
-msgid "Dark"
-msgstr "Dunkel"
+msgid "Dark mode theme"
+msgstr "Dunkles Design"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:84
+#: lib/components/settings/change_themes_live.sface:99
 #, elixir-autogen, elixir-format
 msgid "Dark theme"
 msgstr "Dunkles Theme"
@@ -443,15 +643,25 @@ msgstr "Dunkles Theme"
 msgid "Data Schemas"
 msgstr "Datenschemata"
 
+#: lib/ui_common.ex:1212
+#, elixir-autogen, elixir-format
+msgid "Decentralising all the things..."
+msgstr "Alle Dinge werden dezentralisiert..."
+
+#: lib/styleguide/notification_card.sface:91
+#, elixir-autogen, elixir-format
+msgid "Decline"
+msgstr "Ablehnen"
+
 #: lib/components/settings/templates/settings_toggle_throuple_live.sface:39
 #, elixir-autogen, elixir-format
 msgid "Default"
 msgstr "Standard"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
+#. https://campground.bonfire.cafe/instance/pins/embed
 #: lib/live_plugs/live_plugs.ex:31
 #, elixir-autogen, elixir-format
 msgid "Default plugs to run on LiveViews (*after* any custom ones)"
@@ -459,10 +669,10 @@ msgstr ""
 "Standard-Plugs, die auf LiveViews ausgeführt werden (*nach* allen "
 "benutzerdefinierten)"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
+#. https://campground.bonfire.cafe/instance/pins/embed
 #: lib/live_plugs/live_plugs.ex:20
 #, elixir-autogen, elixir-format
 msgid "Default plugs to run on LiveViews (*before* any custom ones)"
@@ -471,17 +681,17 @@ msgstr ""
 "benutzerdefinierten)"
 
 #: lib/components/smart_input/headers/smart_input_header_modal_live.sface:28
-#: lib/components/smart_input/smart_input_live.sface:379
+#: lib/components/smart_input/smart_input_live.sface:257
 #, elixir-autogen, elixir-format
 msgid "Delete draft"
 msgstr "Entwurf löschen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/smart_input/headers/smart_input_header_modal_live.sface:7
-#: lib/components/smart_input/smart_input_live.sface:349
+#: lib/components/smart_input/smart_input_live.sface:227
 #, elixir-autogen, elixir-format
 msgid "Delete the draft"
 msgstr "Entwurf löschen"
@@ -491,6 +701,12 @@ msgstr "Entwurf löschen"
 #, elixir-autogen, elixir-format
 msgid "Describe this file for accessibility"
 msgstr "Beschreibe diese Datei, damit sie barrierefrei ist"
+
+#: lib/styleguide/styleguide_live.ex:23
+#: lib/styleguide/styleguide_live.sface:28
+#, elixir-autogen, elixir-format
+msgid "Design system"
+msgstr "Designsystem"
 
 #: lib/components/extensions/extension_toggle_live.ex:33
 #, elixir-autogen, elixir-format
@@ -502,28 +718,38 @@ msgstr "Für mich deaktiviert"
 msgid "Disabled on this instance"
 msgstr "Auf dieser Instanz deaktiviert"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/smart_input_live.sface:239
+#: lib/components/smart_input/smart_input_live.sface:242
+#, elixir-autogen, elixir-format
+msgid "Discard draft and close"
+msgstr "Entwurf verwerfen und schließen"
+
+#. URLs: https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/modals/preview_content_live.sface:23
 #, elixir-autogen, elixir-format
 msgid "Discussion"
 msgstr "Diskussion"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWY1CHRNF3VNQ0XQ83Q9X5R
-#. https://campground.bonfire.cafe/post/01KVWY07H26R7P8XPVMSPJA64W
-#. https://campground.bonfire.cafe/post/01KVWY06T9KB0FKJMRMQ6EGZEC
-#. https://campground.bonfire.cafe/post/01KVWY065HS6YPVZE6XAJNDXR7
-#: lib/components/notification/notification_live.sface:167
+#. URLs: https://campground.bonfire.cafe/post/01KXCBHKHJEGYTBFCT6T9EEW1A
+#. https://campground.bonfire.cafe/post/01KXCBHJRANK5XG4GYXQKZSPHG
+#. https://campground.bonfire.cafe/post/01KXCBHHYPY0W1C8KBT77HFBTE
+#. https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
+#: lib/components/notification/notification_live.sface:163
 #, elixir-autogen, elixir-format
 msgid "Dismiss error"
 msgstr "Fehler verwerfen"
 
-#. URLs: https://campground.bonfire.cafe/&My_Topic
-#. https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/&Feed_Post_Group_for_Author
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. URLs: https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT
+#. https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
+#. https://campground.bonfire.cafe/+Test_Topic
+#. https://campground.bonfire.cafe/dashboard
 #: lib/components/notification/notification_live.sface:97
 #: lib/components/notification/notification_live.sface:125
 #, elixir-autogen, elixir-format
@@ -534,6 +760,12 @@ msgstr "Nachricht verwerfen"
 #, elixir-autogen, elixir-format
 msgid "Dismiss notification"
 msgstr "Benachrichtigung verwerfen"
+
+#: lib/components/smart_input/smart_input_live.sface:323
+#: lib/components/smart_input/smart_input_live.sface:324
+#, elixir-autogen, elixir-format
+msgid "Don't reply, write a standalone post instead"
+msgstr "Nicht antworten, stattdessen einen eigenständigen Beitrag schreiben"
 
 #: lib/common_routes.ex:17 lib/common_routes.ex:30 lib/common_routes.ex:42
 #, elixir-autogen, elixir-format
@@ -546,13 +778,6 @@ msgstr "Frühe Hinweise"
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
-#. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_theme_live.sface:57
-#, elixir-autogen, elixir-format
-msgid "Enable"
-msgstr "Aktivieren"
-
 #: lib/components/extensions/extension_toggle_live.sface:14
 #: lib/components/extensions/extension_toggle_live.sface:17
 #, elixir-autogen, elixir-format
@@ -564,7 +789,7 @@ msgstr "Standardmäßig für alle aktivieren"
 msgid "Enable for me"
 msgstr "Für mich aktivieren"
 
-#: lib/components/settings/settings_live_handler.ex:162
+#: lib/components/settings/settings_live_handler.ex:166
 #, elixir-autogen, elixir-format
 msgid "Enable turning extensions on and off."
 msgstr "Ermögliche das Ein- und Ausschalten von Erweiterungen."
@@ -580,17 +805,17 @@ msgstr "Aktiviert für mich"
 msgid "Enter a title"
 msgstr "Titel eingeben"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. URLs: https://campground.bonfire.cafe/switch-user/Kunde_Inc
+#. https://campground.bonfire.cafe/switch-user/Legros_Bergnaum
+#. https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#. https://campground.bonfire.cafe/switch-user/Stanton_Ltd
-#. https://campground.bonfire.cafe/switch-user/Langworth_Witting
-#: lib/components/settings/change_themes_live.sface:818
+#: lib/components/settings/change_themes_live.sface:833
 #: lib/error/basic_view.ex:43 lib/ui_common.ex:395
 #, elixir-autogen, elixir-format
 msgid "Error"
 msgstr "Fehler"
 
-#: lib/components/notification/notification_live.ex:208
+#: lib/components/notification/notification_live.ex:211
 #, elixir-autogen, elixir-format
 msgid "Error Report Template"
 msgstr "Vorlage für Fehlerbericht"
@@ -605,11 +830,11 @@ msgstr "Fehler!"
 msgid "Essential Extensions"
 msgstr "Essenzielle Erweiterungen"
 
-#. URLs: https://campground.bonfire.cafe/@Wuckert_Nitzsche
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/login/forgot-password
+#. URLs: https://campground.bonfire.cafe/impressum
+#. https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST
 #. https://campground.bonfire.cafe/feed
-#: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:50
+#. https://campground.bonfire.cafe/login/forgot-password
+#: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:43
 #, elixir-autogen, elixir-format
 msgid "Explore"
 msgstr "Erkunden"
@@ -628,10 +853,10 @@ msgstr ""
 "Erweiterungen sind Plugins, die neue Funktionen zu Bonfire hinzufügen oder "
 "bestehende verändern."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/nav/user_menu/user_menu_links_live.sface:26
 #, elixir-autogen, elixir-format
 msgid "Favourites"
@@ -642,74 +867,99 @@ msgstr "Favoriten"
 msgid "Feature Extensions"
 msgstr "Funktionserweiterungen"
 
-#. URLs: https://campground.bonfire.cafe/@Rempel_Group
-#. https://campground.bonfire.cafe/@Reilly_Inc
-#. https://campground.bonfire.cafe/feed/bookmarks
+#. URLs: https://campground.bonfire.cafe/settings/user/safety
+#. https://campground.bonfire.cafe/settings/instance/configuration
+#. https://campground.bonfire.cafe/discussion/01KXCBHY2XBSSW54QSKBPNJ8C4
 #. https://campground.bonfire.cafe/@karen@mocked.local
-#: lib/components/nav/footer_impressum/impressum_live.sface:88
+#: lib/components/nav/footer_impressum/impressum_live.sface:101
 #, elixir-autogen, elixir-format
 msgid "Federation disabled"
 msgstr "Föderation deaktiviert"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:987
+#: lib/components/settings/change_themes_live.sface:999
 #, elixir-autogen, elixir-format
 msgid "Fields"
 msgstr "Felder"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#: lib/styleguide/notification_card.sface:23
+#, elixir-autogen, elixir-format
+msgid "Follow back"
+msgstr "Zurückfolgen"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/nav/user_menu/user_menu_links_live.sface:35
 #, elixir-autogen, elixir-format
 msgid "Followed Hashtags"
 msgstr "Hashtags, denen du folgst"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#: lib/styleguide/styleguide_live.sface:271
+#, elixir-autogen, elixir-format
+msgid "Form"
+msgstr "Formular"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/images/avatar_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Generate Animal Avatars"
 msgstr "Tier-Avatare generieren"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/images/avatar_live.sface:32
 #, elixir-autogen, elixir-format
 msgid "Generate animal-based avatars for users without a profile picture."
 msgstr "Generiere tierbasierte Avatare für Nutzer:innen ohne Profilbild."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/images/avatar_live.ex:56
+#, elixir-autogen, elixir-format
+msgid "Generated avatar paths"
+msgstr "Generierte Avatar-Pfade"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/nav/user_menu/user_menu_links_live.sface:73
 #, elixir-autogen, elixir-format
 msgid "Ghosted"
 msgstr "Verborgen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/nav/back/back_button_live.sface:6
 #: lib/components/nav/back/back_button_live.sface:14
 #: lib/components/nav/back/back_button_live.sface:27
-#: lib/components/nav/back/back_button_live.sface:36
+#: lib/components/nav/back/back_button_live.sface:34
 #, elixir-autogen, elixir-format
 msgid "Go back to the previous page"
 msgstr "Zurück zur vorherigen Seite gehen"
 
-#: lib/components/links/link_live.ex:129
+#: lib/components/links/link_live.ex:146
 #, elixir-autogen, elixir-format
 msgid "Google Safe Browsing"
 msgstr "Google Safe Browsing"
+
+#: lib/components/smart_input/smart_input_live_handler.ex:815
+#: lib/components/smart_input/smart_input_live_handler.ex:841
+#, elixir-autogen, elixir-format
+msgid "Group"
+msgstr "Gruppe"
 
 #: lib/components/widgets/widget_feedbacks/widget_feedback_live.sface:2
 #, elixir-autogen, elixir-format
@@ -726,95 +976,153 @@ msgstr "Instanz-Links ausblenden"
 msgid "Hide extra links in the UI."
 msgstr "Zusätzliche Links in der Benutzeroberfläche ausblenden."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
 #: lib/components/nav/user_menu/user_menu_links_live.sface:5
-#: lib/layout/layout_live.sface:308
+#: lib/layout/layout_live.sface:268
 #, elixir-autogen, elixir-format
 msgid "Home"
 msgstr "Home"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/ui_common.ex:1522
+#. URLs: https://campground.bonfire.cafe/&Hero_Campfire_Group
+#. https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#: lib/ui_common.ex:1557
 #, elixir-autogen, elixir-format
 msgid "How to preload data during live updates (technical setting)."
 msgstr ""
 "Wie Daten während Live-Updates vorgeladen werden (technische Einstellung)."
 
+#. URLs: https://campground.bonfire.cafe/impressum
+#: lib/components/nav/footer_impressum/impressum_live.sface:20
+#, elixir-autogen, elixir-format
+msgid "Impressum"
+msgstr "Impressum"
+
+#: lib/components/smart_input/smart_input_live.sface:105
+#, elixir-autogen, elixir-format
+msgid "In %{name}"
+msgstr "In %{name}"
+
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:596
+#: lib/components/settings/change_themes_live.sface:614
 #, elixir-autogen, elixir-format
 msgid "Info"
 msgstr "Info"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/input_controls_live.sface:126
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/input_controls_live.sface:127
 #, elixir-autogen, elixir-format
 msgid "Insert emoji"
 msgstr "Emoji einfügen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/nav/logo/logo_live.sface:5
 #, elixir-autogen, elixir-format
 msgid "Instance Icon"
 msgstr "Instanz-Icon"
 
-#. URLs:
-#. https://campground.bonfire.cafe/signup/email/confirm/HUGZ2B5K2TYGGHMWJQZRKJWRWA
-#. https://campground.bonfire.cafe/signup/email/confirm
-#. https://campground.bonfire.cafe/signup/email/confirm/YNM2A33MLJLIEGDS
+#. URLs: https://campground.bonfire.cafe/signup/email/confirm
+#. https://campground.bonfire.cafe/signup/email/confirm/26I5I673CTXW7BW2I5GBYYD4AA
+#. https://campground.bonfire.cafe/login
 #. https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/nav/logo/logo_live.sface:17
 #, elixir-autogen, elixir-format
 msgid "Instance Name"
 msgstr "Name der Instanz"
 
-#. URLs: https://campground.bonfire.cafe/&Admin_Cozy_Club
-#. https://campground.bonfire.cafe/groups
+#. URLs: https://campground.bonfire.cafe/&Featured_Group
 #. https://campground.bonfire.cafe/&Discover_Group
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/groups
 #: lib/components/nav/user_menu/user_menu_links_live.sface:112
 #, elixir-autogen, elixir-format
 msgid "Instance Settings"
 msgstr "Instanzeinstellungen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/nav/logo/logo_live.sface:8
 #, elixir-autogen, elixir-format
 msgid "Instance logo"
 msgstr "Instanz-Logo"
 
-#. URLs: https://campground.bonfire.cafe/users
-#. https://campground.bonfire.cafe/known_instances
-#: lib/components/nav/header/guest_actions_live.sface:38
-#: lib/components/nav/header/guest_header_live.sface:84
+#. URLs: https://campground.bonfire.cafe/known_instances
+#. https://campground.bonfire.cafe/users
+#: lib/components/nav/header/guest_actions_live.sface:41
+#: lib/components/nav/header/guest_header_live.sface:72
 #, elixir-autogen, elixir-format
 msgid "Instances"
 msgstr "Instanzen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#: lib/components/settings/settings_live_handler.ex:116
+#, elixir-autogen, elixir-format
+msgid "Invalid colour value"
+msgstr "Ungültiger Farbwert"
+
+#. URLs:
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGH8A5NFS8Y3A334GGBS6
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGGKBSE29A0Y5S2J5MCDJ
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGG2VEZVTCH4CKVT94251
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGFSGP5700C29XRSDF0GH
+#: lib/components/smart_input/smart_input_inline_live.sface:145
+#, elixir-autogen, elixir-format
+msgid "Join %{instance_name} to leave comments"
+msgstr "Tritt %{instance_name} bei, um Kommentare zu hinterlassen"
+
+#: lib/styleguide/notification_card.sface:85
+#, elixir-autogen, elixir-format
+msgid ""
+"Jordan Peterson: Amoebas reproduce asexually and therefore humans should too"
+msgstr ""
+"Jordan Peterson: Amöben vermehren sich ungeschlechtlich, und deshalb sollten"
+" Menschen das auch tun."
+
+#: lib/styleguide/notification_card.sface:53
+#, elixir-autogen, elixir-format
+msgid ""
+"Just submitted proof that simultaneity is communication across the ansible. "
+"The linearity they teach is a prison."
+msgstr ""
+" Ich habe gerade den Beweis eingereicht, dass Gleichzeitigkeit eine "
+"Kommunikation über das Ansibl hinweg ist. Das lineare Denken, das sie "
+"lehren, ist ein Gefängnis."
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/keyboard_shortcuts/keyboard_shortcuts_help_live.sface:3
 #, elixir-autogen, elixir-format
 msgid "Keyboard shortcuts"
 msgstr "Tastatur-Shortcuts"
+
+#: lib/components/settings/templates/settings_links_editor_live.sface:17
+#, elixir-autogen, elixir-format
+msgid "Label"
+msgstr "Label"
+
+#: lib/styleguide/styleguide_live.sface:451
+#, elixir-autogen, elixir-format
+msgid "Layout"
+msgstr "Layout"
+
+#: lib/ui_common.ex:1215
+#, elixir-autogen, elixir-format
+msgid "Liberating your data..."
+msgstr "Deine Daten werden befreit..."
 
 #: lib/components/extensions/extensions_live.sface:102
 #, elixir-autogen, elixir-format
@@ -823,14 +1131,14 @@ msgstr "Bibliotheken"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:38
+#: lib/components/settings/change_themes_live.sface:113
 #, elixir-autogen, elixir-format
-msgid "Light"
-msgstr "Hell"
+msgid "Light mode theme"
+msgstr "Helles Design"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:96
+#: lib/components/settings/change_themes_live.sface:118
 #, elixir-autogen, elixir-format
 msgid "Light theme"
 msgstr "Helles Thema"
@@ -840,115 +1148,155 @@ msgstr "Helles Thema"
 msgid "Links"
 msgstr "Links"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/ui_common.ex:1521
+#: lib/components/settings/templates/settings_links_editor_live.ex:56
+#, elixir-autogen, elixir-format
+msgid "Links saved"
+msgstr "Gespeicherte Links"
+
+#. URLs: https://campground.bonfire.cafe/&Hero_Campfire_Group
+#. https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#: lib/ui_common.ex:1556
 #, elixir-autogen, elixir-format
 msgid "Live Update Preload Mode"
 msgstr "Live-Update-Preload-Modus"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
+#. https://campground.bonfire.cafe/instance/pins/embed
 #: lib/live_plugs/live_plugs.ex:19 lib/live_plugs/live_plugs.ex:30
 #, elixir-autogen, elixir-format
 msgid "Live plugs"
 msgstr "Live-Plugs"
 
-#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_for_Author
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/paginate/load_more_live.sface:39
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6
+#. https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/notifications
+#: lib/components/paginate/load_more_live.sface:45
 #: lib/components/paginate/load_previous_live.sface:17
 #, elixir-autogen, elixir-format
 msgid "Load more"
 msgstr "mehr laden"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#: lib/ui_common.ex:1219
+#, elixir-autogen, elixir-format
+msgid "Loading messages"
+msgstr "Nachrichten werden geladen"
+
+#. URLs: https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/modals/preview_content_live.sface:39
-#: lib/layout/loading.html.heex:12 lib/ui_common.ex:1172
+#: lib/layout/loading.html.heex:12 lib/ui_common.ex:1207
 #, elixir-autogen, elixir-format
 msgid "Loading..."
 msgstr "Wird geladen..."
 
-#. URLs: https://campground.bonfire.cafe/@alice_followed/followers
-#. https://campground.bonfire.cafe/@Wuckert_Nitzsche
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/impressum
+#. https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST
 #. https://campground.bonfire.cafe/feed
-#: lib/components/nav/header/guest_actions_live.sface:28
-#: lib/layout/layout_live.sface:153
+#: lib/components/nav/header/guest_actions_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Log in"
 msgstr "Einloggen"
 
-#. URLs: https://campground.bonfire.cafe/@alice_followed/followers
-#. https://campground.bonfire.cafe/@Wuckert_Nitzsche
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/impressum
+#. https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST
 #. https://campground.bonfire.cafe/feed
 #: lib/components/nav/header/guest_header_live.sface:31
-#: lib/components/smart_input/smart_input_inline_live.sface:133
-#: lib/layout/layout_live.sface:359
+#: lib/components/smart_input/smart_input_inline_live.sface:129
+#: lib/layout/layout_live.sface:332
 #, elixir-autogen, elixir-format
 msgid "Login"
 msgstr "anmelden"
 
-#: lib/components/links/link_live.ex:180
+#: lib/components/links/link_live.ex:197
 #, elixir-autogen, elixir-format
 msgid "MX Toolbox"
 msgstr "MX-Tollbox"
 
 #. URLs: https://campground.bonfire.cafe/notifications
-#. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#. https://campground.bonfire.cafe/settings/user/safety
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/input_controls_live.sface:213
+#, elixir-autogen, elixir-format
+msgid "Manage languages"
+msgstr "Sprachen verwalten"
+
+#: lib/ui_common.ex:1211
+#, elixir-autogen, elixir-format
+msgid "Manifesting digital commons..."
+msgstr "Die digitalen Commons werden manifestiert..."
+
+#. URLs: https://campground.bonfire.cafe/settings/user/safety
 #. https://campground.bonfire.cafe/settings/instance/configuration
-#: lib/components/nav/footer_impressum/impressum_live.sface:90
+#: lib/components/nav/footer_impressum/impressum_live.sface:103
 #, elixir-autogen, elixir-format
 msgid "Manual federation enabled"
 msgstr "Manuelle Föderation aktiviert"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/input_controls_live.sface:145
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/input_controls_live.sface:146
 #, elixir-autogen, elixir-format
 msgid "Mark the activity as sensitive"
 msgstr "Markiere die Aktivität als sensibel"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/input_controls_live.sface:108
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/input_controls_live.sface:109
 #, elixir-autogen, elixir-format
 msgid "Maximum Uploads"
 msgstr "Maximale Uploads"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/input_controls_live.sface:109
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/input_controls_live.sface:110
 #, elixir-autogen, elixir-format
 msgid "Maximum number of files that can be uploaded at once."
 msgstr ""
 "Maximale Anzahl von Dateien, die auf einmal hochgeladen werden können."
 
-#. URLs: https://campground.bonfire.cafe/users
-#. https://campground.bonfire.cafe/known_instances
-#: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:88
+#. URLs: https://campground.bonfire.cafe/known_instances
+#. https://campground.bonfire.cafe/users
+#: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:81
 #, elixir-autogen, elixir-format
 msgid "Members"
 msgstr "Mitglieder:innen"
 
-#: lib/components/smart_input/smart_input_live.sface:320
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/impressum
+#. https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST
+#. https://campground.bonfire.cafe/feed
+#: lib/components/nav/header/guest_actions_live.sface:22
+#: lib/components/nav/header/guest_header_live.sface:44
+#, elixir-autogen, elixir-format
+msgid "Menu"
+msgstr "Menü"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/layout/layout_live.sface:327
+#, elixir-autogen, elixir-format
+msgid "Messages"
+msgstr "Nachrichten"
+
+#: lib/components/smart_input/smart_input_live.sface:197
 #, elixir-autogen, elixir-format
 msgid ""
 "Messages on the fediverse are not currently end-to-end encrypted. Do not "
@@ -957,14 +1305,50 @@ msgstr ""
 "Nachrichten im Fediverse sind derzeit nicht Ende-zu-Ende verschlüsselt. "
 "Teile keine sensiblen Informationen."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/smart_input_live.sface:218
+#, elixir-autogen, elixir-format
+msgid "Minimise (keep your draft)"
+msgstr "Minimieren (Entwurf behalten)"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/smart_input_live.sface:219
+#, elixir-autogen, elixir-format
+msgid "Minimise the composer, keeping your draft"
+msgstr "Composer minimieren, Entwurf beibehalten"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/keyboard_shortcuts/keyboard_shortcuts_help_live.sface:10
 #, elixir-autogen, elixir-format
 msgid "Minimize composer"
 msgstr "Composer minimieren"
+
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6
+#. https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/notifications
+#: lib/components/paginate/load_more_live.sface:11
+#, elixir-autogen, elixir-format
+msgid "More content loaded"
+msgstr "Weitere Inhalte wurden geladen"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/input_controls_live.sface:225
+#, elixir-autogen, elixir-format
+msgid "More options"
+msgstr "Weitere Optionen"
 
 #: lib/components/settings/extra_locales_live.sface:48
 #, elixir-autogen, elixir-format
@@ -976,23 +1360,38 @@ msgstr "%{locale} nach unten verschieben"
 msgid "Move %{locale} up"
 msgstr "%{locale} nach oben verschieben"
 
+#: lib/styleguide/styleguide_live.sface:152
+#, elixir-autogen, elixir-format
+msgid ""
+"Named UI type tokens define size and line-height. Role utilities add the "
+"repeated weight, tracking, and numeric details."
+msgstr ""
+"Benannte UI-Typ-Tokens legen Größe und Zeilenhöhe fest. Rollen-"
+"Hilfsfunktionen fügen die wiederkehrenden Angaben zu Schriftstärke, "
+"Zeichenabstand und numerischen Werten hinzu."
+
+#: lib/styleguide/styleguide_live.sface:356
+#, elixir-autogen, elixir-format
+msgid "Navigation"
+msgstr "Navigation"
+
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:521
+#: lib/components/settings/change_themes_live.sface:540
 #, elixir-autogen, elixir-format
 msgid "Neutral"
 msgstr "Neutral"
 
-#: lib/components/nav/footer_impressum/impressum_live.sface:73
+#: lib/components/nav/footer_impressum/impressum_live.sface:86
 #, elixir-autogen, elixir-format
 msgid "New version available:"
 msgstr "Neue Version verfügbar:"
 
-#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_for_Author
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/paginate/load_more_live.sface:57
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6
+#. https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/notifications
+#: lib/components/paginate/load_more_live.sface:63
 #, elixir-autogen, elixir-format
 msgid "Next page"
 msgstr "nächste Seite"
@@ -1009,15 +1408,15 @@ msgstr "nein"
 msgid "No additional languages added yet."
 msgstr "Es wurden noch keine weiteren Sprachen hinzugefügt."
 
-#: lib/components/settings/change_theme_live.sface:62
+#: lib/components/settings/change_theme_live.sface:69
 #, elixir-autogen, elixir-format
 msgid "No known themes"
 msgstr "Keine Designs bekannt"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/placeholders/badge_counter_live.sface:21
 #, elixir-autogen, elixir-format
 msgid "No new notifications"
@@ -1028,12 +1427,12 @@ msgstr "Keine neuen Benachrichtigungen"
 msgid "No options available"
 msgstr "Keine Optionen verfügbar"
 
-#: lib/components/links/link_live.ex:168
+#: lib/components/links/link_live.ex:185
 #, elixir-autogen, elixir-format
 msgid "Norton"
 msgstr "Norton"
 
-#: lib/components/smart_input/smart_input_live.sface:325
+#: lib/components/smart_input/smart_input_live.sface:202
 #, elixir-autogen, elixir-format
 msgid "Not encrypted"
 msgstr "Nicht verschlüsselt"
@@ -1044,21 +1443,35 @@ msgstr "Nicht verschlüsselt"
 msgid "Not found"
 msgstr "Nicht gefunden"
 
+#: lib/components/widgets/widget_block_live.sface:34
+#, elixir-autogen, elixir-format
+msgid "Nothing here yet."
+msgstr "Hier ist noch nichts."
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/layout/layout_live.sface:309 lib/styleguide/styleguide_live.sface:437
+#, elixir-autogen, elixir-format
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
 #: lib/notifications.ex:8
 #, elixir-autogen, elixir-format
 msgid "Notifications enabled"
 msgstr "Benachrichtigungen aktiviert"
 
-#: lib/components/modals/reusable_modal_live.sface:114
-#: lib/components/modals/reusable_modal_live.sface:175
+#: lib/components/modals/reusable_modal_live.sface:132
+#: lib/components/modals/reusable_modal_live.sface:193
 #, elixir-autogen, elixir-format
 msgid "OK"
 msgstr "OK"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/notification/notification_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Offline - waiting to reconnect..."
@@ -1074,14 +1487,46 @@ msgstr "Ok"
 msgid "Oops, no preview component is available."
 msgstr "Ups, es ist keine Vorschaukomponente verfügbar."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/keyboard_shortcuts/keyboard_shortcuts_help_live.sface:6
 #, elixir-autogen, elixir-format
 msgid "Open composer"
 msgstr "Beitragseditor öffnen"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/input_controls_live.sface:210
+#, elixir-autogen, elixir-format
+msgid "Open language preferences in a new tab"
+msgstr "Spracheinstellungen in einem neuen Tab öffnen"
+
+#. URLs: https://campground.bonfire.cafe/write
+#. https://campground.bonfire.cafe/impressum
+#. https://campground.bonfire.cafe/conduct
+#. https://campground.bonfire.cafe/dashboard
+#: lib/components/nav/header/page_header_live.sface:15
+#, elixir-autogen, elixir-format
+msgid "Open navigation sidebar"
+msgstr "Navigatonsseitenleiste öffnen"
+
+#. URLs: https://campground.bonfire.cafe/feed/my
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/messages
+#: lib/components/nav/header/page_header_live.sface:64
+#, elixir-autogen, elixir-format
+msgid "Open widgets sidebar"
+msgstr "Widgets-Seitenleiste öffnen"
+
+#: lib/styleguide/styleguide_live.sface:323
+#, elixir-autogen, elixir-format
+msgid "Option"
+msgstr "Option"
 
 #: lib/components/settings/extra_locales_live.sface:6
 #, elixir-autogen, elixir-format
@@ -1091,6 +1536,11 @@ msgid ""
 msgstr ""
 "Ordne die Sprachen, die du verstehst, nach deiner Präferenz. Inhalte werden "
 "in der ersten verfügbaren Sprache aus deiner Liste angezeigt."
+
+#: lib/ui_common.ex:1217
+#, elixir-autogen, elixir-format
+msgid "Organising the bits..."
+msgstr "Bits werden organisiert..."
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
@@ -1111,7 +1561,6 @@ msgstr ""
 "Bitte versuche es in ein paar Minuten erneut oder kontaktiere die "
 "Administrator:innen der Instanz."
 
-#. URLs: https://campground.bonfire.cafe/@Lindgren_Jones_and_Crooks
 #: lib/error/error_view.ex:65 lib/error/error_view.ex:95
 #: lib/error/error_view.ex:117 lib/error/error_view.ex:137
 #, elixir-autogen, elixir-format
@@ -1120,23 +1569,40 @@ msgstr ""
 "Bitte versuche es erneut oder kontaktiere die Administrator:innen der "
 "Instanz."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/smart_input/inline_composer_placeholder_live.sface:38
-#: lib/components/smart_input/input_controls_live.sface:303
-#: lib/components/smart_input/smart_input_inline_live.sface:50
+#: lib/components/smart_input/inline_reply_fallback_live.sface:26
+#: lib/components/smart_input/input_controls_live.sface:298
+#: lib/components/smart_input/smart_input_inline_live.sface:54
 #, elixir-autogen, elixir-format
 msgid "Post"
 msgstr "Beitrag"
 
-#: lib/components/smart_input/input_controls_live.sface:303
+#: lib/styleguide/styleguide_live.sface:257
+#, elixir-autogen, elixir-format
+msgid "Post action row"
+msgstr "Zeile für Beitragsaktionen"
+
+#: lib/components/smart_input/smart_input_live.sface:125
+#: lib/components/smart_input/smart_input_live.sface:126
+#, elixir-autogen, elixir-format
+msgid "Post in a subtopic"
+msgstr "In einem Unterthema posten"
+
+#: lib/components/smart_input/smart_input_live.sface:113
+#, elixir-autogen, elixir-format
+msgid "Post without group/topic context"
+msgstr "Ohne Gruppen-/Themenkontext posten"
+
+#: lib/components/smart_input/input_controls_live.sface:298
 #, elixir-autogen, elixir-format
 msgid "Posting..."
 msgstr "Wird geposted…"
 
-#: lib/components/settings/settings_live_handler.ex:161
+#: lib/components/settings/settings_live_handler.ex:165
 #, elixir-autogen, elixir-format
 msgid "Power user mode"
 msgstr "Power-User-Modus"
@@ -1167,20 +1633,20 @@ msgstr "vorherige Seite"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:298
+#: lib/components/settings/change_themes_live.sface:320
 #, elixir-autogen, elixir-format
 msgid "Primary"
 msgstr "Haupt"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
-#: lib/components/nav/footer_impressum/impressum_live.sface:20
-#: lib/components/nav/header/guest_actions_live.sface:32
+#: lib/components/nav/footer_impressum/impressum_live.sface:24
+#: lib/components/nav/header/guest_actions_live.sface:35
 #: lib/components/nav/header/guest_header_live.sface:11
-#: lib/components/nav/header/guest_header_live.sface:78
-#: lib/components/smart_input/smart_input_inline_live.sface:166
+#: lib/components/nav/header/guest_header_live.sface:66
+#: lib/components/smart_input/smart_input_inline_live.sface:162
 #, elixir-autogen, elixir-format
 msgid "Privacy"
 msgstr "Datenschutz"
@@ -1190,25 +1656,25 @@ msgstr "Datenschutz"
 msgid "Privacy Policy"
 msgstr "Datenschutzrichtlinien"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/nav/user_menu/user_menu_links_live.sface:14
 #, elixir-autogen, elixir-format
 msgid "Profile"
 msgstr "Profil"
 
-#: lib/components/links/link_live.ex:205
+#: lib/components/links/link_live.ex:222
 #, elixir-autogen, elixir-format
 msgid "Project Honeypot"
 msgstr "Projekt Honigtopf"
 
-#. URLs: https://campground.bonfire.cafe/@Wuckert_Nitzsche
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/login/forgot-password
+#. URLs: https://campground.bonfire.cafe/impressum
+#. https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST
 #. https://campground.bonfire.cafe/feed
-#: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:78
+#. https://campground.bonfire.cafe/login/forgot-password
+#: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:71
 #, elixir-autogen, elixir-format
 msgid "Public Groups"
 msgstr "Öffentliche Gruppen"
@@ -1218,15 +1684,50 @@ msgstr "Öffentliche Gruppen"
 msgid "Public timeline"
 msgstr "Öffentliche Timeline"
 
+#: lib/ui_common.ex:1214
+#, elixir-autogen, elixir-format
+msgid "Queering the database..."
+msgstr "Die Datenbank wird gequeert..."
+
+#: lib/components/smart_input/smart_input_live.sface:337
+#, elixir-autogen, elixir-format
+msgid "Quoting"
+msgstr "Wird zitiert"
+
+#: lib/styleguide/styleguide_live.sface:319
+#, elixir-autogen, elixir-format
+msgid "Radio"
+msgstr "Radio"
+
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:927
+#: lib/components/settings/change_themes_live.sface:941
 #, elixir-autogen, elixir-format
 msgid "Radius"
 msgstr "Radius"
 
+#. URLs: https://campground.bonfire.cafe/@Schmidt_Inc
+#. https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/groups
+#. https://campground.bonfire.cafe/dashboard
+#: lib/components/widgets/widget_block_live.sface:13
+#: lib/components/widgets/widget_block_live.sface:17
+#, elixir-autogen, elixir-format
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#. URLs:
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGH8A5NFS8Y3A334GGBS6
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGGKBSE29A0Y5S2J5MCDJ
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGG2VEZVTCH4CKVT94251
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGFSGP5700C29XRSDF0GH
+#: lib/components/smart_input/smart_input_inline_live.sface:136
+#, elixir-autogen, elixir-format
+msgid "Register"
+msgstr "Registrieren"
+
 #. URLs: https://campground.bonfire.cafe/write
-#: lib/components/smart_input/smart_input_live.sface:109
+#: lib/components/smart_input/smart_input_live.sface:349
 #: lib/components/smart_input/upload/upload_previews_live.sface:114
 #: lib/components/smart_input/upload/upload_previews_live.sface:127
 #, elixir-autogen, elixir-format
@@ -1238,27 +1739,92 @@ msgstr "entfernen"
 msgid "Remove %{locale}"
 msgstr "%{locale} entfernen "
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/input_controls_live.sface:56
+#: lib/components/smart_input/input_controls_live.sface:57
+#, elixir-autogen, elixir-format
+msgid "Remove content warning"
+msgstr "Inhaltswarnung entfernen"
+
+#: lib/components/smart_input/smart_input_live.sface:112
+#, elixir-autogen, elixir-format
+msgid "Remove context"
+msgstr "Kontext entfernen"
+
+#: lib/components/smart_input/smart_input_live.sface:345
+#: lib/components/smart_input/smart_input_live.sface:346
+#, elixir-autogen, elixir-format
+msgid "Remove quote"
+msgstr "Quote entfernen"
+
+#. URLs:
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGHFXC30BXCDTQDB65BT7
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGGYX1S9EYNX8H1VFVJDJ
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGGB7TYJZJV1THWKEHPMY
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGFG789C44425M304DF7T
+#: lib/components/smart_input/input_controls_live.sface:296
+#: lib/components/smart_input/smart_input_inline_live.sface:121
+#, elixir-autogen, elixir-format
+msgid "Reply"
+msgstr "Antwort"
+
+#. URLs:
+#. https://campground.bonfire.cafe/comments/embed/01KXCBMYMK56BDF1AKF53JN5VF
+#. https://campground.bonfire.cafe/comments/embed/01KXCBMXYWR4TKBR7ZFMKBWBKK
+#. https://campground.bonfire.cafe/comments/embed/01KXCBMXSWV65TA5XEQBXB2KT9
+#. https://campground.bonfire.cafe/comments/embed/01KXCBM0368H8NS5B7ZPD40DG3
+#: lib/components/smart_input/smart_input_inline_live.sface:141
+#, elixir-autogen, elixir-format
+msgid "Reply with your existing account from any fediverse server"
+msgstr ""
+"Mit deinem bestehenden Konto von einem beliebigen Fediverse-Server antworten"
+
+#: lib/components/smart_input/smart_input_live.sface:313
+#, elixir-autogen, elixir-format
+msgid "Replying to"
+msgstr "Antworten"
+
+#: lib/components/smart_input/input_controls_live.sface:296
+#, elixir-autogen, elixir-format
+msgid "Replying..."
+msgstr "Antworten..."
+
+#: lib/components/settings/change_themes_live.sface:151
+#, elixir-autogen, elixir-format
+msgid "Reset all"
+msgstr "Alles zurücksetzen"
+
+#: lib/components/settings/change_themes_live.sface:147
+#, elixir-autogen, elixir-format
+msgid ""
+"Reset all custom theme settings back to their defaults? This cannot be "
+"undone."
+msgstr ""
+"Alle benutzerdefinierten Design-Einstellungen auf die Standardeinstellungen "
+"zurücksetzen? Dieser Vorgang kann nicht rückgängig gemacht werden."
+
+#. URLs: https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/nav/logo/logo_link_live.sface:4
 #, elixir-autogen, elixir-format
 msgid "Return to homepage"
 msgstr "Zurück zur Startseite"
 
 #. URLs: https://campground.bonfire.cafe/dashboard
-#. https://campground.bonfire.cafe/notifications
-#. https://campground.bonfire.cafe/&Featured_Group
-#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/login/forgot-password
 #: lib/ui_common.ex:13 lib/ui_common.ex:13
 #, elixir-autogen, elixir-format
 msgid "Reusable user interface components and utilities."
 msgstr "Wiederverwendbare UI-Komponenten und Hilfsmittel"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/settings/instance
-#. https://campground.bonfire.cafe/settings/instance/configuration
+#. URLs: https://campground.bonfire.cafe/settings/instance/configuration
 #: lib/components/settings/templates/settings_input_live.sface:38
 #: lib/components/settings/templates/settings_input_live.sface:60
 #: lib/components/settings/templates/settings_links_editor_live.sface:52
@@ -1268,92 +1834,115 @@ msgstr "Wiederverwendbare UI-Komponenten und Hilfsmittel"
 msgid "Save"
 msgstr "Speichern"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/smart_input/input_controls_live.sface:71
 #, elixir-autogen, elixir-format
 msgid "Schedule"
 msgstr "Planen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/smart_input/input_controls_live.sface:77
 #, elixir-autogen, elixir-format
 msgid "Schedule for date"
 msgstr "Für Datum planen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/input_controls_live.sface:274
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/input_controls_live.sface:257
 #, elixir-autogen, elixir-format
 msgid "Schedule post"
 msgstr "Beitrag planen"
 
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/layout/layout_live.sface:280 lib/styleguide/styleguide_live.sface:285
+#, elixir-autogen, elixir-format
+msgid "Search"
+msgstr "Suche"
+
+#: lib/components/config_settings/config_settings_registry_live.sface:12
+#, elixir-autogen, elixir-format
+msgid "Search keys or default values..."
+msgstr "Schlüssel oder Standardwerte suchen ..."
+
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:372
+#: lib/components/settings/change_themes_live.sface:393
 #, elixir-autogen, elixir-format
 msgid "Secondary"
 msgstr "Sekundär"
 
+#: lib/ui_common.ex:1210
+#, elixir-autogen, elixir-format
+msgid "Seizing the means of communication..."
+msgstr "Die Kommunikationsmittel in Besitz nehmen ..."
+
+#: lib/styleguide/styleguide_live.sface:292
+#, elixir-autogen, elixir-format
+msgid "Select"
+msgstr "Auswählen"
+
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:225
-#: lib/components/settings/change_themes_live.sface:303
-#: lib/components/settings/change_themes_live.sface:377
-#: lib/components/settings/change_themes_live.sface:452
-#: lib/components/settings/change_themes_live.sface:526
-#: lib/components/settings/change_themes_live.sface:601
-#: lib/components/settings/change_themes_live.sface:675
-#: lib/components/settings/change_themes_live.sface:749
-#: lib/components/settings/change_themes_live.sface:823
+#: lib/components/settings/change_themes_live.sface:249
+#: lib/components/settings/change_themes_live.sface:325
+#: lib/components/settings/change_themes_live.sface:398
+#: lib/components/settings/change_themes_live.sface:472
+#: lib/components/settings/change_themes_live.sface:545
+#: lib/components/settings/change_themes_live.sface:619
+#: lib/components/settings/change_themes_live.sface:692
+#: lib/components/settings/change_themes_live.sface:765
+#: lib/components/settings/change_themes_live.sface:838
 #, elixir-autogen, elixir-format
 msgid "Select color for %{color}"
 msgstr "Farbe für %{color} auswählen"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:82
+#: lib/components/settings/change_theme_live.sface:15
+#: lib/components/settings/change_theme_live.sface:62
 #, elixir-autogen, elixir-format
-msgid "Select the active dark theme"
-msgstr "Dunkles Design auswählen"
+msgid "Selected"
+msgstr "Ausgewählt"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:94
-#, elixir-autogen, elixir-format
-msgid "Select the active light theme"
-msgstr "Helles Design auswählen"
-
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
-#. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:1037
+#: lib/components/settings/change_themes_live.sface:1047
 #, elixir-autogen, elixir-format
 msgid "Selectors"
 msgstr "Auswahloptionen"
 
-#: lib/components/smart_input/input_controls_live.sface:296
+#: lib/styleguide/styleguide_live.sface:86
+#, elixir-autogen, elixir-format
+msgid "Semantic & neutral"
+msgstr "Semantisch & neutral"
+
+#: lib/components/smart_input/input_controls_live.sface:291
 #, elixir-autogen, elixir-format
 msgid "Send"
 msgstr "Senden"
 
-#: lib/components/smart_input/input_controls_live.sface:296
+#: lib/components/smart_input/input_controls_live.sface:291
 #, elixir-autogen, elixir-format
 msgid "Sending..."
 msgstr "Wird gesendet..."
 
-#: lib/components/notification/notification_live.ex:183
+#: lib/components/notification/notification_live.ex:186
 #, elixir-autogen, elixir-format
 msgid "Sentry Organization"
 msgstr "Sentry-Organisation"
 
-#: lib/components/notification/notification_live.ex:184
+#: lib/components/notification/notification_live.ex:187
 #, elixir-autogen, elixir-format
 msgid "Sentry error reporting organization."
 msgstr "Sentry-Fehlerbericht-Organisation"
@@ -1364,90 +1953,105 @@ msgstr "Sentry-Fehlerbericht-Organisation"
 msgid "Set as cover"
 msgstr "Als Cover festlegen "
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/input_controls_live.sface:172
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/smart_input/input_controls_live.sface:174
+#: lib/components/smart_input/input_controls_live.sface:175
 #, elixir-autogen, elixir-format
 msgid "Set post language"
 msgstr "Beitragssprache festlegen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/nav/user_menu/user_menu_links_live.sface:100
 #, elixir-autogen, elixir-format
 msgid "Settings"
 msgstr "Einstellungen"
 
-#. URLs: https://campground.bonfire.cafe/&Announce_Channel
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#: lib/ui_common.ex:1159
+#: lib/ui_common.ex:1194
 #, elixir-autogen, elixir-format
 msgid "Settings for cute GIFs shown in the interface."
 msgstr ""
 "Einstellungen für süße GIFs, die in der Benutzeroberfläche angezeigt werden."
 
-#. URLs: https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries
-#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries
 #. https://campground.bonfire.cafe/settings/instance/configuration
 #. https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/settings/settings_live_handler.ex:15
 #: lib/components/settings/settings_live_handler.ex:30
 #: lib/components/settings/settings_live_handler.ex:65
-#: lib/components/settings/settings_live_handler.ex:112
-#: lib/components/settings/settings_live_handler.ex:175
+#: lib/components/settings/settings_live_handler.ex:113
+#: lib/components/settings/settings_live_handler.ex:179
 #, elixir-autogen, elixir-format
 msgid "Settings saved"
 msgstr "Einstellungen gespeichert"
+
+#: lib/styleguide/styleguide_live.sface:160
+#, elixir-autogen, elixir-format
+msgid "Shape & borders"
+msgstr "Form & Ränder"
 
 #: lib/components/widgets/widget_feedbacks/feedback_button_live.sface:18
 #, elixir-autogen, elixir-format
 msgid "Share feedback"
 msgstr "Feedback teilen"
 
+#: lib/components/smart_input/inline_composer_placeholder_live.sface:11
+#: lib/components/smart_input/inline_composer_placeholder_live.sface:28
+#, elixir-autogen, elixir-format
+msgid "Share something"
+msgstr "Etwas teilen"
+
 #: lib/components/notification/notification_live.sface:59
 #, elixir-autogen, elixir-format
 msgid "Show"
 msgstr "Anzeigen"
 
-#. URLs: https://campground.bonfire.cafe/feed/my
-#. https://campground.bonfire.cafe/index.html https://campground.bonfire.cafe/
-#. https://campground.bonfire.cafe/feed/local
-#: lib/components/paginate/load_more_live.sface:38
+#. URLs: https://campground.bonfire.cafe/feed/local
+#: lib/components/paginate/load_more_live.sface:44
 #, elixir-autogen, elixir-format
 msgid "Show %{num} more"
 msgstr "Weitere %{num} anzeigen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#: lib/components/smart_input/smart_input_live.sface:310
+#, elixir-autogen, elixir-format
+msgid "Show or hide the post you're replying to"
+msgstr "Den Beitrag anzeigen oder ausblenden, auf den du antwortest"
+
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/keyboard_shortcuts/keyboard_shortcuts_help_live.sface:22
 #, elixir-autogen, elixir-format
 msgid "Show this help"
 msgstr "Hilfe anzeigen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/nav/header/guest_header_live.sface:71
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/nav/header/guest_header_live.sface:59
 #: lib/components/nav/user_menu/user_menu_links_live.sface:122
 #, elixir-autogen, elixir-format
 msgid "Sign out"
 msgstr "Abmelden"
 
-#. URLs: https://campground.bonfire.cafe/@alice_followed/followers
-#. https://campground.bonfire.cafe/@Wuckert_Nitzsche
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/impressum
+#. https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST
 #. https://campground.bonfire.cafe/feed
-#: lib/components/nav/header/guest_actions_live.sface:29
-#: lib/layout/layout_live.sface:367
+#: lib/components/nav/header/guest_actions_live.sface:32
+#: lib/layout/layout_live.sface:340
 #, elixir-autogen, elixir-format
 msgid "Sign up"
 msgstr "Registrieren"
@@ -1457,14 +2061,32 @@ msgstr "Registrieren"
 msgid "Signup"
 msgstr "Registrieren"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/nav/user_menu/user_menu_links_live.sface:64
 #, elixir-autogen, elixir-format
 msgid "Silenced"
 msgstr "Stummschalten"
+
+#. URLs: https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
+#: lib/layout/layout_live.sface:9
+#, elixir-autogen, elixir-format
+msgid "Skip to main content"
+msgstr "Zum Hauptinhalt springen"
+
+#: lib/ui_common.ex:1221
+#, elixir-autogen, elixir-format
+msgid ""
+"Some short messages to show (picked randomly each time) when the page or "
+"something is loading."
+msgstr ""
+"Zufällig ausgewählte Kurzmeldungen, die angezeigt werden, wenn die Seite "
+"oder etwas geladen wird."
 
 #: lib/error/error_handling.ex:113
 #, elixir-autogen, elixir-format
@@ -1522,6 +2144,9 @@ msgstr ""
 msgid "Sorry, no answer was received"
 msgstr "Sorry, ich habe keine Antwort erhalten"
 
+#. URLs: https://campground.bonfire.cafe/silenced
+#. https://campground.bonfire.cafe/post/01KXCBPCSV1ACRP3JWKEBBHG06
+#. https://campground.bonfire.cafe/discussion/01KXCBPBRKZWMQPJG7PBSCCTJV
 #: lib/error/error_handling.ex:144
 #, elixir-autogen, elixir-format
 msgid "Sorry, the app encountered an unexpected error"
@@ -1559,16 +2184,21 @@ msgstr ""
 "Sorry, die Funktion %{function_name} im Modul %{module_name} hat nicht die "
 "erwarteten Daten erhalten"
 
-#. URLs: https://campground.bonfire.cafe/&Archived_Discoverable_Group
+#. URLs: https://campground.bonfire.cafe/&Closed_Group
+#. https://campground.bonfire.cafe/&Test_Group_211202
 #. https://campground.bonfire.cafe/&Archived_Topic
-#. https://campground.bonfire.cafe/&Test_Group_145122
-#. https://campground.bonfire.cafe/&Closed_Group
+#. https://campground.bonfire.cafe/&Archived_Discoverable_Group
 #: lib/error/error_handling.ex:371
 #, elixir-autogen, elixir-format
 msgid "Sorry, this resulted in something unexpected"
 msgstr "Sorry, es ist etwas Unerwartetes passiert"
 
-#: lib/components/links/link_live.ex:174
+#: lib/styleguide/styleguide_live.sface:201
+#, elixir-autogen, elixir-format
+msgid "Spacing"
+msgstr "Abstände"
+
+#: lib/components/links/link_live.ex:191
 #, elixir-autogen, elixir-format
 msgid "SpamHaus"
 msgstr "SpamHaus"
@@ -1578,15 +2208,25 @@ msgstr "SpamHaus"
 msgid "Start typing..."
 msgstr "Anfangen zu tippen..."
 
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/images/avatar_live.ex:57
+#, elixir-autogen, elixir-format
+msgid "Static image paths to use for users without a profile picture."
+msgstr ""
+"Statische Bildpfade, die für User ohne Profilbild verwendet werden sollen."
+
 #: lib/web.ex:14
 #, elixir-autogen, elixir-format
 msgid "Static paths"
 msgstr "Feste Pfade"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/keyboard_shortcuts/keyboard_shortcuts_help_live.sface:18
 #, elixir-autogen, elixir-format
 msgid "Submit post"
@@ -1594,7 +2234,7 @@ msgstr "Beitrag senden"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:670
+#: lib/components/settings/change_themes_live.sface:687
 #, elixir-autogen, elixir-format
 msgid "Success"
 msgstr "Erfolg"
@@ -1604,59 +2244,111 @@ msgstr "Erfolg"
 msgid "Success!"
 msgstr "Geschafft!"
 
-#: lib/components/links/link_live.ex:162
+#: lib/components/links/link_live.ex:179
 #, elixir-autogen, elixir-format
 msgid "Sucuri"
 msgstr "Sucuri"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
-#. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:56
+#: lib/components/smart_input/input_controls_live.sface:38
 #, elixir-autogen, elixir-format
-msgid "System"
-msgstr "System"
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: lib/styleguide/styleguide_live.sface:66
+#, elixir-autogen, elixir-format
+msgid "Surfaces & base"
+msgstr "Oberflächen & Basis"
 
 #: lib/components/multiselect/multiselect_live.sface:52
 #, elixir-autogen, elixir-format
 msgid "TO"
 msgstr "AN"
 
-#. URLs: https://campground.bonfire.cafe/@O_Connell_and_Sons
-#. https://campground.bonfire.cafe/@Kihn_Parker_and_Pacocha
-#. https://campground.bonfire.cafe/@Price_Reinger_and_Walker
-#. https://campground.bonfire.cafe/@Wisoky_Schmitt_and_Wuckert
+#. URLs: https://campground.bonfire.cafe/@McLaughlin_Inc
+#. https://campground.bonfire.cafe/@Torp_and_Sons
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #: lib/components/placeholders/empty_feed.sface:19
 #, elixir-autogen, elixir-format
 msgid "Take a deep breath..."
 msgstr "atme tief durch..."
 
-#: lib/components/notification/notification_live.ex:209
+#: lib/components/notification/notification_live.ex:212
 #, elixir-autogen, elixir-format
 msgid "Template for reporting errors to the Bonfire team."
 msgstr "Vorlage zum Melden von Fehlern an das Bonfire-Team"
+
+#. URLs:
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGH8A5NFS8Y3A334GGBS6
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGGKBSE29A0Y5S2J5MCDJ
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGG2VEZVTCH4CKVT94251
+#. https://campground.bonfire.cafe/comments/embed/01KXCBGFSGP5700C29XRSDF0GH
+#: lib/components/smart_input/smart_input_inline_live.sface:156
+#, elixir-autogen, elixir-format
+msgid "Terms"
+msgstr "Bedingungen"
+
+#: lib/styleguide/styleguide_live.sface:281
+#, elixir-autogen, elixir-format
+msgid "Text input"
+msgstr "Texteingabe"
+
+#: lib/styleguide/styleguide_live.sface:300
+#, elixir-autogen, elixir-format
+msgid "Textarea"
+msgstr "Textfeld"
 
 #. URLs: https://campground.bonfire.cafe/settings/boundaries/circles
 #. https://campground.bonfire.cafe/settings/instance/invites
 #. https://campground.bonfire.cafe/settings/boundaries/acls
 #. https://campground.bonfire.cafe/messages
-#: lib/components/paginate/load_more_live.sface:69
+#: lib/components/paginate/load_more_live.sface:75
 #, elixir-autogen, elixir-format
 msgid "That's all folks..."
 msgstr "Das ist alles, Leute..."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#: lib/styleguide/styleguide_live.sface:440
+#, elixir-autogen, elixir-format
+msgid ""
+"The activity context line from the \"Benachrichtigungen\" artboard — a "
+"colored verb icon + actor + verb phrase, optionally followed by the "
+"referenced post/profile/quote. Same primitive (SubjectMinimalLive) that "
+"prefixes feed activities."
+msgstr ""
+"Die Aktivitätszeile aus dem Artboard „Benachrichtigungen“ – farbiges "
+"Aktionssymbol + Akteur + Aktionsbeschreibung, optional gefolgt vom "
+"verknüpften Beitrag, Profil oder Zitat. Dieselbe Komponente "
+"(SubjectMinimalLive), die auch Aktivitäten im Feed einleitet."
+
+#: lib/styleguide/styleguide_live.sface:33
+#, elixir-autogen, elixir-format
+msgid ""
+"The component vocabulary, rendered against the live theme. Switch theme or "
+"flavour and everything below re-skins from tokens alone."
+msgstr ""
+"Der Komponenten-Wortschatz, dargestellt vor dem Hintergrund des aktuellen "
+"Themes. Wechselt man das Theme oder die Variante, wird alles darunter allein"
+" anhand der Tokens neu gestaltet."
+
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:160
+#, elixir-autogen, elixir-format
+msgid "The custom theme isn't active yet"
+msgstr "Das benutzerdefinierte Design ist noch nicht aktiv"
+
+#. URLs: https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/nav/logo/logo_live.sface:6
 #, elixir-autogen, elixir-format
 msgid "The icon to display for this instance."
 msgstr "Das Symbol, das für diese Instanz angezeigt werden soll."
 
-#. URLs:
-#. https://campground.bonfire.cafe/signup/email/confirm/HUGZ2B5K2TYGGHMWJQZRKJWRWA
-#. https://campground.bonfire.cafe/signup/email/confirm
-#. https://campground.bonfire.cafe/signup/email/confirm/YNM2A33MLJLIEGDS
+#. URLs: https://campground.bonfire.cafe/signup/email/confirm
+#. https://campground.bonfire.cafe/signup/email/confirm/26I5I673CTXW7BW2I5GBYYD4AA
+#. https://campground.bonfire.cafe/login
 #. https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/nav/logo/logo_live.sface:18
 #, elixir-autogen, elixir-format
@@ -1667,6 +2359,18 @@ msgstr "Der Name, der für diese Instanz angezeigt werden soll."
 #, elixir-autogen, elixir-format
 msgid "Theme changed and loaded :-)"
 msgstr "Design geändert und geladen :-)"
+
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:2
+#, elixir-autogen, elixir-format
+msgid "Theme mode"
+msgstr "Design-Modus"
+
+#: lib/styleguide/styleguide_live.sface:29
+#, elixir-autogen, elixir-format
+msgid "Theme styleguide"
+msgstr "Design-Richtlinien"
 
 #: lib/error/error_handling.ex:309
 #, elixir-autogen, elixir-format
@@ -1733,16 +2437,25 @@ msgstr ""
 "versucht, die Aktion auszuführen. Hat es bei dir nicht funktioniert? "
 "Feedback ist willkommen!"
 
-#. URLs: https://campground.bonfire.cafe/@O_Connell_and_Sons
-#. https://campground.bonfire.cafe/@Kihn_Parker_and_Pacocha
-#. https://campground.bonfire.cafe/@Price_Reinger_and_Walker
-#. https://campground.bonfire.cafe/@Wisoky_Schmitt_and_Wuckert
+#. URLs: https://campground.bonfire.cafe/@McLaughlin_Inc
+#. https://campground.bonfire.cafe/@Torp_and_Sons
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #: lib/components/placeholders/empty_feed.sface:16
 #, elixir-autogen, elixir-format
 msgid "This feed is empty"
 msgstr "Dieser Feed ist leer"
 
-#: lib/components/links/link_live.ex:89
+#: lib/live_handlers.ex:185
+#, elixir-autogen, elixir-format
+msgid ""
+"This instance is under heavy load. Please wait a moment before continuing, "
+"as things may be slow for a bit."
+msgstr ""
+"Diese Instanz ist derzeit stark ausgelastet. Bitte warten Sie einen Moment, "
+"bevor Sie fortfahren, da es vorübergehend zu Verzögerungen kommen kann."
+
+#: lib/components/links/link_live.ex:106
 #, elixir-autogen, elixir-format
 msgid ""
 "This is an external link, please check where it leads before following it. "
@@ -1755,22 +2468,47 @@ msgstr ""
 "untenstehenden URL- oder IP-Reputation-Dienste nutzen oder die URL in einem "
 "beliebigen Reputations-Tool deiner Wahl einfügen."
 
+#: lib/components/smart_input/smart_input_live.sface:98
+#, elixir-autogen, elixir-format
+msgid "This post will be shared in %{name}"
+msgstr "Dieser Beitrag wird in %{name} geteilt"
+
 #: lib/components/smart_input/select_recipients_live.sface:6
 #, elixir-autogen, elixir-format
 msgid "To"
 msgstr "an"
+
+#: lib/styleguide/styleguide_live.sface:327
+#, elixir-autogen, elixir-format
+msgid "Toggle"
+msgstr "Umschalten"
 
 #: lib/web.ex:110
 #, elixir-autogen, elixir-format
 msgid "Too many requests, please try again later."
 msgstr "Zu viele Anfragen, bitte versuche es später erneut."
 
+#: lib/components/smart_input/smart_input_live.sface:148
+#, elixir-autogen, elixir-format
+msgid "Topics"
+msgstr "Themen"
+
+#: lib/ui_common.ex:1213
+#, elixir-autogen, elixir-format
+msgid "Tuning into the mycelial network..."
+msgstr "Mit dem Myzelnetzwerk verbinden ..."
+
 #: lib/components/extensions/extensions_live.sface:25
 #, elixir-autogen, elixir-format
 msgid "Turn off extensions configuration"
 msgstr "Erweiterungskonfiguration deaktivieren"
 
-#: lib/components/links/link_live.ex:135
+#: lib/styleguide/styleguide_live.sface:110
+#, elixir-autogen, elixir-format
+msgid "Typography"
+msgstr "Typografie"
+
+#: lib/components/links/link_live.ex:152
 #, elixir-autogen, elixir-format
 msgid "URLscan"
 msgstr "URLscan"
@@ -1780,47 +2518,100 @@ msgstr "URLscan"
 msgid "Unexpected data"
 msgstr "unerwartete Daten"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/keyboard_shortcuts/keyboard_shortcuts_help_live.sface:14
 #, elixir-autogen, elixir-format
 msgid "Unfocus / close"
 msgstr "Fokus entfernen / Schließen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/components/smart_input/upload/upload_button_live.sface:3
 #: lib/components/smart_input/upload/upload_button_live.sface:11
 #, elixir-autogen, elixir-format
 msgid "Upload an attachment"
 msgstr "Anhang hochladen"
 
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:85
+#, elixir-autogen, elixir-format
+msgid "Use custom"
+msgstr "Benutzerdefiniert verwenden"
+
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:180
+#, elixir-autogen, elixir-format
+msgid "Use custom theme"
+msgstr "Benutzerdefiniertes Design verwenden"
+
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:21
+#, elixir-autogen, elixir-format
+msgid "Use dark"
+msgstr "Dunkel verwenden"
+
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:42
+#, elixir-autogen, elixir-format
+msgid "Use light"
+msgstr "Hell nutzen"
+
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:63
+#, elixir-autogen, elixir-format
+msgid "Use system"
+msgstr "System verwenden"
+
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:96
+#, elixir-autogen, elixir-format
+msgid "Used when theme mode is Dark, or when System switches to dark."
+msgstr ""
+"Wird verwendet, wenn der dunkle Modus aktiv ist oder wenn dein System auf "
+"den dunklen Modus umschaltet."
+
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:115
+#, elixir-autogen, elixir-format
+msgid "Used when theme mode is Light, or when System switches to light."
+msgstr ""
+"Wird verwendet, wenn der helle Modus aktiv ist oder wenn dein System auf den"
+" hellen Modus umschaltet."
+
 #: lib/components/extensions/extensions_live.sface:40
 #, elixir-autogen, elixir-format
 msgid "User Interface Extensions"
 msgstr "Erweiterungen der Benutzeroberfläche"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/nav/user_menu/user_menu_live.sface:10
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/nav/user_menu/user_menu_live.sface:7
 #, elixir-autogen, elixir-format
 msgid "User menu"
 msgstr "Benutzermenü"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/nav/footer_impressum/impressum_live.sface:23
-#: lib/components/nav/header/guest_actions_live.sface:36
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/components/nav/footer_impressum/impressum_live.sface:38
+#: lib/components/nav/header/guest_actions_live.sface:39
 #: lib/components/nav/header/guest_header_live.sface:15
-#: lib/components/nav/header/guest_header_live.sface:82
+#: lib/components/nav/header/guest_header_live.sface:70
 #, elixir-autogen, elixir-format
 msgid "Users"
 msgstr "Benutzer"
@@ -1836,16 +2627,14 @@ msgstr "Code anzeigen"
 msgid "View code changes"
 msgstr "Codeänderungen anzeigen"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries
+#. URLs: https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries
 #. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/components/extensions/extension_code_menu_live.sface:13
 #, elixir-autogen, elixir-format
 msgid "View code repository"
 msgstr "Code-Repository anzeigen"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries
+#. URLs: https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries
 #. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/components/extensions/extension_code_menu_live.sface:15
 #, elixir-autogen, elixir-format
@@ -1857,27 +2646,26 @@ msgstr "Kompilierten Code anzeigen"
 msgid "View list of libraries and licenses"
 msgstr "Liste der Bibliotheken und Lizenzen anzeigen"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries
+#. URLs: https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries
 #. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/components/extensions/extension_code_menu_live.sface:14
 #, elixir-autogen, elixir-format
 msgid "View source code"
 msgstr "Quellcode anzeigen"
 
-#: lib/components/links/link_live.ex:156
+#: lib/components/links/link_live.ex:173
 #, elixir-autogen, elixir-format
 msgid "VirusTotal"
 msgstr "VirusTotal"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:744
+#: lib/components/settings/change_themes_live.sface:760
 #, elixir-autogen, elixir-format
 msgid "Warning"
 msgstr "Warnung"
 
-#: lib/components/smart_input/smart_input_live.sface:143
+#: lib/components/smart_input/smart_input_live.sface:383
 #, elixir-autogen, elixir-format
 msgid ""
 "Warning: You are replying to a remote activity but federation is disabled. "
@@ -1897,6 +2685,32 @@ msgstr "Wir können den Server nicht finden"
 #, elixir-autogen, elixir-format
 msgid "Where the server can find static assets"
 msgstr "Wo der Server statische Dateien finden kann"
+
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/feed
+#: lib/layout/layout_live.sface:99
+#, elixir-autogen, elixir-format
+msgid "Widgets sidebar"
+msgstr "Widgets-Seitenleiste"
+
+#. URLs: https://campground.bonfire.cafe/write
+#: lib/components/smart_input/inline_reply_fallback_live.sface:23
+#: lib/components/smart_input/smart_input_inline_live.sface:43
+#, elixir-autogen, elixir-format
+msgid "Write a comment"
+msgstr "Schreib einen Kommentar"
+
+#: lib/components/smart_input/inline_reply_fallback_live.sface:7
+#, elixir-autogen, elixir-format
+msgid "Write a top-level comment"
+msgstr "Schreibe einen Kommentar auf oberster Ebene"
+
+#: lib/components/settings/theme_preview_live.sface:92
+#, elixir-autogen, elixir-format
+msgid "Write something..."
+msgstr "Schreib etwas..."
 
 #: lib/components/settings/templates/settings_toggle_throuple_live.sface:25
 #, elixir-autogen, elixir-format
@@ -1953,21 +2767,49 @@ msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:988
+#: lib/components/settings/change_themes_live.sface:162
+#, elixir-autogen, elixir-format
+msgid ""
+"Your changes are saved, but won't be visible until you activate the custom "
+"theme."
+msgstr ""
+"Deine Änderungen wurden gespeichert, sind jedoch erst sichtbar, wenn du das "
+"benutzerdefinierte Design aktivierst."
+
+#. URLs: https://campground.bonfire.cafe/write
+#: lib/components/smart_input/smart_input_inline_live.sface:47
+#, elixir-autogen, elixir-format
+msgid "Your message or question…"
+msgstr "Deine Nachricht oder Frage..."
+
+#: lib/styleguide/notification_card.ex:49
+#: lib/styleguide/notification_card.ex:65
+#, elixir-autogen, elixir-format
+msgid "and %{count} others"
+msgstr "und %{count} weitere"
+
+#: lib/styleguide/notification_card.ex:58
+#, elixir-autogen, elixir-format
+msgid "boosted your activity"
+msgstr "hat deine Aktivität geboostet"
+
+#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
+#. https://campground.bonfire.cafe/settings/user/preferences/appearance
+#: lib/components/settings/change_themes_live.sface:1000
 #, elixir-autogen, elixir-format
 msgid "button, input, select, tab"
 msgstr "Schaltfläche, Eingabefeld, Auswahlliste, Registerkarte"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:938
+#: lib/components/settings/change_themes_live.sface:952
 #, elixir-autogen, elixir-format
 msgid "card, modal, alert"
 msgstr "Karte, Dialog, Hinweis"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
 #. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:1038
+#: lib/components/settings/change_themes_live.sface:1048
 #, elixir-autogen, elixir-format
 msgid "checkbox, toggle, badge"
 msgstr "Kontrollkästchen, Schalter, Abzeichen"
@@ -1977,165 +2819,10 @@ msgstr "Kontrollkästchen, Schalter, Abzeichen"
 msgid "close"
 msgstr "schließen"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1184
+#: lib/styleguide/notification_card.ex:82
 #, elixir-autogen, elixir-format
-msgid "Loading messages"
-msgstr "Nachrichten werden geladen"
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1186
-#, elixir-autogen, elixir-format
-msgid ""
-"Some short messages to show (picked randomly each time) when the page or "
-"something is loading."
-msgstr ""
-"Zufällig ausgewählte Kurzmeldungen, die angezeigt werden, wenn die Seite "
-"oder etwas geladen wird."
-
-#: lib/components/settings/templates/settings_links_editor_live.sface:48
-#, elixir-autogen, elixir-format
-msgid "Add link"
-msgstr "Link hinzufügen"
-
-#: lib/components/widgets/widget_instance_info/widget_instance_info_live.sface:6
-#, elixir-autogen, elixir-format
-msgid "Banner for %{instance}"
-msgstr "Banner für %{instance}"
-
-#: lib/components/smart_input/smart_input_inline_live.sface:76
-#: lib/components/smart_input/smart_input_inline_live.sface:79
-#, elixir-autogen, elixir-format
-msgid "Cancel reply"
-msgstr "Antwort abbrechen"
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/layout/layout_live.sface:185
-#, elixir-autogen, elixir-format
-msgid "Close sidebar"
-msgstr "Seitenleiste schließen"
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/layout/layout_live.sface:110
-#, elixir-autogen, elixir-format
-msgid "Close widgets sidebar"
-msgstr "Widgets-Seitenleiste schließen"
-
-#: lib/components/settings/templates/settings_links_editor_live.ex:59
-#, elixir-autogen, elixir-format
-msgid "Could not save links"
-msgstr "Links konnten nicht gespeichert werden"
-
-#: lib/components/smart_input/smart_input_live_handler.ex:774
-#: lib/components/smart_input/smart_input_live_handler.ex:800
-#, elixir-autogen, elixir-format
-msgid "Group"
-msgstr "Gruppe"
-
-#. URLs:
-#. https://campground.bonfire.cafe/comments/embed/01KVWY1JBXT8Y0G4YG7VT1QZMS
-#. https://campground.bonfire.cafe/comments/embed/01KVWY0X6Z3G77Y17X3H8WRN05
-#. https://campground.bonfire.cafe/comments/embed/01KVWY0WV4QGGK731QSJW2NJXB
-#. https://campground.bonfire.cafe/comments/embed/01KVWY0WG3FX8X8X7377D7AJJK
-#: lib/components/smart_input/smart_input_inline_live.sface:149
-#, elixir-autogen, elixir-format
-msgid "Join %{instance_name} to leave comments"
-msgstr "Tritt %{instance_name} bei, um Kommentare zu hinterlassen"
-
-#: lib/components/settings/templates/settings_links_editor_live.sface:17
-#, elixir-autogen, elixir-format
-msgid "Label"
-msgstr "Label"
-
-#: lib/components/settings/templates/settings_links_editor_live.ex:56
-#, elixir-autogen, elixir-format
-msgid "Links saved"
-msgstr "Gespeicherte Links"
-
-#. URLs: https://campground.bonfire.cafe/write
-#. https://campground.bonfire.cafe/conduct
-#. https://campground.bonfire.cafe/impressum
-#. https://campground.bonfire.cafe/dashboard
-#: lib/components/nav/header/page_header_live.sface:12
-#, elixir-autogen, elixir-format
-msgid "Open navigation sidebar"
-msgstr "Navigatonsseitenleiste öffnen"
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/nav/header/page_header_live.sface:59
-#, elixir-autogen, elixir-format
-msgid "Open widgets sidebar"
-msgstr "Widgets-Seitenleiste öffnen"
-
-#. URLs:
-#. https://campground.bonfire.cafe/comments/embed/01KVWY1JBXT8Y0G4YG7VT1QZMS
-#. https://campground.bonfire.cafe/comments/embed/01KVWY0X6Z3G77Y17X3H8WRN05
-#. https://campground.bonfire.cafe/comments/embed/01KVWY0WV4QGGK731QSJW2NJXB
-#. https://campground.bonfire.cafe/comments/embed/01KVWY0WG3FX8X8X7377D7AJJK
-#: lib/components/smart_input/smart_input_inline_live.sface:140
-#, elixir-autogen, elixir-format
-msgid "Register"
-msgstr "Registrieren"
-
-#: lib/components/smart_input/smart_input_inline_live.sface:70
-#, elixir-autogen, elixir-format
-msgid "Replying to comment"
-msgstr "Auf Kommentar antworten"
-
-#: lib/components/smart_input/inline_composer_placeholder_live.sface:11
-#: lib/components/smart_input/inline_composer_placeholder_live.sface:28
-#, elixir-autogen, elixir-format
-msgid "Share something"
-msgstr "Etwas teilen"
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/layout/layout_live.sface:9
-#, elixir-autogen, elixir-format
-msgid "Skip to main content"
-msgstr "Zum Hauptinhalt springen"
-
-#. URLs:
-#. https://campground.bonfire.cafe/comments/embed/01KVWY1JBXT8Y0G4YG7VT1QZMS
-#. https://campground.bonfire.cafe/comments/embed/01KVWY0X6Z3G77Y17X3H8WRN05
-#. https://campground.bonfire.cafe/comments/embed/01KVWY0WV4QGGK731QSJW2NJXB
-#. https://campground.bonfire.cafe/comments/embed/01KVWY0WG3FX8X8X7377D7AJJK
-#: lib/components/smart_input/smart_input_inline_live.sface:160
-#, elixir-autogen, elixir-format
-msgid "Terms"
-msgstr "Bedingungen"
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/layout/layout_live.sface:114
-#, elixir-autogen, elixir-format
-msgid "Widgets sidebar"
-msgstr "Widgets-Seitenleiste"
-
-#. URLs:
-#. https://campground.bonfire.cafe/comments/embed/01KVWYEGSP482RYKC4WK0K5X1J
-#. https://campground.bonfire.cafe/comments/embed/01KVWYEGEZH0KVSNB61N3XYCV0
-#. https://campground.bonfire.cafe/comments/embed/01KVWYEFVX9E8Z65G8A25FF1S2
-#. https://campground.bonfire.cafe/write
-#: lib/components/smart_input/smart_input_inline_live.sface:43
-#, elixir-autogen, elixir-format
-msgid "Your message or question…"
-msgstr "Deine Nachricht oder Frage..."
+msgid "followed you"
+msgstr "folgt dir jetzt"
 
 #: lib/components/smart_input/inline_composer_placeholder_live.ex:15
 #, elixir-autogen, elixir-format
@@ -2147,418 +2834,68 @@ msgstr "Gruppe"
 msgid "https://..."
 msgstr "https://..."
 
-#. URLs: https://campground.bonfire.cafe/&Cozy_Club
-#. https://campground.bonfire.cafe/&Creator_Composer_Group
-#. https://campground.bonfire.cafe/&Feed_Post_Group_for_Author
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
-#: lib/components/smart_input/button/smart_input_button_live.sface:28
-#: lib/components/smart_input/inline_composer_placeholder_live.sface:46
+#: lib/styleguide/notification_card.ex:50
 #, elixir-autogen, elixir-format
-msgid "Continue"
-msgstr "Weiter"
+msgid "liked your activity"
+msgstr "gefällt deine Aktivität"
 
-#: lib/components/smart_input/smart_input_live.sface:248
-#: lib/components/smart_input/smart_input_live.sface:249
+#: lib/styleguide/notification_card.ex:74
 #, elixir-autogen, elixir-format
-msgid "Post in a subtopic"
-msgstr "In einem Unterthema posten"
+msgid "mentioned you"
+msgstr "hat dich erwähnt"
 
-#: lib/components/smart_input/smart_input_live.sface:237
-#, elixir-autogen, elixir-format
-msgid "Post without group/topic context"
-msgstr "Ohne Gruppen-/Themenkontext posten"
-
-#: lib/components/smart_input/smart_input_live.sface:97
-#, elixir-autogen, elixir-format
-msgid "Quoting"
-msgstr "Wird zitiert"
-
-#: lib/components/smart_input/smart_input_live.sface:236
-#, elixir-autogen, elixir-format
-msgid "Remove context"
-msgstr "Kontext entfernen"
-
-#: lib/components/smart_input/smart_input_live.sface:105
-#: lib/components/smart_input/smart_input_live.sface:106
-#, elixir-autogen, elixir-format
-msgid "Remove quote"
-msgstr "Quote entfernen"
-
-#: lib/components/smart_input/smart_input_live.sface:222
-#, elixir-autogen, elixir-format
-msgid "This post will be shared in %{name}"
-msgstr "Dieser Beitrag wird in %{name} geteilt"
-
-#: lib/components/smart_input/smart_input_live.sface:270
-#, elixir-autogen, elixir-format
-msgid "Topics"
-msgstr "Themen"
-
-#: lib/components/smart_input/smart_input_live.sface:283
-#: lib/components/smart_input/smart_input_live_handler.ex:756
-#: lib/components/smart_input/smart_input_live_handler.ex:796
-#, elixir-autogen, elixir-format
-msgid "topic"
-msgstr "Thema"
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/smart_input_live.sface:176
+#: lib/components/nav/footer_impressum/impressum_live.sface:66
 #, elixir-autogen, elixir-format
-msgid "Choose what to create"
-msgstr "Auswählen, was du erstellen möchtest"
+msgid "no JS"
+msgstr "kein JS"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/input_controls_live.sface:218
+#: lib/styleguide/notification_card.ex:42
 #, elixir-autogen, elixir-format
-msgid "Manage languages"
-msgstr "Sprachen verwalten"
+msgid "replied to you"
+msgstr "hat dir geantwortet"
 
-#: lib/components/widgets/widget_block_live.sface:31
+#: lib/styleguide/notification_card.sface:72
 #, elixir-autogen, elixir-format
-msgid "Nothing here yet."
-msgstr "Hier ist noch nichts."
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/input_controls_live.sface:215
-#, elixir-autogen, elixir-format
-msgid "Open language preferences in a new tab"
-msgstr "Spracheinstellungen in einem neuen Tab öffnen"
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1174
-#, elixir-autogen, elixir-format
-msgid "Another world is loading..."
-msgstr "Eine andere Welt wird geladen..."
-
-#. URLs: https://campground.bonfire.cafe/dashboard
-#. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#. https://campground.bonfire.cafe/settings/instance/configuration
-#. https://campground.bonfire.cafe/@karen@mocked.local
-#: lib/components/nav/footer_impressum/impressum_live.sface:92
-#, elixir-autogen, elixir-format
-msgid "Archipelago federation enabled"
-msgstr "Archipelago-Föderation aktiviert"
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1181
-#, elixir-autogen, elixir-format
-msgid "Building solidarity networks..."
-msgstr "Solidaritätsnetzwerke werden gebaut..."
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1173
-#, elixir-autogen, elixir-format
-msgid "Communing with the fediverse..."
-msgstr "Mit dem Fediversum kommunizieren..."
-
-#: lib/components/smart_input/input_controls_live.sface:38
-#, elixir-autogen, elixir-format
-msgid "Content warning"
-msgstr "Inhaltswarnung"
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1177
-#, elixir-autogen, elixir-format
-msgid "Decentralising all the things..."
-msgstr "Alle Dinge werden dezentralisiert..."
-
-#: lib/components/smart_input/smart_input_live.sface:229
-#, elixir-autogen, elixir-format
-msgid "In %{name}"
-msgstr "In %{name}"
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1180
-#, elixir-autogen, elixir-format
-msgid "Liberating your data..."
-msgstr "Deine Daten werden befreit..."
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1176
-#, elixir-autogen, elixir-format
-msgid "Manifesting digital commons..."
-msgstr "Die digitalen Commons werden manifestiert..."
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/layout/layout_live.sface:354
-#, elixir-autogen, elixir-format
-msgid "Menu"
-msgstr "Menü"
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/layout/layout_live.sface:349
-#, elixir-autogen, elixir-format
-msgid "Notifications"
-msgstr "Benachrichtigungen"
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/layout/layout_live.sface:352
-#, elixir-autogen, elixir-format
-msgid "Open menu"
-msgstr "Menü öffnen"
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1182
-#, elixir-autogen, elixir-format
-msgid "Organising the bits..."
-msgstr "Bits werden organisiert..."
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1179
-#, elixir-autogen, elixir-format
-msgid "Queering the database..."
-msgstr "Die Datenbank wird gequeert..."
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/input_controls_live.sface:56
-#: lib/components/smart_input/input_controls_live.sface:57
-#, elixir-autogen, elixir-format
-msgid "Remove content warning"
-msgstr "Inhaltswarnung entfernen"
+msgid "said a thing"
+msgstr "sagte etwas"
 
 #. URLs:
-#. https://campground.bonfire.cafe/comments/embed/01KVWY7J3ZQMVMVCG29DH0Q6WQ
-#. https://campground.bonfire.cafe/comments/embed/01KVWY7HMBE6MABR74H1MXKHH7
-#. https://campground.bonfire.cafe/comments/embed/01KVWY7H6RT2R4D3DCAF75B0DK
-#. https://campground.bonfire.cafe/comments/embed/01KVWY1JHPYJHJ8680YB3ECSTV
-#: lib/components/smart_input/input_controls_live.sface:301
-#: lib/components/smart_input/smart_input_inline_live.sface:125
-#, elixir-autogen, elixir-format
-msgid "Reply"
-msgstr "Antwort"
-
-#. URLs:
-#. https://campground.bonfire.cafe/comments/embed/01KVWY7J3ZQMVMVCG29DH0Q6WQ
-#. https://campground.bonfire.cafe/comments/embed/01KVWY7HMBE6MABR74H1MXKHH7
-#. https://campground.bonfire.cafe/comments/embed/01KVWY7H6RT2R4D3DCAF75B0DK
-#. https://campground.bonfire.cafe/comments/embed/01KVWY1JHPYJHJ8680YB3ECSTV
-#: lib/components/smart_input/smart_input_inline_live.sface:145
-#, elixir-autogen, elixir-format
-msgid "Reply with your existing account from any fediverse server"
-msgstr ""
-"Mit deinem bestehenden Konto von einem beliebigen Fediverse-Server antworten"
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/layout/layout_live.sface:320
-#, elixir-autogen, elixir-format
-msgid "Search"
-msgstr "Suche"
-
-#: lib/components/config_settings/config_settings_registry_live.sface:12
-#, elixir-autogen, elixir-format
-msgid "Search keys or default values..."
-msgstr "Schlüssel oder Standardwerte suchen ..."
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1175
-#, elixir-autogen, elixir-format
-msgid "Seizing the means of communication..."
-msgstr "Die Kommunikationsmittel in Besitz nehmen ..."
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#. https://campground.bonfire.cafe/dashboard
-#: lib/ui_common.ex:1178
-#, elixir-autogen, elixir-format
-msgid "Tuning into the mycelial network..."
-msgstr "Mit dem Myzelnetzwerk verbinden ..."
-
-#: lib/components/settings/theme_preview_live.sface:95
-#, elixir-autogen, elixir-format
-msgid "Write something..."
-msgstr "Schreib etwas..."
-
-#. URLs:
-#. https://campground.bonfire.cafe/comments/embed/01KVWY7J3ZQMVMVCG29DH0Q6WQ
-#. https://campground.bonfire.cafe/comments/embed/01KVWY7HMBE6MABR74H1MXKHH7
-#. https://campground.bonfire.cafe/comments/embed/01KVWY7H6RT2R4D3DCAF75B0DK
-#. https://campground.bonfire.cafe/comments/embed/01KVWY1JHPYJHJ8680YB3ECSTV
+#. https://campground.bonfire.cafe/comments/embed/01KXCBMYMK56BDF1AKF53JN5VF
+#. https://campground.bonfire.cafe/comments/embed/01KXCBMXYWR4TKBR7ZFMKBWBKK
+#. https://campground.bonfire.cafe/comments/embed/01KXCBMXSWV65TA5XEQBXB2KT9
+#. https://campground.bonfire.cafe/comments/embed/01KXCBM0368H8NS5B7ZPD40DG3
 #: lib/components/smart_input/smart_input_inline_live.ex:59
 #, elixir-autogen, elixir-format
 msgid "this discussion"
 msgstr "diese Diskussion"
+
+#: lib/components/smart_input/smart_input_live.sface:314
+#, elixir-autogen, elixir-format
+msgid "this post"
+msgstr "dieser Beitrag"
+
+#: lib/components/smart_input/smart_input_live.sface:161
+#: lib/components/smart_input/smart_input_live_handler.ex:797
+#: lib/components/smart_input/smart_input_live_handler.ex:837
+#, elixir-autogen, elixir-format
+msgid "topic"
+msgstr "Thema"
 
 #: lib/components/multiselect/basic_multiselect_live.sface:89
 #, elixir-autogen, elixir-format
 msgid "type here"
 msgstr "hier eingeben"
 
-#. URLs:
-#. https://campground.bonfire.cafe/comments/embed/01KVWYEGSP482RYKC4WK0K5X1J
-#. https://campground.bonfire.cafe/comments/embed/01KVWYEGEZH0KVSNB61N3XYCV0
-#. https://campground.bonfire.cafe/comments/embed/01KVWYEFVX9E8Z65G8A25FF1S2
-#: lib/components/smart_input/smart_input_live.sface:360
-#: lib/components/smart_input/smart_input_live.sface:363
+#: lib/styleguide/notification_card.ex:66
 #, elixir-autogen, elixir-format
-msgid "Clear the composer"
-msgstr "Editor leeren"
+msgid "voted on your poll"
+msgstr "hat an deiner Umfrage teilgenommen"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/smart_input_live.sface:361
-#: lib/components/smart_input/smart_input_live.sface:364
+#: lib/styleguide/notification_card.ex:90
 #, elixir-autogen, elixir-format
-msgid "Discard draft and close"
-msgstr "Entwurf verwerfen und schließen"
-
-#: lib/components/smart_input/smart_input_live.sface:80
-#: lib/components/smart_input/smart_input_live.sface:81
-#, elixir-autogen, elixir-format
-msgid "Don't reply, write a standalone post instead"
-msgstr "Nicht antworten, stattdessen einen eigenständigen Beitrag schreiben"
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/smart_input_live.sface:340
-#, elixir-autogen, elixir-format
-msgid "Minimise (keep your draft)"
-msgstr "Minimieren (Entwurf behalten)"
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/smart_input/smart_input_live.sface:341
-#, elixir-autogen, elixir-format
-msgid "Minimise the composer, keeping your draft"
-msgstr "Composer minimieren, Entwurf beibehalten"
-
-#: lib/components/smart_input/smart_input_live.sface:70
-#, elixir-autogen, elixir-format
-msgid "Replying to"
-msgstr "Antworten"
-
-#: lib/components/smart_input/input_controls_live.sface:301
-#, elixir-autogen, elixir-format
-msgid "Replying..."
-msgstr "Antworten..."
-
-#: lib/components/smart_input/smart_input_live.sface:64
-#, elixir-autogen, elixir-format
-msgid "Show or hide the post you're replying to"
-msgstr "Den Beitrag anzeigen oder ausblenden, auf den du antwortest"
-
-#: lib/components/smart_input/smart_input_live.sface:71
-#, elixir-autogen, elixir-format
-msgid "this post"
-msgstr "dieser Beitrag"
-
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
-#. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:156
-#, elixir-autogen, elixir-format
-msgid "Activate"
-msgstr "Aktivieren"
-
-#: lib/components/settings/settings_live_handler.ex:135
-#, elixir-autogen, elixir-format
-msgid "Custom theme reset to defaults"
-msgstr "Benutzerdefiniertes Design auf Standard zurücksetzen"
-
-#. URLs: https://campground.bonfire.cafe/impressum
-#: lib/components/nav/footer_impressum/impressum_live.sface:14
-#, elixir-autogen, elixir-format
-msgid "Impressum"
-msgstr "Impressum"
-
-#: lib/components/settings/change_themes_live.sface:127
-#, elixir-autogen, elixir-format
-msgid "Reset all"
-msgstr "Alles zurücksetzen"
-
-#: lib/components/settings/change_themes_live.sface:123
-#, elixir-autogen, elixir-format
-msgid ""
-"Reset all custom theme settings back to their defaults? This cannot be "
-"undone."
-msgstr ""
-"Alle benutzerdefinierten Design-Einstellungen auf die Standardeinstellungen "
-"zurücksetzen? Dieser Vorgang kann nicht rückgängig gemacht werden."
-
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
-#. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:136
-#, elixir-autogen, elixir-format
-msgid "The custom theme isn't active yet"
-msgstr "Das benutzerdefinierte Design ist noch nicht aktiv"
-
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours
-#. https://campground.bonfire.cafe/settings/user/preferences/appearance
-#: lib/components/settings/change_themes_live.sface:138
-#, elixir-autogen, elixir-format
-msgid ""
-"Your changes are saved, but won't be visible until you activate the custom "
-"theme."
-msgstr ""
-"Deine Änderungen wurden gespeichert, sind jedoch erst sichtbar, wenn du das "
-"benutzerdefinierte Design aktivierst."
-
-#. URLs: https://campground.bonfire.cafe/post/01KVWVHYSGG8YHXTZGKBH7Z1Y9
-#. https://campground.bonfire.cafe/post/01KVWVHTVFM5Y6K97012VHBXRE
-#. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/feed
-#: lib/components/nav/footer_impressum/impressum_live.sface:53
-#, elixir-autogen, elixir-format
-msgid "no JS"
-msgstr "kein JS"
-
-#. URLs: https://campground.bonfire.cafe/@zion_larson
-#. https://campground.bonfire.cafe/dashboard
-#. https://campground.bonfire.cafe/@Price_Reinger_and_Walker
-#. https://campground.bonfire.cafe/groups
-#: lib/components/widgets/widget_block_live.sface:13
-#: lib/components/widgets/widget_block_live.sface:17
-#, elixir-autogen, elixir-format
-msgid "Refresh"
-msgstr "Aktualisieren"
-
-#: lib/components/smart_input/input_controls_live.sface:38
-#, elixir-autogen, elixir-format
-msgid "Summary"
-msgstr "Zusammenfassung"
-
-#. URLs:
-#. https://campground.bonfire.cafe/comments/embed/01KVWYEGSP482RYKC4WK0K5X1J
-#. https://campground.bonfire.cafe/comments/embed/01KVWYEGEZH0KVSNB61N3XYCV0
-#. https://campground.bonfire.cafe/comments/embed/01KVWYEFVX9E8Z65G8A25FF1S2
-#. https://campground.bonfire.cafe/write
-#: lib/components/smart_input/smart_input_inline_live.sface:39
-#, elixir-autogen, elixir-format
-msgid "Write a comment"
-msgstr "Schreib einen Kommentar"
+msgid "wants to quote your post"
+msgstr "möchte deinen Beitrag zitieren"

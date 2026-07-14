@@ -46,6 +46,16 @@ msgstr "無法繼續。您可能需要聯絡實例管理員。"
 msgid "Could not delete:"
 msgstr "無法刪除："
 
+#: lib/runtime_config.ex:5
+#, elixir-autogen, elixir-format
+msgid "Fail"
+msgstr ""
+
+#: lib/runtime_config.ex:59
+#, elixir-autogen, elixir-format
+msgid "Files with the format of %s are not allowed"
+msgstr "不允許格式為 %s 的檔案"
+
 #: lib/runtime_config.ex:29
 #, elixir-autogen, elixir-format
 msgid "Invalid arguments passed."
@@ -80,6 +90,11 @@ msgstr "伺服器超載。"
 #, elixir-autogen, elixir-format
 msgid "There was an error."
 msgstr "發生了錯誤。"
+
+#: lib/runtime_config.ex:58
+#, elixir-autogen, elixir-format
+msgid "This file exceeds the maximum upload size of %s"
+msgstr ""
 
 #: lib/runtime_config.ex:48
 #, elixir-autogen, elixir-format
@@ -129,22 +144,12 @@ msgstr "我們找不到您提供的帳號資訊。"
 msgid "You do not have permission %s"
 msgstr "您沒有許可權 %s"
 
-#: lib/runtime_config.ex:33
-#, elixir-autogen, elixir-format
-msgid "You need to log in first."
-msgstr "您需要先登入。"
-
-#: lib/runtime_config.ex:59
-#, elixir-autogen, elixir-format
-msgid "Files with the format of %s are not allowed"
-msgstr "不允許格式為 %s 的檔案"
-
-#: lib/runtime_config.ex:58
-#, elixir-autogen, elixir-format
-msgid "This file exceeds the maximum upload size of %s"
-msgstr ""
-
 #: lib/runtime_config.ex:60
 #, elixir-autogen, elixir-format
 msgid "You have selected too many files."
 msgstr "您選擇的檔案過多。"
+
+#: lib/runtime_config.ex:33
+#, elixir-autogen, elixir-format
+msgid "You need to log in first."
+msgstr "您需要先登入。"

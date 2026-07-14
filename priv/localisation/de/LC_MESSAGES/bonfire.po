@@ -11,10 +11,11 @@
 # Translators:
 # Steven Bond, 2025
 # Magdalena Berger, 2026
+# Joshua Samuel Strack, 2026
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Magdalena Berger, 2026\n"
+"Last-Translator: Joshua Samuel Strack, 2026\n"
 "Language-Team: German (https://app.transifex.com/bonfire/teams/138385/de/)\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -230,7 +231,7 @@ msgstr "Anzahl der Reaktionen anzeigen (Likes/Boosts)"
 #: lib/web/views/about_live.sface:489
 #, elixir-autogen, elixir-format
 msgid "Show the number of total users on this instance"
-msgstr "Zeig die Gesamtzahl der Benutzer:innen auf dieser Instanz an"
+msgstr "Zeig die Gesamtzahl der User auf dieser Instanz an"
 
 #: lib/localise.ex:20
 #, elixir-autogen, elixir-format
@@ -281,12 +282,12 @@ msgstr ""
 #: lib/web/views/about_live.sface:373
 #, elixir-autogen, elixir-format
 msgid "What to show for users without a profile picture"
-msgstr "Darstellung für Nutzer:innen ohne Profilbild"
+msgstr "Darstellung für User ohne Profilbild"
 
 #: lib/web/views/about_live.sface:392
 #, elixir-autogen, elixir-format
 msgid "Who can see the list of local users"
-msgstr "Wer die Nutzerliste der lokalen Instanz einsehen darf"
+msgstr "Wer die Benutzerliste der lokalen Instanz einsehen darf"
 
 #: lib/web/views/about_live.sface:149
 #, elixir-autogen, elixir-format

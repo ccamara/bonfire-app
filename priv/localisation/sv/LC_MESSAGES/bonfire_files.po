@@ -62,6 +62,16 @@ msgstr ""
 msgid "Choose a shortcode to enter when inserting this emoji"
 msgstr "Välj en kort kod som skrivs för att infoga denna emoji"
 
+#: lib/media.ex:821 lib/media.ex:821 lib/media.ex:821
+#, elixir-autogen, elixir-format
+msgid "Could not fetch or save media from URI"
+msgstr ""
+
+#: lib/media.ex:825
+#, elixir-autogen, elixir-format
+msgid "Could not process media URI"
+msgstr ""
+
 #: lib/web/components/upload_emoji_live.sface:100
 #, elixir-autogen, elixir-format
 msgid ""
@@ -90,6 +100,13 @@ msgstr "Existerande egna emoji"
 msgid "Icon/avatar max size"
 msgstr "Maximal storlek på ikon/avatar"
 
+#. URLs: https://campground.bonfire.cafe/write
+#. https://campground.bonfire.cafe/settings/user/profile
+#: lib/media_edit.ex:256
+#, elixir-autogen, elixir-format
+msgid "Image quality"
+msgstr ""
+
 #: lib/web/components/media_feed_live.ex:4
 #, elixir-autogen, elixir-format
 msgid "Media"
@@ -105,18 +122,31 @@ msgstr ""
 msgid "PDF preview max size"
 msgstr "Maximal storlek för förhandsgranskning av PDF"
 
-#. URLs: https://campground.bonfire.cafe/&Old_Name/settings
-#. https://campground.bonfire.cafe/&Settings_Group/settings
-#. https://campground.bonfire.cafe/&Public_Settings_Group/settings/boundaries
+#. URLs: https://campground.bonfire.cafe/&Settings_Group/settings
+#. https://campground.bonfire.cafe/&Danger_Group/settings
 #. https://campground.bonfire.cafe/&Regular_Group/settings
+#. https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/components/upload_banner_live.sface:44
 #, elixir-autogen, elixir-format
 msgid "PNG, JPG, GIF up to %{size} MB"
 msgstr "PNG, JPG, GIF upp till %{size} MB"
 
+#. URLs: https://campground.bonfire.cafe/write
+#. https://campground.bonfire.cafe/settings/user/profile
+#: lib/media_edit.ex:257
+#, elixir-autogen, elixir-format
+msgid "Quality (1-100) used when re-encoding resized JPEG/WebP uploads"
+msgstr ""
+
 #: lib/web/components/upload_emoji_live.sface:87
 #, elixir-autogen, elixir-format
 msgid "Remove Emoji"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/comments/embed
+#: lib/media.ex:797 lib/media.ex:797 lib/media.ex:830 lib/media.ex:830
+#, elixir-autogen, elixir-format
+msgid "Saving a media requires a creator"
 msgstr ""
 
 #: lib/web/components/upload_emoji_live.sface:53
@@ -156,10 +186,10 @@ msgstr ""
 msgid "Upload"
 msgstr "Ladda upp"
 
-#. URLs: https://campground.bonfire.cafe/&Old_Name/settings
-#. https://campground.bonfire.cafe/&Settings_Group/settings
-#. https://campground.bonfire.cafe/&Public_Settings_Group/settings/boundaries
+#. URLs: https://campground.bonfire.cafe/&Settings_Group/settings
+#. https://campground.bonfire.cafe/&Danger_Group/settings
 #. https://campground.bonfire.cafe/&Regular_Group/settings
+#. https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/components/upload_banner_live.sface:19
 #, elixir-autogen, elixir-format
 msgid "Upload a background image"
@@ -170,10 +200,10 @@ msgstr "Ladda upp en bakgrundsbild"
 msgid "Upload an emoji image"
 msgstr "Ladda upp en emoji-bild"
 
-#. URLs: https://campground.bonfire.cafe/&Old_Name/settings
-#. https://campground.bonfire.cafe/&Settings_Group/settings
-#. https://campground.bonfire.cafe/&Public_Settings_Group/settings/boundaries
+#. URLs: https://campground.bonfire.cafe/&Settings_Group/settings
+#. https://campground.bonfire.cafe/&Danger_Group/settings
 #. https://campground.bonfire.cafe/&Regular_Group/settings
+#. https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/components/upload_icon_live.sface:47
 #, elixir-autogen, elixir-format
 msgid "Upload or drop"
@@ -199,55 +229,25 @@ msgstr "Generering av videominiatyr för sökning"
 msgid "You can either:"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Old_Name/settings
-#. https://campground.bonfire.cafe/&Settings_Group/settings
-#. https://campground.bonfire.cafe/&Public_Settings_Group/settings/boundaries
+#. URLs: https://campground.bonfire.cafe/&Settings_Group/settings
+#. https://campground.bonfire.cafe/&Danger_Group/settings
 #. https://campground.bonfire.cafe/&Regular_Group/settings
+#. https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/components/upload_icon_live.sface:48
 #, elixir-autogen, elixir-format
 msgid "avatar"
 msgstr "avatar"
-
-#. URLs: https://campground.bonfire.cafe/&Old_Name/settings
-#. https://campground.bonfire.cafe/&Settings_Group/settings
-#. https://campground.bonfire.cafe/&Public_Settings_Group/settings/boundaries
-#. https://campground.bonfire.cafe/&Regular_Group/settings
-#: lib/web/components/upload_banner_live.sface:20
-#, elixir-autogen, elixir-format
-msgid "or drag and drop"
-msgstr "eller dra-och-släpp"
-
-#: lib/media.ex:821 lib/media.ex:821 lib/media.ex:821
-#, elixir-autogen, elixir-format
-msgid "Could not fetch or save media from URI"
-msgstr ""
-
-#: lib/media.ex:825
-#, elixir-autogen, elixir-format
-msgid "Could not process media URI"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/comments/embed
-#: lib/media.ex:797 lib/media.ex:797 lib/media.ex:830 lib/media.ex:830
-#, elixir-autogen, elixir-format
-msgid "Saving a media requires a creator"
-msgstr ""
 
 #: lib/web/components/upload_emoji_live.sface:24
 #, elixir-autogen, elixir-format
 msgid "e.g: animation of a molotov cocktail being thrown"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/profile
-#. https://campground.bonfire.cafe/write
-#: lib/media_edit.ex:255
+#. URLs: https://campground.bonfire.cafe/&Settings_Group/settings
+#. https://campground.bonfire.cafe/&Danger_Group/settings
+#. https://campground.bonfire.cafe/&Regular_Group/settings
+#. https://campground.bonfire.cafe/settings/user/profile
+#: lib/web/components/upload_banner_live.sface:20
 #, elixir-autogen, elixir-format
-msgid "Image quality"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/settings/user/profile
-#. https://campground.bonfire.cafe/write
-#: lib/media_edit.ex:256
-#, elixir-autogen, elixir-format
-msgid "Quality (1-100) used when re-encoding resized JPEG/WebP uploads"
-msgstr ""
+msgid "or drag and drop"
+msgstr "eller dra-och-släpp"

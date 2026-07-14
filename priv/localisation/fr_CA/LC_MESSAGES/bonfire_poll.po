@@ -18,116 +18,45 @@ msgstr ""
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: lib/web/components/preview/question_live.ex:282
-#: lib/web/components/preview/question_live.ex:375
+#: lib/web/components/widget_polls_closing_soon_live.ex:47
 #, elixir-autogen, elixir-format
-msgid "Closed"
-msgstr "Fermé"
-
-#: lib/web/components/preview/question_live.ex:285
-#, elixir-autogen, elixir-format
-msgid "Closing now"
+msgid " You need to reload to see updates, if any."
 msgstr ""
+" Vous devez recharger le site pour voir les mises à jour, le cas échéant."
 
-#: lib/web/components/preview/choice_content_live.sface:20
-#: lib/web/components/preview/question_live.sface:55
+#: lib/web/components/preview/choice_live.ex:278
 #, elixir-autogen, elixir-format
-msgid "Content Warning"
-msgstr "Avertissement sur le contenu"
+msgid "1 agree"
+msgid_plural "%{count} agree"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
-#: lib/web/views/home_live.ex:15
+#: lib/web/components/preview/choice_live.ex:281
 #, elixir-autogen, elixir-format
-msgid "Create a poll"
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:502
-#, elixir-autogen, elixir-format
-msgid "Hide results"
-msgstr ""
-
-#: lib/web/components/polls_components.ex:68
-#, elixir-autogen, elixir-format
-msgid "Lasts for"
-msgstr ""
-
-#: lib/web/components/polls_components.ex:53
-#, elixir-autogen, elixir-format
-msgid "Proposal Phase"
-msgstr ""
-
-#: lib/web/components/preview/choice_content_live.sface:64
-#: lib/web/components/preview/question_live.sface:101
-#, elixir-autogen, elixir-format
-msgid "Read more"
-msgstr "Lire plus"
-
-#: lib/web/components/preview/question_live.sface:492
-#: lib/web/components/preview/question_live.sface:501
-#, elixir-autogen, elixir-format
-msgid "See results"
-msgstr ""
-
-#: lib/web/components/preview/choice_content_live.sface:24
-#: lib/web/components/preview/question_live.sface:59
-#, elixir-autogen, elixir-format
-msgid "Show less"
-msgstr "Afficher moins"
-
-#: lib/web/components/preview/choice_content_live.sface:24
-#: lib/web/components/preview/choice_content_live.sface:27
-#: lib/web/components/preview/choice_content_live.sface:31
-#: lib/web/components/preview/question_live.sface:59
-#: lib/web/components/preview/question_live.sface:62
-#: lib/web/components/preview/question_live.sface:66
-#, elixir-autogen, elixir-format
-msgid "Show more"
-msgstr "Afficher plus"
-
-#: lib/contexts/votes.ex:438 lib/contexts/votes.ex:438
-#: lib/contexts/votes.ex:438
-#, elixir-autogen, elixir-format
-msgid "Sorry, you cannot vote on this"
-msgstr ""
-
-#: lib/web/components/polls_components.ex:65
-#, elixir-autogen, elixir-format
-msgid "Starts"
-msgstr ""
-
-#: lib/web/poll_live_handler.ex:260
-#, elixir-autogen, elixir-format
-msgid "Thanks for participating!"
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:481
-#, elixir-autogen, elixir-format
-msgid "Vote"
-msgstr "Voter"
-
-#: lib/web/components/polls_components.ex:54
-#, elixir-autogen, elixir-format
-msgid "Voting Phase"
-msgstr ""
-
-#: lib/web/components/polls_components.ex:74
-#, elixir-autogen, elixir-format
-msgid "done"
-msgstr ""
-
-#: lib/web/components/polls_components.ex:72
-#, elixir-autogen, elixir-format
-msgid "remainingTime"
-msgstr ""
+msgid "1 block"
+msgid_plural "%{count} block"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: lib/web/components/tuning_toggles_live.ex:42
 #, elixir-autogen, elixir-format
 msgid "1 day"
 msgstr "1 jour"
 
-#: lib/web/components/preview/question_live.ex:301
+#: lib/web/components/preview/question_live.ex:325
 #, elixir-autogen, elixir-format
 msgid "1 day left"
 msgid_plural "%{count} days left"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lib/web/components/preview/choice_live.ex:279
+#, elixir-autogen, elixir-format
+msgid "1 disagree"
+msgid_plural "%{count} disagree"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -137,7 +66,7 @@ msgstr[2] ""
 msgid "1 hour"
 msgstr ""
 
-#: lib/web/components/preview/question_live.ex:297
+#: lib/web/components/preview/question_live.ex:321
 #, elixir-autogen, elixir-format
 msgid "1 hour left"
 msgid_plural "%{count} hours left"
@@ -145,7 +74,8 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: lib/web/components/preview/question_live.ex:293
+#. URLs: https://campground.bonfire.cafe/feed/polls
+#: lib/web/components/preview/question_live.ex:317
 #, elixir-autogen, elixir-format
 msgid "1 minute left"
 msgid_plural "%{count} minutes left"
@@ -153,7 +83,24 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: lib/web/components/preview/question_live.ex:309
+#: lib/web/components/preview/choice_live.ex:280
+#, elixir-autogen, elixir-format
+msgid "1 neutral"
+msgid_plural "%{count} neutral"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lib/web/components/preview/choice_live.ex:80
+#, elixir-autogen, elixir-format
+msgid "1 reaction"
+msgid_plural "%{count} reactions"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. URLs: https://campground.bonfire.cafe/feed/polls
+#: lib/web/components/preview/question_live.ex:333
 #, elixir-autogen, elixir-format
 msgid "1 vote"
 msgid_plural "%{count} votes"
@@ -186,15 +133,44 @@ msgstr ""
 msgid "Allow vetoes"
 msgstr ""
 
+#: lib/web/components/preview/question_live.sface:242
+#, elixir-autogen, elixir-format
+msgid ""
+"An objection is on the table. This option can't carry until it's resolved."
+msgstr ""
+
 #: lib/web/components/tuning_toggles_live.ex:59
 #, elixir-autogen, elixir-format
 msgid "Block the decision (veto)"
+msgstr ""
+
+#: lib/web/components/preview/question_live.ex:306
+#: lib/web/components/preview/question_live.ex:398
+#: lib/web/components/preview/question_live.ex:402
+#, elixir-autogen, elixir-format
+msgid "Closed"
+msgstr "Fermé"
+
+#: lib/web/components/preview/question_live.sface:368
+#, elixir-autogen, elixir-format
+msgid "Closed with no votes."
+msgstr ""
+
+#: lib/web/components/preview/question_live.ex:309
+#, elixir-autogen, elixir-format
+msgid "Closing now"
 msgstr ""
 
 #: lib/contexts/presets.ex:61
 #, elixir-autogen, elixir-format
 msgid "Consensus check"
 msgstr ""
+
+#: lib/web/components/preview/choice_content_live.sface:14
+#: lib/web/components/preview/question_live.sface:57
+#, elixir-autogen, elixir-format
+msgid "Content Warning"
+msgstr "Avertissement sur le contenu"
 
 #: lib/web/poll_live_handler.ex:246
 #, elixir-autogen, elixir-format
@@ -206,12 +182,30 @@ msgstr ""
 msgid "Could not create your poll"
 msgstr ""
 
+#: lib/web/views/home_live.ex:15
+#, elixir-autogen, elixir-format
+msgid "Create a poll"
+msgstr ""
+
+#: lib/web/components/preview/question_live.ex:399
+#, elixir-autogen, elixir-format
+msgid "Decided"
+msgstr ""
+
 #: lib/web/components/tuning_toggles_live.sface:11
 #, elixir-autogen, elixir-format
 msgid "Duration"
 msgstr ""
 
-#: lib/web/components/preview/question_live.sface:241
+#: lib/web/components/preview/question_live.sface:262
+#, elixir-autogen, elixir-format
+msgid ""
+"Everyone reacts to each option, not just their favourite. An option is "
+"agreed when it has broad agreement and no blocks. A single block stops an "
+"option until the group resolves the objection."
+msgstr ""
+
+#: lib/web/components/preview/question_live.sface:225
 #, elixir-autogen, elixir-format
 msgid "Federated"
 msgstr "Fédéré"
@@ -226,9 +220,15 @@ msgstr ""
 msgid "Get a fast read on a question."
 msgstr ""
 
-#: lib/contexts/presets.ex:47
+#: lib/contexts/presets.ex:47 lib/web/components/preview/question_live.ex:349
 #, elixir-autogen, elixir-format
 msgid "Group decision"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/feed/polls
+#: lib/web/components/preview/question_live.sface:455
+#, elixir-autogen, elixir-format
+msgid "Hide results"
 msgstr ""
 
 #: lib/web/components/tuning_toggles_live.ex:25
@@ -246,6 +246,16 @@ msgstr ""
 msgid "How much objections weigh"
 msgstr ""
 
+#: lib/web/components/preview/question_live.sface:255
+#, elixir-autogen, elixir-format
+msgid "How this is decided"
+msgstr ""
+
+#: lib/web/components/polls_components.ex:68
+#, elixir-autogen, elixir-format
+msgid "Lasts for"
+msgstr ""
+
 #: lib/web/components/tuning_toggles_live.ex:24
 #, elixir-autogen, elixir-format
 msgid "Let people suggest options"
@@ -257,16 +267,43 @@ msgid ""
 "Make a 'concerned' or 'disagree' vote count for more than a 'great' vote."
 msgstr ""
 
-#: lib/web/components/preview/question_live.ex:326
+#: lib/web/components/preview/question_live.ex:350
 #: lib/web/components/tuning_toggles_live.sface:74
 #, elixir-autogen, elixir-format
 msgid "Multiple choice"
+msgstr ""
+
+#: lib/web/components/preview/question_live.ex:401
+#, elixir-autogen, elixir-format
+msgid "No agreement"
+msgstr ""
+
+#: lib/web/components/preview/question_live.ex:400
+#, elixir-autogen, elixir-format
+msgid "No consensus"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/dashboard
+#: lib/web/components/widget_polls_closing_soon_live.sface:14
+#, elixir-autogen, elixir-format
+msgid "No open polls yet. Why not start one and get people voting?"
 msgstr ""
 
 #: lib/web/components/tuning_toggles_live.ex:34
 #, elixir-autogen, elixir-format
 msgid "One veto can block the decision."
 msgstr ""
+
+#: lib/web/components/preview/question_live.ex:394
+#, elixir-autogen, elixir-format
+msgid "Ongoing"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/feed/polls
+#: lib/web/components/preview/question_live.ex:395
+#, elixir-autogen, elixir-format
+msgid "Open"
+msgstr "Ouvrir"
 
 #: lib/web/components/tuning_toggles_live.ex:29
 #, elixir-autogen, elixir-format
@@ -304,6 +341,16 @@ msgstr ""
 msgid "Please enter the option text."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
+#: lib/web/components/preview/question_live.ex:351
+#: lib/web/create_poll_live.ex:53
+#, elixir-autogen, elixir-format
+msgid "Poll"
+msgstr ""
+
 #: lib/web/poll_live_handler.ex:242
 #, elixir-autogen, elixir-format
 msgid "Poll not found."
@@ -324,6 +371,11 @@ msgstr ""
 msgid "Polls closing soon"
 msgstr ""
 
+#: lib/web/components/widget_polls_closing_soon_live.ex:47
+#, elixir-autogen, elixir-format
+msgid "Polls have been reset."
+msgstr ""
+
 #: lib/web/create_poll_live.sface:42
 #, elixir-autogen, elixir-format
 msgid "Post poll"
@@ -339,12 +391,17 @@ msgstr "Publié !"
 msgid "Prevents people seeing early results and following the crowd."
 msgstr ""
 
+#: lib/web/components/polls_components.ex:53
+#, elixir-autogen, elixir-format
+msgid "Proposal Phase"
+msgstr ""
+
 #: lib/web/poll_live_handler.ex:226
 #, elixir-autogen, elixir-format
 msgid "Proposal added."
 msgstr ""
 
-#: lib/web/components/preview/question_live.sface:114
+#: lib/web/components/preview/question_live.sface:110
 #, elixir-autogen, elixir-format
 msgid "Proposal phase"
 msgstr ""
@@ -354,12 +411,17 @@ msgstr ""
 msgid "Quick poll"
 msgstr ""
 
+#: lib/web/components/preview/choice_content_live.sface:58
+#, elixir-autogen, elixir-format
+msgid "Read more"
+msgstr "Lire plus"
+
 #: lib/web/components/polls_components.ex:37
 #, elixir-autogen, elixir-format
 msgid "Remove option %{n}"
 msgstr ""
 
-#: lib/web/components/preview/question_live.sface:489
+#: lib/web/components/preview/question_live.sface:442
 #, elixir-autogen, elixir-format
 msgid "Results hidden until poll closes."
 msgstr ""
@@ -367,6 +429,25 @@ msgstr ""
 #: lib/web/components/tuning_toggles_live.ex:54
 #, elixir-autogen, elixir-format
 msgid "Same as support"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/dashboard
+#: lib/web/components/widget_polls_closing_soon_live.sface:21
+#, elixir-autogen, elixir-format
+msgid "Scroll left"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/dashboard
+#: lib/web/components/widget_polls_closing_soon_live.sface:29
+#, elixir-autogen, elixir-format
+msgid "Scroll right"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/feed/polls
+#: lib/web/components/preview/question_live.sface:445
+#: lib/web/components/preview/question_live.sface:454
+#, elixir-autogen, elixir-format
+msgid "See results"
 msgstr ""
 
 #: lib/contexts/presets.ex:62
@@ -379,7 +460,23 @@ msgstr ""
 msgid "Show"
 msgstr "Afficher"
 
-#: lib/web/components/preview/question_live.sface:455
+#: lib/web/components/preview/choice_content_live.sface:18
+#: lib/web/components/preview/question_live.sface:61
+#, elixir-autogen, elixir-format
+msgid "Show less"
+msgstr "Afficher moins"
+
+#: lib/web/components/preview/choice_content_live.sface:18
+#: lib/web/components/preview/choice_content_live.sface:21
+#: lib/web/components/preview/choice_content_live.sface:25
+#: lib/web/components/preview/question_live.sface:61
+#: lib/web/components/preview/question_live.sface:64
+#: lib/web/components/preview/question_live.sface:68
+#, elixir-autogen, elixir-format
+msgid "Show more"
+msgstr "Afficher plus"
+
+#: lib/web/components/preview/question_live.sface:408
 #, elixir-autogen, elixir-format
 msgid "Sign in to vote"
 msgstr ""
@@ -394,32 +491,43 @@ msgstr ""
 msgid "Sorry, you can't vote on this poll."
 msgstr ""
 
+#: lib/contexts/votes.ex:441 lib/contexts/votes.ex:441
+#: lib/contexts/votes.ex:441
+#, elixir-autogen, elixir-format
+msgid "Sorry, you cannot vote on this"
+msgstr ""
+
+#: lib/web/components/polls_components.ex:65
+#, elixir-autogen, elixir-format
+msgid "Starts"
+msgstr ""
+
 #: lib/web/components/poll_style_picker_live.sface:8
 #, elixir-autogen, elixir-format
 msgid "Style"
 msgstr ""
 
-#: lib/web/components/preview/question_live.sface:480
+#: lib/web/components/preview/question_live.sface:433
 #, elixir-autogen, elixir-format
 msgid "Submit votes"
 msgstr ""
 
-#: lib/web/components/preview/question_live.sface:167
+#: lib/web/components/preview/question_live.sface:164
 #, elixir-autogen, elixir-format
 msgid "Suggest"
 msgstr ""
 
-#: lib/web/components/preview/question_live.sface:161
+#: lib/web/components/preview/question_live.sface:158
 #, elixir-autogen, elixir-format
 msgid "Suggest an option"
 msgstr ""
 
-#: lib/web/components/preview/choice_live.sface:421
+#: lib/web/components/preview/choice_live.sface:293
 #, elixir-autogen, elixir-format
 msgid "Suggested by"
 msgstr ""
 
-#: lib/web/components/preview/choice_live.sface:417
+#: lib/web/components/preview/choice_live.sface:289
 #, elixir-autogen, elixir-format
 msgid "Suggested by %{name}"
 msgstr ""
@@ -434,6 +542,11 @@ msgstr ""
 msgid "Suggestions first, then a scored vote."
 msgstr ""
 
+#: lib/web/poll_live_handler.ex:260
+#, elixir-autogen, elixir-format
+msgid "Thanks for participating!"
+msgstr ""
+
 #: lib/web/poll_live_handler.ex:229
 #, elixir-autogen, elixir-format
 msgid "The proposal phase is not currently open."
@@ -444,18 +557,28 @@ msgstr ""
 msgid "Three times as much"
 msgstr ""
 
+#: lib/web/components/preview/question_live.sface:383
+#, elixir-autogen, elixir-format
+msgid "Tied"
+msgstr ""
+
+#: lib/web/components/preview/question_live.sface:383
+#, elixir-autogen, elixir-format
+msgid "Top pick"
+msgstr ""
+
 #: lib/web/components/tuning_toggles_live.ex:55
 #, elixir-autogen, elixir-format
 msgid "Twice as much"
 msgstr ""
 
-#: lib/web/components/widget_polls_closing_soon_live.sface:32
+#. URLs: https://campground.bonfire.cafe/feed/polls
+#: lib/web/components/preview/question_live.sface:434
 #, elixir-autogen, elixir-format
-msgid "Untitled poll"
-msgstr ""
+msgid "Vote"
+msgstr "Voter"
 
-#: lib/web/components/preview/question_live.sface:467
-#: lib/web/components/widget_polls_closing_soon_live.sface:41
+#: lib/web/components/preview/question_live.sface:420
 #, elixir-autogen, elixir-format
 msgid "Voted"
 msgstr ""
@@ -463,6 +586,11 @@ msgstr ""
 #: lib/web/components/tuning_toggles_live.sface:76
 #, elixir-autogen, elixir-format
 msgid "Voters can pick more than one option."
+msgstr ""
+
+#: lib/web/components/polls_components.ex:54
+#, elixir-autogen, elixir-format
+msgid "Voting Phase"
 msgstr ""
 
 #: lib/web/components/tuning_toggles_live.sface:44
@@ -475,6 +603,16 @@ msgstr ""
 msgid "What are we deciding?"
 msgstr ""
 
+#: lib/web/poll_live_handler.ex:43
+#, elixir-autogen, elixir-format
+msgid ""
+"When someone asks a question, they can choose how much weight negative scores carry. Think of it like a volume knob for disagreement.\n"
+"\n"
+"> For example, if one person disagrees with a proposal and gives it -2, while another person agrees with a score of 2, increasing the negative score weighting to x2 would give us `(-2 x 2) + 2 = -2` instead of a meaningless `-2 + 2 = 0`.\n"
+"\n"
+"Why does this matter? It's about aiming for consent, instead of settling for everyone kinda-sorta agreeing. By giving more power to negative scores, we're saying \"let's prioritize proposals that everyone can live with.\" Finding the sweet spot for each community or different types of decision might take a bit of experimentation, but that's part of the fun!\n"
+msgstr ""
+
 #: lib/web/poll_live_handler.ex:233
 #, elixir-autogen, elixir-format
 msgid "You don't have permission to suggest options for this poll."
@@ -483,6 +621,11 @@ msgstr ""
 #: lib/web/poll_live_handler.ex:239
 #, elixir-autogen, elixir-format
 msgid "You need to sign in first."
+msgstr ""
+
+#: lib/web/poll_live_handler.ex:257
+#, elixir-autogen, elixir-format
+msgid "You need to sign in to vote."
 msgstr ""
 
 #: lib/web/create_poll_live.sface:55
@@ -495,231 +638,34 @@ msgstr ""
 msgid "Your reaction to this choice"
 msgstr ""
 
-#: lib/web/components/preview/question_live.sface:155
-#, elixir-autogen, elixir-format
-msgid "Your suggestion"
-msgstr ""
-
-#: lib/web/components/preview/choice_live.sface:256
-#: lib/web/components/preview/choice_live.sface:365
-#, elixir-autogen, elixir-format
-msgid "Your vote"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/dashboard
-#: lib/web/components/widget_polls_closing_soon_live.sface:14
-#, elixir-autogen, elixir-format
-msgid "No open polls yet. Why not start one and get people voting?"
-msgstr ""
-
-#: lib/web/components/preview/choice_live.ex:274
-#, elixir-autogen, elixir-format
-msgid "1 agree"
-msgid_plural "%{count} agree"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: lib/web/components/preview/choice_live.ex:277
-#, elixir-autogen, elixir-format
-msgid "1 block"
-msgid_plural "%{count} block"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: lib/web/components/preview/choice_live.ex:275
-#, elixir-autogen, elixir-format
-msgid "1 disagree"
-msgid_plural "%{count} disagree"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: lib/web/components/preview/choice_live.ex:276
-#, elixir-autogen, elixir-format
-msgid "1 neutral"
-msgid_plural "%{count} neutral"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: lib/web/components/preview/choice_live.ex:79
-#, elixir-autogen, elixir-format
-msgid "1 reaction"
-msgid_plural "%{count} reactions"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: lib/web/components/preview/choice_live.sface:123
-#, elixir-autogen, elixir-format
-msgid "Agree"
-msgstr ""
-
-#: lib/web/components/preview/choice_live.sface:98
-#: lib/web/components/preview/question_live.sface:377
-#, elixir-autogen, elixir-format
-msgid "Agreed"
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:399
-#, elixir-autogen, elixir-format
-msgid ""
-"An objection blocked agreement. The group can keep talking and try again."
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:258
-#, elixir-autogen, elixir-format
-msgid ""
-"An objection is on the table. This option can't carry until it's resolved."
-msgstr ""
-
-#: lib/web/components/preview/choice_live.sface:37
-#: lib/web/components/preview/choice_live.sface:90
-#, elixir-autogen, elixir-format
-msgid "Blocked"
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:383
-#, elixir-autogen, elixir-format
-msgid "Broad agreement, no blocks."
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:408
-#, elixir-autogen, elixir-format
-msgid "Closed with no votes."
-msgstr ""
-
-#: lib/web/components/widget_polls_closing_soon_live.ex:62
-#, elixir-autogen, elixir-format
-msgid "Consent"
-msgstr ""
-
-#: lib/web/components/preview/question_live.ex:325
-#, elixir-autogen, elixir-format
-msgid "Consent decision"
-msgstr ""
-
-#: lib/web/components/preview/question_live.ex:372
-#, elixir-autogen, elixir-format
-msgid "Decided"
-msgstr ""
-
-#: lib/web/components/preview/choice_live.sface:122
-#, elixir-autogen, elixir-format
-msgid "Disagree"
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:274
-#, elixir-autogen, elixir-format
-msgid ""
-"Everyone reacts to each option, not just their favourite. An option is "
-"agreed when it has broad agreement and no blocks. A single block stops an "
-"option until the group resolves the objection."
-msgstr ""
-
-#: lib/web/components/preview/question_live.ex:370
-#, elixir-autogen, elixir-format
-msgid "Gathering reactions"
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:267
-#, elixir-autogen, elixir-format
-msgid "How this is decided"
-msgstr ""
-
-#: lib/web/components/preview/question_live.ex:374
-#, elixir-autogen, elixir-format
-msgid "No agreement"
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:417
-#, elixir-autogen, elixir-format
-msgid "No agreement reached"
-msgstr ""
-
-#: lib/web/components/preview/question_live.ex:373
-#, elixir-autogen, elixir-format
-msgid "No consensus"
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:393
-#, elixir-autogen, elixir-format
-msgid "No consensus reached"
-msgstr ""
-
-#: lib/web/components/widget_polls_closing_soon_live.sface:50
-#, elixir-autogen, elixir-format
-msgid "Not voted"
-msgstr ""
-
-#: lib/web/components/preview/question_live.ex:371
-#, elixir-autogen, elixir-format
-msgid "Open"
-msgstr "Ouvrir"
-
-#: lib/web/components/preview/question_live.sface:418
-#, elixir-autogen, elixir-format
-msgid ""
-"People reacted, but no option had clear agreement. Nothing was blocked — the"
-" group can refine an option and try again."
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/web/components/preview/question_live.ex:327
-#: lib/web/components/widget_polls_closing_soon_live.ex:63
-#: lib/web/create_poll_live.ex:53
-#, elixir-autogen, elixir-format
-msgid "Poll"
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:435
-#, elixir-autogen, elixir-format
-msgid "Tied"
-msgstr ""
-
-#: lib/web/components/preview/question_live.sface:435
-#, elixir-autogen, elixir-format
-msgid "Top pick"
-msgstr ""
-
-#: lib/web/poll_live_handler.ex:43
-#, elixir-autogen, elixir-format
-msgid ""
-"When someone asks a question, they can choose how much weight negative scores carry. Think of it like a volume knob for disagreement.\n"
-"\n"
-"> For example, if one person disagrees with a proposal and gives it -2, while another person agrees with a score of 2, increasing the negative score weighting to x2 would give us `(-2 x 2) + 2 = -2` instead of a meaningless `-2 + 2 = 0`.\n"
-"\n"
-"Why does this matter? It's about aiming for consent, instead of settling for everyone kinda-sorta agreeing. By giving more power to negative scores, we're saying \"let's prioritize proposals that everyone can live with.\" Finding the sweet spot for each community or different types of decision might take a bit of experimentation, but that's part of the fun!\n"
-msgstr ""
-
-#: lib/web/poll_live_handler.ex:257
-#, elixir-autogen, elixir-format
-msgid "You need to sign in to vote."
-msgstr ""
-
-#: lib/web/components/preview/choice_live.sface:75
-#: lib/web/components/preview/choice_live.sface:353
+#: lib/web/components/preview/choice_live.sface:51
+#: lib/web/components/preview/choice_live.sface:225
 #, elixir-autogen, elixir-format
 msgid "Your reaction:"
 msgstr ""
 
-#: lib/web/components/preview/choice_live.sface:186
+#: lib/web/components/preview/question_live.sface:152
+#, elixir-autogen, elixir-format
+msgid "Your suggestion"
+msgstr ""
+
+#: lib/web/components/preview/choice_live.sface:118
+#: lib/web/components/preview/choice_live.sface:237
+#, elixir-autogen, elixir-format
+msgid "Your vote"
+msgstr ""
+
+#: lib/web/components/polls_components.ex:74
+#, elixir-autogen, elixir-format
+msgid "done"
+msgstr ""
+
+#: lib/web/components/polls_components.ex:72
+#, elixir-autogen, elixir-format
+msgid "remainingTime"
+msgstr ""
+
+#: lib/web/components/preview/choice_live.sface:83
 #, elixir-autogen, elixir-format
 msgid "you"
 msgstr "vous"
-
-#: lib/web/components/widget_polls_closing_soon_live.ex:41
-#, elixir-autogen, elixir-format
-msgid " You need to reload to see updates, if any."
-msgstr ""
-" Vous devez recharger le site pour voir les mises à jour, le cas échéant."
-
-#: lib/web/components/widget_polls_closing_soon_live.ex:41
-#, elixir-autogen, elixir-format
-msgid "Polls have been reset."
-msgstr ""

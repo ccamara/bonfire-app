@@ -479,7 +479,7 @@ msgstr ""
 msgid "Local"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS
+#. URLs: https://campground.bonfire.cafe/post/01KXFQPA063RZJNS60CAB2NBAV https://campground.bonfire.cafe/post/01KXDVZVWZAC6J0618FE31H4G0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS
 #: lib/presets.ex:346
 #: lib/presets.ex:378
 #: lib/presets.ex:378

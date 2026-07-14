@@ -25,46 +25,53 @@ msgid "%{user_or_thing} flagged!"
 msgstr "%{user_or_thing} gemarkeerd!"
 
 #. URLs: https://campground.bonfire.cafe/feed/local
-#: lib/components/action/flag_action_live.sface:32
+#: lib/components/action/flag_action_live.sface:27
 #, elixir-autogen, elixir-format
 msgid "Add a comment for the flag"
 msgstr "Voeg een opmerking toe bij de vlag"
 
 #. URLs: https://campground.bonfire.cafe/feed/local
-#: lib/components/action/flag_action_live.sface:83
+#: lib/components/action/flag_action_live.sface:78
 #, elixir-autogen, elixir-format
 msgid "Already flagged"
 msgstr "Reeds gemarkeerd"
 
-#: lib/components/actions_menu/flagged_actions_live.sface:66
+#: lib/components/actions_menu/flagged_actions_live.sface:88
+#, elixir-autogen, elixir-format
+msgid "Confirm you want to escalate this to instance moderators"
+msgstr ""
+"Bevestig dat je dit wilt doorgeven aan de moderatoren van deze (virtuele) "
+"server"
+
+#: lib/components/actions_menu/flagged_actions_live.sface:62
 #, elixir-autogen, elixir-format
 msgid "Confirm you want to remove this post from the group"
 msgstr "Bevestig dat je dit bericht uit de groep wilt verwijderen"
 
-#: lib/components/actions_menu/flagged_actions_live.sface:100
-#: lib/components/actions_menu/flagged_actions_live.sface:105
+#: lib/components/actions_menu/flagged_actions_live.sface:96
+#: lib/components/actions_menu/flagged_actions_live.sface:101
 #, elixir-autogen, elixir-format
 msgid "Escalate to instance moderators"
 msgstr "Doorverwijzen naar de moderators van deze (virtuele) server"
 
-#. URLs: https://campground.bonfire.cafe/feed/my_boosts
-#. https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/components/action/flag_action_live.sface:14
-#: lib/components/action/flag_action_live.sface:23
-#: lib/components/action/flag_action_live.sface:68
-#: lib/components/action/flag_action_live.sface:89
+#. URLs: https://campground.bonfire.cafe/&Hero_Campfire_Group
+#. https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#: lib/components/action/flag_action_live.sface:8
+#: lib/components/action/flag_action_live.sface:18
+#: lib/components/action/flag_action_live.sface:63
+#: lib/components/action/flag_action_live.sface:84
 #, elixir-autogen, elixir-format
 msgid "Flag %{user_or_thing}"
 msgstr "Markeer %{user_or_thing}"
 
-#: lib/components/action/flag_action_live.sface:57
+#: lib/components/action/flag_action_live.sface:52
 #, elixir-autogen, elixir-format
 msgid "Forward to remote instance"
 msgstr "Doorsturen naar externe (virtuele) server"
 
-#: lib/components/action/flag_action_live.sface:58
+#: lib/components/action/flag_action_live.sface:53
 #, elixir-autogen, elixir-format
 msgid ""
 "If checked, this flag will be sent to moderators of the remote instance "
@@ -76,42 +83,43 @@ msgstr ""
 "Schakel deze optie alleen in als je de moderatoren van de externe (virtuele)"
 " server vertrouwt."
 
-#. URLs: https://campground.bonfire.cafe/settings/user/flags
+#. URLs: https://campground.bonfire.cafe/feed/my_flags
+#. https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/feed/flagged_content
-#. https://campground.bonfire.cafe/feed/my_flags
-#: lib/components/actions_menu/flagged_actions_live.sface:10
+#. https://campground.bonfire.cafe/settings/user/flags
+#: lib/components/actions_menu/flagged_actions_live.sface:7
+#: lib/components/actions_menu/flagged_actions_live.sface:11
 #, elixir-autogen, elixir-format
 msgid "Mediate"
 msgstr "Bemiddelen"
 
-#. URLs: https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/feed/flagged_content
+#. https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/feed/flagged_content
-#: lib/components/actions_menu/flagged_actions_live.sface:30
+#: lib/components/actions_menu/flagged_actions_live.sface:26
 #, elixir-autogen, elixir-format
 msgid "Message the flagger"
 msgstr "Stuur een bericht naar degene die een bericht markeerde"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/flags
+#. URLs: https://campground.bonfire.cafe/feed/my_flags
+#. https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/feed/flagged_content
-#. https://campground.bonfire.cafe/feed/my_flags
-#: lib/components/actions_menu/flagged_actions_live.sface:50
+#. https://campground.bonfire.cafe/settings/user/flags
+#: lib/components/actions_menu/flagged_actions_live.sface:46
 #, elixir-autogen, elixir-format
 msgid "Message the original author"
 msgstr "Stuur een bericht naar de oorspronkelijke auteur"
 
-#. URLs: https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/settings/user/flags
 #. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/user/flags
-#: lib/components/actions_menu/flagged_actions_live.sface:51
+#. https://campground.bonfire.cafe/notifications
+#: lib/components/actions_menu/flagged_actions_live.sface:47
 #, elixir-autogen, elixir-format
 msgid "Message the user"
 msgstr "Stuur de gebruiker een bericht"
 
 #. URLs: https://campground.bonfire.cafe/feed/local
-#: lib/components/action/flag_action_live.sface:37
+#: lib/components/action/flag_action_live.sface:32
 #, elixir-autogen, elixir-format
 msgid ""
 "Please write a small explanation for the moderators, like what boundaries "
@@ -122,27 +130,28 @@ msgstr ""
 "overtreden (bijv. een onderdeel van de gedragscode), hoe dit jou of anderen "
 "schaadt en wat voor soort ingrijpen je vraagt...)"
 
-#: lib/components/actions_menu/flagged_actions_live.sface:75
+#: lib/components/actions_menu/flagged_actions_live.sface:71
 #, elixir-autogen, elixir-format
 msgid "Remove"
 msgstr "Verwijderen"
 
-#: lib/components/actions_menu/flagged_actions_live.sface:80
+#: lib/components/actions_menu/flagged_actions_live.sface:76
 #, elixir-autogen, elixir-format
 msgid "Remove this post from the group"
 msgstr "Verwijder dit bericht uit de groep"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/flags
+#. URLs: https://campground.bonfire.cafe/feed/my_flags
+#. https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/feed/flagged_content
-#. https://campground.bonfire.cafe/feed/my_flags
-#: lib/components/actions_menu/flagged_actions_live.sface:123
+#. https://campground.bonfire.cafe/settings/user/flags
+#: lib/components/actions_menu/flagged_actions_live.sface:114
+#: lib/components/actions_menu/flagged_actions_live.sface:118
 #, elixir-autogen, elixir-format
 msgid "Take action"
 msgstr "Onderneem actie"
 
 #. URLs: https://campground.bonfire.cafe/feed/local
-#: lib/components/action/flag_action_live.sface:28
+#: lib/components/action/flag_action_live.sface:23
 #, elixir-autogen, elixir-format
 msgid ""
 "This will go into a queue for moderators to review. They may get in touch "
@@ -157,12 +166,17 @@ msgstr ""
 "inhoud of het blokkeren van de persoon of de bron, indien van toepassing. "
 "Hou er rekening mee dat je de gebruiker/bron ook zelf kunt blokkeren."
 
-#. URLs: https://campground.bonfire.cafe/settings/user/flags
+#: lib/components/list/flags_live.ex:4
+#, elixir-autogen, elixir-format
+msgid "UI for moderation"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/feed/my_flags
+#. https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/feed/flagged_content
-#. https://campground.bonfire.cafe/feed/my_flags
-#: lib/components/actions_menu/flagged_actions_live.sface:165
-#: lib/components/actions_menu/flagged_actions_live.sface:170
+#. https://campground.bonfire.cafe/settings/user/flags
+#: lib/components/actions_menu/flagged_actions_live.sface:155
+#: lib/components/actions_menu/flagged_actions_live.sface:160
 #, elixir-autogen, elixir-format
 msgid "Unflag"
 msgstr "Markering verwijderen"
@@ -194,61 +208,46 @@ msgstr ""
 msgid "flag"
 msgstr "markeer"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/flags
+#. URLs: https://campground.bonfire.cafe/feed/my_flags
+#. https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/feed/flagged_content
-#. https://campground.bonfire.cafe/feed/my_flags
-#: lib/components/actions_menu/flagged_actions_live.sface:136
+#. https://campground.bonfire.cafe/settings/user/flags
+#: lib/components/actions_menu/flagged_actions_live.sface:126
 #, elixir-autogen, elixir-format
 msgid "object"
 msgstr "object"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/flags
+#. URLs: https://campground.bonfire.cafe/feed/my_flags
+#. https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/feed/flagged_content
-#. https://campground.bonfire.cafe/feed/my_flags
-#: lib/components/actions_menu/flagged_actions_live.sface:197
+#. https://campground.bonfire.cafe/settings/user/flags
+#: lib/components/actions_menu/flagged_actions_live.sface:187
 #, elixir-autogen, elixir-format
 msgid "the flagger"
 msgstr "degene die een markering aanbracht"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/flags
+#. URLs: https://campground.bonfire.cafe/feed/my_flags
+#. https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/feed/flagged_content
-#. https://campground.bonfire.cafe/feed/my_flags
-#: lib/components/actions_menu/flagged_actions_live.sface:183
+#. https://campground.bonfire.cafe/settings/user/flags
+#: lib/components/actions_menu/flagged_actions_live.sface:173
 #, elixir-autogen, elixir-format
 msgid "the original author"
 msgstr "de oorspronkelijke auteur"
 
-#. URLs: https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/settings/user/flags
 #. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/user/flags
-#: lib/components/actions_menu/flagged_actions_live.sface:183
+#. https://campground.bonfire.cafe/notifications
+#: lib/components/actions_menu/flagged_actions_live.sface:173
 #, elixir-autogen, elixir-format
 msgid "the user"
 msgstr "de gebruiker"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/flags
+#. URLs: https://campground.bonfire.cafe/feed/my_flags
+#. https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/feed/flagged_content
-#. https://campground.bonfire.cafe/feed/my_flags
-#: lib/components/actions_menu/flagged_actions_live.sface:136
+#. https://campground.bonfire.cafe/settings/user/flags
+#: lib/components/actions_menu/flagged_actions_live.sface:126
 #, elixir-autogen, elixir-format
 msgid "this %{object}"
 msgstr "dit %{object}"
-
-#. URLs: https://campground.bonfire.cafe/@Lindgren_Jones_and_Crooks
-#. https://campground.bonfire.cafe/@alice_followed/followers
-#. https://campground.bonfire.cafe/@Wuckert_Nitzsche
-#: lib/components/action/flag_action_live.sface:7
-#, elixir-autogen, elixir-format
-msgid "this activity or user"
-msgstr "deze activiteit of gebruiker"
-
-#: lib/components/actions_menu/flagged_actions_live.sface:92
-#, elixir-autogen, elixir-format
-msgid "Confirm you want to escalate this to instance moderators"
-msgstr ""
-"Bevestig dat je dit wilt doorgeven aan de moderatoren van deze (virtuele) "
-"server"

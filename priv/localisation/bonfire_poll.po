@@ -61,7 +61,7 @@ msgid_plural "%{count} hours left"
 msgstr[0] ""
 msgstr[1] ""
 
-#. URLs: https://campground.bonfire.cafe/feed/polls
+#. URLs: https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed https://campground.bonfire.cafe/feed/polls
 #: lib/web/components/preview/question_live.ex:317
 #, elixir-autogen, elixir-format
 msgid "1 minute left"
@@ -83,7 +83,7 @@ msgid_plural "%{count} reactions"
 msgstr[0] ""
 msgstr[1] ""
 
-#. URLs: https://campground.bonfire.cafe/feed/polls
+#. URLs: https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed https://campground.bonfire.cafe/feed/polls
 #: lib/web/components/preview/question_live.ex:333
 #, elixir-autogen, elixir-format
 msgid "1 vote"
@@ -205,7 +205,7 @@ msgstr ""
 msgid "Group decision"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/polls
+#. URLs: https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed https://campground.bonfire.cafe/feed/polls
 #: lib/web/components/preview/question_live.sface:455
 #, elixir-autogen, elixir-format
 msgid "Hide results"
@@ -278,7 +278,7 @@ msgstr ""
 msgid "Ongoing"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/polls
+#. URLs: https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed https://campground.bonfire.cafe/feed/polls
 #: lib/web/components/preview/question_live.ex:395
 #, elixir-autogen, elixir-format
 msgid "Open"
@@ -419,7 +419,7 @@ msgstr ""
 msgid "Scroll right"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/polls
+#. URLs: https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed https://campground.bonfire.cafe/feed/polls
 #: lib/web/components/preview/question_live.sface:445
 #: lib/web/components/preview/question_live.sface:454
 #, elixir-autogen, elixir-format
@@ -452,6 +452,7 @@ msgstr ""
 msgid "Show more"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
 #: lib/web/components/preview/question_live.sface:408
 #, elixir-autogen, elixir-format
 msgid "Sign in to vote"

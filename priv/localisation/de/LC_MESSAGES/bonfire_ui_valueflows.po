@@ -11,10 +11,11 @@
 # BollerwagenPicard, 2025
 # Steven Bond, 2025
 # Magdalena Berger, 2026
+# Joshua Samuel Strack, 2026
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Magdalena Berger, 2026\n"
+"Last-Translator: Joshua Samuel Strack, 2026\n"
 "Language-Team: German (https://app.transifex.com/bonfire/teams/138385/de/)\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -197,23 +198,22 @@ msgstr "Wird überprüft"
 #: lib/components/create_economic_event/create_economic_event_live.sface:30
 #, elixir-autogen, elixir-format
 msgid "Indicate which resource you want to consume"
-msgstr "Gib an, welche Ressource du verwenden möchten"
+msgstr "Gib an, welche Ressource du verwenden möchtest"
 
 #: lib/components/create_economic_event/create_economic_event_live.sface:34
 #, elixir-autogen, elixir-format
 msgid "Indicate which resource you want to lower"
-msgstr "Gib an, welche Ressource du reduzieren möchtest."
+msgstr "Gib an, welche Ressource du reduzieren möchtest"
 
 #: lib/components/create_economic_event/create_economic_event_live.sface:22
 #, elixir-autogen, elixir-format
 msgid "Indicate which resource you want to transfer to another user"
-msgstr ""
-"Gib an, welche Ressource du an einen anderen User übertragen möchtest."
+msgstr "Gib an, welche Ressource du an einen anderen User übertragen möchtest"
 
 #: lib/components/create_economic_event/create_economic_event_live.sface:26
 #, elixir-autogen, elixir-format
 msgid "Indicate which resource you want to use"
-msgstr "Gib an, welche Ressource Sie verwenden möchten"
+msgstr "Gib an, welche Ressource du verwenden möchtest"
 
 #: lib/components/widgets/filter_intents/filter_intents_live.sface:141
 #, elixir-autogen, elixir-format

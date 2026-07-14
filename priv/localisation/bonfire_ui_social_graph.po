@@ -90,13 +90,13 @@ msgstr ""
 msgid "Follow"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Hayes_Inc
+#. URLs: https://campground.bonfire.cafe/@Legros_Braun https://campground.bonfire.cafe/@Kub_Heaney https://campground.bonfire.cafe/@Hayes_Inc
 #: lib/components/follow/follow_button_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Follow back"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@alice_followed/followers https://campground.bonfire.cafe/@Osinski_Strosin_and_Hauck/followers
+#. URLs: https://campground.bonfire.cafe/@Labadie_Weissnat/followers https://campground.bonfire.cafe/@Gerhold_Ltd/followers https://campground.bonfire.cafe/@alice_followed/followers https://campground.bonfire.cafe/@Osinski_Strosin_and_Hauck/followers
 #: lib/components/profile_follows/profile_follows_live.sface:26
 #: lib/runtime_config.ex:29
 #: lib/runtime_config.ex:33
@@ -113,7 +113,7 @@ msgstr ""
 msgid "Following"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Hayes_Inc
+#. URLs: https://campground.bonfire.cafe/@Legros_Braun https://campground.bonfire.cafe/@Kub_Heaney https://campground.bonfire.cafe/@Hayes_Inc
 #: lib/components/profile_follows/profile_follow_indicator.sface:21
 #, elixir-autogen, elixir-format
 msgid "Follows you"
@@ -276,7 +276,7 @@ msgstr ""
 msgid "You need to first add this user (%{username}) as an alias on the instance you want to migrate to. If you have already done so please try again in an hour or so."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. URLs: https://campground.bonfire.cafe/@Luettgen_Jaskolski https://campground.bonfire.cafe/@Legros_Champlin https://campground.bonfire.cafe/@Wuckert_Hyatt
 #: lib/live_handlers/follows_live_handler.ex:24
 #, elixir-autogen, elixir-format
 msgid "follow"

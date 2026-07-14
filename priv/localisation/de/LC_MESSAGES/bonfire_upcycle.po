@@ -11,10 +11,11 @@
 # BollerwagenPicard, 2025
 # Steven Bond, 2025
 # Magdalena Berger, 2026
+# Joshua Samuel Strack, 2026
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Magdalena Berger, 2026\n"
+"Last-Translator: Joshua Samuel Strack, 2026\n"
 "Language-Team: German (https://app.transifex.com/bonfire/teams/138385/de/)\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -193,7 +194,7 @@ msgstr "Es wurde kein Artikel gefunden"
 #: lib/web_upcycle/components/intent/my_intents_live.sface:18
 #, elixir-autogen, elixir-format
 msgid "No items were found"
-msgstr "Es wurden keine Artikel gefunden"
+msgstr "Es wurden keine Elemente gefunden"
 
 #: lib/web_upcycle/components/transfer/transfer_live.sface:65
 #, elixir-autogen, elixir-format

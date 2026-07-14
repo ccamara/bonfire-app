@@ -21,24 +21,59 @@ msgstr ""
 "Language: de_CH\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: lib/components/settings/general/general_live.sface:63
+#, elixir-autogen, elixir-format
+msgid "Archive this topic"
+msgstr "Dieses Thema archivieren"
+
+#: lib/components/settings/general/general_live.sface:72
+#, elixir-autogen, elixir-format
+msgid "Archive this topic? You can restore it later."
+msgstr "Dieses Thema archivieren? Du kannst es später wiederherstellen."
+
+#: lib/components/settings/general/general_live.sface:75
+#, elixir-autogen, elixir-format
+msgid "Archive topic"
+msgstr "Thema archivieren"
+
 #: lib/components/new_topic/new_topic_live.sface:70
 #, elixir-autogen, elixir-format
 msgid "Create"
 msgstr "Erstelle"
 
-#. URLs: https://campground.bonfire.cafe/&Gated_Private_Group
-#. https://campground.bonfire.cafe/&Announce_Channel
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
-#. https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/group/UI_Test_Group_38661
+#. https://campground.bonfire.cafe/group/Custom_Dims_84036
+#. https://campground.bonfire.cafe/group/Persistence_Test_185954
+#. https://campground.bonfire.cafe/&Hero_Campfire_Group
 #: lib/components/new_topic/new_topic_live.sface:3
 #, elixir-autogen, elixir-format
 msgid "Create a new topic"
 msgstr "Ein neues Thema erstellen"
 
+#: lib/components/settings/general/general_live.sface:54
+#, elixir-autogen, elixir-format
+msgid "Danger zone"
+msgstr "Gefahrenzone"
+
+#: lib/runtime_config.ex:25
+#, elixir-autogen, elixir-format
+msgid "Discussions"
+msgstr "Diskussionen"
+
 #: lib/components/settings/general/general_live.sface:43
 #, elixir-autogen, elixir-format
 msgid "Edit"
 msgstr "Bearbeiten"
+
+#. URLs: https://campground.bonfire.cafe/+Test_Topic
+#. https://campground.bonfire.cafe/+My_Test_Topic
+#. https://campground.bonfire.cafe/+Beta_topic
+#. https://campground.bonfire.cafe/+Alpha_topic
+#: lib/components/hero/topic_hero_live.sface:43
+#: lib/components/hero/topic_hero_live.sface:45
+#, elixir-autogen, elixir-format
+msgid "Edit topic"
+msgstr "Thema bearbeiten"
 
 #: lib/pages/categories/categories_live.ex:16
 #, elixir-autogen, elixir-format
@@ -55,6 +90,13 @@ msgstr "Followers"
 msgid "General"
 msgstr "Allgemein"
 
+#: lib/components/settings/general/general_live.sface:65
+#, elixir-autogen, elixir-format
+msgid "Hides it from the public. You can restore the topic later."
+msgstr ""
+"Versteckt es vor der Öffentlichkeit. Du kannst das Thema später "
+"wiederherstellen."
+
 #: lib/pages/old/local/local_categories_live.ex:6
 #, elixir-autogen, elixir-format
 msgid "Local topics"
@@ -65,19 +107,19 @@ msgstr "Lokale Themen"
 msgid "Moderation"
 msgstr "Moderation"
 
-#. URLs: https://campground.bonfire.cafe/&Gated_Private_Group
-#. https://campground.bonfire.cafe/&Announce_Channel
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
-#. https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/group/UI_Test_Group_38661
+#. https://campground.bonfire.cafe/group/Custom_Dims_84036
+#. https://campground.bonfire.cafe/group/Persistence_Test_185954
+#. https://campground.bonfire.cafe/&Hero_Campfire_Group
 #: lib/components/new_topic/new_topic_live.sface:76
 #, elixir-autogen, elixir-format
 msgid "New Topic"
 msgstr "Neues Thema"
 
-#. URLs: https://campground.bonfire.cafe/+Beta_topic
-#. https://campground.bonfire.cafe/+Alpha_topic
+#. URLs: https://campground.bonfire.cafe/+Test_Topic
 #. https://campground.bonfire.cafe/+My_Test_Topic
-#. https://campground.bonfire.cafe/+Test_Topic
+#. https://campground.bonfire.cafe/+Beta_topic
+#. https://campground.bonfire.cafe/+Alpha_topic
 #: lib/pages/categories/categories_live.ex:7
 #: lib/pages/categories/categories_live.ex:7
 #, elixir-autogen, elixir-format
@@ -90,16 +132,45 @@ msgstr "Inhalte und Diskussionen nach Themen organisieren"
 msgid "Published in all known topics"
 msgstr "In allen bekannten Themen veröffentlichen"
 
+#. URLs: https://campground.bonfire.cafe/+Test_Topic
+#. https://campground.bonfire.cafe/+My_Test_Topic
+#. https://campground.bonfire.cafe/+Beta_topic
+#. https://campground.bonfire.cafe/+Alpha_topic
+#: lib/components/hero/topic_hero_live.sface:34
+#, elixir-autogen, elixir-format
+msgid "Show or hide this topic in your feed"
+msgstr "Dieses Thema in deinem Feed anzeigen oder ausblenden"
+
 #: lib/components/settings/general/general_live.sface:3
 #, elixir-autogen, elixir-format
 msgid "Sorry, you cannot edit this topic."
 msgstr "Sorry, du kannst dieses Thema leider nicht bearbeiten."
+
+#: lib/components/settings/general/general_live.sface:57
+#, elixir-autogen, elixir-format
+msgid "Take the topic offline. You can restore it later."
+msgstr "Nimm das Thema offline. Du kannst es später wiederherstellen."
 
 #: lib/runtime_config.ex:26
 #, elixir-autogen, elixir-format
 msgid "Timeline"
 msgstr "Timeline"
 
+#. URLs: https://campground.bonfire.cafe/+Test_Topic
+#. https://campground.bonfire.cafe/+My_Test_Topic
+#. https://campground.bonfire.cafe/+Beta_topic
+#. https://campground.bonfire.cafe/+Alpha_topic
+#: lib/components/hero/topic_hero_live.sface:3
+#: lib/components/hero/topic_hero_live.sface:3
+#, elixir-autogen, elixir-format
+msgid "Topic"
+msgstr "Thema"
+
+#. URLs: https://campground.bonfire.cafe/+Test_Topic
+#. https://campground.bonfire.cafe/+My_Test_Topic
+#. https://campground.bonfire.cafe/+Beta_topic
+#. https://campground.bonfire.cafe/+Alpha_topic
+#: lib/pages/categories/categories_live.ex:4
 #: lib/pages/categories/categories_live.ex:25
 #: lib/pages/old/local/local_categories_live.ex:26
 #: lib/pages/old/remote/remote_categories_live.ex:26
@@ -117,107 +188,41 @@ msgstr "Gib den Gruppennamen ein"
 msgid "Type the topic name"
 msgstr "Gib den Namen des Themas ein"
 
-#. URLs: https://campground.bonfire.cafe/&Gated_Private_Group
-#. https://campground.bonfire.cafe/&Announce_Channel
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
-#. https://campground.bonfire.cafe/&Label_Test_Group
-#: lib/components/new_topic/new_topic_live.ex:8
-#, elixir-autogen, elixir-format
-msgid "in %{parent_category}"
-msgstr "in %{parent_category}"
-
-#: lib/runtime_config.ex:25
-#, elixir-autogen, elixir-format
-msgid "Discussions"
-msgstr "Diskussionen"
-
-#. URLs: https://campground.bonfire.cafe/+My_Test_Topic
-#. https://campground.bonfire.cafe/+Test_Topic
-#. https://campground.bonfire.cafe/&Planning
-#. https://campground.bonfire.cafe/&My_Topic
-#: lib/components/hero/topic_hero_live.sface:25
-#, elixir-autogen, elixir-format
-msgid "Show or hide this topic in your feed"
-msgstr "Dieses Thema in deinem Feed anzeigen oder ausblenden"
-
-#. URLs: https://campground.bonfire.cafe/+My_Test_Topic
-#. https://campground.bonfire.cafe/+Test_Topic
-#. https://campground.bonfire.cafe/&Planning
-#. https://campground.bonfire.cafe/&My_Topic
-#: lib/components/hero/topic_hero_live.sface:3
-#: lib/components/hero/topic_hero_live.sface:3
-#, elixir-autogen, elixir-format
-msgid "Topic"
-msgstr "Thema"
-
-#: lib/components/hero/topic_hero_live.sface:12
-#: lib/components/hero/topic_hero_live.sface:12
+#: lib/components/hero/topic_hero_live.sface:21
+#: lib/components/hero/topic_hero_live.sface:21
 #, elixir-autogen, elixir-format
 msgid "Untitled topic"
 msgstr "Unbenanntes Thema"
-
-#. URLs: https://campground.bonfire.cafe/+Beta_topic
-#. https://campground.bonfire.cafe/+Alpha_topic
-#. https://campground.bonfire.cafe/+My_Test_Topic
-#. https://campground.bonfire.cafe/+Test_Topic
-#: lib/pages/category/category_live.sface:52
-#, elixir-autogen, elixir-format
-msgid "Write in %{name}"
-msgstr "In %{name} schreiben"
-
-#. URLs: https://campground.bonfire.cafe/+Beta_topic
-#. https://campground.bonfire.cafe/+Alpha_topic
-#. https://campground.bonfire.cafe/+My_Test_Topic
-#. https://campground.bonfire.cafe/+Test_Topic
-#: lib/pages/category/category_live.sface:53
-#, elixir-autogen, elixir-format
-msgid "topic"
-msgstr "Thema"
-
-#: lib/components/settings/general/general_live.sface:63
-#, elixir-autogen, elixir-format
-msgid "Archive this topic"
-msgstr "Dieses Thema archivieren"
-
-#: lib/components/settings/general/general_live.sface:72
-#, elixir-autogen, elixir-format
-msgid "Archive this topic? You can restore it later."
-msgstr "Dieses Thema archivieren? Du kannst es später wiederherstellen."
-
-#: lib/components/settings/general/general_live.sface:75
-#, elixir-autogen, elixir-format
-msgid "Archive topic"
-msgstr "Thema archivieren"
-
-#: lib/components/settings/general/general_live.sface:54
-#, elixir-autogen, elixir-format
-msgid "Danger zone"
-msgstr "Gefahrenzone"
-
-#. URLs: https://campground.bonfire.cafe/+My_Test_Topic
-#. https://campground.bonfire.cafe/+Test_Topic
-#. https://campground.bonfire.cafe/&Planning
-#. https://campground.bonfire.cafe/&My_Topic
-#: lib/components/hero/topic_hero_live.sface:35
-#: lib/components/hero/topic_hero_live.sface:37
-#, elixir-autogen, elixir-format
-msgid "Edit topic"
-msgstr "Thema bearbeiten"
-
-#: lib/components/settings/general/general_live.sface:65
-#, elixir-autogen, elixir-format
-msgid "Hides it from the public. You can restore the topic later."
-msgstr ""
-"Versteckt es vor der Öffentlichkeit. Du kannst das Thema später "
-"wiederherstellen."
-
-#: lib/components/settings/general/general_live.sface:57
-#, elixir-autogen, elixir-format
-msgid "Take the topic offline. You can restore it later."
-msgstr "Nimm das Thema offline. Du kannst es später wiederherstellen."
 
 #: lib/components/new_topic/new_topic_live.sface:35
 #: lib/components/settings/general/general_live.sface:33
 #, elixir-autogen, elixir-format
 msgid "Write a short description"
 msgstr "Schreibe eine kurze Beschreibung"
+
+#. URLs: https://campground.bonfire.cafe/+Test_Topic
+#. https://campground.bonfire.cafe/+My_Test_Topic
+#. https://campground.bonfire.cafe/+Beta_topic
+#. https://campground.bonfire.cafe/+Alpha_topic
+#: lib/pages/category/category_live.sface:55
+#, elixir-autogen, elixir-format
+msgid "Write in %{name}"
+msgstr "In %{name} schreiben"
+
+#. URLs: https://campground.bonfire.cafe/group/UI_Test_Group_38661
+#. https://campground.bonfire.cafe/group/Custom_Dims_84036
+#. https://campground.bonfire.cafe/group/Persistence_Test_185954
+#. https://campground.bonfire.cafe/&Hero_Campfire_Group
+#: lib/components/new_topic/new_topic_live.ex:8
+#, elixir-autogen, elixir-format
+msgid "in %{parent_category}"
+msgstr "in %{parent_category}"
+
+#. URLs: https://campground.bonfire.cafe/+Test_Topic
+#. https://campground.bonfire.cafe/+My_Test_Topic
+#. https://campground.bonfire.cafe/+Beta_topic
+#. https://campground.bonfire.cafe/+Alpha_topic
+#: lib/pages/category/category_live.sface:56
+#, elixir-autogen, elixir-format
+msgid "topic"
+msgstr "Thema"

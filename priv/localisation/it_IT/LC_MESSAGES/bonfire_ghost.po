@@ -11,37 +11,45 @@
 # Translators:
 # Antonio Irre, 2026
 # ivan minutillo, 2026
+# Sovversivo Anonimo, 2026
 # 
 msgid ""
 msgstr ""
-"Last-Translator: ivan minutillo, 2026\n"
+"Last-Translator: Sovversivo Anonimo, 2026\n"
 "Language-Team: Italian (Italy) (https://app.transifex.com/bonfire/teams/138385/it_IT/)\n"
 "Language: it_IT\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: lib/web/components/ghost_settings_live.sface:164
+#: lib/web/components/ghost_settings_live.sface:321
 #, elixir-autogen, elixir-format
 msgid "%{n} archived"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:167
+#: lib/web/components/ghost_settings_live.sface:321
 #, elixir-autogen, elixir-format
 msgid "%{n} error(s)"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:160
+#: lib/web/components/ghost_settings_live.sface:320
 #, elixir-autogen, elixir-format
 msgid "%{n} new"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:161
+#: lib/web/components/ghost_settings_live.sface:321
 #, elixir-autogen, elixir-format
-msgid "%{n} refreshed"
+msgid "%{n} updated"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:162
+#: lib/web/components/ghost_settings_live.sface:254
 #, elixir-autogen, elixir-format
-msgid "%{n} unchanged"
+msgid "Access & login"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:207
+#, elixir-autogen, elixir-format
+msgid ""
+"Add these in Ghost admin → Settings → Integrations, using "
+"GHOST_WEBHOOK_SECRET as the secret on each:"
 msgstr ""
 
 #: lib/web/views/ghost_posts_live.sface:24
@@ -51,46 +59,120 @@ msgid ""
 "blog."
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:343
-#, elixir-autogen, elixir-format
-msgid "Admin API not configured"
-msgstr ""
-
-#: lib/web/live_handler.ex:187
+#: lib/web/live_handler.ex:278
 #, elixir-autogen, elixir-format
 msgid "All %{total} Ghost tier(s) already in sync — nothing to update"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
-#. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
-#: lib/web/components/ghost_settings_live.ex:16
-#: lib/web/components/ghost_settings_live.ex:16
-#: lib/web/components/ghost_settings_live.ex:16
+#: lib/web/live_handler.ex:142
+#, elixir-autogen, elixir-format
+msgid "Article backfill could not be started: %{reason}"
+msgstr ""
+
+#: lib/web/live_handler.ex:132
+#, elixir-autogen, elixir-format
+msgid ""
+"Article backfill started. Existing published Ghost articles will be imported"
+" in the background, honoring your author, group, and tag settings."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:116
+#, elixir-autogen, elixir-format
+msgid "Article import"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:87
+#, elixir-autogen, elixir-format
+msgid "Articles imported from this blog"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:184
+#, elixir-autogen, elixir-format
+msgid "Auto-import on publish"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:185
+#, elixir-autogen, elixir-format
+msgid ""
+"Automatically mirror each published Ghost article as a post here (and "
+"update/hide it on edit/unpublish). Requires the webhooks below."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:229
+#, elixir-autogen, elixir-format
+msgid ""
+"Backfill articles published before webhooks were set up. Re-running is safe."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:426
+#, elixir-autogen, elixir-format
+msgid ""
+"Backfill members from Ghost? This runs a background job that provisions "
+"accounts and adds existing members to their tier circles."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:516
+#, elixir-autogen, elixir-format
+msgid "Blog details"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:300
+#, elixir-autogen, elixir-format
+msgid ""
+"Choose which tiers are required for access under Membership tiers below."
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
+#: lib/web/components/ghost_settings_live.ex:19
+#: lib/web/components/ghost_settings_live.ex:19
+#: lib/web/components/ghost_settings_live.ex:19
 #, elixir-autogen, elixir-format
 msgid "Configure Ghost blog integration and view members"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:92
-#: lib/web/components/ghost_settings_live.sface:102
+#: lib/web/components/ghost_settings_live.sface:23
+#, elixir-autogen, elixir-format
+msgid "Connect your Ghost blog"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:52
+#, elixir-autogen, elixir-format
+msgid "Connected"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:126
+#, elixir-autogen, elixir-format
+msgid "Default author"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:546
+#: lib/web/components/ghost_settings_live.sface:556
 #, elixir-autogen, elixir-format
 msgid "Disabled"
 msgstr "Disabilitato"
 
-#: lib/web/components/ghost_settings_live.sface:293
+#: lib/web/components/ghost_settings_live.sface:345
+#, elixir-autogen, elixir-format
+msgid ""
+"Each Ghost tier becomes a Bonfire circle you can grant access to anywhere in"
+" the boundaries system."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:452
 #, elixir-autogen, elixir-format
 msgid "Email"
 msgstr "Email"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#: lib/web/components/ghost_settings_live.sface:90
-#: lib/web/components/ghost_settings_live.sface:100
+#: lib/web/components/ghost_settings_live.sface:544
+#: lib/web/components/ghost_settings_live.sface:554
 #, elixir-autogen, elixir-format
 msgid "Enabled"
 msgstr "Attivato"
 
-#: lib/web/components/ghost_settings_live.sface:355
+#: lib/web/components/ghost_settings_live.sface:571
 #, elixir-autogen, elixir-format
 msgid "Error"
 msgstr "Errore"
@@ -100,21 +182,31 @@ msgstr "Errore"
 msgid "Error loading posts"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:246
+#: lib/web/components/ghost_settings_live.sface:288
+#, elixir-autogen, elixir-format
+msgid "External signup URL"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:378
 #, elixir-autogen, elixir-format
 msgid "Free"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
-#. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
-#: lib/web/components/ghost_settings_live.ex:14
+#: lib/web/components/ghost_settings_live.sface:262
+#, elixir-autogen, elixir-format
+msgid "Gated login (Ghost members only)"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
+#: lib/web/components/ghost_settings_live.ex:17
 #, elixir-autogen, elixir-format
 msgid "Ghost"
 msgstr "Nascondi"
 
-#: lib/web/live_handler.ex:66
+#: lib/web/live_handler.ex:76 lib/web/live_handler.ex:92
 #, elixir-autogen, elixir-format
 msgid "Ghost Admin API is not configured"
 msgstr ""
@@ -124,43 +216,82 @@ msgstr ""
 msgid "Ghost Blog"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
-#. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
+#: lib/integration.ex:34
+#, elixir-autogen, elixir-format
+msgid "Ghost blog"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
 #: lib/integration.ex:36 lib/integration.ex:36
 #, elixir-autogen, elixir-format
 msgid "Ghost blog integration"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:30
+#: lib/web/live_handler.ex:123
+#, elixir-autogen, elixir-format
+msgid "Ghost is not configured"
+msgstr ""
+
+#: lib/web/live_handler.ex:111
+#, elixir-autogen, elixir-format
+msgid "Ghost member backfill could not be started: %{reason}"
+msgstr ""
+
+#: lib/web/live_handler.ex:101
+#, elixir-autogen, elixir-format
+msgid ""
+"Ghost member backfill started. Tiers will sync first, then existing members "
+"will be added to their circles."
+msgstr ""
+
 #: lib/web/views/ghost_posts_live.sface:23
 #, elixir-autogen, elixir-format
 msgid "Ghost not configured"
 msgstr ""
 
-#: lib/web/live_handler.ex:72
+#: lib/web/live_handler.ex:82
 #, elixir-autogen, elixir-format
 msgid "Ghost tier sync failed: %{reason}"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:297
+#: lib/web/components/ghost_settings_live.sface:263
+#, elixir-autogen, elixir-format
+msgid ""
+"Hide the password and signup forms on the login page. Ghost members get a "
+"passwordless email link instead."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:237
+#, elixir-autogen, elixir-format
+msgid ""
+"Import every published article from this Ghost blog? This can create a large"
+" number of posts in the background. It's safe to re-run, but only start it "
+"once."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:227
+#, elixir-autogen, elixir-format
+msgid "Import existing articles"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:456
 #, elixir-autogen, elixir-format
 msgid "Joined"
 msgstr "Unito"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#: lib/web/components/ghost_settings_live.sface:79
+#: lib/web/components/ghost_settings_live.sface:533
 #, elixir-autogen, elixir-format
 msgid "Language"
 msgstr "Lingua"
 
-#: lib/web/components/ghost_settings_live.sface:159
-#, elixir-autogen, elixir-format
-msgid "Last sync"
-msgstr ""
-
-#: lib/web/components/ghost_settings_live.sface:332
+#: lib/web/components/ghost_settings_live.sface:489
 #, elixir-autogen, elixir-format
 msgid "Load more"
 msgstr "Carica altro"
@@ -170,26 +301,35 @@ msgstr "Carica altro"
 msgid "Loading posts..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#: lib/web/components/ghost_settings_live.sface:87
-#: lib/web/components/ghost_settings_live.sface:276
+#: lib/web/components/ghost_settings_live.sface:274
+#, elixir-autogen, elixir-format
+msgid "Login page message"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:412
+#: lib/web/components/ghost_settings_live.sface:541
 #, elixir-autogen, elixir-format
 msgid "Members"
 msgstr "Mambri"
 
-#: lib/web/components/ghost_settings_live.sface:153
+#: lib/web/components/ghost_settings_live.sface:500
 #, elixir-autogen, elixir-format
-msgid "Membership Tiers"
+msgid "Members & gated login unavailable"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:294
+#: lib/web/components/ghost_settings_live.sface:314
+#, elixir-autogen, elixir-format
+msgid "Membership tiers"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:453
 #, elixir-autogen, elixir-format
 msgid "Name"
 msgstr "Nome"
 
-#: lib/web/components/ghost_settings_live.sface:286
+#: lib/web/components/ghost_settings_live.sface:445
 #, elixir-autogen, elixir-format
-msgid "No members found"
+msgid "No members yet. Sync to pull them from Ghost."
 msgstr ""
 
 #: lib/web/views/ghost_posts_live.sface:58
@@ -197,10 +337,67 @@ msgstr ""
 msgid "No posts found in your Ghost blog."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#: lib/web/components/ghost_settings_live.sface:97
+#: lib/web/components/ghost_settings_live.sface:155
 #, elixir-autogen, elixir-format
-msgid "Paid Tiers"
+msgid "Only auto-import these Ghost tags"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:169
+#, elixir-autogen, elixir-format
+msgid "Only import articles matching a topic"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:143
+#, elixir-autogen, elixir-format
+msgid ""
+"Optional. ID or @username of a group/topic imported articles are posted "
+"into. An embed's data-group-id parameter overrides this."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:275
+#, elixir-autogen, elixir-format
+msgid ""
+"Optional. Shown above the login form, to explain who can sign in (e.g. what "
+"kind of account is needed)."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:289
+#, elixir-autogen, elixir-format
+msgid ""
+"Optional. Shows a Sign up button next to login that redirects here (e.g. "
+"your Ghost subscribe page)."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:156
+#, elixir-autogen, elixir-format
+msgid ""
+"Optional. Tag slug(s), comma- or space-separated. Auto-import skips posts "
+"without one of these tags."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:551
+#, elixir-autogen, elixir-format
+msgid "Paid tiers"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:214
+#, elixir-autogen, elixir-format
+msgid "Post deleted"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:142
+#, elixir-autogen, elixir-format
+msgid "Post into group or topic"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:211
+#, elixir-autogen, elixir-format
+msgid "Post published"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:213
+#, elixir-autogen, elixir-format
+msgid "Post unpublished"
 msgstr ""
 
 #: lib/web/views/ghost_posts_live.sface:4
@@ -208,140 +405,177 @@ msgstr ""
 msgid "Posts from your connected Ghost blog"
 msgstr ""
 
+#: lib/web/components/ghost_settings_live.sface:212
+#, elixir-autogen, elixir-format
+msgid "Published post updated"
+msgstr ""
+
 #: lib/web/views/ghost_posts_live.sface:102
 #, elixir-autogen, elixir-format
 msgid "Read on Ghost"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#: lib/web/components/ghost_settings_live.sface:15
+#: lib/web/components/ghost_settings_live.sface:105
 #, elixir-autogen, elixir-format
 msgid "Refresh"
 msgstr "Aggiorna"
 
-#: lib/web/components/ghost_settings_live.sface:344
+#: lib/web/components/ghost_settings_live.sface:387
 #, elixir-autogen, elixir-format
-msgid "Set GHOST_ADMIN_API_KEY to access member data"
+msgid "Required"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:31
+#: lib/web/components/ghost_settings_live.sface:437
 #, elixir-autogen, elixir-format
-msgid "Set the following environment variables to connect your Ghost blog:"
+msgid ""
+"Run a one-off backfill after syncing tiers. Webhooks and Ghost sign-in keep "
+"future changes in sync."
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:295
+#: lib/web/components/ghost_settings_live.sface:501
+#, elixir-autogen, elixir-format
+msgid "Set GHOST_ADMIN_API_KEY to sync members and enable gated login."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:25
+#, elixir-autogen, elixir-format
+msgid "Set these environment variables, then restart to connect:"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:454
 #, elixir-autogen, elixir-format
 msgid "Status"
 msgstr "Stato"
 
-#: lib/web/components/ghost_settings_live.sface:296
+#: lib/web/components/ghost_settings_live.sface:455
 #, elixir-autogen, elixir-format
 msgid "Subscribed"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:183
+#: lib/web/components/ghost_settings_live.sface:242
+#, elixir-autogen, elixir-format
+msgid "Sync articles"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:431
+#, elixir-autogen, elixir-format
+msgid "Sync members"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:330
+#, elixir-autogen, elixir-format
+msgid ""
+"Sync membership tiers from Ghost? This creates or updates a Bonfire circle "
+"for each tier."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:337
 #, elixir-autogen, elixir-format
 msgid "Sync tiers"
 msgstr ""
 
-#: lib/web/live_handler.ex:165
+#: lib/web/components/ghost_settings_live.sface:96
+#, elixir-autogen, elixir-format
+msgid "Synced"
+msgstr ""
+
+#: lib/web/live_handler.ex:256
 #, elixir-autogen, elixir-format
 msgid ""
 "Synced %{total} Ghost tier(s) with %{errors} error(s): %{created} new, "
 "%{updated} refreshed, %{unchanged} unchanged, %{archived} archived"
 msgstr ""
 
-#: lib/web/live_handler.ex:177
+#: lib/web/live_handler.ex:268
 #, elixir-autogen, elixir-format
 msgid ""
 "Synced %{total} Ghost tier(s): %{created} new, %{updated} refreshed, "
 "%{unchanged} unchanged, %{archived} archived"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:180
+#: lib/web/components/ghost_settings_live.sface:334
 #, elixir-autogen, elixir-format
 msgid "Syncing…"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#: lib/web/components/ghost_settings_live.sface:83
+#: lib/web/components/ghost_settings_live.sface:537
 #, elixir-autogen, elixir-format
 msgid "Timezone"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:190
+#: lib/web/components/ghost_settings_live.sface:278
+#, elixir-autogen, elixir-format
+msgid "To join %{instance}, you need a Club or Comrade account."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:352
 #, elixir-autogen, elixir-format
 msgid ""
-"Turn each Ghost tier into a Bonfire circle. Admins can then grant these "
-"circles access anywhere in Bonfire's boundaries system."
+"Toggle the tiers required to log in. Leave all off to allow any Ghost "
+"member."
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:58
+#: lib/web/components/ghost_settings_live.sface:48
 #, elixir-autogen, elixir-format
-msgid "Untitled Blog"
+msgid "Untitled blog"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:222
+#: lib/web/components/ghost_settings_live.sface:127
+#, elixir-autogen, elixir-format
+msgid ""
+"User ID that imported articles are attributed to when the Ghost author has "
+"no matching local user."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:201
+#, elixir-autogen, elixir-format
+msgid "Webhook setup"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:170
+#, elixir-autogen, elixir-format
+msgid ""
+"When the destination is a group, only import articles whose primary Ghost "
+"tag maps to a topic inside it."
+msgstr ""
+
+#: lib/web/live_handler.ex:157
+#, elixir-autogen, elixir-format
+msgid ""
+"You do not have permission to manage this instance's Ghost integration."
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:365
 #, elixir-autogen, elixir-format
 msgid "archived"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:225
+#: lib/web/components/ghost_settings_live.sface:89
+#, elixir-autogen, elixir-format
+msgid "articles"
+msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:368
 #, elixir-autogen, elixir-format
 msgid "hidden"
 msgstr ""
+
+#: lib/web/components/ghost_settings_live.sface:77
+#, elixir-autogen, elixir-format
+msgid "members"
+msgstr "membri"
 
 #: lib/web/views/ghost_posts_live.sface:84
 #, elixir-autogen, elixir-format
 msgid "min read"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:238
+#: lib/web/components/ghost_settings_live.sface:376
 #, elixir-autogen, elixir-format
 msgid "mo"
 msgstr ""
 
-#: lib/web/components/ghost_settings_live.sface:242
+#: lib/web/components/ghost_settings_live.sface:83
 #, elixir-autogen, elixir-format
-msgid "yr"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#: lib/web/components/ghost_settings_live.sface:134
-#, elixir-autogen, elixir-format
-msgid "External signup URL"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#: lib/web/components/ghost_settings_live.sface:118
-#, elixir-autogen, elixir-format
-msgid "Gated login (Ghost members only)"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#: lib/web/components/ghost_settings_live.sface:119
-#, elixir-autogen, elixir-format
-msgid ""
-"Hide the password and signup forms on the login page. Members existing in "
-"Ghost get a passwordless email link instead."
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost
-#: lib/web/components/ghost_settings_live.sface:135
-#, elixir-autogen, elixir-format
-msgid ""
-"Optional. When set, a Sign up button is shown next to the login button and "
-"redirects to this URL (e.g. your Ghost subscribe page)."
-msgstr ""
-
-#: lib/web/components/ghost_settings_live.sface:197
-#, elixir-autogen, elixir-format
-msgid ""
-"Check the tiers required to log in to Bonfire. Leave all unchecked to allow "
-"any Ghost member."
-msgstr ""
-
-#: lib/web/components/ghost_settings_live.sface:214
-#, elixir-autogen, elixir-format
-msgid "Required for access"
+msgid "tiers"
 msgstr ""

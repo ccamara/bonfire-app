@@ -18,30 +18,88 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCAVF40EAQJX25CD42ZCQQY
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/discussion/01KXCAVD39Z69MDMTN75GG62D8
+#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
+#: lib/web/pwa_install_banner_live.sface:60
+#, elixir-autogen, elixir-format
+msgid "Add to Home Screen"
+msgstr "Aan startscherm toevoegen"
+
 #: lib/web/push_notifications_live.sface:11
 #, elixir-autogen, elixir-format
 msgid "Add to your home screen for quick access"
 msgstr "Voeg toe aan je startscherm voor snelle toegang"
+
+#: lib/live_handler.ex:198
+#, elixir-autogen, elixir-format
+msgid "Announcement sent to %{count} users!"
+msgstr "Aankondiging verzonden naar %{count} gebruikers!"
+
+#: lib/web/push_notifications_live.sface:122
+#, elixir-autogen, elixir-format
+msgid "Boosts"
+msgstr "Boosts"
 
 #: lib/web/push_notify_live.ex:60
 #, elixir-autogen, elixir-format
 msgid "Broadcast Test"
 msgstr "Uitzendingstest"
 
+#: lib/web/admin_broadcast_live.sface:4
+#, elixir-autogen, elixir-format
+msgid "Compose Announcement"
+msgstr "Aankondiging opstellen"
+
+#: lib/live_handler.ex:185
+#, elixir-autogen, elixir-format
+msgid "Could not broadcast this post"
+msgstr "Dit bericht kon niet worden gepubliceerd"
+
+#: lib/live_handler.ex:181
+#, elixir-autogen, elixir-format
+msgid "Could not generate URL for this post"
+msgstr "Er kon geen URL voor dit bericht worden gegenereerd"
+
+#: lib/live_handler.ex:202
+#, elixir-autogen, elixir-format
+msgid "Could not send the announcement"
+msgstr "De aankondiging kon niet worden verzonden"
+
+#: lib/web/push_notifications_live.sface:196
+#, elixir-autogen, elixir-format
+msgid "Delivery failed"
+msgstr "Levering mislukt"
+
 #: lib/web/push_notifications_live.ex:171
 #, elixir-autogen, elixir-format
 msgid "Device removed"
 msgstr "Apparaat verwijderd"
+
+#: lib/web/push_notifications_live.sface:165
+#, elixir-autogen, elixir-format
+msgid "Devices"
+msgstr "Apparaten"
 
 #: lib/web/push_notifications_live.sface:80
 #, elixir-autogen, elixir-format
 msgid "Disable"
 msgstr "Uitschakelen"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
-#. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCAVF40EAQJX25CD42ZCQQY
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/discussion/01KXCAVD39Z69MDMTN75GG62D8
+#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
+#: lib/web/pwa_install_banner_live.sface:32
+#, elixir-autogen, elixir-format
+msgid "Dismiss"
+msgstr "Sluiten"
+
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/email_notifications_live.ex:4
 #, elixir-autogen, elixir-format
 msgid "Email Notifications"
@@ -57,6 +115,11 @@ msgstr "Inschakelen"
 msgid "Enable Notifications"
 msgstr "Notificaties inschakelen"
 
+#: lib/web/push_notifications_live.sface:57
+#, elixir-autogen, elixir-format
+msgid "Enabled on this device"
+msgstr "Ingeschakeld op dit apparaat"
+
 #: lib/web/push_notifications_live.ex:97
 #: lib/web/push_notifications_live.ex:136
 #, elixir-autogen, elixir-format
@@ -68,20 +131,48 @@ msgstr "Notificaties kunnen niet worden ingeschakeld: %{error}"
 msgid "Failed to remove device: %{error}"
 msgstr "Het verwijderen van het apparaat is mislukt: %{error}"
 
+#: lib/web/push_notifications_live.sface:136
+#, elixir-autogen, elixir-format
+msgid "Follows"
+msgstr "Volgt"
+
 #: lib/web/push_notify_live.ex:43
 #, elixir-autogen, elixir-format
 msgid "Get alerts on your subscriptions"
 msgstr "Ontvang waarschuwingen over je abonnementen"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#: lib/web/push_notifications_live.sface:59
+#, elixir-autogen, elixir-format
+msgid "Get notified even when the app is closed"
+msgstr "Ontvang meldingen, zelfs als de app gesloten is"
+
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCAVF40EAQJX25CD42ZCQQY
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/discussion/01KXCAVD39Z69MDMTN75GG62D8
+#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
+#: lib/web/pwa_install_banner_live.sface:22
+#, elixir-autogen, elixir-format
+msgid "Get the full app experience"
+msgstr "Geniet van de volledige app-ervaring"
+
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCAVF40EAQJX25CD42ZCQQY
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/discussion/01KXCAVD39Z69MDMTN75GG62D8
+#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
 #: lib/web/push_notifications_live.sface:16
 #: lib/web/pwa_install_banner_live.sface:26
 #, elixir-autogen, elixir-format
 msgid "Install"
 msgstr "Installeren"
+
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCAVF40EAQJX25CD42ZCQQY
+#. https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/discussion/01KXCAVD39Z69MDMTN75GG62D8
+#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
+#: lib/web/pwa_install_banner_live.sface:19
+#, elixir-autogen, elixir-format
+msgid "Install %{name}"
+msgstr "Installeren %{name}"
 
 #: lib/web/push_notify_live.ex:32
 #, elixir-autogen, elixir-format
@@ -93,19 +184,38 @@ msgstr "App installeren"
 msgid "Install as app"
 msgstr "Als app installeren"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
-#. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
-#: lib/notify.ex:33 lib/notify.ex:33
+#: lib/web/push_notifications_live.sface:108
+#, elixir-autogen, elixir-format
+msgid "Likes"
+msgstr "Likes"
+
+#: lib/web/admin_broadcast_live.sface:8
+#, elixir-autogen, elixir-format
+msgid "Local"
+msgstr "Lokaal"
+
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
+#: lib/web/admin_broadcast_live.ex:5
+#, elixir-autogen, elixir-format
+msgid "Make an announcement"
+msgstr "Doe een mededeling"
+
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
+#: lib/notify.ex:34 lib/notify.ex:34
 #, elixir-autogen, elixir-format
 msgid "Manage your notification settings and registered devices"
 msgstr "Beheer je notificatie-instellingen en geregistreerde apparaten"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
-#. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/push_notifications_live.ex:13 lib/web/push_notifications_live.ex:13
 #: lib/web/push_notifications_live.ex:13
 #, elixir-autogen, elixir-format
@@ -113,13 +223,42 @@ msgid "Manage your push notification settings and registered devices"
 msgstr ""
 "Beheer je instellingen voor push-notificaties en je geregistreerde apparaten"
 
-#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
-#. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
+#: lib/web/push_notifications_live.sface:150
+#, elixir-autogen, elixir-format
+msgid "Messages"
+msgstr "Berichten"
+
+#: lib/web/push_notifications_live.sface:223
+#, elixir-autogen, elixir-format
+msgid "No devices registered"
+msgstr "Er zijn geen apparaten geregistreerd"
+
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
+#: lib/notify.ex:32
+#, elixir-autogen, elixir-format
+msgid "Notifications"
+msgstr ""
+
+#: lib/web/push_notifications_live.sface:86
+#, elixir-autogen, elixir-format
+msgid "Notify me about"
+msgstr "Hou mij op de hoogte van"
+
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/push_notifications_live.ex:11 lib/web/push_notify_live.ex:40
 #, elixir-autogen, elixir-format
 msgid "Push Notifications"
+msgstr "Push-notificaties"
+
+#: lib/web/push_notifications_live.sface:54
+#, elixir-autogen, elixir-format
+msgid "Push notifications"
 msgstr "Push-notificaties"
 
 #: lib/web/push_notifications_live.sface:35
@@ -182,188 +321,53 @@ msgstr "Dit apparaat verwijderen?"
 msgid "Replies and @ mentions"
 msgstr "Reacties en @-vermeldingen"
 
-#: lib/web/push_notify_live.ex:98
-#, elixir-autogen, elixir-format
-msgid "Test"
-msgstr "Test"
-
-#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
-#. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
-#: lib/web/email_notifications_live.ex:6 lib/web/email_notifications_live.ex:6
-#: lib/web/email_notifications_live.ex:6
-#, elixir-autogen, elixir-format
-msgid "What activities to receive email notifications for"
-msgstr "Voor welke activiteiten wil je e-mailnotificaties ontvangen?"
-
-#: lib/web/push_notifications_live.ex:102
-#, elixir-autogen, elixir-format
-msgid "You must be logged in to enable push notifications"
-msgstr "Je moet ingelogd zijn om push-notificaties in te schakelen"
-
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/web/pwa_install_banner_live.sface:60
-#, elixir-autogen, elixir-format
-msgid "Add to Home Screen"
-msgstr "Aan startscherm toevoegen"
-
-#: lib/web/push_notifications_live.sface:122
-#, elixir-autogen, elixir-format
-msgid "Boosts"
-msgstr "Boosts"
-
-#: lib/web/push_notifications_live.sface:196
-#, elixir-autogen, elixir-format
-msgid "Delivery failed"
-msgstr "Levering mislukt"
-
-#: lib/web/push_notifications_live.sface:165
-#, elixir-autogen, elixir-format
-msgid "Devices"
-msgstr "Apparaten"
-
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/web/pwa_install_banner_live.sface:32
-#, elixir-autogen, elixir-format
-msgid "Dismiss"
-msgstr "Sluiten"
-
-#: lib/web/push_notifications_live.sface:57
-#, elixir-autogen, elixir-format
-msgid "Enabled on this device"
-msgstr "Ingeschakeld op dit apparaat"
-
-#: lib/web/push_notifications_live.sface:136
-#, elixir-autogen, elixir-format
-msgid "Follows"
-msgstr "Volgt"
-
-#: lib/web/push_notifications_live.sface:59
-#, elixir-autogen, elixir-format
-msgid "Get notified even when the app is closed"
-msgstr "Ontvang meldingen, zelfs als de app gesloten is"
-
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/web/pwa_install_banner_live.sface:22
-#, elixir-autogen, elixir-format
-msgid "Get the full app experience"
-msgstr "Geniet van de volledige app-ervaring"
-
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/web/pwa_install_banner_live.sface:19
-#, elixir-autogen, elixir-format
-msgid "Install %{name}"
-msgstr "Installeren %{name}"
-
-#: lib/web/push_notifications_live.sface:108
-#, elixir-autogen, elixir-format
-msgid "Likes"
-msgstr "Likes"
-
-#: lib/web/push_notifications_live.sface:150
-#, elixir-autogen, elixir-format
-msgid "Messages"
-msgstr "Berichten"
-
-#: lib/web/push_notifications_live.sface:223
-#, elixir-autogen, elixir-format
-msgid "No devices registered"
-msgstr "Er zijn geen apparaten geregistreerd"
-
-#: lib/web/push_notifications_live.sface:86
-#, elixir-autogen, elixir-format
-msgid "Notify me about"
-msgstr "Hou mij op de hoogte van"
-
-#: lib/web/push_notifications_live.sface:54
-#, elixir-autogen, elixir-format
-msgid "Push notifications"
-msgstr "Push-notificaties"
-
 #: lib/web/push_notifications_live.sface:94
 #, elixir-autogen, elixir-format
 msgid "Replies and mentions"
 msgstr "Reacties en vermeldingen"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCAVF40EAQJX25CD42ZCQQY
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/discussion/01KXCAVD39Z69MDMTN75GG62D8
+#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
 #: lib/web/pwa_install_banner_live.sface:56
 #, elixir-autogen, elixir-format
 msgid "Share"
 msgstr "Delen"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/discussion/01KXCAVF40EAQJX25CD42ZCQQY
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/discussion/01KXCAVD39Z69MDMTN75GG62D8
+#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
 #: lib/web/pwa_install_banner_live.sface:46
 #, elixir-autogen, elixir-format
 msgid "Tap"
 msgstr "Tik"
+
+#: lib/web/push_notify_live.ex:98
+#, elixir-autogen, elixir-format
+msgid "Test"
+msgstr "Test"
 
 #: lib/web/push_notifications_live.sface:189
 #, elixir-autogen, elixir-format
 msgid "This device"
 msgstr "Dit apparaat"
 
-#: lib/live_handler.ex:198
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
+#: lib/web/email_notifications_live.ex:6 lib/web/email_notifications_live.ex:6
+#: lib/web/email_notifications_live.ex:6
 #, elixir-autogen, elixir-format
-msgid "Announcement sent to %{count} users!"
-msgstr "Aankondiging verzonden naar %{count} gebruikers!"
+msgid "What activities to receive email notifications for"
+msgstr "Voor welke activiteiten wil je e-mailnotificaties ontvangen?"
 
-#: lib/web/admin_broadcast_live.sface:4
-#, elixir-autogen, elixir-format
-msgid "Compose Announcement"
-msgstr "Aankondiging opstellen"
-
-#: lib/live_handler.ex:185
-#, elixir-autogen, elixir-format
-msgid "Could not broadcast this post"
-msgstr "Dit bericht kon niet worden gepubliceerd"
-
-#: lib/live_handler.ex:181
-#, elixir-autogen, elixir-format
-msgid "Could not generate URL for this post"
-msgstr "Er kon geen URL voor dit bericht worden gegenereerd"
-
-#: lib/live_handler.ex:202
-#, elixir-autogen, elixir-format
-msgid "Could not send the announcement"
-msgstr "De aankondiging kon niet worden verzonden"
-
-#: lib/web/admin_broadcast_live.sface:8
-#, elixir-autogen, elixir-format
-msgid "Local"
-msgstr "Lokaal"
-
-#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
-#. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
-#: lib/web/admin_broadcast_live.ex:5
-#, elixir-autogen, elixir-format
-msgid "Make an announcement"
-msgstr "Doe een mededeling"
-
-#. URLs: https://campground.bonfire.cafe/settings/user/blocks_import
-#. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
+#. https://campground.bonfire.cafe/settings/user/feeds
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
+#. https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/admin_broadcast_live.ex:8 lib/web/admin_broadcast_live.ex:8
 #: lib/web/admin_broadcast_live.ex:8
 #, elixir-autogen, elixir-format
@@ -375,3 +379,8 @@ msgstr ""
 "Schrijf een mededeling die naar alle lokale gebruikers of naar een of meer "
 "aangepaste kringen wordt verzonden. Deze verschijnt in hun meldingenfeed en "
 "activeert push-notificaties indien deze zijn ingeschakeld."
+
+#: lib/web/push_notifications_live.ex:102
+#, elixir-autogen, elixir-format
+msgid "You must be logged in to enable push notifications"
+msgstr "Je moet ingelogd zijn om push-notificaties in te schakelen"

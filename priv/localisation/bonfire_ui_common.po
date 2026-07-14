@@ -1244,6 +1244,7 @@ msgstr ""
 msgid "Please try again in a few minutes or contact the instance admins."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/create-user/team https://campground.bonfire.cafe/create-user
 #: lib/error/error_view.ex:65
 #: lib/error/error_view.ex:95
 #: lib/error/error_view.ex:117
@@ -1725,7 +1726,7 @@ msgstr ""
 msgid "Sorry, no answer was received"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/silenced https://campground.bonfire.cafe/post/01KXCBPCSV1ACRP3JWKEBBHG06 https://campground.bonfire.cafe/discussion/01KXCBPBRKZWMQPJG7PBSCCTJV
+#. URLs: https://campground.bonfire.cafe/settings/instance/configuration https://campground.bonfire.cafe/silenced https://campground.bonfire.cafe/post/01KXCBPCSV1ACRP3JWKEBBHG06 https://campground.bonfire.cafe/discussion/01KXCBPBRKZWMQPJG7PBSCCTJV
 #: lib/error/error_handling.ex:144
 #, elixir-autogen, elixir-format
 msgid "Sorry, the app encountered an unexpected error"

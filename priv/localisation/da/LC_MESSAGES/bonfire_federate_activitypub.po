@@ -18,16 +18,16 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. URLs: https://campground.bonfire.cafe/&Closed_Group
-#. https://campground.bonfire.cafe/&Feed_Post_Group_for_Author
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
-#. https://campground.bonfire.cafe/&Label_Test_Group
-#: lib/adapter/adapter_utils.ex:1448
+#. URLs: https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/settings/export/binary/keys/asc
+#. https://campground.bonfire.cafe/settings/export/json/actor
+#. https://campground.bonfire.cafe/settings/export/archive
+#: lib/adapter/adapter_utils.ex:1514
 #, elixir-autogen, elixir-format
 msgid "Location"
 msgstr "Sted"
 
-#: lib/adapter/adapter_utils.ex:1915
+#: lib/adapter/adapter_utils.ex:1989
 #, elixir-autogen, elixir-format
 msgid "Website"
 msgstr "Hjemmeside"

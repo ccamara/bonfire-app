@@ -23,6 +23,12 @@ msgstr ""
 msgid "Accept"
 msgstr "Kabul et"
 
+#. URLs: https://campground.bonfire.cafe/settings/user/profile
+#: lib/components/aliases/edit_aliases_live.sface:77
+#, elixir-autogen, elixir-format
+msgid "Add"
+msgstr ""
+
 #: lib/components/move_away/move_away_live.sface:115
 #, elixir-autogen, elixir-format
 msgid "Add alias"
@@ -59,7 +65,7 @@ msgstr ""
 msgid "Attempted to follow them all..."
 msgstr ""
 
-#: lib/components/follow/follow_button_live.sface:76
+#: lib/components/follow/follow_button_live.sface:68
 #, elixir-autogen, elixir-format
 msgid "Cancel"
 msgstr "İptal"
@@ -67,6 +73,12 @@ msgstr "İptal"
 #: lib/live_handlers/follows_live_handler.ex:128
 #, elixir-autogen, elixir-format
 msgid "Could not load more"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/settings/user/profile
+#: lib/components/aliases/edit_aliases_live.sface:74
+#, elixir-autogen, elixir-format
+msgid "Enter here"
 msgstr ""
 
 #: lib/components/move_away/move_away_live.sface:75
@@ -79,41 +91,46 @@ msgstr "Onaylamak için şifreyi girin"
 msgid "Enter the username@domain of the account you want to move to"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Wuckert_Nitzsche
-#. https://campground.bonfire.cafe/settings/user/flags
-#. https://campground.bonfire.cafe/@Price_Reinger_and_Walker
+#: lib/components/move_away/move_away_live.sface:111
+#, elixir-autogen, elixir-format
+msgid "Enter your fediverse username@domain.name"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/user/01KXCB9GE67BJV5PTXXAZ8FWYB
 #. https://campground.bonfire.cafe/notifications
-#: lib/components/follow/follow_button_live.sface:35
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#: lib/components/follow/follow_button_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Follow"
 msgstr "Takip et"
 
-#. URLs: https://campground.bonfire.cafe/@Konopelski_O_Hara_and_Marks
-#: lib/components/follow/follow_button_live.sface:35
+#. URLs: https://campground.bonfire.cafe/@Hayes_Inc
+#: lib/components/follow/follow_button_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Follow back"
 msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/@alice_followed/followers
-#. https://campground.bonfire.cafe/@Parisian_Larkin_and_Weissnat/followers
+#. https://campground.bonfire.cafe/@Osinski_Strosin_and_Hauck/followers
 #: lib/components/profile_follows/profile_follows_live.sface:26
 #: lib/runtime_config.ex:29 lib/runtime_config.ex:33
 #, elixir-autogen, elixir-format
 msgid "Followers"
 msgstr "Takipçiler"
 
-#. URLs: https://campground.bonfire.cafe/@Reilly_Inc
-#. https://campground.bonfire.cafe/@alice_followed/followers
-#. https://campground.bonfire.cafe/@Parisian_Larkin_and_Weissnat/followers
-#. https://campground.bonfire.cafe/&My_Topic
-#: lib/components/follow/follow_button_live.sface:82
+#. URLs: https://campground.bonfire.cafe/+Beta_topic
+#. https://campground.bonfire.cafe/+Alpha_topic
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#: lib/components/follow/follow_button_live.sface:74
 #: lib/components/profile_follows/profile_follows_live.sface:31
 #: lib/runtime_config.ex:30 lib/runtime_config.ex:35
 #, elixir-autogen, elixir-format
 msgid "Following"
 msgstr "Takip Edilenler"
 
-#. URLs: https://campground.bonfire.cafe/@Konopelski_O_Hara_and_Marks
+#. URLs: https://campground.bonfire.cafe/@Hayes_Inc
 #: lib/components/profile_follows/profile_follow_indicator.sface:21
 #, elixir-autogen, elixir-format
 msgid "Follows you"
@@ -129,6 +146,17 @@ msgstr "Güvenlik amacıyla lütfen hesabınızın şifresini girin"
 msgid ""
 "If your new profile isn't already listed above, you can add it by adding it "
 "here:"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/settings/user/profile
+#: lib/components/aliases/edit_aliases_live.sface:5
+#, elixir-autogen, elixir-format
+msgid ""
+"Link your accounts on other Bonfire instances or any fediverse platforms "
+"(Mastodon, PeerTube, Pixelfed, Mobilizon…), as well as your personal "
+"website, blog, etc. They'll be shown on your profile so people can easily "
+"follow your online presence. Any ActivityPub-compatible username should "
+"work, and you can add plain URL links for anything else."
 msgstr ""
 
 #: lib/components/move_away/move_away_live.sface:89
@@ -157,7 +185,7 @@ msgstr ""
 msgid "Move to a different profile"
 msgstr ""
 
-#: lib/components/follow/follow_button_live.sface:82
+#: lib/components/follow/follow_button_live.sface:74
 #, elixir-autogen, elixir-format
 msgid "Mutual follower"
 msgstr ""
@@ -172,12 +200,18 @@ msgstr ""
 msgid "Not following anyone"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/user/profile
+#: lib/components/aliases/edit_aliases_live.sface:4
+#, elixir-autogen, elixir-format
+msgid "Other accounts & links"
+msgstr ""
+
 #: lib/live_handlers/aliases_live_handler.ex:56
 #, elixir-autogen, elixir-format
 msgid "Removed the alias!"
 msgstr ""
 
-#: lib/components/follow/follow_button_live.sface:68
+#: lib/components/follow/follow_button_live.sface:60
 #, elixir-autogen, elixir-format
 msgid "Requested"
 msgstr ""
@@ -221,11 +255,21 @@ msgstr ""
 msgid "There was an error when trying to accept the request"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Planning
-#. https://campground.bonfire.cafe/@Rempel_Group
-#. https://campground.bonfire.cafe/@Reilly_Inc
-#. https://campground.bonfire.cafe/&My_Topic
-#: lib/components/follow/follow_button_live.sface:123
+#: lib/components/move_away/move_away_live.sface:82
+#, elixir-autogen, elixir-format
+msgid "Type here"
+msgstr "Buraya yazın"
+
+#: lib/components/profile_follows/profile_follows_live.ex:4
+#, elixir-autogen, elixir-format
+msgid "UI for social graph"
+msgstr ""
+
+#. URLs: https://campground.bonfire.cafe/+Beta_topic
+#. https://campground.bonfire.cafe/+Alpha_topic
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#: lib/components/follow/follow_button_live.sface:115
 #, elixir-autogen, elixir-format
 msgid "Unfollow"
 msgstr "Takibi bırak"
@@ -257,6 +301,14 @@ msgid ""
 "Mastodon or Akkoma)"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@karen@mocked.local
+#: lib/live_handlers/follows_live_handler.ex:235
+#, elixir-autogen, elixir-format
+msgid ""
+"You can't interact with this user due to this instance's current federation "
+"settings."
+msgstr ""
+
 #: lib/live_handlers/aliases_live_handler.ex:81
 #, elixir-autogen, elixir-format
 msgid ""
@@ -265,66 +317,19 @@ msgid ""
 "hour or so."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Reilly_Inc
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Hyatt
 #: lib/live_handlers/follows_live_handler.ex:24
 #, elixir-autogen, elixir-format
 msgid "follow"
 msgstr "takip et"
 
-#. URLs: https://campground.bonfire.cafe/&Gated_Private_Group
-#. https://campground.bonfire.cafe/&Announce_Channel
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
-#. https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/+Alpha_topic
+#. https://campground.bonfire.cafe/&Hero_Campfire_Group
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #: lib/components/follow/follow_button_live.sface:11
 #: lib/components/follow/follow_button_live.sface:21
-#: lib/components/follow/follow_button_live.sface:86
+#: lib/components/follow/follow_button_live.sface:78
 #, elixir-autogen, elixir-format
 msgid "loading..."
-msgstr ""
-
-#: lib/components/move_away/move_away_live.sface:111
-#, elixir-autogen, elixir-format
-msgid "Enter your fediverse username@domain.name"
-msgstr ""
-
-#: lib/components/move_away/move_away_live.sface:82
-#, elixir-autogen, elixir-format
-msgid "Type here"
-msgstr "Buraya yazın"
-
-#. URLs: https://campground.bonfire.cafe/settings/user/profile
-#: lib/components/aliases/edit_aliases_live.sface:77
-#, elixir-autogen, elixir-format
-msgid "Add"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/settings/user/profile
-#: lib/components/aliases/edit_aliases_live.sface:74
-#, elixir-autogen, elixir-format
-msgid "Enter here"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/settings/user/profile
-#: lib/components/aliases/edit_aliases_live.sface:5
-#, elixir-autogen, elixir-format
-msgid ""
-"Link your accounts on other Bonfire instances or any fediverse platforms "
-"(Mastodon, PeerTube, Pixelfed, Mobilizon…), as well as your personal "
-"website, blog, etc. They'll be shown on your profile so people can easily "
-"follow your online presence. Any ActivityPub-compatible username should "
-"work, and you can add plain URL links for anything else."
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/settings/user/profile
-#: lib/components/aliases/edit_aliases_live.sface:4
-#, elixir-autogen, elixir-format
-msgid "Other accounts & links"
-msgstr ""
-
-#. URLs: https://campground.bonfire.cafe/@karen@mocked.local
-#: lib/live_handlers/follows_live_handler.ex:235
-#, elixir-autogen, elixir-format
-msgid ""
-"You can't interact with this user due to this instance's current federation "
-"settings."
 msgstr ""

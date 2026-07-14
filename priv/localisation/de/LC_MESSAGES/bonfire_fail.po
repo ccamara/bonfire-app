@@ -11,10 +11,11 @@
 # Translators:
 # Steven Bond, 2025
 # Magdalena Berger, 2026
+# Joshua Samuel Strack, 2026
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Magdalena Berger, 2026\n"
+"Last-Translator: Joshua Samuel Strack, 2026\n"
 "Language-Team: German (https://app.transifex.com/bonfire/teams/138385/de/)\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -47,6 +48,16 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Could not delete:"
 msgstr "Konnte nicht gelöscht werden:"
+
+#: lib/runtime_config.ex:5
+#, elixir-autogen, elixir-format
+msgid "Fail"
+msgstr "Fehlschlag"
+
+#: lib/runtime_config.ex:59
+#, elixir-autogen, elixir-format
+msgid "Files with the format of %s are not allowed"
+msgstr "Dateien mit dem Format %s sind nicht erlaubt"
 
 #: lib/runtime_config.ex:29
 #, elixir-autogen, elixir-format
@@ -83,6 +94,11 @@ msgstr "Der Server ist überlastet."
 msgid "There was an error."
 msgstr "Es ist ein Fehler aufgetreten."
 
+#: lib/runtime_config.ex:58
+#, elixir-autogen, elixir-format
+msgid "This file exceeds the maximum upload size of %s"
+msgstr "Diese Datei überschreitet die maximale Upload-Größe von %s"
+
 #: lib/runtime_config.ex:48
 #, elixir-autogen, elixir-format
 msgid "This link or token has expired, please request a fresh one."
@@ -112,7 +128,7 @@ msgstr "Dieser Token wurde nicht gefunden. Bitte fordere einen neuen an."
 msgid ""
 "This user account is disabled. Please contact the instance administrator."
 msgstr ""
-"Dieser Account ist deaktiviert. Bitte kontaktiere die Admins der Instanz."
+"Dieses Konto ist deaktiviert. Bitte kontaktiere die Admins der Instanz."
 
 #: lib/runtime_config.ex:30
 #, elixir-autogen, elixir-format
@@ -134,22 +150,12 @@ msgstr "Wir konnten kein Konto mit den angegebenen Daten finden."
 msgid "You do not have permission %s"
 msgstr "Du hast keine Erlaubnis %s"
 
-#: lib/runtime_config.ex:33
-#, elixir-autogen, elixir-format
-msgid "You need to log in first."
-msgstr "Du musst dich zuerst anmelden."
-
-#: lib/runtime_config.ex:59
-#, elixir-autogen, elixir-format
-msgid "Files with the format of %s are not allowed"
-msgstr "Dateien mit dem Format %s sind nicht erlaubt"
-
-#: lib/runtime_config.ex:58
-#, elixir-autogen, elixir-format
-msgid "This file exceeds the maximum upload size of %s"
-msgstr "Diese Datei überschreitet die maximale Upload-Größe von %s"
-
 #: lib/runtime_config.ex:60
 #, elixir-autogen, elixir-format
 msgid "You have selected too many files."
 msgstr "Du hast zu viele Dateien ausgewählt."
+
+#: lib/runtime_config.ex:33
+#, elixir-autogen, elixir-format
+msgid "You need to log in first."
+msgstr "Du musst dich zuerst anmelden."

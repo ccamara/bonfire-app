@@ -20,6 +20,16 @@ msgstr ""
 "Language: de_DE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: lib/web/views/oauth_consent_live.sface:60
+#, elixir-autogen, elixir-format
+msgid "Allow"
+msgstr "Erlauben"
+
+#: lib/web/views/oauth_consent_live.sface:9
+#, elixir-autogen, elixir-format
+msgid "An application"
+msgstr "Eine Anwendung"
+
 #: lib/web/controllers/client/client_controller.ex:306
 #, elixir-autogen, elixir-format
 msgid "An error occurred saving the external authentication."
@@ -41,10 +51,25 @@ msgstr "Beim Versuch, sich mit OpenID anzumelden, ist ein Fehler aufgetreten"
 msgid "An unknown error occurred with OpenID Connect."
 msgstr "Ein unbekannter Fehler ist bei OpenID Connect aufgetreten."
 
+#: lib/web/views/oauth_consent_live.ex:58
+#, elixir-autogen, elixir-format
+msgid "Authorize access"
+msgstr "Zugang authorisieren"
+
+#: lib/web/views/oauth_consent_live.sface:19
+#, elixir-autogen, elixir-format
+msgid "Authorizing as"
+msgstr "Autorisieren als"
+
 #: lib/web/controllers/client/client_controller.ex:367
 #, elixir-autogen, elixir-format
 msgid "Could not find or create an account for you, sorry."
 msgstr "Leider konnte kein Konto für dich gefunden oder erstellt werden."
+
+#: lib/web/views/oauth_consent_live.sface:54
+#, elixir-autogen, elixir-format
+msgid "Deny"
+msgstr "Verweigern"
 
 #: lib/integration.ex:78 lib/integration.ex:78 lib/integration.ex:78
 #, elixir-autogen, elixir-format
@@ -55,6 +80,32 @@ msgstr "Ungültige E-Mail oder ungültiges Passwort."
 #, elixir-autogen, elixir-format
 msgid "Learn more at orcid.org"
 msgstr "Weitere Informationen unter orcid.org"
+
+#: lib/web/components/sign_in_with_external_providers_live.sface:13
+#: lib/web/components/sign_in_with_external_providers_live.sface:18
+#, elixir-autogen, elixir-format
+msgid ""
+"Link an account you have on another service, so you can then use it to sign "
+"in to this instance."
+msgstr ""
+"Verbinde ein Konto, das du bei einem anderen Dienst hast, damit du dich "
+"damit bei dieser Instanz anmelden kannst."
+
+#: lib/web/components/sign_in_with_external_providers_live.sface:8
+#, elixir-autogen, elixir-format
+msgid ""
+"Link your ORCID to enrich your profile with your research data, and so you "
+"can then use it to sign in to this instance."
+msgstr ""
+"Verknüpfen Sie Ihr ORCID-Profil, um Ihre Forschungsdaten in Ihr Profil zu "
+"integrieren und sich damit bei dieser Instanz anmelden zu können."
+
+#: lib/web/components/sign_in_with_external_providers_live.sface:15
+#, elixir-autogen, elixir-format
+msgid "Linking your ORCID also enriches your profile with your research data."
+msgstr ""
+"Durch die Verknüpfung mit deinem ORCID-Profil werden deine Forschungsdaten "
+"in dein Profil integriert."
 
 #: lib/client/client.ex:175 lib/client/client.ex:175 lib/client/client.ex:175
 #: lib/client/client.ex:180 lib/client/client.ex:180 lib/client/client.ex:180
@@ -116,72 +167,6 @@ msgstr "Einmalige Anmeldung"
 msgid "There was an error."
 msgstr "Es ist ein Fehler aufgetreten."
 
-#: lib/integration.ex:36 lib/integration.ex:36 lib/integration.ex:36
-#, elixir-autogen, elixir-format
-msgid "User not found."
-msgstr "User nicht gefunden."
-
-#: lib/web/components/sign_in_with_external_providers_live.sface:48
-#, elixir-autogen, elixir-format
-msgid "What is ORCID ID?"
-msgstr "Was ist ORCID ID?"
-
-#: lib/web/components/sign_in_with_external_providers_live.sface:99
-#, elixir-autogen, elixir-format
-msgid "or"
-msgstr "oder"
-
-#: lib/web/views/oauth_consent_live.sface:60
-#, elixir-autogen, elixir-format
-msgid "Allow"
-msgstr "Erlauben"
-
-#: lib/web/views/oauth_consent_live.sface:9
-#, elixir-autogen, elixir-format
-msgid "An application"
-msgstr "Eine Anwendung"
-
-#: lib/web/views/oauth_consent_live.ex:58
-#, elixir-autogen, elixir-format
-msgid "Authorize access"
-msgstr "Zugang authorisieren"
-
-#: lib/web/views/oauth_consent_live.sface:19
-#, elixir-autogen, elixir-format
-msgid "Authorizing as"
-msgstr "Autorisieren als"
-
-#: lib/web/views/oauth_consent_live.sface:54
-#, elixir-autogen, elixir-format
-msgid "Deny"
-msgstr "Verweigern"
-
-#: lib/web/components/sign_in_with_external_providers_live.sface:13
-#: lib/web/components/sign_in_with_external_providers_live.sface:18
-#, elixir-autogen, elixir-format
-msgid ""
-"Link an account you have on another service, so you can then use it to sign "
-"in to this instance."
-msgstr ""
-"Verbinde ein Konto, das du bei einem anderen Dienst hast, damit du dich "
-"damit bei dieser Instanz anmelden kannst."
-
-#: lib/web/components/sign_in_with_external_providers_live.sface:8
-#, elixir-autogen, elixir-format
-msgid ""
-"Link your ORCID to enrich your profile with your research data, and so you "
-"can then use it to sign in to this instance."
-msgstr ""
-"Verknüpfen Sie Ihr ORCID-Profil, um Ihre Forschungsdaten in Ihr Profil zu "
-"integrieren und sich damit bei dieser Instanz anmelden zu können."
-
-#: lib/web/components/sign_in_with_external_providers_live.sface:15
-#, elixir-autogen, elixir-format
-msgid "Linking your ORCID also enriches your profile with your research data."
-msgstr ""
-"Durch die Verknüpfung mit deinem ORCID-Profil werden deine Forschungsdaten "
-"in dein Profil integriert."
-
 #: lib/web/views/oauth_consent_live.sface:36
 #, elixir-autogen, elixir-format
 msgid "This will allow access to:"
@@ -192,7 +177,22 @@ msgstr "Dies erlaubt den Zugang zu:"
 msgid "Use a different profile"
 msgstr "Ein anderes Profil nutzen"
 
+#: lib/integration.ex:36 lib/integration.ex:36 lib/integration.ex:36
+#, elixir-autogen, elixir-format
+msgid "User not found."
+msgstr "User nicht gefunden."
+
+#: lib/web/components/sign_in_with_external_providers_live.sface:48
+#, elixir-autogen, elixir-format
+msgid "What is ORCID ID?"
+msgstr "Was ist ORCID ID?"
+
 #: lib/web/views/oauth_consent_live.sface:11
 #, elixir-autogen, elixir-format
 msgid "is requesting access to your account"
 msgstr "beantragt Zugriff auf Ihren Account"
+
+#: lib/web/components/sign_in_with_external_providers_live.sface:99
+#, elixir-autogen, elixir-format
+msgid "or"
+msgstr "oder"

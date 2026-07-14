@@ -11,10 +11,11 @@
 # Translators:
 # Steven Bond, 2026
 # Magdalena Berger, 2026
+# Joshua Samuel Strack, 2026
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Magdalena Berger, 2026\n"
+"Last-Translator: Joshua Samuel Strack, 2026\n"
 "Language-Team: German (https://app.transifex.com/bonfire/teams/138385/de/)\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -317,8 +318,8 @@ msgid ""
 "Make sure the link is valid and that you are signed in as the user who "
 "received this notification to add an ORCID iD."
 msgstr ""
-"Stelle sicher, dass der Link gültig ist und dass du als die Nutzer:in "
-"angemeldet bist, die diese Benachrichtigung erhalten hat, um eine ORCID iD "
+"Stelle sicher, dass der Link gültig ist und dass du als die User angemeldet "
+"bist, die diese Benachrichtigung erhalten hat, um eine ORCID iD "
 "hinzuzufügen."
 
 #: lib/web/zenodo/zenodo_metadata_form_live.ex:595
@@ -419,6 +420,15 @@ msgstr ""
 msgid "Open Access"
 msgstr "Freier Zugang"
 
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/settings/user/profile
+#. https://campground.bonfire.cafe/login/forgot-password
+#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
+#: lib/web/routes.ex:8
+#, elixir-autogen, elixir-format
+msgid "Open Science"
+msgstr "Open Science"
+
 #: lib/web/widgets/author_info_live.sface:9
 #, elixir-autogen, elixir-format
 msgid "OpenAlex"
@@ -461,11 +471,7 @@ msgstr "Publikationstypen"
 msgid "Publication preview"
 msgstr "Vorschau der Publikation"
 
-#. URLs: https://campground.bonfire.cafe/notifications
-#. https://campground.bonfire.cafe/&Featured_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/local
-#: lib/runtime_config.ex:22 lib/web/routes.ex:17
+#: lib/runtime_config.ex:22
 #, elixir-autogen, elixir-format
 msgid "Publications"
 msgstr "Publikationen"
@@ -475,10 +481,10 @@ msgstr "Publikationen"
 msgid "Submit"
 msgstr "Einreichen"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/settings/user/profile
+#. https://campground.bonfire.cafe/login/forgot-password
+#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
 #: lib/web/routes.ex:11 lib/web/routes.ex:11
 #, elixir-autogen, elixir-format
 msgid "The next generation of digital spaces for open science."

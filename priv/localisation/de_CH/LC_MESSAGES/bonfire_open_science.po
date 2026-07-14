@@ -12,10 +12,11 @@
 # BollerwagenPicard, 2026
 # Steven Bond, 2026
 # Magdalena Berger, 2026
+# Joshua Samuel Strack, 2026
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Magdalena Berger, 2026\n"
+"Last-Translator: Joshua Samuel Strack, 2026\n"
 "Language-Team: German (Switzerland) (https://app.transifex.com/bonfire/teams/138385/de_CH/)\n"
 "Language: de_CH\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -420,6 +421,15 @@ msgstr ""
 msgid "Open Access"
 msgstr "Freier Zugang"
 
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/settings/user/profile
+#. https://campground.bonfire.cafe/login/forgot-password
+#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
+#: lib/web/routes.ex:8
+#, elixir-autogen, elixir-format
+msgid "Open Science"
+msgstr "Open Science"
+
 #: lib/web/widgets/author_info_live.sface:9
 #, elixir-autogen, elixir-format
 msgid "OpenAlex"
@@ -462,11 +472,7 @@ msgstr "Publikationstypen"
 msgid "Publication preview"
 msgstr "Vorschau der Publikation"
 
-#. URLs: https://campground.bonfire.cafe/notifications
-#. https://campground.bonfire.cafe/&Featured_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/local
-#: lib/runtime_config.ex:22 lib/web/routes.ex:17
+#: lib/runtime_config.ex:22
 #, elixir-autogen, elixir-format
 msgid "Publications"
 msgstr "Publikationen"
@@ -476,10 +482,10 @@ msgstr "Publikationen"
 msgid "Submit"
 msgstr "Übermitteln"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/flags
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local
+#. https://campground.bonfire.cafe/settings/user/profile
+#. https://campground.bonfire.cafe/login/forgot-password
+#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
 #: lib/web/routes.ex:11 lib/web/routes.ex:11
 #, elixir-autogen, elixir-format
 msgid "The next generation of digital spaces for open science."

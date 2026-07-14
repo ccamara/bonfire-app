@@ -18,58 +18,6 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. URLs: https://campground.bonfire.cafe/signup/email/confirm
-#. https://campground.bonfire.cafe/signup
-#: lib/mails/mails.ex:121
-#, elixir-autogen, elixir-format
-msgid "Confirm your email"
-msgstr "Bevestig je e-mail"
-
-#: lib/users/shared_users.ex:83 lib/users/shared_users.ex:83
-#: lib/users/shared_users.ex:83
-#, elixir-autogen, elixir-format
-msgid ""
-"Could not find an existing account on this instance with that email or "
-"username."
-msgstr ""
-"Geen bestaand account gevonden met dat e-mailadres of die gebruikersnaam."
-
-#: lib/integration.ex:12 lib/integration.ex:12
-#, elixir-autogen, elixir-format
-msgid ""
-"Functionality for signing in, creating, editing and viewing accounts and "
-"user profiles."
-msgstr ""
-"Functionaliteit voor het aanmelden, aanmaken, bewerken en bekijken van "
-"accounts en gebruikersprofielen."
-
-#: lib/mails/mails.ex:210 lib/mails/mails.ex:210
-#, elixir-autogen, elixir-format
-msgid "No confirmation token"
-msgstr "Geen bevestigingscode"
-
-#: lib/api/me_api_graphql.ex:106
-#, elixir-autogen, elixir-format
-msgid ""
-"No user profile found, you may need to first authenticate with a username "
-"instead of an email address, or select a user profile to indicate which one "
-"to use."
-msgstr ""
-"Er is geen gebruikersprofiel gevonden, mogelijk moet u eerst verifiëren met "
-"een gebruikersnaam in plaats van een e-mailadres, of een gebruikersprofiel "
-"selecteren om aan te geven welk profiel u moet gebruiken."
-
-#. URLs: https://campground.bonfire.cafe/login/forgot-password
-#: lib/mails/mails.ex:147 lib/mails/mails.ex:148
-#, elixir-autogen, elixir-format
-msgid "Reset your password"
-msgstr "Wachtwoord opnieuw instellen"
-
-#: lib/mails/mails.ex:169 lib/mails/mails.ex:175
-#, elixir-autogen, elixir-format
-msgid "Sign in"
-msgstr "Inloggen"
-
 #. URLs: https://campground.bonfire.cafe/login/forgot-password
 #: lib/mails/mails.ex:149
 #, elixir-autogen, elixir-format
@@ -94,10 +42,54 @@ msgstr "Bevestig e-mailadres"
 
 #. URLs: https://campground.bonfire.cafe/signup/email/confirm
 #. https://campground.bonfire.cafe/signup
+#: lib/mails/mails.ex:121
+#, elixir-autogen, elixir-format
+msgid "Confirm your email"
+msgstr "Bevestig je e-mail"
+
+#. URLs: https://campground.bonfire.cafe/signup/email/confirm
+#. https://campground.bonfire.cafe/signup
 #: lib/mails/mails.ex:129
 #, elixir-autogen, elixir-format
 msgid "Confirm your email to finish setting up your account."
 msgstr "Bevestig je e-mailadres om de aanmaak van je account te voltooien."
+
+#: lib/users/shared_users.ex:100 lib/users/shared_users.ex:100
+#: lib/users/shared_users.ex:100
+#, elixir-autogen, elixir-format
+msgid "Could not find a user with that username on this instance."
+msgstr ""
+
+#: lib/users/shared_users.ex:123 lib/users/shared_users.ex:123
+#: lib/users/shared_users.ex:123
+#, elixir-autogen, elixir-format
+msgid "Could not find that team member to remove."
+msgstr ""
+
+#: lib/users/shared_users.ex:148 lib/users/shared_users.ex:148
+#: lib/users/shared_users.ex:148
+#, elixir-autogen, elixir-format
+msgid "Could not remove that team member."
+msgstr ""
+
+#: lib/integration.ex:12 lib/integration.ex:12
+#, elixir-autogen, elixir-format
+msgid ""
+"Functionality for signing in, creating, editing and viewing accounts and "
+"user profiles."
+msgstr ""
+"Functionaliteit voor het aanmelden, aanmaken, bewerken en bekijken van "
+"accounts en gebruikersprofielen."
+
+#: lib/mails/mails.ex:229
+#, elixir-autogen, elixir-format
+msgid "Get access to %{app_name}"
+msgstr "Krijg toegang tot %{app_name}"
+
+#: lib/mails/mails.ex:224
+#, elixir-autogen, elixir-format
+msgid "How to get access"
+msgstr "Hoe krijg je toegang?"
 
 #. URLs: https://campground.bonfire.cafe/login/forgot-password
 #: lib/mails/mails.ex:151
@@ -120,6 +112,22 @@ msgstr "Als je hier niet om hebt gevraagd, kun je deze e-mail gerust negeren."
 msgid "If you didn't sign up, you can safely ignore this email."
 msgstr "Als je je niet hebt aangemeld, kun je deze e-mail gerust negeren."
 
+#: lib/mails/mails.ex:210 lib/mails/mails.ex:210
+#, elixir-autogen, elixir-format
+msgid "No confirmation token"
+msgstr "Geen bevestigingscode"
+
+#: lib/api/me_api_graphql.ex:106
+#, elixir-autogen, elixir-format
+msgid ""
+"No user profile found, you may need to first authenticate with a username "
+"instead of an email address, or select a user profile to indicate which one "
+"to use."
+msgstr ""
+"Er is geen gebruikersprofiel gevonden, mogelijk moet u eerst verifiëren met "
+"een gebruikersnaam in plaats van een e-mailadres, of een gebruikersprofiel "
+"selecteren om aan te geven welk profiel u moet gebruiken."
+
 #. URLs: https://campground.bonfire.cafe/signup/email/confirm
 #. https://campground.bonfire.cafe/signup
 #. https://campground.bonfire.cafe/login/forgot-password
@@ -134,10 +142,48 @@ msgstr "Of plak deze link in je browser:"
 msgid "Reset password"
 msgstr "Wachtwoord opnieuw instellen"
 
+#. URLs: https://campground.bonfire.cafe/login/forgot-password
+#: lib/mails/mails.ex:147 lib/mails/mails.ex:148
+#, elixir-autogen, elixir-format
+msgid "Reset your password"
+msgstr "Wachtwoord opnieuw instellen"
+
+#: lib/mails/mails.ex:169 lib/mails/mails.ex:175
+#, elixir-autogen, elixir-format
+msgid "Sign in"
+msgstr "Inloggen"
+
 #: lib/mails/mails.ex:170
 #, elixir-autogen, elixir-format
 msgid "Sign in to %{app_name}"
 msgstr "Log in op %{app_name}"
+
+#: lib/mails/mails.ex:231
+#, elixir-autogen, elixir-format
+msgid "Sign up"
+msgstr "Aanmelden"
+
+#: lib/users/shared_users.ex:217 lib/users/shared_users.ex:217
+#: lib/users/shared_users.ex:217
+#, elixir-autogen, elixir-format
+msgid "That user has no account on this instance."
+msgstr ""
+
+#: lib/users/shared_users.ex:139 lib/users/shared_users.ex:139
+#: lib/users/shared_users.ex:139
+#, elixir-autogen, elixir-format
+msgid "This is not a shared user."
+msgstr ""
+
+#: lib/mails/mails.ex:230
+#, elixir-autogen, elixir-format
+msgid "To get access, sign up via the link below."
+msgstr "Om toegang te krijgen, kun je je via de onderstaande link aanmelden."
+
+#: lib/integration.ex:8
+#, elixir-autogen, elixir-format
+msgid "Users, accounts and profiles"
+msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/signup/email/confirm
 #. https://campground.bonfire.cafe/signup
@@ -146,22 +192,15 @@ msgstr "Log in op %{app_name}"
 msgid "Welcome to %{app_name}"
 msgstr "Welkom bij %{app_name}"
 
-#: lib/mails/mails.ex:229
+#: lib/users/shared_users.ex:77 lib/users/shared_users.ex:77
+#: lib/users/shared_users.ex:77 lib/users/shared_users.ex:142
+#: lib/users/shared_users.ex:142 lib/users/shared_users.ex:142
 #, elixir-autogen, elixir-format
-msgid "Get access to %{app_name}"
-msgstr "Krijg toegang tot %{app_name}"
+msgid "You are not authorized to manage this shared user."
+msgstr ""
 
-#: lib/mails/mails.ex:224
+#: lib/users/shared_users.ex:145 lib/users/shared_users.ex:145
+#: lib/users/shared_users.ex:145
 #, elixir-autogen, elixir-format
-msgid "How to get access"
-msgstr "Hoe krijg je toegang?"
-
-#: lib/mails/mails.ex:231
-#, elixir-autogen, elixir-format
-msgid "Sign up"
-msgstr "Aanmelden"
-
-#: lib/mails/mails.ex:230
-#, elixir-autogen, elixir-format
-msgid "To get access, sign up via the link below."
-msgstr "Om toegang te krijgen, kun je je via de onderstaande link aanmelden."
+msgid "You can't remove the only team member managing this profile."
+msgstr ""

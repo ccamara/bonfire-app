@@ -22,3 +22,8 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Functionality for writing and reading posts."
 msgstr "Functies voor het schrijven en lezen van berichten."
+
+#: lib/integration.ex:8
+#, elixir-autogen, elixir-format
+msgid "Posts"
+msgstr ""

@@ -10,13 +10,13 @@
 # 
 # Translators:
 # BollerwagenPicard, 2026
-# Joshua Samuel Strack, 2026
 # Magdalena Berger, 2026
 # Steven Bond, 2026
+# Joshua Samuel Strack, 2026
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Steven Bond, 2026\n"
+"Last-Translator: Joshua Samuel Strack, 2026\n"
 "Language-Team: German (https://app.transifex.com/bonfire/teams/138385/de/)\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -26,15 +26,30 @@ msgstr ""
 msgid "(Curated activities)"
 msgstr "(Kuratierte Aktivitäten)"
 
+#: lib/runtime_config.ex:225
+#, elixir-autogen, elixir-format
+msgid "A specific user's activities"
+msgstr "Aktivitäten eines bestimmten Users"
+
 #: lib/runtime_config.ex:205
 #, elixir-autogen, elixir-format
 msgid "Activities I've shared"
 msgstr "Aktivitäten, die ich geteilt habe"
 
+#: lib/runtime_config.ex:94
+#, elixir-autogen, elixir-format
+msgid "Activities from the fediverse"
+msgstr "Aktivitäten aus dem Fediversum"
+
 #: lib/runtime_config.ex:27
 #, elixir-autogen, elixir-format
 msgid "Activities of people I follow"
 msgstr "Aktivitäten von Personen, denen ich folge"
+
+#: lib/runtime_config.ex:358
+#, elixir-autogen, elixir-format
+msgid "Activities with a specific @ mention"
+msgstr "Aktivitäten mit einer bestimmten @Erwähnung"
 
 #: lib/runtime_config.ex:350
 #, elixir-autogen, elixir-format
@@ -60,6 +75,11 @@ msgstr "Alle bekannten Bücher"
 #, elixir-autogen, elixir-format
 msgid "All known research publications"
 msgstr "Alle bekannten Forschungspublikationen"
+
+#: lib/runtime_config.ex:564
+#, elixir-autogen, elixir-format
+msgid "All media shared on the local instance"
+msgstr "Alle auf der lokalen Instanz geteilten Medien"
 
 #: lib/requests.ex:80 lib/requests.ex:80 lib/requests.ex:80
 #, elixir-autogen, elixir-format
@@ -108,17 +128,26 @@ msgstr "Boostet"
 msgid "Content I've bookmarked"
 msgstr "Inhalte, die ich als Lesezeichen gespeichert habe"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/feed_loader.ex:2252
+#: lib/runtime_config.ex:441
+#, elixir-autogen, elixir-format
+msgid "Content I've flagged"
+msgstr "Von mir gemeldete Inhalte"
+
+#: lib/runtime_config.ex:461
+#, elixir-autogen, elixir-format
+msgid "Content flagged by anyone (for mods only)"
+msgstr "Alle gemeldeten Inhalte (nur für Mods)"
+
+#. URLs: https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#: lib/feed_loader.ex:2263
 #, elixir-autogen, elixir-format
 msgid "Context Preload Rules"
 msgstr "Regeln zum Vorladen des Kontexts"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWXZ355J1NPDFD6D6VPQH94
-#: lib/quotes.ex:800
+#: lib/quotes.ex:807
 #, elixir-autogen, elixir-format
 msgid "Could not federate the quote request"
 msgstr "Die Zitat-Anfrage konnte nicht föderiert werden"
@@ -133,37 +162,37 @@ msgstr "Kuratiert"
 msgid "Curated activities"
 msgstr "Kuratierte Aktivitäten"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
 #: lib/feed_loader.ex:314
 #, elixir-autogen, elixir-format
 msgid "Default Sort Order"
 msgstr "Standard-Sortierreihenfolge"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
 #: lib/feed_loader.ex:323
 #, elixir-autogen, elixir-format
 msgid "Default Time Limit"
 msgstr "Standard-Zeitlimit"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
 #: lib/feed_loader.ex:315
 #, elixir-autogen, elixir-format
 msgid "Default sorting order for feeds."
 msgstr "Standard-Sortierreihenfolge für Feeds."
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
 #: lib/feed_loader.ex:324
 #, elixir-autogen, elixir-format
 msgid "Default time window for feed content (in days)."
@@ -178,10 +207,8 @@ msgstr ""
 "Wusstest du, dass du in deinen Einstellungen festlegen kannst, über welche "
 "Aktivitäten du benachrichtigt werden möchtest?"
 
-#. URLs:
-#. https://campground.bonfire.cafe/pub/actors/Hand_Pacocha_and_Pouros/inbox
+#. URLs: https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/dashboard
 #: lib/feeds.ex:304
 #, elixir-autogen, elixir-format
@@ -203,33 +230,38 @@ msgstr "Veranstaltungen und Versammlungen"
 msgid "Explore"
 msgstr "Entdecken"
 
+#: lib/runtime_config.ex:54
+#, elixir-autogen, elixir-format
+msgid "Explore activities"
+msgstr "Aktivitäten erkunden"
+
 #: lib/runtime_config.ex:76
 #, elixir-autogen, elixir-format
 msgid "Explore local activities"
 msgstr "Lokale Aktivitäten entdecken"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/feed_loader.ex:2415
+#. URLs: https://campground.bonfire.cafe/settings/export/csv/likes
+#. https://campground.bonfire.cafe/settings/export/csv/boosts
+#. https://campground.bonfire.cafe/settings/export/archive
+#. https://campground.bonfire.cafe/settings/export/csv/posts
+#: lib/feed_loader.ex:2426
 #, elixir-autogen, elixir-format
 msgid "Feed Preload Presets"
 msgstr "Voreinstellungen zum Vorladen des Feeds"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
 #: lib/feeds.ex:36 lib/feeds.ex:41
 #, elixir-autogen, elixir-format
 msgid "Feed Presets"
 msgstr "Feed-Voreinstellungen"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
 #: lib/feed_loader.ex:355 lib/feed_loader.ex:362
 #, elixir-autogen, elixir-format
 msgid "Feeds"
@@ -250,20 +282,33 @@ msgstr "Gemeldet"
 msgid "Flagged (all)"
 msgstr "(Alles) gemeldet"
 
+#: lib/runtime_config.ex:235
+#, elixir-autogen, elixir-format
+msgid "Followers"
+msgstr "Follower"
+
+#: lib/runtime_config.ex:237
+#, elixir-autogen, elixir-format
+msgid "Followers of a specific user"
+msgstr "Follower eines bestimmten Users"
+
 #: lib/runtime_config.ex:25 lib/runtime_config.ex:38 lib/runtime_config.ex:243
 #, elixir-autogen, elixir-format
 msgid "Following"
 msgstr "Du folgst"
 
-#. URLs:
-#. https://campground.bonfire.cafe/pub/actors/Hand_Pacocha_and_Pouros/inbox
+#. URLs: https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/notifications
 #. https://campground.bonfire.cafe/dashboard
 #: lib/feeds.ex:305
 #, elixir-autogen, elixir-format
 msgid "Get email notifications for replies or mentions."
 msgstr "Erhalte E-Mail-Benachrichtigungen für Antworten oder Erwähnungen."
+
+#: lib/runtime_config.ex:348
+#, elixir-autogen, elixir-format
+msgid "Hashtag"
+msgstr "Hashtag"
 
 #: lib/runtime_config.ex:172
 #, elixir-autogen, elixir-format
@@ -280,54 +325,54 @@ msgstr "Hast du noch nichts geboostet?"
 msgid "Have you not liked anything yet?"
 msgstr "Hast du noch nichts geliked?"
 
-#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/+Test_Topic
 #. https://campground.bonfire.cafe/feed/my
-#. https://campground.bonfire.cafe/&Label_Test_Group
 #. https://campground.bonfire.cafe/feed
 #: lib/feeds.ex:631 lib/feeds.ex:631 lib/feeds.ex:631
 #, elixir-autogen, elixir-format
 msgid "Include Followed Categories"
 msgstr "Kategorien, denen du folgst, einbeziehen"
 
-#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/+Test_Topic
 #. https://campground.bonfire.cafe/feed/my
-#. https://campground.bonfire.cafe/&Label_Test_Group
 #. https://campground.bonfire.cafe/feed
 #: lib/feeds.ex:615 lib/feeds.ex:615 lib/feeds.ex:615
 #, elixir-autogen, elixir-format
 msgid "Include Notifications"
 msgstr "Benachrichtigungen einbeziehen"
 
-#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/+Test_Topic
 #. https://campground.bonfire.cafe/feed/my
-#. https://campground.bonfire.cafe/&Label_Test_Group
 #. https://campground.bonfire.cafe/feed
 #: lib/feeds.ex:632 lib/feeds.ex:632 lib/feeds.ex:632
 #, elixir-autogen, elixir-format
 msgid "Include content from categories you follow in your feed."
 msgstr "Inhalte aus Kategorien, denen du folgst, in deinem Feed anzeigen."
 
-#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/+Test_Topic
 #. https://campground.bonfire.cafe/feed/my
-#. https://campground.bonfire.cafe/&Label_Test_Group
 #. https://campground.bonfire.cafe/feed
 #: lib/feeds.ex:604 lib/feeds.ex:604 lib/feeds.ex:604
 #, elixir-autogen, elixir-format
 msgid "Include my content"
 msgstr "Meine Inhalte miteinbeziehen"
 
-#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/+Test_Topic
 #. https://campground.bonfire.cafe/feed/my
-#. https://campground.bonfire.cafe/&Label_Test_Group
 #. https://campground.bonfire.cafe/feed
 #: lib/feeds.ex:605 lib/feeds.ex:605 lib/feeds.ex:605
 #, elixir-autogen, elixir-format
 msgid "Include my own posts in your feed."
 msgstr "Meine eigenen Beiträge in deinem Feed anzeigen."
 
-#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/+Test_Topic
 #. https://campground.bonfire.cafe/feed/my
-#. https://campground.bonfire.cafe/&Label_Test_Group
 #. https://campground.bonfire.cafe/feed
 #: lib/feeds.ex:616 lib/feeds.ex:616 lib/feeds.ex:616
 #, elixir-autogen, elixir-format
@@ -362,12 +407,17 @@ msgstr ""
 msgid "Liked"
 msgstr "Liked"
 
+#: lib/runtime_config.ex:151
+#, elixir-autogen, elixir-format
+msgid "Likes"
+msgstr "Likes"
+
 #: lib/runtime_config.ex:64
 #, elixir-autogen, elixir-format
 msgid "Local"
 msgstr "Lokal"
 
-#: lib/runtime_config.ex:564
+#: lib/runtime_config.ex:562
 #, elixir-autogen, elixir-format
 msgid "Local Media"
 msgstr "Lokale Medien"
@@ -376,6 +426,11 @@ msgstr "Lokale Medien"
 #, elixir-autogen, elixir-format
 msgid "Local instance activities"
 msgstr "Aktivitäten der lokalen Instanz"
+
+#: lib/runtime_config.ex:356
+#, elixir-autogen, elixir-format
+msgid "Mentions"
+msgstr "Erwähnungen"
 
 #: lib/runtime_config.ex:289
 #, elixir-autogen, elixir-format
@@ -391,6 +446,11 @@ msgstr "Keine Bücher gefunden"
 #, elixir-autogen, elixir-format
 msgid "No events found"
 msgstr "Keine Veranstaltungen gefunden"
+
+#: lib/runtime_config.ex:433
+#, elixir-autogen, elixir-format
+msgid "No polls yet"
+msgstr "Noch keine Umfragen"
 
 #: lib/runtime_config.ex:374
 #, elixir-autogen, elixir-format
@@ -412,10 +472,10 @@ msgstr "Benachrichtigungen für mich"
 msgid "Object not found or you have no permission to delete it"
 msgstr "Objekt nicht gefunden oder keine Berechtigung zum Löschen"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
 #: lib/feed_loader.ex:363
 #, elixir-autogen, elixir-format
 msgid "Object types to exclude by default"
@@ -425,6 +485,21 @@ msgstr "Objekttypen, die standardmäßig ausgeschlossen werden sollen"
 #, elixir-autogen, elixir-format
 msgid "Pending requests for me"
 msgstr "Offene Anfragen für mich"
+
+#: lib/runtime_config.ex:420 lib/runtime_config.ex:432
+#, elixir-autogen, elixir-format
+msgid "Polls"
+msgstr "Umfragen"
+
+#: lib/runtime_config.ex:422
+#, elixir-autogen, elixir-format
+msgid "Polls and group decisions"
+msgstr "Umfragen und Gruppenentscheidungen"
+
+#: lib/runtime_config.ex:490
+#, elixir-autogen, elixir-format
+msgid "Popular discussions from the last 7 days"
+msgstr "Beliebte Diskussionen der letzten 7 Tage"
 
 #: lib/runtime_config.ex:267
 #, elixir-autogen, elixir-format
@@ -436,41 +511,50 @@ msgstr "Beiträge"
 msgid "Posts (not including replies)"
 msgstr "Beiträge (ohne Antworten)"
 
-#. URLs: https://campground.bonfire.cafe/feed/posts
+#: lib/runtime_config.ex:253
+#, elixir-autogen, elixir-format
+msgid "Posts by a specific user"
+msgstr "Beiträge eines bestimmten Users"
+
+#. URLs: https://campground.bonfire.cafe/@Runolfsson_Fahey_and_Reichel
+#. https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/local
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
 #: lib/feeds.ex:42
 #, elixir-autogen, elixir-format
 msgid "Predefined feed configurations available to users."
 msgstr "Vordefinierte Feed-Konfigurationen stehen zur Auswahl."
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#. https://campground.bonfire.cafe/messages
 #: lib/feeds.ex:37
 #, elixir-autogen, elixir-format
 msgid "Predefined feed configurations."
 msgstr "Vorgefertigte Feed-Einstellungen"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/feed_loader.ex:2416
+#. URLs: https://campground.bonfire.cafe/settings/export/csv/likes
+#. https://campground.bonfire.cafe/settings/export/csv/boosts
+#. https://campground.bonfire.cafe/settings/export/archive
+#. https://campground.bonfire.cafe/settings/export/csv/posts
+#: lib/feed_loader.ex:2427
 #, elixir-autogen, elixir-format
 msgid "Predefined preload settings for feeds (technical setting)."
 msgstr "Vordefinierte Vorab-Einstellungen für Feeds (technische Einstellung)."
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/feed_loader.ex:2244
+#: lib/feed_loader.ex:2255
 #, elixir-autogen, elixir-format
 msgid "Preload Rules"
 msgstr "Regeln vorladen"
+
+#: lib/runtime_config.ex:503
+#, elixir-autogen, elixir-format
+msgid "Recent discussions"
+msgstr "Neue Diskussionen"
 
 #: lib/runtime_config.ex:83
 #, elixir-autogen, elixir-format
@@ -492,28 +576,33 @@ msgstr "Anfragen an"
 msgid "Research"
 msgstr "Forschung"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/feed_loader.ex:2253
+#. URLs: https://campground.bonfire.cafe/feed
+#. https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
+#: lib/feed_loader.ex:2264
 #, elixir-autogen, elixir-format
 msgid "Rules for preloading data based on context (technical setting)."
 msgstr ""
 "Regeln zum Vorladen von Daten basierend auf Kontext (technische "
 "Einstellung)."
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
-#: lib/feed_loader.ex:2245
+#: lib/feed_loader.ex:2256
 #, elixir-autogen, elixir-format
 msgid "Rules for preloading data based on filters (technical setting)."
 msgstr ""
 "Regeln zum Vorladen von Daten basierend auf Filtern (technische Einstellung)"
 
-#: lib/objects.ex:1479
+#: lib/integration.ex:11
+#, elixir-autogen, elixir-format
+msgid "Social"
+msgstr "Sozial"
+
+#: lib/objects.ex:1481
 #, elixir-autogen, elixir-format
 msgid ""
 "Sorry, that language code is not supported, please select another or ask the"
@@ -523,13 +612,13 @@ msgstr ""
 "anderen oder frage die Betreiber:innen der Instanz bzw. die App-"
 "Verantwortlichen, ob er hinzugefügt werden kann."
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWY065HS6YPVZE6XAJNDXR7
+#. URLs: https://campground.bonfire.cafe/post/01KXCBHKHJEGYTBFCT6T9EEW1A
 #: lib/boosts.ex:127 lib/boosts.ex:127 lib/boosts.ex:145 lib/boosts.ex:145
 #, elixir-autogen, elixir-format
 msgid "Sorry, you cannot boost this"
 msgstr "Sorry, du kannst das nicht boosten"
 
-#: lib/activities.ex:1632
+#: lib/activities.ex:1653
 #, elixir-autogen, elixir-format
 msgid ""
 "Sorry, you cannot currently combine these filters (%{types_list}), please "
@@ -548,19 +637,19 @@ msgstr "Entschuldigung, du kannst das nicht anheften"
 msgid "Sorry, you cannot pin to the instance"
 msgstr "Sorry, du kannst nicht an dieser Instanz anheften"
 
-#. URLs: https://campground.bonfire.cafe/post/01KVWYDNQYG5ZG843GV7A6RB3C
-#. https://campground.bonfire.cafe/post/01KVWY54FRKHSMWJBDNZS0T9Y7
-#. https://campground.bonfire.cafe/post/01KVWY07H26R7P8XPVMSPJA64W
-#. https://campground.bonfire.cafe/post/01KVWY06T9KB0FKJMRMQ6EGZEC
+#. URLs: https://campground.bonfire.cafe/post/01KXCBR82MJPJS1NH1YDH58YHX
+#. https://campground.bonfire.cafe/post/01KXCBQVZFCHGJ0KG47SPY81AJ
+#. https://campground.bonfire.cafe/post/01KXCBHJRANK5XG4GYXQKZSPHG
+#. https://campground.bonfire.cafe/post/01KXCBHHYPY0W1C8KBT77HFBTE
 #: lib/likes.ex:172 lib/likes.ex:172 lib/likes.ex:190 lib/likes.ex:190
 #, elixir-autogen, elixir-format
 msgid "Sorry, you cannot react to this"
 msgstr "Sorry, du kannst darauf nicht reagieren"
 
-#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
 #: lib/feed_loader.ex:538 lib/feed_loader.ex:538 lib/feed_loader.ex:538
 #, elixir-autogen, elixir-format
 msgid "Technical setting for query performance optimization."
@@ -589,6 +678,13 @@ msgstr ""
 "Es sind keine bekannten Bücher zum Anzeigen vorhanden. Bücher von anderen "
 "föderierten Plattformen wie BookWyrm werden hier erscheinen."
 
+#: lib/runtime_config.ex:434
+#, elixir-autogen, elixir-format
+msgid "There are no polls to show. Create one to start a vote!"
+msgstr ""
+"Es gibt keine Umfragen anzuzeigen. Erstelle eine, um eine Abstimmung zu "
+"starten!"
+
 #: lib/runtime_config.ex:413
 #, elixir-autogen, elixir-format
 msgid ""
@@ -604,24 +700,44 @@ msgstr ""
 msgid "Things I've liked"
 msgstr "Dinge, die ich geliked habe"
 
+#: lib/runtime_config.ex:505
+#, elixir-autogen, elixir-format
+msgid "Threads sorted by most recent activity"
+msgstr "Threads sortiert nach neuester Aktivität"
+
 #: lib/runtime_config.ex:488
 #, elixir-autogen, elixir-format
 msgid "Top discussions"
 msgstr "Top-Diskussionen"
 
-#. URLs: https://campground.bonfire.cafe/feed/my_boosts
+#. URLs: https://campground.bonfire.cafe/notifications
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
 #: lib/feed_loader.ex:537 lib/feed_loader.ex:537 lib/feed_loader.ex:537
 #, elixir-autogen, elixir-format
 msgid "Use Deferred Joins"
 msgstr "Verzögerte Joins verwenden"
 
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
+#: lib/runtime_config.ex:223
+#, elixir-autogen, elixir-format
+msgid "User activities"
+msgstr "Benutzeraktivitäten"
+
+#: lib/runtime_config.ex:251
+#, elixir-autogen, elixir-format
+msgid "User posts"
+msgstr "Benutzerbeiträge"
+
+#: lib/runtime_config.ex:245
+#, elixir-autogen, elixir-format
+msgid "Users followed by a specific user"
+msgstr "User, denen ein bestimmter User folgt"
+
+#. URLs: https://campground.bonfire.cafe/feed/my
+#. https://campground.bonfire.cafe/@Wuckert_Hyatt
+#. https://campground.bonfire.cafe/@Abernathy_Group
 #. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
 #: lib/feed_loader.ex:356
 #, elixir-autogen, elixir-format
 msgid "Verbs to exclude by default"
@@ -662,131 +778,14 @@ msgstr "Dein Fediverse-Feed ist leer"
 msgid "Your local feed is empty"
 msgstr "Dein lokaler Feed ist leer"
 
-#: lib/runtime_config.ex:225
-#, elixir-autogen, elixir-format
-msgid "A specific user's activities"
-msgstr "Die Aktivitäten einer bestimmten Benutzer:in"
-
-#: lib/runtime_config.ex:358
-#, elixir-autogen, elixir-format
-msgid "Activities with a specific @ mention"
-msgstr "Aktivitäten mit einer bestimmten @Erwähnung"
-
-#: lib/runtime_config.ex:566
-#, elixir-autogen, elixir-format
-msgid "All media shared on the local instance"
-msgstr "Alle auf der lokalen Instanz geteilten Medien"
-
-#: lib/runtime_config.ex:441
-#, elixir-autogen, elixir-format
-msgid "Content I've flagged"
-msgstr "Von mir gemeldete Inhalte"
-
-#: lib/runtime_config.ex:461
-#, elixir-autogen, elixir-format
-msgid "Content flagged by anyone (for mods only)"
-msgstr "Alle gemeldeten Inhalte (nur für Mods)"
-
-#: lib/runtime_config.ex:235
-#, elixir-autogen, elixir-format
-msgid "Followers"
-msgstr "Follower"
-
-#: lib/runtime_config.ex:237
-#, elixir-autogen, elixir-format
-msgid "Followers of a specific user"
-msgstr "Follower einer bestimmten Benutzer:in"
-
-#: lib/runtime_config.ex:348
-#, elixir-autogen, elixir-format
-msgid "Hashtag"
-msgstr "Hashtag"
-
-#: lib/runtime_config.ex:356
-#, elixir-autogen, elixir-format
-msgid "Mentions"
-msgstr "Erwähnungen"
-
-#: lib/runtime_config.ex:490
-#, elixir-autogen, elixir-format
-msgid "Popular discussions from the last 7 days"
-msgstr "Beliebte Diskussionen der letzten 7 Tage"
-
-#: lib/runtime_config.ex:253
-#, elixir-autogen, elixir-format
-msgid "Posts by a specific user"
-msgstr "Beiträge einer bestimmten Benutzer:in"
-
-#: lib/runtime_config.ex:504
-#, elixir-autogen, elixir-format
-msgid "Recent discussions"
-msgstr "Neue Diskussionen"
-
-#: lib/runtime_config.ex:506
-#, elixir-autogen, elixir-format
-msgid "Threads sorted by most recent activity"
-msgstr "Threads sortiert nach neuester Aktivität"
-
-#: lib/runtime_config.ex:223
-#, elixir-autogen, elixir-format
-msgid "User activities"
-msgstr "Benutzeraktivitäten"
-
-#: lib/runtime_config.ex:251
-#, elixir-autogen, elixir-format
-msgid "User posts"
-msgstr "Benutzerbeiträge"
-
-#: lib/runtime_config.ex:245
-#, elixir-autogen, elixir-format
-msgid "Users followed by a specific user"
-msgstr "Benutzer:innen, denen eine bestimmter Benutzer:in folgt"
-
-#. URLs: https://campground.bonfire.cafe/&Label_Test_Group
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/feed/explore
-#. https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/settings/export/csv/messages
+#. https://campground.bonfire.cafe/settings/export/csv/likes
+#. https://campground.bonfire.cafe/settings/export/csv/boosts
+#. https://campground.bonfire.cafe/settings/export/archive
 #: lib/activities.ex:425 lib/integration.ex:438
 #, elixir-autogen, elixir-format
 msgid "[Content blocked by filters]"
 msgstr "[Inhalt durch Filter blockiert]"
-
-#: lib/runtime_config.ex:433
-#, elixir-autogen, elixir-format
-msgid "No polls yet"
-msgstr "Noch keine Umfragen"
-
-#: lib/runtime_config.ex:420 lib/runtime_config.ex:432
-#, elixir-autogen, elixir-format
-msgid "Polls"
-msgstr "Umfragen"
-
-#: lib/runtime_config.ex:422
-#, elixir-autogen, elixir-format
-msgid "Polls and group decisions"
-msgstr "Umfragen und Gruppenentscheidungen"
-
-#: lib/runtime_config.ex:434
-#, elixir-autogen, elixir-format
-msgid "There are no polls to show. Create one to start a vote!"
-msgstr ""
-"Es gibt keine Umfragen anzuzeigen. Erstelle eine, um eine Abstimmung zu "
-"starten!"
-
-#: lib/runtime_config.ex:94
-#, elixir-autogen, elixir-format
-msgid "Activities from the fediverse"
-msgstr "Aktivitäten aus dem Fediversum"
-
-#: lib/runtime_config.ex:54
-#, elixir-autogen, elixir-format
-msgid "Explore activities"
-msgstr "Aktivitäten erkunden"
-
-#: lib/runtime_config.ex:151
-#, elixir-autogen, elixir-format
-msgid "Likes"
-msgstr "Likes"
 
 #: lib/threads.ex:556
 #, elixir-autogen, elixir-format

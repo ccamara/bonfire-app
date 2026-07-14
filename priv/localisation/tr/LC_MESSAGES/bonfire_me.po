@@ -18,59 +18,6 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#. URLs: https://campground.bonfire.cafe/signup/email/confirm
-#. https://campground.bonfire.cafe/signup
-#: lib/mails/mails.ex:121
-#, elixir-autogen, elixir-format
-msgid "Confirm your email"
-msgstr "E-postanızı onaylayın"
-
-#: lib/users/shared_users.ex:83 lib/users/shared_users.ex:83
-#: lib/users/shared_users.ex:83
-#, elixir-autogen, elixir-format
-msgid ""
-"Could not find an existing account on this instance with that email or "
-"username."
-msgstr ""
-"Bu sunucuda bu e-posta adresi veya kullanıcı adıyla eşleşen bir hesap "
-"bulunamadı."
-
-#: lib/integration.ex:12 lib/integration.ex:12
-#, elixir-autogen, elixir-format
-msgid ""
-"Functionality for signing in, creating, editing and viewing accounts and "
-"user profiles."
-msgstr ""
-"Hesaplara ve kullanıcı profillerine giriş yapma, oluşturma, düzenleme ve "
-"görüntüleme işlevleri."
-
-#: lib/mails/mails.ex:210 lib/mails/mails.ex:210
-#, elixir-autogen, elixir-format
-msgid "No confirmation token"
-msgstr "Onaylama belirteci yok"
-
-#: lib/api/me_api_graphql.ex:106
-#, elixir-autogen, elixir-format
-msgid ""
-"No user profile found, you may need to first authenticate with a username "
-"instead of an email address, or select a user profile to indicate which one "
-"to use."
-msgstr ""
-"Kullanıcı profili bulunamadı; önce e-posta adresi yerine bir kullanıcı "
-"adıyla kimlik doğrulaması yapmanız veya hangi profili kullanacağınızı "
-"belirtmek için bir kullanıcı profili seçmeniz gerekebilir."
-
-#. URLs: https://campground.bonfire.cafe/login/forgot-password
-#: lib/mails/mails.ex:147 lib/mails/mails.ex:148
-#, elixir-autogen, elixir-format
-msgid "Reset your password"
-msgstr "Parolanızı sıfırlayın"
-
-#: lib/mails/mails.ex:169 lib/mails/mails.ex:175
-#, elixir-autogen, elixir-format
-msgid "Sign in"
-msgstr ""
-
 #. URLs: https://campground.bonfire.cafe/login/forgot-password
 #: lib/mails/mails.ex:149
 #, elixir-autogen, elixir-format
@@ -93,9 +40,53 @@ msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/signup/email/confirm
 #. https://campground.bonfire.cafe/signup
+#: lib/mails/mails.ex:121
+#, elixir-autogen, elixir-format
+msgid "Confirm your email"
+msgstr "E-postanızı onaylayın"
+
+#. URLs: https://campground.bonfire.cafe/signup/email/confirm
+#. https://campground.bonfire.cafe/signup
 #: lib/mails/mails.ex:129
 #, elixir-autogen, elixir-format
 msgid "Confirm your email to finish setting up your account."
+msgstr ""
+
+#: lib/users/shared_users.ex:100 lib/users/shared_users.ex:100
+#: lib/users/shared_users.ex:100
+#, elixir-autogen, elixir-format
+msgid "Could not find a user with that username on this instance."
+msgstr ""
+
+#: lib/users/shared_users.ex:123 lib/users/shared_users.ex:123
+#: lib/users/shared_users.ex:123
+#, elixir-autogen, elixir-format
+msgid "Could not find that team member to remove."
+msgstr ""
+
+#: lib/users/shared_users.ex:148 lib/users/shared_users.ex:148
+#: lib/users/shared_users.ex:148
+#, elixir-autogen, elixir-format
+msgid "Could not remove that team member."
+msgstr ""
+
+#: lib/integration.ex:12 lib/integration.ex:12
+#, elixir-autogen, elixir-format
+msgid ""
+"Functionality for signing in, creating, editing and viewing accounts and "
+"user profiles."
+msgstr ""
+"Hesaplara ve kullanıcı profillerine giriş yapma, oluşturma, düzenleme ve "
+"görüntüleme işlevleri."
+
+#: lib/mails/mails.ex:229
+#, elixir-autogen, elixir-format
+msgid "Get access to %{app_name}"
+msgstr ""
+
+#: lib/mails/mails.ex:224
+#, elixir-autogen, elixir-format
+msgid "How to get access"
 msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/login/forgot-password
@@ -117,6 +108,22 @@ msgstr ""
 msgid "If you didn't sign up, you can safely ignore this email."
 msgstr ""
 
+#: lib/mails/mails.ex:210 lib/mails/mails.ex:210
+#, elixir-autogen, elixir-format
+msgid "No confirmation token"
+msgstr "Onaylama belirteci yok"
+
+#: lib/api/me_api_graphql.ex:106
+#, elixir-autogen, elixir-format
+msgid ""
+"No user profile found, you may need to first authenticate with a username "
+"instead of an email address, or select a user profile to indicate which one "
+"to use."
+msgstr ""
+"Kullanıcı profili bulunamadı; önce e-posta adresi yerine bir kullanıcı "
+"adıyla kimlik doğrulaması yapmanız veya hangi profili kullanacağınızı "
+"belirtmek için bir kullanıcı profili seçmeniz gerekebilir."
+
 #. URLs: https://campground.bonfire.cafe/signup/email/confirm
 #. https://campground.bonfire.cafe/signup
 #. https://campground.bonfire.cafe/login/forgot-password
@@ -131,9 +138,47 @@ msgstr ""
 msgid "Reset password"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/login/forgot-password
+#: lib/mails/mails.ex:147 lib/mails/mails.ex:148
+#, elixir-autogen, elixir-format
+msgid "Reset your password"
+msgstr "Parolanızı sıfırlayın"
+
+#: lib/mails/mails.ex:169 lib/mails/mails.ex:175
+#, elixir-autogen, elixir-format
+msgid "Sign in"
+msgstr ""
+
 #: lib/mails/mails.ex:170
 #, elixir-autogen, elixir-format
 msgid "Sign in to %{app_name}"
+msgstr ""
+
+#: lib/mails/mails.ex:231
+#, elixir-autogen, elixir-format
+msgid "Sign up"
+msgstr "Kayıt ol"
+
+#: lib/users/shared_users.ex:217 lib/users/shared_users.ex:217
+#: lib/users/shared_users.ex:217
+#, elixir-autogen, elixir-format
+msgid "That user has no account on this instance."
+msgstr ""
+
+#: lib/users/shared_users.ex:139 lib/users/shared_users.ex:139
+#: lib/users/shared_users.ex:139
+#, elixir-autogen, elixir-format
+msgid "This is not a shared user."
+msgstr ""
+
+#: lib/mails/mails.ex:230
+#, elixir-autogen, elixir-format
+msgid "To get access, sign up via the link below."
+msgstr ""
+
+#: lib/integration.ex:8
+#, elixir-autogen, elixir-format
+msgid "Users, accounts and profiles"
 msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/signup/email/confirm
@@ -143,22 +188,15 @@ msgstr ""
 msgid "Welcome to %{app_name}"
 msgstr ""
 
-#: lib/mails/mails.ex:229
+#: lib/users/shared_users.ex:77 lib/users/shared_users.ex:77
+#: lib/users/shared_users.ex:77 lib/users/shared_users.ex:142
+#: lib/users/shared_users.ex:142 lib/users/shared_users.ex:142
 #, elixir-autogen, elixir-format
-msgid "Get access to %{app_name}"
+msgid "You are not authorized to manage this shared user."
 msgstr ""
 
-#: lib/mails/mails.ex:224
+#: lib/users/shared_users.ex:145 lib/users/shared_users.ex:145
+#: lib/users/shared_users.ex:145
 #, elixir-autogen, elixir-format
-msgid "How to get access"
-msgstr ""
-
-#: lib/mails/mails.ex:231
-#, elixir-autogen, elixir-format
-msgid "Sign up"
-msgstr "Kayıt ol"
-
-#: lib/mails/mails.ex:230
-#, elixir-autogen, elixir-format
-msgid "To get access, sign up via the link below."
+msgid "You can't remove the only team member managing this profile."
 msgstr ""
