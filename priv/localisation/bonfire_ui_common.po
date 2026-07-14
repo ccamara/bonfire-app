@@ -153,6 +153,7 @@ msgstr ""
 msgid "Anonymous"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1209
 #, elixir-autogen, elixir-format
 msgid "Another world is loading..."
@@ -252,6 +253,7 @@ msgstr ""
 msgid "Brand"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1216
 #, elixir-autogen, elixir-format
 msgid "Building solidarity networks..."
@@ -406,6 +408,7 @@ msgstr ""
 msgid "Common assets to send as early hints"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1208
 #, elixir-autogen, elixir-format
 msgid "Communing with the fediverse..."
@@ -516,6 +519,7 @@ msgstr ""
 msgid "Data Schemas"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1212
 #, elixir-autogen, elixir-format
 msgid "Decentralising all the things..."
@@ -852,7 +856,7 @@ msgstr ""
 msgid "Instance logo"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/known_instances https://campground.bonfire.cafe/users
+#. URLs: https://campground.bonfire.cafe/conduct https://campground.bonfire.cafe/about https://campground.bonfire.cafe/known_instances https://campground.bonfire.cafe/users
 #: lib/components/nav/header/guest_actions_live.sface:41
 #: lib/components/nav/header/guest_header_live.sface:72
 #, elixir-autogen, elixir-format
@@ -896,6 +900,7 @@ msgstr ""
 msgid "Layout"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1215
 #, elixir-autogen, elixir-format
 msgid "Liberating your data..."
@@ -948,6 +953,7 @@ msgstr ""
 msgid "Load more"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1219
 #, elixir-autogen, elixir-format
 msgid "Loading messages"
@@ -986,6 +992,7 @@ msgstr ""
 msgid "Manage languages"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1211
 #, elixir-autogen, elixir-format
 msgid "Manifesting digital commons..."
@@ -1015,7 +1022,7 @@ msgstr ""
 msgid "Maximum number of files that can be uploaded at once."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/known_instances https://campground.bonfire.cafe/users
+#. URLs: https://campground.bonfire.cafe/login/forgot-password https://campground.bonfire.cafe/login https://campground.bonfire.cafe/known_instances https://campground.bonfire.cafe/users
 #: lib/components/nav/nav_sidebar/nav_sidebar_live.sface:81
 #, elixir-autogen, elixir-format
 msgid "Members"
@@ -1223,6 +1230,7 @@ msgstr ""
 msgid "Order the languages you understand by preference. Content will be shown in the first available language from your list."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1217
 #, elixir-autogen, elixir-format
 msgid "Organising the bits..."
@@ -1353,6 +1361,7 @@ msgstr ""
 msgid "Public timeline"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1214
 #, elixir-autogen, elixir-format
 msgid "Queering the database..."
@@ -1510,6 +1519,7 @@ msgstr ""
 msgid "Secondary"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1210
 #, elixir-autogen, elixir-format
 msgid "Seizing the means of communication..."
@@ -1628,7 +1638,7 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/feed/local
 #: lib/components/paginate/load_more_live.sface:44
 #, elixir-autogen, elixir-format
 msgid "Show %{num} more"
@@ -1676,6 +1686,7 @@ msgstr ""
 msgid "Skip to main content"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1221
 #, elixir-autogen, elixir-format
 msgid "Some short messages to show (picked randomly each time) when the page or something is loading."
@@ -1981,6 +1992,7 @@ msgstr ""
 msgid "Topics"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0 https://campground.bonfire.cafe/notifications
 #: lib/ui_common.ex:1213
 #, elixir-autogen, elixir-format
 msgid "Tuning into the mycelial network..."

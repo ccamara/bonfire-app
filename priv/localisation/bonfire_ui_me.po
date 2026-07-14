@@ -233,7 +233,7 @@ msgstr ""
 msgid "Admin"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/configuration
+#. URLs: https://campground.bonfire.cafe/about https://campground.bonfire.cafe/settings/instance/configuration
 #: lib/components/settings/instance/config/instance_config_live.sface:135
 #: lib/components/widgets/widget_instance_status/widget_instance_status_live.sface:194
 #: lib/components/widgets/widget_instance_status/widget_instance_status_live.sface:233
@@ -289,6 +289,7 @@ msgstr ""
 msgid "Already registered? Log in now"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/links/profile_links_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "Also on"
@@ -649,6 +650,7 @@ msgstr ""
 msgid "Code of Conduct"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/login
 #: lib/views/login/login_live.sface:68
 #: lib/views/signup/signup_live.sface:114
 #, elixir-autogen, elixir-format
@@ -1722,6 +1724,7 @@ msgstr ""
 msgid "If you are sure you want to delete your user, please enter your password below to confirm."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/login/forgot-password
 #: lib/views/forgot_password/forgot_password_live.sface:41
 #, elixir-autogen, elixir-format
 msgid "If your email is on our list, your link is on its way. No password needed, one click and you're in."
@@ -1947,6 +1950,7 @@ msgstr ""
 msgid "It was shared with a limited audience."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/profile_hero/profile_stats_live.sface:41
 #, elixir-autogen, elixir-format
 msgid "Joined"
@@ -2203,7 +2207,7 @@ msgstr ""
 msgid "Manage my federation archipelago allow-list"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/safety https://campground.bonfire.cafe/settings/instance/configuration
+#. URLs: https://campground.bonfire.cafe/about https://campground.bonfire.cafe/settings/user/safety https://campground.bonfire.cafe/settings/instance/configuration
 #: lib/components/settings/federation_mode/federation_mode_live.ex:60
 #: lib/components/settings/instance/config/instance_summary_live.sface:62
 #: lib/components/settings/instance/config/instance_summary_live.sface:383
@@ -2804,7 +2808,7 @@ msgstr ""
 msgid "Prioritise"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/about
+#. URLs: https://campground.bonfire.cafe/login https://campground.bonfire.cafe/about
 #: lib/components/settings/instance/config/instance_summary_live.sface:298
 #: lib/views/login/login_live.sface:70
 #: lib/views/signup/signup_live.sface:116
@@ -2913,6 +2917,7 @@ msgstr ""
 msgid "Redirecting..."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/about
 #: lib/components/widgets/widget_users/widget_admins_live.sface:18
 #: lib/components/widgets/widget_users/widget_admins_live.sface:20
 #, elixir-autogen, elixir-format
@@ -3036,7 +3041,7 @@ msgstr ""
 msgid "Restricted content screen"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Mayert_Harber_and_Fahey https://campground.bonfire.cafe/@Fadel_Inc https://campground.bonfire.cafe/@Schmidt_Inc
+#. URLs: https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/@Mayert_Harber_and_Fahey https://campground.bonfire.cafe/@Fadel_Inc https://campground.bonfire.cafe/@Schmidt_Inc
 #: lib/components/profile/profile_hero/hero_more_actions_live.sface:216
 #, elixir-autogen, elixir-format
 msgid "Revoke admin"
@@ -3959,7 +3964,7 @@ msgstr ""
 msgid "Username"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/configuration
+#. URLs: https://campground.bonfire.cafe/login https://campground.bonfire.cafe/settings/instance/configuration
 #: lib/components/settings/instance/config/instance_config_live.sface:135
 #: lib/views/login/login_live.sface:72
 #: lib/views/signup/signup_live.sface:118
@@ -4050,6 +4055,7 @@ msgstr ""
 msgid "We sent a reset link to"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/login/forgot-password
 #: lib/views/forgot_password/forgot_password_live.sface:33
 #, elixir-autogen, elixir-format
 msgid "We sent a sign-in link to"
@@ -4084,7 +4090,7 @@ msgstr ""
 msgid "Welcome Title"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/login/forgot-password/LK4FJ3WNEKOMC4EGJKWXWXYNIA https://campground.bonfire.cafe/login
 #: lib/views/login/login_controller.ex:64
 #, elixir-autogen, elixir-format
 msgid "Welcome back!"
@@ -4412,12 +4418,14 @@ msgstr ""
 msgid "follow"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/profile_hero/profile_stats_live.sface:22
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:74
 #, elixir-autogen, elixir-format
 msgid "followers"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/profile_hero/profile_stats_live.sface:32
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:84
 #, elixir-autogen, elixir-format
@@ -4465,6 +4473,7 @@ msgstr ""
 msgid "please try again."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/profile_hero/profile_stats_live.sface:12
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:54
 #, elixir-autogen, elixir-format

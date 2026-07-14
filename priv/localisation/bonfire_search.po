@@ -99,7 +99,7 @@ msgstr ""
 msgid "Private included"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search
+#. URLs: https://campground.bonfire.cafe/search/ https://campground.bonfire.cafe/search
 #: lib/web/results_live.sface:82
 #, elixir-autogen, elixir-format
 msgid "Profiles"
@@ -168,6 +168,7 @@ msgstr ""
 msgid "Searching for a matching federated profile..."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/search/
 #: lib/web/results_live.sface:89
 #: lib/web/results_live.sface:120
 #, elixir-autogen, elixir-format
