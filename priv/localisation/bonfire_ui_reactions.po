@@ -52,6 +52,7 @@ msgstr ""
 msgid "Boost or quote"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/post/01KXGN62RNGG73X93BXW23EVD2 https://campground.bonfire.cafe/post/01KXGM8PDD44VTY0SVM9V8FYAZ https://campground.bonfire.cafe/feed/local
 #: lib/components/boost/boost_action_live.sface:38
 #, elixir-autogen, elixir-format
 msgid "Boosted"
@@ -200,7 +201,7 @@ msgstr ""
 msgid "Pin to sidebar"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXFQVY6MY2GD6XW9ZMA7Q7D9 https://campground.bonfire.cafe/post/01KXDVXQ2E9MTYS1PPNQBAECV7 https://campground.bonfire.cafe/post/01KXCBK6D199AXN5ZV3SNH3ATJ
+#. URLs: https://campground.bonfire.cafe/post/01KXGM8S13SKM0EW2MASWPD0EJ https://campground.bonfire.cafe/post/01KXFQVY6MY2GD6XW9ZMA7Q7D9 https://campground.bonfire.cafe/post/01KXDVXQ2E9MTYS1PPNQBAECV7 https://campground.bonfire.cafe/post/01KXCBK6D199AXN5ZV3SNH3ATJ
 #: lib/components/pin/pin_modal_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Pin to spotlight"
@@ -259,7 +260,7 @@ msgstr ""
 msgid "Reactions"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/bookmarks https://campground.bonfire.cafe/feed/local
 #: lib/components/bookmark/bookmark_action_live.sface:9
 #, elixir-autogen, elixir-format
 msgid "Remove bookmark"
@@ -325,7 +326,7 @@ msgstr ""
 msgid "This is pinned to your profile"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXFQVY6MY2GD6XW9ZMA7Q7D9 https://campground.bonfire.cafe/post/01KXDVXQ2E9MTYS1PPNQBAECV7 https://campground.bonfire.cafe/post/01KXCBK6D199AXN5ZV3SNH3ATJ
+#. URLs: https://campground.bonfire.cafe/post/01KXGM8S13SKM0EW2MASWPD0EJ https://campground.bonfire.cafe/post/01KXFQVY6MY2GD6XW9ZMA7Q7D9 https://campground.bonfire.cafe/post/01KXDVXQ2E9MTYS1PPNQBAECV7 https://campground.bonfire.cafe/post/01KXCBK6D199AXN5ZV3SNH3ATJ
 #: lib/components/pin/pin_modal_live.sface:18
 #, elixir-autogen, elixir-format
 msgid "This will appear in the pinned widget on the dashboard for all users."
@@ -456,7 +457,7 @@ msgstr ""
 msgid "bookmark"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXFQNMDEECT55KWE6T9Y59DW https://campground.bonfire.cafe/post/01KXDVPKFZMF7J0NPJ57PF2J3P https://campground.bonfire.cafe/post/01KXCBHKHJEGYTBFCT6T9EEW1A
+#. URLs: https://campground.bonfire.cafe/post/01KXGM8AYWEF62Y0ASZRW5KCF1 https://campground.bonfire.cafe/post/01KXFQNMDEECT55KWE6T9Y59DW https://campground.bonfire.cafe/post/01KXDVPKFZMF7J0NPJ57PF2J3P https://campground.bonfire.cafe/post/01KXCBHKHJEGYTBFCT6T9EEW1A
 #: lib/live_handlers/boosts_live_handler.ex:56
 #, elixir-autogen, elixir-format
 msgid "boost"
