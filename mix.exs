@@ -362,8 +362,8 @@ defmodule Bonfire.Umbrella.MixProject do
     "ecto_sparkles",
     "arrows",
     "linkify",
-    "faviconic"
-    # "paper_trail"
+    "faviconic",
+    "paper_trail"
   ]
 
   test_ui = [
@@ -422,8 +422,8 @@ defmodule Bonfire.Umbrella.MixProject do
         "unfurl",
         # "zest",
         "iconify",
-        "faviconic"
-        # "paper_trail"
+        "faviconic",
+        "paper_trail"
       ],
       test_federation: test_federation,
       test_backend: test_backend,

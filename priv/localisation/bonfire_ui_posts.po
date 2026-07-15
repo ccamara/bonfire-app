@@ -39,6 +39,7 @@ msgstr ""
 msgid "Download this post as a Markdown file. You can choose to include frontmatter and replies."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/@mayel
 #: lib/live_handlers/posts_live_handler.ex:143
 #, elixir-autogen, elixir-format
 msgid "Edited!"

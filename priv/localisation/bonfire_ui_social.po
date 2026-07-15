@@ -22,7 +22,7 @@ msgstr ""
 msgid "%{a} only · %{b} hidden"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/@mayel https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/feed_controls_live.sface:41
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.sface:52
 #, elixir-autogen, elixir-format
@@ -60,6 +60,7 @@ msgstr ""
 msgid "%{name}'s profile"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/discussion/01KSMY4DB5523QAMFWPNSB0X83/history/ https://campground.bonfire.cafe/post/01KSMY4DB5523QAMFWPNSB0X83/history
 #: lib/components/activity/actions/edit/version_history_live.sface:26
 #, elixir-autogen, elixir-format
 msgid "%{number_of_edits} edit"
@@ -1700,6 +1701,7 @@ msgstr ""
 msgid "Mark done"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/
 #: lib/components/activity/media/media_live.sface:294
 #, elixir-autogen, elixir-format
 msgid "Media Hidden"
@@ -2550,7 +2552,7 @@ msgstr ""
 msgid "See discussion"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/activity/activity_live.ex:857
 #: lib/components/activity/activity_live.ex:859
 #, elixir-autogen, elixir-format
@@ -3521,6 +3523,7 @@ msgstr ""
 msgid "content"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/discussion/01KSMY4DB5523QAMFWPNSB0X83/history/ https://campground.bonfire.cafe/post/01KSMY4DB5523QAMFWPNSB0X83/history
 #: lib/components/activity/actions/edit/version_history_live.sface:24
 #, elixir-autogen, elixir-format
 msgid "created "
