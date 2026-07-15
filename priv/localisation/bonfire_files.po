@@ -166,6 +166,7 @@ msgstr ""
 msgid "Set a maximum width/height for preview images generated for PDFs"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance
 #: lib/web/components/upload_icon_live.sface:81
 #, elixir-autogen, elixir-format
 msgid "Upload"

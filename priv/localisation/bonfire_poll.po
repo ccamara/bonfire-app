@@ -264,7 +264,7 @@ msgstr ""
 msgid "Make a 'concerned' or 'disagree' vote count for more than a 'great' vote."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/web/components/preview/question_live.ex:350
 #: lib/web/components/tuning_toggles_live.sface:74
 #, elixir-autogen, elixir-format

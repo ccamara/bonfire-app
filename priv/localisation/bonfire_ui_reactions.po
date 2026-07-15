@@ -52,7 +52,7 @@ msgstr ""
 msgid "Boost or quote"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXGN62RNGG73X93BXW23EVD2 https://campground.bonfire.cafe/post/01KXGM8PDD44VTY0SVM9V8FYAZ https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/post/01KXGN62RNGG73X93BXW23EVD2 https://campground.bonfire.cafe/post/01KXGM8PDD44VTY0SVM9V8FYAZ https://campground.bonfire.cafe/feed/local
 #: lib/components/boost/boost_action_live.sface:38
 #, elixir-autogen, elixir-format
 msgid "Boosted"
