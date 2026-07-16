@@ -126,6 +126,7 @@ msgstr ""
 msgid "Add language..."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/about
 #: lib/components/settings/templates/settings_links_editor_live.sface:48
 #, elixir-autogen, elixir-format
 msgid "Add link"
@@ -892,6 +893,7 @@ msgstr ""
 msgid "Keyboard shortcuts"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/about
 #: lib/components/settings/templates/settings_links_editor_live.sface:17
 #, elixir-autogen, elixir-format
 msgid "Label"
@@ -930,6 +932,7 @@ msgstr ""
 msgid "Links"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/about
 #: lib/components/settings/templates/settings_links_editor_live.ex:56
 #, elixir-autogen, elixir-format
 msgid "Links saved"
@@ -1171,6 +1174,7 @@ msgstr ""
 msgid "Notifications"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/about https://campground.bonfire.cafe/settings/instance https://campground.bonfire.cafe/instance/pins/carousel https://campground.bonfire.cafe/dashboard
 #: lib/notifications.ex:8
 #, elixir-autogen, elixir-format
 msgid "Notifications enabled"
@@ -1475,7 +1479,7 @@ msgstr ""
 msgid "Reusable user interface components and utilities."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance https://campground.bonfire.cafe/settings/instance/configuration
+#. URLs: https://campground.bonfire.cafe/settings/instance/about https://campground.bonfire.cafe/settings/instance https://campground.bonfire.cafe/settings/instance/configuration
 #: lib/components/settings/templates/settings_input_live.sface:38
 #: lib/components/settings/templates/settings_input_live.sface:60
 #: lib/components/settings/templates/settings_links_editor_live.sface:52
@@ -1949,6 +1953,7 @@ msgstr ""
 msgid "This feature (from extension %{app}) is disabled. You can enabled it in Settings -> Extensions "
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/LiveHandler/Elixir.Bonfire.Social.Feeds/load_more
 #: lib/live_handlers_graceful_degradation_controller.ex:53
 #, elixir-autogen, elixir-format
 msgid "This feature usually requires JavaScript, but the app attempted to do what was expected anyway. Did it not work for you? Feedback is welcome! "
@@ -2212,6 +2217,7 @@ msgstr ""
 msgid "You need to log in first."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/about https://campground.bonfire.cafe/settings/instance https://campground.bonfire.cafe/instance/pins/carousel https://campground.bonfire.cafe/dashboard
 #: lib/notifications.ex:10
 #, elixir-autogen, elixir-format
 msgid "You will now receive notifications of messages, mentions, and other relevant activities."
@@ -2274,6 +2280,7 @@ msgstr ""
 msgid "group"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/about
 #: lib/components/settings/templates/settings_links_editor_live.sface:24
 #, elixir-autogen, elixir-format
 msgid "https://..."

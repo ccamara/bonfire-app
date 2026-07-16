@@ -557,7 +557,7 @@ msgstr ""
 msgid "Suggestions first, then a scored vote."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXHDT2GBXKDQ46BVQ28F3JZH https://campground.bonfire.cafe/discussion/01KXHCSW8XHWEP98HD27ZTRY00 https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0
+#. URLs: https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXHDT2GBXKDQ46BVQ28F3JZH https://campground.bonfire.cafe/discussion/01KXHCSW8XHWEP98HD27ZTRY00 https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0
 #: lib/web/poll_live_handler.ex:260
 #, elixir-autogen, elixir-format
 msgid "Thanks for participating!"
@@ -655,7 +655,7 @@ msgstr ""
 msgid "Your reaction to this choice"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0
+#. URLs: https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0
 #: lib/web/components/preview/choice_live.sface:51
 #: lib/web/components/preview/choice_live.sface:225
 #, elixir-autogen, elixir-format
@@ -668,7 +668,7 @@ msgstr ""
 msgid "Your suggestion"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXHDT2GBXKDQ46BVQ28F3JZH https://campground.bonfire.cafe/discussion/01KXHCSW8XHWEP98HD27ZTRY00
+#. URLs: https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/discussion/01KXHDT2GBXKDQ46BVQ28F3JZH https://campground.bonfire.cafe/discussion/01KXHCSW8XHWEP98HD27ZTRY00
 #: lib/web/components/preview/choice_live.sface:118
 #: lib/web/components/preview/choice_live.sface:237
 #, elixir-autogen, elixir-format
