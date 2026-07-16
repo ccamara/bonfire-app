@@ -112,7 +112,7 @@ msgstr ""
 msgid "PDF preview max size"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Settings_Group/settings https://campground.bonfire.cafe/&Danger_Group/settings https://campground.bonfire.cafe/&Regular_Group/settings https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/&Custom_Dims_Group/settings/boundaries https://campground.bonfire.cafe/&Settings_Group/settings https://campground.bonfire.cafe/settings/instance/configuration https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/components/upload_banner_live.sface:44
 #, elixir-autogen, elixir-format
 msgid "PNG, JPG, GIF up to %{size} MB"
@@ -129,7 +129,6 @@ msgstr ""
 msgid "Remove Emoji"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/comments/embed
 #: lib/media.ex:797
 #: lib/media.ex:797
 #: lib/media.ex:830
@@ -166,13 +165,12 @@ msgstr ""
 msgid "Set a maximum width/height for preview images generated for PDFs"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance
 #: lib/web/components/upload_icon_live.sface:81
 #, elixir-autogen, elixir-format
 msgid "Upload"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Settings_Group/settings https://campground.bonfire.cafe/&Danger_Group/settings https://campground.bonfire.cafe/&Regular_Group/settings https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/&Custom_Dims_Group/settings/boundaries https://campground.bonfire.cafe/&Settings_Group/settings https://campground.bonfire.cafe/settings/instance/configuration https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/components/upload_banner_live.sface:19
 #, elixir-autogen, elixir-format
 msgid "Upload a background image"
@@ -183,7 +181,7 @@ msgstr ""
 msgid "Upload an emoji image"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Settings_Group/settings https://campground.bonfire.cafe/&Danger_Group/settings https://campground.bonfire.cafe/&Regular_Group/settings https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/&Custom_Dims_Group/settings/boundaries https://campground.bonfire.cafe/&Settings_Group/settings https://campground.bonfire.cafe/settings/instance/configuration https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/components/upload_icon_live.sface:47
 #, elixir-autogen, elixir-format
 msgid "Upload or drop"
@@ -210,7 +208,7 @@ msgstr ""
 msgid "You can either:"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Settings_Group/settings https://campground.bonfire.cafe/&Danger_Group/settings https://campground.bonfire.cafe/&Regular_Group/settings https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/&Custom_Dims_Group/settings/boundaries https://campground.bonfire.cafe/&Settings_Group/settings https://campground.bonfire.cafe/settings/instance/configuration https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/components/upload_icon_live.sface:48
 #, elixir-autogen, elixir-format
 msgid "avatar"
@@ -221,7 +219,7 @@ msgstr ""
 msgid "e.g: animation of a molotov cocktail being thrown"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Settings_Group/settings https://campground.bonfire.cafe/&Danger_Group/settings https://campground.bonfire.cafe/&Regular_Group/settings https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/&Custom_Dims_Group/settings/boundaries https://campground.bonfire.cafe/&Settings_Group/settings https://campground.bonfire.cafe/settings/instance/configuration https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/components/upload_banner_live.sface:20
 #, elixir-autogen, elixir-format
 msgid "or drag and drop"

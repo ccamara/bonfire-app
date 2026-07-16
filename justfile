@@ -1728,7 +1728,7 @@ localise-prune:
 @localise-tx-push-lang-files lang *args='':
 	tx push -t -l {{lang}} -f {{args}}
 
-@localise-extract-push: localise-extract localise-tx-push
+# @localise-extract-push: localise-extract localise-tx-push
 
 @assets-prepare:
 	-mkdir -p priv/static

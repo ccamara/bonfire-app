@@ -22,27 +22,31 @@ msgstr ""
 msgid "%{a} only · %{b} hidden"
 msgstr ""
 
+<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/feed/local
+=======
+#. URLs: https://campground.bonfire.cafe/feed/local
+>>>>>>> 4abc543b69 (misc)
 #: lib/components/feeds/controls/feed_controls_live.sface:41
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.sface:52
 #, elixir-autogen, elixir-format
 msgid "%{count} active filters"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.ex:178
 #, elixir-autogen, elixir-format
 msgid "%{count} hidden"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXDVRBA3YRSNCQ2VSYCK2W0D https://campground.bonfire.cafe/discussion/01KXDVRAEWV2PNX32C30Z1QWA2 https://campground.bonfire.cafe/discussion/01KXCBGNZ2QPZF5YHWM0FJZMZZ https://campground.bonfire.cafe/discussion/01KXCBGKJF1S8CBEK8EVA8K0CV
+#. URLs: https://campground.bonfire.cafe/discussion/01KXK36WF3NHW5G7HTETG3NDFM https://campground.bonfire.cafe/discussion/01KXK36TR3YBNHGQAF3VKZDD8H https://campground.bonfire.cafe/discussion/01KXJYPYE7RNE2JZ7YWJ9TSSCQ https://campground.bonfire.cafe/discussion/01KXJYPX3TN96KWJXREMFW5B3R
 #: lib/components/thread/thread_branch_live.sface:129
 #: lib/components/thread/thread_branch_live.sface:146
 #, elixir-autogen, elixir-format
 msgid "%{count} more replies"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.ex:177
 #, elixir-autogen, elixir-format
 msgid "%{count} only"
@@ -53,7 +57,7 @@ msgstr ""
 msgid "%{count} selected"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/subject/subject_live.sface:43
 #: lib/components/activity/subject/subject_live.sface:63
 #, elixir-autogen, elixir-format
@@ -67,19 +71,19 @@ msgid_plural "%{number_of_edits} edits"
 msgstr[0] ""
 msgstr[1] ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/subject/subject_live.sface:16
 #, elixir-autogen, elixir-format
 msgid "%{username}'s profile"
 msgstr ""
 
-#: lib/live_handlers/feeds_live_handler.ex:2816
+#: lib/live_handlers/feeds_live_handler.ex:2819
 #, elixir-autogen, elixir-format
 msgid "A feed with this name already exists. Please choose a different name."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:268
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:270
 #: lib/components/activity/actions/delete_object_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "A request will be sent to remote instances to delete it as well."
@@ -108,7 +112,7 @@ msgstr ""
 msgid "Accepted Answer"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/actions/advanced_actions_live.sface:26
 #, elixir-autogen, elixir-format
 msgid "Actions"
@@ -124,7 +128,7 @@ msgstr ""
 msgid "Activities from people I follow"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:287
 #, elixir-autogen, elixir-format
 msgid "Activity types"
@@ -146,8 +150,8 @@ msgstr ""
 msgid "Add a profile picture and bio"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
-#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:517
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
+#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:516
 #: lib/components/feeds/controls/save_feed_preset_live.sface:29
 #, elixir-autogen, elixir-format
 msgid "Add a title..."
@@ -163,9 +167,9 @@ msgstr ""
 msgid "Adding to circle"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/actions/advanced_actions_live.sface:5
-#: lib/components/activity/actions/advanced_actions_live.sface:373
+#: lib/components/activity/actions/advanced_actions_live.sface:375
 #: lib/components/feeds/controls/feed_controls_lite_live.sface:28
 #, elixir-autogen, elixir-format
 msgid "Advanced"
@@ -176,13 +180,13 @@ msgstr ""
 msgid "Advanced Filters"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.sface:48
 #, elixir-autogen, elixir-format
 msgid "Advanced filters"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/events https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.ex:176
 #: lib/components/feeds/feed_live.ex:168
 #: lib/views/events/events_live.sface:19
@@ -195,13 +199,13 @@ msgstr ""
 msgid "All activity types"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:222
 #, elixir-autogen, elixir-format
 msgid "All posts"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/feed_filters_modal_content_live.ex:152
 #: lib/components/feeds/controls/time_control_live.ex:31
 #: lib/components/feeds/controls/time_control_live.sface:43
@@ -240,8 +244,8 @@ msgstr ""
 msgid "Amount of replies"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
-#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:554
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
+#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:553
 #, elixir-autogen, elixir-format
 msgid "Apply filters"
 msgstr ""
@@ -274,7 +278,7 @@ msgstr ""
 msgid "Article"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:231
 #: lib/components/feeds/controls/tab_filter_buttons_live.sface:19
 #, elixir-autogen, elixir-format
@@ -292,7 +296,7 @@ msgstr ""
 msgid "Attempt %{current} of %{max}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/activity/activity_live.ex:2329
 #: lib/components/activity/media/audio/audio_live.sface:29
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:397
@@ -312,19 +316,19 @@ msgstr ""
 msgid "Automatically fetch replies to my imported posts."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:191
-#: lib/components/activity/actions/advanced_actions_live.sface:220
-#: lib/components/activity/actions/advanced_actions_live.sface:260
-#: lib/components/activity/actions/advanced_actions_live.sface:287
-#: lib/components/activity/actions/advanced_actions_live.sface:318
-#: lib/components/activity/actions/advanced_actions_live.sface:347
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:193
+#: lib/components/activity/actions/advanced_actions_live.sface:222
+#: lib/components/activity/actions/advanced_actions_live.sface:262
+#: lib/components/activity/actions/advanced_actions_live.sface:289
+#: lib/components/activity/actions/advanced_actions_live.sface:320
+#: lib/components/activity/actions/advanced_actions_live.sface:349
 #, elixir-autogen, elixir-format
 msgid "Back"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCB8FH5ZV17BX2KWTC5TG4J https://campground.bonfire.cafe/post/01KXCB80DYDSND16QW74NEMSBX https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/thread/thread_empty_live.sface:15
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/thread/thread_empty_live.sface:11
 #, elixir-autogen, elixir-format
 msgid "Be the first to share your thoughts."
 msgstr ""
@@ -356,7 +360,7 @@ msgstr ""
 msgid "Bookmark"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:240
 #, elixir-autogen, elixir-format
 msgid "Books"
@@ -373,7 +377,7 @@ msgstr ""
 msgid "Boosted by"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBMJP5DX3G01027PF8MQE0 https://campground.bonfire.cafe/post/01KXCBKN22TB81SZTY0ZXB2D8F https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/post/01KXJYWHNGKVJB9TN8FRXXAJHS https://campground.bonfire.cafe/discussion/01KXJYWGZ97X2WFZ77BFG68BMP https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/post/01KXJYS12MRSXP9KXZZEYBDTA4
 #: lib/components/activity/media/trending_media_actions_live.sface:44
 #: lib/components/activity/reactions/fediverse_reactions_live.sface:19
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:301
@@ -383,14 +387,14 @@ msgstr ""
 msgid "Boosts"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:76
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:95
 #, elixir-autogen, elixir-format
 msgid "Both"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/actions/advanced_actions_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "Boundary"
@@ -412,8 +416,8 @@ msgstr ""
 msgid "Business"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:240
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:242
 #: lib/components/activity/actions/edit/edit_post_live.sface:42
 #, elixir-autogen, elixir-format
 msgid "CW"
@@ -437,7 +441,7 @@ msgstr ""
 msgid "Cancelled %{count} jobs"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXDVSGH5HY9ZS5XV7VFWHN86 https://campground.bonfire.cafe/discussion/01KXDVSFY2S1ZA171SP68H8Z5V https://campground.bonfire.cafe/discussion/01KXCBHY2XBSSW54QSKBPNJ8C4 https://campground.bonfire.cafe/discussion/01KXCBHX5MA1R6919ACBJR51QE
+#. URLs: https://campground.bonfire.cafe/discussion/01KXK3DJW4X8YQ66XDFKA400SN https://campground.bonfire.cafe/feed/remote https://campground.bonfire.cafe/discussion/01KXJYSRWK6QKPDFTZA6TQXYZY https://campground.bonfire.cafe/discussion/01KXJYSR1MG9SSM6G98D1ZQVTA
 #: lib/components/activity/actions/reply/reply_live.sface:39
 #, elixir-autogen, elixir-format
 msgid "Cannot reply"
@@ -482,7 +486,7 @@ msgstr ""
 msgid "Climate & Environment"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/notifications
 #: lib/components/activity/actions/embed/inline_block_form_live.sface:9
 #: lib/components/activity/actions/embed/inline_flag_form_live.sface:10
 #: lib/components/activity/media/media_carousel_modal_live.sface:50
@@ -504,7 +508,7 @@ msgstr ""
 msgid "Comment not found or you don't have permission to view it"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/comments/embed/01KXCBGG2VEZVTCH4CKVT94251 https://campground.bonfire.cafe/comments/embed/01KXCBGFSGP5700C29XRSDF0GH https://campground.bonfire.cafe/comments/embed/01KXCBGFG789C44425M304DF7T https://campground.bonfire.cafe/comments/embed
+#. URLs: https://campground.bonfire.cafe/comments/embed/01KXJYJDBPAAFBN8890JNZ4NY3 https://campground.bonfire.cafe/comments/embed/01KXJYJD0C32S4NAQD04TRHB54 https://campground.bonfire.cafe/comments/embed/01KXJYJCPR75RX34NEKX1T6SZV https://campground.bonfire.cafe/comments/embed/01KXJYJCDNBF4R4X7B3HQ97Y1Q
 #: lib/views/threads/embed_comments_live.ex:62
 #, elixir-autogen, elixir-format
 msgid "Comments"
@@ -527,13 +531,13 @@ msgstr ""
 msgid "Compose a post"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/search
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/search
 #: lib/components/activity/object/cw/cw_live.sface:16
 #, elixir-autogen, elixir-format
 msgid "Content Warning"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_extra_controls_live.sface:48
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:73
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:89
@@ -541,7 +545,7 @@ msgstr ""
 msgid "Content origin"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:208
 #, elixir-autogen, elixir-format
 msgid "Content types"
@@ -561,20 +565,20 @@ msgstr ""
 msgid "Copy RSS URL"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/actions/more_actions_live.sface:34
 #, elixir-autogen, elixir-format
 msgid "Copy link"
 msgstr ""
 
-#: lib/live_handlers/feeds_live_handler.ex:2825
+#: lib/live_handlers/feeds_live_handler.ex:2828
 #, elixir-autogen, elixir-format
 msgid "Could not create feed preset"
 msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/comments/embed
-#: lib/views/threads/embed_comments_live.ex:225
-#: lib/views/threads/embed_comments_live.ex:236
+#: lib/views/threads/embed_comments_live.ex:253
+#: lib/views/threads/embed_comments_live.ex:264
 #, elixir-autogen, elixir-format
 msgid "Could not find article"
 msgstr ""
@@ -596,12 +600,16 @@ msgstr ""
 msgid "Curated"
 msgstr ""
 
-#: lib/components/widgets/widget_feeds/widget_feeds_live.sface:11
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5 https://campground.bonfire.cafe/messages https://campground.bonfire.cafe/conduct
+#: lib/components/feeds/nav/feeds_nav_live.sface:32
+#: lib/components/feeds/nav/feeds_nav_live.sface:63
+#: lib/components/widgets/widget_feeds/widget_feeds_live.sface:10
+#: lib/components/widgets/widget_feeds/widget_feeds_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "Customize feeds"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.sface:2
 #, elixir-autogen, elixir-format
 msgid "Customize this feed"
@@ -619,8 +627,8 @@ msgstr ""
 msgid "DIY & Maker Spaces"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:141
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:143
 #, elixir-autogen, elixir-format
 msgid "Danger zone"
 msgstr ""
@@ -637,7 +645,7 @@ msgstr ""
 msgid "Data"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/context/date_ago_live.sface:7
 #, elixir-autogen, elixir-format
 msgid "Date format"
@@ -660,7 +668,7 @@ msgstr ""
 msgid "Decline"
 msgstr ""
 
-#: lib/live_handlers/feeds_live_handler.ex:2902
+#: lib/live_handlers/feeds_live_handler.ex:2905
 #, elixir-autogen, elixir-format
 msgid "Default Feeds Nav Open"
 msgstr ""
@@ -677,17 +685,17 @@ msgstr ""
 msgid "Default sort"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:152
-#: lib/components/activity/actions/advanced_actions_live.sface:174
-#: lib/components/activity/actions/advanced_actions_live.sface:263
-#: lib/components/activity/actions/advanced_actions_live.sface:276
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds
 #: lib/components/feeds/settings/feeds_settings_live.sface:230
 #, elixir-autogen, elixir-format
 msgid "Delete"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my_flags https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:154
+#: lib/components/activity/actions/advanced_actions_live.sface:176
+#: lib/components/activity/actions/advanced_actions_live.sface:265
+#: lib/components/activity/actions/advanced_actions_live.sface:278
 #: lib/components/activity/actions/delete_object_live.sface:35
 #: lib/components/activity/actions/delete_object_live.sface:49
 #, elixir-autogen, elixir-format
@@ -699,21 +707,21 @@ msgstr ""
 msgid "Delete archive"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:162
-#: lib/components/activity/actions/advanced_actions_live.sface:290
-#: lib/components/activity/actions/advanced_actions_live.sface:307
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:164
+#: lib/components/activity/actions/advanced_actions_live.sface:292
+#: lib/components/activity/actions/advanced_actions_live.sface:309
 #, elixir-autogen, elixir-format
 msgid "Delete from feeds"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my_flags https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/feed/flagged_content https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/profile
 #: lib/components/activity/actions/delete_object_live.sface:7
 #, elixir-autogen, elixir-format
 msgid "Delete this %{object_or_type}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my_flags https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/feed/flagged_content https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/settings/instance/flags https://campground.bonfire.cafe/settings/user/profile
 #: lib/components/activity/actions/delete_object_live.sface:33
 #, elixir-autogen, elixir-format
 msgid "Delete this object"
@@ -729,8 +737,8 @@ msgstr ""
 msgid "Deleted!"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:295
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:297
 #, elixir-autogen, elixir-format
 msgid "Deleting from feeds means this %{verb} and this %{object} still exist, but this activity won't be discoverable via the local instance's feeds. Remote feeds won't be affected."
 msgstr ""
@@ -746,8 +754,8 @@ msgstr ""
 msgid "Direct Message"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
-#: lib/live_handlers/feeds_live_handler.ex:2341
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/live_handlers/feeds_live_handler.ex:2344
 #, elixir-autogen, elixir-format
 msgid "Disable Feed Extension Preloads"
 msgstr ""
@@ -758,7 +766,7 @@ msgstr ""
 msgid "Discover Events"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/feed/bookmarks https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/&Scope_Group
 #: lib/components/activity/activity_live.ex:876
 #: lib/components/activity/activity_live.ex:901
 #: lib/views/threads/discussion_live.ex:12
@@ -766,8 +774,8 @@ msgstr ""
 msgid "Discussion"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:249
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:251
 #: lib/components/activity/actions/edit/edit_post_live.sface:82
 #, elixir-autogen, elixir-format
 msgid "Done"
@@ -788,9 +796,9 @@ msgstr ""
 msgid "Download your existing archive"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/actions/advanced_actions_live.sface:52
-#: lib/components/activity/actions/advanced_actions_live.sface:223
+#: lib/components/activity/actions/advanced_actions_live.sface:225
 #: lib/components/activity/actions/edit/edit_post_live.sface:3
 #: lib/components/activity/actions/edit/edit_post_live.sface:25
 #: lib/components/activity/actions/edit/edit_post_live.sface:62
@@ -798,9 +806,9 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/actions/advanced_actions_live.sface:37
-#: lib/components/activity/actions/advanced_actions_live.sface:194
+#: lib/components/activity/actions/advanced_actions_live.sface:196
 #, elixir-autogen, elixir-format
 msgid "Edit discussion title"
 msgstr ""
@@ -828,8 +836,8 @@ msgstr ""
 msgid "Enable infinite scrolling (doom scrolling) instead of pre-loading activities that require clicking 'Show more' to see them"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group https://campground.bonfire.cafe/feed
-#: lib/components/feeds/feed_live.sface:182
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/&Scope_Group https://campground.bonfire.cafe/feed
+#: lib/components/feeds/feed_live.sface:183
 #, elixir-autogen, elixir-format
 msgid "Enable infinite scrolling in feeds, or choose a hybrid approach."
 msgstr ""
@@ -857,7 +865,7 @@ msgstr ""
 msgid "Event poster"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:249
 #: lib/components/feeds/controls/tab_filter_buttons_live.sface:61
 #: lib/views/events/events_live.ex:22
@@ -871,7 +879,7 @@ msgstr ""
 msgid "Events from people you follow and federated platforms like Mobilizon will appear here."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.ex:74
 #, elixir-autogen, elixir-format
 msgid "Everything"
@@ -919,27 +927,27 @@ msgstr ""
 msgid "Federation"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXDVQCFYFNSCD5F6KB9VDFXX https://campground.bonfire.cafe/discussion/01KXCBMKKA183WKEFMGAWCC0VD https://campground.bonfire.cafe/post/01KXCBMJP5DX3G01027PF8MQE0 https://campground.bonfire.cafe/post/01KXCBKN22TB81SZTY0ZXB2D8F
+#. URLs: https://campground.bonfire.cafe/post/01KXK3663SQ12DQEMPTJNAA5WX https://campground.bonfire.cafe/post/01KXJYWHNGKVJB9TN8FRXXAJHS https://campground.bonfire.cafe/discussion/01KXJYWGZ97X2WFZ77BFG68BMP https://campground.bonfire.cafe/post/01KXJYS12MRSXP9KXZZEYBDTA4
 #: lib/components/activity/reactions/fediverse_reactions_live.sface:6
 #, elixir-autogen, elixir-format
 msgid "Fediverse reactions"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/feed
 #: lib/components/widgets/widget_feed_description/widget_feed_description_live.sface:6
 #: lib/components/widgets/widget_feed_description/widget_feed_description_live.sface:6
 #, elixir-autogen, elixir-format
 msgid "Feed"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/live_handlers/feeds_live_handler.ex:2029
 #, elixir-autogen, elixir-format
 msgid "Feed Update Preload Mode"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
-#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:521
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
+#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:520
 #: lib/components/feeds/controls/save_feed_preset_live.sface:34
 #, elixir-autogen, elixir-format
 msgid "Feed description"
@@ -956,7 +964,7 @@ msgstr ""
 msgid "Feed inclusion"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.sface:13
 #, elixir-autogen, elixir-format
 msgid "Feed preset"
@@ -969,18 +977,18 @@ msgstr ""
 msgid "Feed presets"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
+#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:514
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:515
-#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:516
 #: lib/components/feeds/controls/save_feed_preset_live.sface:23
 #: lib/components/feeds/controls/save_feed_preset_live.sface:24
 #, elixir-autogen, elixir-format
 msgid "Feed title"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group https://campground.bonfire.cafe/messages
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5 https://campground.bonfire.cafe/messages https://campground.bonfire.cafe/conduct
 #: lib/components/feeds/nav/feeds_nav_live.sface:28
-#: lib/components/feeds/nav/feeds_nav_live.sface:57
+#: lib/components/feeds/nav/feeds_nav_live.sface:58
 #: lib/components/widgets/widget_feeds/widget_feeds_live.sface:5
 #, elixir-autogen, elixir-format
 msgid "Feeds"
@@ -1039,7 +1047,7 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:459
 #: lib/components/feeds/controls/filter_by_circles_live.sface:16
 #, elixir-autogen, elixir-format
@@ -1052,7 +1060,7 @@ msgstr ""
 msgid "Filter events by category"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/toggle_type_live.sface:26
 #, elixir-autogen, elixir-format
 msgid "Filter mode for %{label}"
@@ -1084,14 +1092,14 @@ msgstr ""
 msgid "Fixed for this feed"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJBCRADRRJ1GV4932K6WS https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/post/01KXJYJ8N88C6Y1C1ZEW05CS44
 #: lib/components/activity/actions/more_actions_live.sface:155
 #: lib/components/activity/actions/more_actions_live.sface:174
 #, elixir-autogen, elixir-format
 msgid "Flag this %{object}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.ex:80
 #, elixir-autogen, elixir-format
 msgid "Focus"
@@ -1119,7 +1127,7 @@ msgstr ""
 msgid "Following user"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:319
 #: lib/components/feeds/controls/tab_filter_buttons_live.sface:32
 #: lib/components/settings/my_feed_items_live.sface:60
@@ -1209,7 +1217,7 @@ msgstr ""
 msgid "Here are a few sources to get started (you can download the CSV files from any of those to import here):"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/search https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/search
 #: lib/components/activity/media/media_carousel_modal_live.sface:151
 #: lib/components/activity/media/media_live.sface:191
 #: lib/components/activity/object/cw/cw_live.sface:22
@@ -1218,25 +1226,25 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/toggle_type_live.sface:94
 #, elixir-autogen, elixir-format
 msgid "Hide %{label} from the feed"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/&Scope_Group https://campground.bonfire.cafe/feed
 #: lib/components/feeds/feed_live.ex:477
 #, elixir-autogen, elixir-format
 msgid "Hide Activity Actions"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/&Scope_Group https://campground.bonfire.cafe/feed
 #: lib/components/feeds/feed_live.ex:479
 #, elixir-autogen, elixir-format
 msgid "Hide actions (such a like or boost) in feeds until users hover over them."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/feed_extra_controls_live.sface:34
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.ex:149
 #, elixir-autogen, elixir-format
@@ -1255,20 +1263,20 @@ msgstr ""
 msgid "Hide my own activities"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/feed_extra_controls_live.sface:20
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.ex:143
 #, elixir-autogen, elixir-format
 msgid "Hide replies"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.ex:82
 #, elixir-autogen, elixir-format
 msgid "Hide replies and boosts."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/toggle_type_live.sface:79
 #, elixir-autogen, elixir-format
 msgid "Hide this from the feed"
@@ -1291,25 +1299,25 @@ msgstr ""
 msgid "How many items to show in feeds and other lists"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXFQSQ3W9K8V8DEE7WJVAVB1 https://campground.bonfire.cafe/discussion/01KXDVRBA3YRSNCQ2VSYCK2W0D https://campground.bonfire.cafe/discussion/01KXCBGNZ2QPZF5YHWM0FJZMZZ
+#. URLs: https://campground.bonfire.cafe/discussion/01KXK36TR3YBNHGQAF3VKZDD8H https://campground.bonfire.cafe/discussion/01KXJYPX3TN96KWJXREMFW5B3R
 #: lib/live_handlers/threads_live_handler.ex:55
 #, elixir-autogen, elixir-format
 msgid "How many levels of replies to load/display at a time"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/context/date_ago_live.sface:8
 #, elixir-autogen, elixir-format
 msgid "How to display the date/time of activities"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/live_handlers/feeds_live_handler.ex:2030
 #, elixir-autogen, elixir-format
 msgid "How to preload data when updating feeds (technical setting)."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_live.sface:6
 #, elixir-autogen, elixir-format
 msgid "How to sort threads and their replies."
@@ -1320,7 +1328,7 @@ msgstr ""
 msgid "If you want to move from another profile to this one (%{username}), here you can create an alias, which you must do *before* you can proceed with moving followers from the old account to this new one. This action by itself is harmless and reversible. After adding the alias here, you need to trigger the actual account migration from the old account."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:379
 #: lib/components/feeds/controls/tab_filter_buttons_live.sface:44
 #, elixir-autogen, elixir-format
@@ -1358,14 +1366,14 @@ msgstr ""
 msgid "Importing object or boost"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/&Group_With_Topics https://campground.bonfire.cafe/@Cormier_Mayert https://campground.bonfire.cafe/@McLaughlin_Inc
+#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_Public https://campground.bonfire.cafe/&Group_With_Topics https://campground.bonfire.cafe/&Feed_Post_Group_for_Author https://campground.bonfire.cafe/@Barrows_LLC
 #: lib/components/activity/context/published_in_live.sface:8
 #: lib/components/activity/context/published_in_live.sface:19
 #, elixir-autogen, elixir-format
 msgid "In"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:228
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:237
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:246
@@ -1390,7 +1398,7 @@ msgstr ""
 msgid "Include"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.ex:137
 #, elixir-autogen, elixir-format
 msgid "Include group activities"
@@ -1412,8 +1420,8 @@ msgstr ""
 msgid "Incoming federation (unverified)"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group https://campground.bonfire.cafe/feed
-#: lib/components/feeds/feed_live.sface:181
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/&Scope_Group https://campground.bonfire.cafe/feed
+#: lib/components/feeds/feed_live.sface:182
 #, elixir-autogen, elixir-format
 msgid "Infinite Scrolling"
 msgstr ""
@@ -1429,7 +1437,7 @@ msgstr ""
 msgid "Issues"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBQT0AAR2VB4C3NTBJKWB3 https://campground.bonfire.cafe/post/01KXCBPCSV1ACRP3JWKEBBHG06 https://campground.bonfire.cafe/discussion/01KXCBPBRKZWMQPJG7PBSCCTJV https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
+#. URLs: https://campground.bonfire.cafe/post/01KXK3JM92QA1D7W9V8WH96G13 https://campground.bonfire.cafe/post/01KXK3G5QHM7ZNTC9A15T5GP00 https://campground.bonfire.cafe/post/01KXJYVTYPAWRZ5R6VN8AS3QQB https://campground.bonfire.cafe/post/01KXJYJBCRADRRJ1GV4932K6WS
 #: lib/components/object_with_thread/object_thread_live.sface:27
 #, elixir-autogen, elixir-format
 msgid "It may have been deleted, or you may not have permission to see it."
@@ -1446,8 +1454,7 @@ msgstr ""
 msgid "Journal Article"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore
-#: lib/components/feeds/feed_live.sface:98
+#: lib/components/feeds/feed_live.sface:99
 #, elixir-autogen, elixir-format
 msgid "Jump to top"
 msgstr ""
@@ -1458,8 +1465,8 @@ msgstr ""
 msgid "LGBTQ"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:105
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:107
 #, elixir-autogen, elixir-format
 msgid "Label this %{object}"
 msgstr ""
@@ -1470,25 +1477,25 @@ msgstr ""
 msgid "Language & Culture"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/time_control_live.ex:27
 #, elixir-autogen, elixir-format
 msgid "Last Day"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/time_control_live.ex:29
 #, elixir-autogen, elixir-format
 msgid "Last Month"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/time_control_live.ex:28
 #, elixir-autogen, elixir-format
 msgid "Last Week"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/time_control_live.ex:30
 #, elixir-autogen, elixir-format
 msgid "Last Year"
@@ -1543,26 +1550,26 @@ msgstr ""
 msgid "Liked by"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/activity/media/trending_media_actions_live.sface:51
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:310
 #, elixir-autogen, elixir-format
 msgid "Likes"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB5VH9NWFAZB6ZE11F47R1 https://campground.bonfire.cafe/discussion/01KXCB5RV5P7V2AFMAZH14E4GK https://campground.bonfire.cafe/discussion/01KXCB5DWWZQ01BWA3B36KANM6 https://campground.bonfire.cafe/discussion/01KXCB5987SW8TSF2SAB3151Y2
+#. URLs: https://campground.bonfire.cafe/discussion/01KXJYTH3JTFWZNRKNBKXMGCJ7 https://campground.bonfire.cafe/discussion/01KXJYTF34MFJCQT8MKFQYNHBJ https://campground.bonfire.cafe/discussion/01KXJYT7RH7XAPQ86E6ZKDNKJ9 https://campground.bonfire.cafe/discussion/01KXJYPS2ZDQ3WRK7SDSWA2PZF
 #: lib/components/thread/thread_controls_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "Linear"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_controls_live.sface:52
 #, elixir-autogen, elixir-format
 msgid "Linear replies"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:370
 #: lib/components/feeds/controls/tab_filter_buttons_live.sface:38
 #, elixir-autogen, elixir-format
@@ -1630,26 +1637,25 @@ msgstr ""
 msgid "List of profiles/instances to silence instance-wide (CSV)"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group
+#. URLs: https://campground.bonfire.cafe/feed/bookmarks https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/&Scope_Group
 #: lib/components/activity/media/media_skeleton_live.sface:11
 #: lib/components/activity/media/media_skeleton_live.sface:55
 #: lib/components/activity/media/media_skeleton_live.sface:127
 #: lib/components/feeds/controls/feed_controls_live.sface:9
 #: lib/components/feeds/controls/time_control_live.sface:44
 #: lib/components/feeds/feed_live.sface:33
-#: lib/components/feeds/feed_live.sface:230
-#: lib/components/feeds/feed_live.sface:280
+#: lib/components/feeds/feed_live.sface:231
+#: lib/components/feeds/feed_live.sface:281
 #, elixir-autogen, elixir-format
 msgid "Loading..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXGKJWZN46MSB0VTFQECJJTN https://campground.bonfire.cafe/discussion/01KXGKFS0M9S5CXV5V9P6VJTE1 https://campground.bonfire.cafe/discussion/01KXGHMP2YKC2KNBS7NE75QSWY https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0
 #: lib/components/thread/thread_live.sface:184
 #, elixir-autogen, elixir-format
 msgid "Loading…"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:76
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:95
 #: lib/components/feeds/feed_live.ex:162
@@ -1660,21 +1666,21 @@ msgstr ""
 msgid "Local"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/my
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/feed_controls_live.ex:63
 #, elixir-autogen, elixir-format
 msgid "Local only"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:117
-#: lib/components/activity/actions/advanced_actions_live.sface:321
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:119
+#: lib/components/activity/actions/advanced_actions_live.sface:323
 #, elixir-autogen, elixir-format
 msgid "Lock discussion"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:336
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:338
 #, elixir-autogen, elixir-format
 msgid "Lock this discussion"
 msgstr ""
@@ -1705,19 +1711,17 @@ msgstr ""
 msgid "Media Hidden"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
 #: lib/components/activity/media/media_carousel_modal_live.sface:76
 #, elixir-autogen, elixir-format
 msgid "Media carousel"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:356
 #, elixir-autogen, elixir-format
 msgid "Media types"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
 #: lib/components/activity/media/media_carousel_modal_live.sface:30
 #, elixir-autogen, elixir-format
 msgid "Media viewer"
@@ -1751,7 +1755,7 @@ msgstr ""
 msgid "Month"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/actions/more_actions_live.sface:7
 #: lib/components/activity/actions/more_actions_live.sface:15
 #, elixir-autogen, elixir-format
@@ -1763,7 +1767,7 @@ msgstr ""
 msgid "More from"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/sort_items_dropdown_live.sface:37
 #: lib/components/feeds/controls/sort_items_dropdown_live.sface:104
 #: lib/components/feeds/controls/sort_items_dropdown_only_live.sface:32
@@ -1773,14 +1777,14 @@ msgstr ""
 msgid "Most boosted"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_controls_live.sface:93
 #: lib/components/thread/thread_controls_live.sface:223
 #, elixir-autogen, elixir-format
 msgid "Most boosts"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/feeds/controls/sort_items_dropdown_live.sface:42
 #: lib/components/feeds/controls/sort_items_dropdown_live.sface:124
 #: lib/components/feeds/controls/sort_items_dropdown_only_live.sface:42
@@ -1798,7 +1802,7 @@ msgstr ""
 msgid "Most recent"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/feeds/controls/sort_items_dropdown_live.sface:32
 #: lib/components/feeds/controls/sort_items_dropdown_live.sface:83
 #: lib/components/feeds/controls/sort_items_dropdown_only_live.sface:22
@@ -1808,7 +1812,7 @@ msgstr ""
 msgid "Most replied"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_controls_live.sface:89
 #: lib/components/thread/thread_controls_live.sface:198
 #, elixir-autogen, elixir-format
@@ -1863,7 +1867,7 @@ msgstr ""
 msgid "Networking"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/feeds/controls/feed_filters_modal_content_live.ex:166
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:186
 #: lib/components/thread/thread_controls_live.sface:77
@@ -1872,7 +1876,10 @@ msgstr ""
 msgid "Newest first"
 msgstr ""
 
+<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/search/
+=======
+>>>>>>> 4abc543b69 (misc)
 #: lib/components/activity/media/media_live.sface:106
 #: lib/components/settings/import_export/background_processing_status_live.sface:183
 #, elixir-autogen, elixir-format
@@ -1891,20 +1898,21 @@ msgid "Next step"
 msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/comments/embed
-#: lib/views/threads/embed_comments_live.ex:185
-#: lib/views/threads/embed_comments_live.ex:191
+#: lib/views/threads/embed_comments_live.ex:192
+#: lib/views/threads/embed_comments_live.ex:196
+#: lib/views/threads/embed_comments_live.ex:202
 #, elixir-autogen, elixir-format
 msgid "No comments available here."
 msgstr ""
 
 #. URLs: https://campground.bonfire.cafe/comments/embed
-#: lib/views/threads/embed_comments_live.sface:90
+#: lib/views/threads/embed_comments_live.sface:93
 #, elixir-autogen, elixir-format
 msgid "No comments possible here."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/comments/embed/01KXCBGGB7TYJZJV1THWKEHPMY https://campground.bonfire.cafe/comments/embed/01KXCBGG2VEZVTCH4CKVT94251 https://campground.bonfire.cafe/comments/embed/01KXCBGFSGP5700C29XRSDF0GH https://campground.bonfire.cafe/comments/embed/01KXCBGFG789C44425M304DF7T
-#: lib/components/thread/thread_empty_live.sface:11
+#. URLs: https://campground.bonfire.cafe/comments/embed/01KXJYJDBPAAFBN8890JNZ4NY3 https://campground.bonfire.cafe/comments/embed/01KXJYJD0C32S4NAQD04TRHB54 https://campground.bonfire.cafe/comments/embed/01KXJYJCPR75RX34NEKX1T6SZV https://campground.bonfire.cafe/comments/embed/01KXJYJCDNBF4R4X7B3HQ97Y1Q
+#: lib/components/thread/thread_empty_live.sface:7
 #, elixir-autogen, elixir-format
 msgid "No comments yet"
 msgstr ""
@@ -1931,8 +1939,8 @@ msgstr ""
 msgid "No popular discussions yet. Why not start one? Your post could be tomorrow's top thread."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCB8FH5ZV17BX2KWTC5TG4J https://campground.bonfire.cafe/post/01KXCB80DYDSND16QW74NEMSBX https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/thread/thread_empty_live.sface:14
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/thread/thread_empty_live.sface:10
 #, elixir-autogen, elixir-format
 msgid "No replies yet"
 msgstr ""
@@ -1943,7 +1951,7 @@ msgstr ""
 msgid "No suggestions yet"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.ex:186
 #, elixir-autogen, elixir-format
 msgid "None"
@@ -1959,20 +1967,20 @@ msgstr ""
 msgid "Not edited"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group https://campground.bonfire.cafe/messages
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5 https://campground.bonfire.cafe/messages https://campground.bonfire.cafe/conduct
 #: lib/components/smart_input/write_post_content_live.ex:21
 #, elixir-autogen, elixir-format
 msgid "Note"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/settings/boundaries/acls https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/login/forgot-password
+#. URLs: https://campground.bonfire.cafe/messages https://campground.bonfire.cafe/@Kihn_Hamill https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/settings/my_feed_items_live.sface:89
 #: lib/views/feeds/feeds_live.ex:35
 #, elixir-autogen, elixir-format
 msgid "Notifications"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB5VH9NWFAZB6ZE11F47R1 https://campground.bonfire.cafe/discussion/01KXCB5RV5P7V2AFMAZH14E4GK https://campground.bonfire.cafe/discussion/01KXCB5DWWZQ01BWA3B36KANM6 https://campground.bonfire.cafe/discussion/01KXCB5987SW8TSF2SAB3151Y2
+#. URLs: https://campground.bonfire.cafe/discussion/01KXJYTH3JTFWZNRKNBKXMGCJ7 https://campground.bonfire.cafe/discussion/01KXJYTF34MFJCQT8MKFQYNHBJ https://campground.bonfire.cafe/discussion/01KXJYT7RH7XAPQ86E6ZKDNKJ9 https://campground.bonfire.cafe/discussion/01KXJYPS2ZDQ3WRK7SDSWA2PZF
 #: lib/components/feeds/controls/feed_controls_live.ex:56
 #: lib/components/feeds/controls/feed_filters_modal_content_live.ex:165
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:199
@@ -1983,7 +1991,7 @@ msgstr ""
 msgid "Oldest first"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/toggle_type_live.sface:47
 #, elixir-autogen, elixir-format
 msgid "Only"
@@ -2005,7 +2013,7 @@ msgstr ""
 msgid "Only Remote"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.ex:163
 #, elixir-autogen, elixir-format
 msgid "Only people I follow"
@@ -2049,8 +2057,8 @@ msgstr ""
 msgid "Open the Code of Conduct"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
-#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:525
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
+#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:524
 #, elixir-autogen, elixir-format
 msgid "Optional — what's this feed for?"
 msgstr ""
@@ -2070,7 +2078,7 @@ msgstr ""
 msgid "Original post"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCBHZ1NXARED1S9YNX3E1FB https://campground.bonfire.cafe/discussion/01KXCBHY2XBSSW54QSKBPNJ8C4 https://campground.bonfire.cafe/discussion/01KXCBHX5MA1R6919ACBJR51QE https://campground.bonfire.cafe/feed/remote
+#. URLs: https://campground.bonfire.cafe/feed/remote https://campground.bonfire.cafe/discussion/01KXJYSRWK6QKPDFTZA6TQXYZY https://campground.bonfire.cafe/discussion/01KXJYSR1MG9SSM6G98D1ZQVTA https://campground.bonfire.cafe/discussion/01KXJYSQ3HRY95NGTFVJ562QZP
 #: lib/components/activity/context/instance_icon_live.sface:9
 #: lib/components/activity/context/instance_icon_live.sface:10
 #, elixir-autogen, elixir-format
@@ -2168,15 +2176,10 @@ msgstr ""
 msgid "Positions older than this are not resumed from (feeds open at the top instead)."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post_comments/01KXDVPXMB9GQTASCDGHB13ASA/index.html https://campground.bonfire.cafe/post_comments/01KXCBNCVE9PC0XQ081E23NJQG/index.html https://campground.bonfire.cafe/post_comments/01KXCBNC68HSSH6Z67PYWC7CVE/index.html https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST
+#. URLs: https://campground.bonfire.cafe/discussion/01KXJYZFCW5YM4GA8AKK6YCNPJ https://campground.bonfire.cafe/post_comments/01KXJYX16M40A9JSA257X5VE2V/index.html https://campground.bonfire.cafe/post_comments/01KXJYX0NYZAQGA6J5AQZSX0N2/index.html https://campground.bonfire.cafe/discussion/01KXJYTK06D8RGRABA9HXKTKGE
 #: lib/views/threads/post_content_seo_helper.ex:49
 #, elixir-autogen, elixir-format
 msgid "Post by %{author}"
-msgstr ""
-
-#: lib/views/threads/post_history_live.ex:12
-#, elixir-autogen, elixir-format
-msgid "Post history"
 msgstr ""
 
 #: lib/components/widgets/widget_thread_context/widget_thread_context_live.ex:25
@@ -2204,7 +2207,7 @@ msgstr ""
 msgid "Posts & boosts"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.ex:76
 #, elixir-autogen, elixir-format
 msgid "Posts, replies, boosts, likes, etc."
@@ -2235,7 +2238,10 @@ msgstr ""
 msgid "Preparing to send"
 msgstr ""
 
+<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/search/
+=======
+>>>>>>> 4abc543b69 (misc)
 #: lib/components/activity/media/media_live.sface:95
 #: lib/components/settings/import_export/background_processing_status_live.sface:175
 #, elixir-autogen, elixir-format
@@ -2304,13 +2310,13 @@ msgstr ""
 msgid "Reacted by"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/object/post/read_more_live.sface:30
 #, elixir-autogen, elixir-format
 msgid "Read less"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/object/post/read_more_live.sface:19
 #, elixir-autogen, elixir-format
 msgid "Read more"
@@ -2340,7 +2346,7 @@ msgstr ""
 msgid "Receiving activity"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_controls_live.sface:85
 #: lib/components/thread/thread_controls_live.sface:173
 #, elixir-autogen, elixir-format
@@ -2357,7 +2363,7 @@ msgstr ""
 msgid "Refreshing..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/context/date_ago_live.sface:10
 #, elixir-autogen, elixir-format
 msgid "Relative"
@@ -2369,7 +2375,7 @@ msgstr ""
 msgid "Remember reading position"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:76
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:95
 #: lib/components/feeds/feed_live.ex:163
@@ -2397,13 +2403,12 @@ msgstr ""
 msgid "Remote only"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:47
 #, elixir-autogen, elixir-format
 msgid "Remove filter: %{label}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
 #: lib/components/activity/actions/more_actions_live.sface:139
 #: lib/components/activity/quote_request_footer_live.sface:51
 #, elixir-autogen, elixir-format
@@ -2415,7 +2420,7 @@ msgstr ""
 msgid "Replied in thread"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBMJP5DX3G01027PF8MQE0 https://campground.bonfire.cafe/post/01KXCBKN22TB81SZTY0ZXB2D8F https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/post/01KXJYWHNGKVJB9TN8FRXXAJHS https://campground.bonfire.cafe/discussion/01KXJYWGZ97X2WFZ77BFG68BMP https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/post/01KXJYS12MRSXP9KXZZEYBDTA4
 #: lib/components/activity/media/trending_media_actions_live.sface:37
 #: lib/components/activity/reactions/fediverse_reactions_live.sface:10
 #: lib/components/activity/reactions/fediverse_reactions_live.sface:10
@@ -2426,7 +2431,7 @@ msgstr ""
 msgid "Replies"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/actions/embed_actions_live.sface:42
 #: lib/components/activity/actions/reply/reply_live.sface:10
 #: lib/components/activity/actions/reply/reply_live.sface:13
@@ -2434,7 +2439,7 @@ msgstr ""
 msgid "Reply"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXFQSQ3W9K8V8DEE7WJVAVB1 https://campground.bonfire.cafe/discussion/01KXDVRBA3YRSNCQ2VSYCK2W0D https://campground.bonfire.cafe/discussion/01KXCBGNZ2QPZF5YHWM0FJZMZZ
+#. URLs: https://campground.bonfire.cafe/discussion/01KXK36TR3YBNHGQAF3VKZDD8H https://campground.bonfire.cafe/discussion/01KXJYPX3TN96KWJXREMFW5B3R
 #: lib/live_handlers/threads_live_handler.ex:54
 #, elixir-autogen, elixir-format
 msgid "Reply levels"
@@ -2450,21 +2455,20 @@ msgstr ""
 msgid "Request your archive"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:406
 #, elixir-autogen, elixir-format
 msgid "Research publications"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:18
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:61
 #, elixir-autogen, elixir-format
 msgid "Reset all"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore
-#: lib/components/feeds/feed_live.sface:87
+#: lib/components/feeds/feed_live.sface:88
 #, elixir-autogen, elixir-format
 msgid "Resumed where you left off"
 msgstr ""
@@ -2484,22 +2488,22 @@ msgstr ""
 msgid "Running & queued"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:209
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:211
 #: lib/components/object_with_thread/object_header_aside/object_header_aside_live.sface:45
 #, elixir-autogen, elixir-format
 msgid "Save"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
-#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:500
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
+#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:499
 #: lib/components/feeds/controls/save_feed_preset_live.sface:8
 #, elixir-autogen, elixir-format
 msgid "Save as custom feed"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
-#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:538
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
+#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:537
 #: lib/components/feeds/controls/save_feed_preset_live.sface:51
 #, elixir-autogen, elixir-format
 msgid "Save feed"
@@ -2510,8 +2514,8 @@ msgstr ""
 msgid "Save this feed configuration as a preset to access it anytime from your feed navbar."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
-#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:537
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
+#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:536
 #: lib/components/feeds/controls/save_feed_preset_live.sface:50
 #, elixir-autogen, elixir-format
 msgid "Saving..."
@@ -2586,8 +2590,8 @@ msgstr ""
 msgid "Sensitive content"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:202
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:204
 #, elixir-autogen, elixir-format
 msgid "Set a name for the thread..."
 msgstr ""
@@ -2614,7 +2618,7 @@ msgstr ""
 msgid "Shares"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/search
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/search
 #: lib/components/activity/object/cw/cw_live.sface:19
 #, elixir-autogen, elixir-format
 msgid "Show"
@@ -2625,15 +2629,15 @@ msgstr ""
 msgid "Show %{count} more"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Feed_Post_Group_for_Author https://campground.bonfire.cafe/&Label_Test_Group https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/+Test_Topic
-#: lib/components/feeds/feed_live.sface:70
+#. URLs: https://campground.bonfire.cafe/group/Group_With_Topics/topic/My_Topic https://campground.bonfire.cafe/&Feed_Post_Group_for_Author https://campground.bonfire.cafe/+Test_Topic https://campground.bonfire.cafe/feed/local
+#: lib/components/feeds/feed_live.sface:71
 #, elixir-autogen, elixir-format
 msgid "Show %{count} new activity"
 msgid_plural "Show %{count} new activities"
 msgstr[0] ""
 msgstr[1] ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/toggle_type_live.sface:71
 #, elixir-autogen, elixir-format
 msgid "Show %{label} alongside everything else"
@@ -2649,7 +2653,7 @@ msgstr ""
 msgid "Show a curated feed tab on the feed page."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/toggle_type_live.sface:57
 #, elixir-autogen, elixir-format
 msgid "Show alongside everything else (default)"
@@ -2660,8 +2664,8 @@ msgstr ""
 msgid "Show error details"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
-#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:532
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
+#: lib/components/feeds/controls/feed_filters_modal_content_live.sface:531
 #: lib/components/feeds/controls/save_feed_preset_live.sface:45
 #, elixir-autogen, elixir-format
 msgid "Show in feeds navbar"
@@ -2672,21 +2676,21 @@ msgstr ""
 msgid "Show less"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group https://campground.bonfire.cafe/feed
-#: lib/components/feeds/feed_live.sface:264
-#: lib/components/feeds/feed_live.sface:282
-#: lib/components/feeds/feed_live.sface:299
+#. URLs: https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/&Scope_Group https://campground.bonfire.cafe/feed
+#: lib/components/feeds/feed_live.sface:265
+#: lib/components/feeds/feed_live.sface:283
+#: lib/components/feeds/feed_live.sface:300
 #, elixir-autogen, elixir-format
 msgid "Show older activities"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/toggle_type_live.sface:49
 #, elixir-autogen, elixir-format
 msgid "Show only %{label} — hide everything else"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/toggle_type_live.sface:34
 #, elixir-autogen, elixir-format
 msgid "Show only this — hide everything else"
@@ -2702,25 +2706,25 @@ msgstr ""
 msgid "Silencing user or instance"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/login/forgot-password
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/login/forgot-password
 #: lib/views/feeds/feeds_live.ex:8
 #, elixir-autogen, elixir-format
 msgid "Social UI"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/post/01KXGEWV0KE0792Y6257ATMMFH/index.html https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/post/01KXK3EX6CYY184FQWE1DH51SK https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/post/01KXJYZJ8QY2YGKN2286R4EF1V
 #: lib/components/activity/media/media_live.sface:132
 #, elixir-autogen, elixir-format
 msgid "Sorry, no caption provided by author"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXDW18413PE0XRC5DFYCTCZX https://campground.bonfire.cafe/post/01KXDW0KRWZQDYGHP3P7FE50S8 https://campground.bonfire.cafe/post/01KXCBQT0AAR2VB4C3NTBJKWB3 https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
+#. URLs: https://campground.bonfire.cafe/post/01KXK3JM92QA1D7W9V8WH96G13 https://campground.bonfire.cafe/post/01KXK3G5QHM7ZNTC9A15T5GP00 https://campground.bonfire.cafe/post/01KXJYVTYPAWRZ5R6VN8AS3QQB https://campground.bonfire.cafe/post/01KXJYJBCRADRRJ1GV4932K6WS
 #: lib/live_handlers/objects_live_handler.ex:504
 #, elixir-autogen, elixir-format
 msgid "Sorry, you can't view this %{thing}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBQT0AAR2VB4C3NTBJKWB3 https://campground.bonfire.cafe/post/01KXCBPCSV1ACRP3JWKEBBHG06 https://campground.bonfire.cafe/discussion/01KXCBPBRKZWMQPJG7PBSCCTJV https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
+#. URLs: https://campground.bonfire.cafe/post/01KXK3JM92QA1D7W9V8WH96G13 https://campground.bonfire.cafe/post/01KXK3G5QHM7ZNTC9A15T5GP00 https://campground.bonfire.cafe/post/01KXJYVTYPAWRZ5R6VN8AS3QQB https://campground.bonfire.cafe/post/01KXJYJBCRADRRJ1GV4932K6WS
 #: lib/components/object_with_thread/object_thread_live.sface:26
 #, elixir-autogen, elixir-format
 msgid "Sorry, you cannot view this."
@@ -2732,7 +2736,7 @@ msgstr ""
 msgid "Sort by"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:162
 #: lib/components/thread/thread_controls_live.sface:71
 #, elixir-autogen, elixir-format
@@ -2791,8 +2795,8 @@ msgstr ""
 msgid "Sports"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/comments/embed/01KXCBGGB7TYJZJV1THWKEHPMY https://campground.bonfire.cafe/comments/embed/01KXCBGG2VEZVTCH4CKVT94251 https://campground.bonfire.cafe/comments/embed/01KXCBGFSGP5700C29XRSDF0GH https://campground.bonfire.cafe/comments/embed/01KXCBGFG789C44425M304DF7T
-#: lib/components/thread/thread_empty_live.sface:12
+#. URLs: https://campground.bonfire.cafe/comments/embed/01KXJYJDBPAAFBN8890JNZ4NY3 https://campground.bonfire.cafe/comments/embed/01KXJYJD0C32S4NAQD04TRHB54 https://campground.bonfire.cafe/comments/embed/01KXJYJCPR75RX34NEKX1T6SZV https://campground.bonfire.cafe/comments/embed/01KXJYJCDNBF4R4X7B3HQ97Y1Q
+#: lib/components/thread/thread_empty_live.sface:8
 #, elixir-autogen, elixir-format
 msgid "Start the conversation by posting the first comment."
 msgstr ""
@@ -2808,13 +2812,13 @@ msgstr ""
 msgid "Step %{n} of %{total}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Torp_and_Sons https://campground.bonfire.cafe/&Hero_Campfire_Group https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group
+#. URLs: https://campground.bonfire.cafe/group/Custom_Dims_123587 https://campground.bonfire.cafe/group/Persistence_Test_51812 https://campground.bonfire.cafe/group/UI_Test_Group_50980 https://campground.bonfire.cafe/&Scope_Group
 #: lib/components/feeds/subscribe_feed/subscribe_feed_live.sface:74
 #, elixir-autogen, elixir-format
 msgid "Subscribe to feed"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Torp_and_Sons https://campground.bonfire.cafe/&Hero_Campfire_Group https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group
+#. URLs: https://campground.bonfire.cafe/group/Custom_Dims_123587 https://campground.bonfire.cafe/group/Persistence_Test_51812 https://campground.bonfire.cafe/group/UI_Test_Group_50980 https://campground.bonfire.cafe/&Scope_Group
 #: lib/components/feeds/subscribe_feed/subscribe_feed_live.sface:3
 #, elixir-autogen, elixir-format
 msgid "Subscribe to this feed"
@@ -2842,14 +2846,14 @@ msgstr ""
 msgid "Task"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group https://campground.bonfire.cafe/feed
-#: lib/components/feeds/feed_live.sface:175
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/&Scope_Group https://campground.bonfire.cafe/feed
+#: lib/components/feeds/feed_live.sface:176
 #, elixir-autogen, elixir-format
 msgid "Technical setting for query performance optimization."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
-#: lib/live_handlers/feeds_live_handler.ex:2343
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/live_handlers/feeds_live_handler.ex:2346
 #, elixir-autogen, elixir-format
 msgid "Technical setting to disable preloading extra fields for objects in feed."
 msgstr ""
@@ -2860,21 +2864,21 @@ msgstr ""
 msgid "Tell us about your wishes"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:247
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:249
 #: lib/components/activity/actions/edit/edit_post_live.sface:51
 #, elixir-autogen, elixir-format
 msgid "Text"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/&Scope_Group https://campground.bonfire.cafe/notifications
-#: lib/components/feeds/feed_live.sface:246
+#. URLs: https://campground.bonfire.cafe/circle/01KXK3F7RZ45YXV4HE8GFH3MCQ https://campground.bonfire.cafe/circle/01KXJYKE7DX1DFTYNX85GNVJ1P https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/feed/local
+#: lib/components/feeds/feed_live.sface:247
 #, elixir-autogen, elixir-format
 msgid "That's all folks..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group https://campground.bonfire.cafe/feed
-#: lib/components/feeds/feed_live.sface:212
+#. URLs: https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/&Scope_Group https://campground.bonfire.cafe/feed
+#: lib/components/feeds/feed_live.sface:213
 #, elixir-autogen, elixir-format
 msgid "That's all for today..."
 msgid_plural "That's all for the last %{number} days..."
@@ -2922,7 +2926,7 @@ msgstr ""
 msgid "This %{thing} isn't visible to you"
 msgstr ""
 
-#: lib/views/threads/embed_comments_live.ex:231
+#: lib/views/threads/embed_comments_live.ex:259
 #, elixir-autogen, elixir-format
 msgid "This article is not associated with a topic on this Bonfire instance"
 msgstr ""
@@ -2967,13 +2971,13 @@ msgstr ""
 msgid "This video cannot be previewed"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.ex:88
 #, elixir-autogen, elixir-format
 msgid "This week's most active conversations."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.ex:94
 #, elixir-autogen, elixir-format
 msgid "This week's popular posts."
@@ -2984,25 +2988,25 @@ msgstr ""
 msgid "This will go into a queue for moderators to review. They may get in touch with you and/or the author for clarification before taking action."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_live.sface:5
 #, elixir-autogen, elixir-format
 msgid "Thread Sort Order"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_stats_live.sface:13
 #, elixir-autogen, elixir-format
 msgid "Thread controls"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_controls_live.sface:7
 #, elixir-autogen, elixir-format
 msgid "Thread layout"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_controls_live.sface:81
 #: lib/components/thread/thread_controls_live.sface:105
 #: lib/components/thread/thread_controls_live.sface:125
@@ -3010,25 +3014,25 @@ msgstr ""
 msgid "Thread order"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXDVQCFYFNSCD5F6KB9VDFXX https://campground.bonfire.cafe/discussion/01KXCBMKKA183WKEFMGAWCC0VD https://campground.bonfire.cafe/post/01KXCBMJP5DX3G01027PF8MQE0 https://campground.bonfire.cafe/post/01KXCBKN22TB81SZTY0ZXB2D8F
+#. URLs: https://campground.bonfire.cafe/post/01KXK3663SQ12DQEMPTJNAA5WX https://campground.bonfire.cafe/post/01KXJYWHNGKVJB9TN8FRXXAJHS https://campground.bonfire.cafe/discussion/01KXJYWGZ97X2WFZ77BFG68BMP https://campground.bonfire.cafe/post/01KXJYS12MRSXP9KXZZEYBDTA4
 #: lib/components/activity/reactions/fediverse_reactions_live.sface:9
 #, elixir-autogen, elixir-format
 msgid "Thread stats"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB53NA7BM386ZE9Y52NEST https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_stats_live.sface:5
 #, elixir-autogen, elixir-format
 msgid "Thread stats and actions"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_controls_live.sface:15
 #, elixir-autogen, elixir-format
 msgid "Threaded"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_controls_live.sface:30
 #, elixir-autogen, elixir-format
 msgid "Threaded replies"
@@ -3041,7 +3045,7 @@ msgstr ""
 msgid "Time limit"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:126
 #, elixir-autogen, elixir-format
 msgid "Time range"
@@ -3052,8 +3056,8 @@ msgstr ""
 msgid "Timeline"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:233
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:235
 #: lib/components/activity/actions/edit/edit_post_live.sface:32
 #, elixir-autogen, elixir-format
 msgid "Title"
@@ -3064,7 +3068,7 @@ msgstr ""
 msgid "Toggle feed filters"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCBGNZ2QPZF5YHWM0FJZMZZ https://campground.bonfire.cafe/discussion/01KXCBGKJF1S8CBEK8EVA8K0CV https://campground.bonfire.cafe/discussion/01KXCB9QCPRVA3R6F5KJXG05R2 https://campground.bonfire.cafe/discussion/01KXCB9MX7QS8Z1Q8G8GMBKQ7S
+#. URLs: https://campground.bonfire.cafe/discussion/01KXJYZAJTHGWXVXY555X1JQP7 https://campground.bonfire.cafe/discussion/01KXJYZ8KVP131FQ54JBASQRTN https://campground.bonfire.cafe/discussion/01KXJYPYE7RNE2JZ7YWJ9TSSCQ https://campground.bonfire.cafe/discussion/01KXJYPX3TN96KWJXREMFW5B3R
 #: lib/components/thread/thread_branch_live.sface:45
 #, elixir-autogen, elixir-format
 msgid "Toggle replies"
@@ -3080,7 +3084,6 @@ msgstr ""
 msgid "Top discussions have been reset."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXGKJWZN46MSB0VTFQECJJTN https://campground.bonfire.cafe/discussion/01KXGKFS0M9S5CXV5V9P6VJTE1 https://campground.bonfire.cafe/discussion/01KXGHMP2YKC2KNBS7NE75QSWY https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0
 #: lib/components/widgets/widget_participants/widget_participants_live.sface:10
 #: lib/components/widgets/widget_participants/widget_participants_live.sface:10
 #, elixir-autogen, elixir-format
@@ -3092,14 +3095,14 @@ msgstr ""
 msgid "Total Progress"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/object/post/translate_buttons_live.sface:24
 #: lib/components/activity/object/post/translate_buttons_live.sface:33
 #, elixir-autogen, elixir-format
 msgid "Translate"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB57ATN1SK7JF5NJBX3BGR https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/thread/thread_controls_live.sface:101
 #: lib/components/thread/thread_controls_live.sface:271
 #, elixir-autogen, elixir-format
@@ -3117,13 +3120,13 @@ msgstr ""
 msgid "Type: %{type}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/my
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
 #: lib/components/activity/actions/more_actions_live.sface:107
 #, elixir-autogen, elixir-format
 msgid "Unfollow %{name}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/my
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed
 #: lib/components/activity/actions/more_actions_live.sface:101
 #, elixir-autogen, elixir-format
 msgid "Unfollowing..."
@@ -3139,15 +3142,15 @@ msgstr ""
 msgid "Unknown type of activity/object"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:129
-#: lib/components/activity/actions/advanced_actions_live.sface:350
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:131
+#: lib/components/activity/actions/advanced_actions_live.sface:352
 #, elixir-autogen, elixir-format
 msgid "Unlock discussion"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:363
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:365
 #, elixir-autogen, elixir-format
 msgid "Unlock this discussion"
 msgstr ""
@@ -3191,8 +3194,8 @@ msgstr ""
 msgid "Upload"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/@Wuckert_Hyatt https://campground.bonfire.cafe/@Abernathy_Group https://campground.bonfire.cafe/feed
-#: lib/components/feeds/feed_live.sface:174
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/&Scope_Group https://campground.bonfire.cafe/feed
+#: lib/components/feeds/feed_live.sface:175
 #, elixir-autogen, elixir-format
 msgid "Use Deferred Joins"
 msgstr ""
@@ -3208,7 +3211,7 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/login/forgot-password
+#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/login/forgot-password
 #: lib/views/feeds/feeds_live.ex:12
 #: lib/views/feeds/feeds_live.ex:12
 #, elixir-autogen, elixir-format
@@ -3225,9 +3228,11 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: lib/components/activity/actions/advanced_actions_live.sface:64
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:66
 #: lib/components/activity/actions/edit/edit_post_live.sface:3
 #: lib/components/activity/actions/edit/edit_post_live.sface:74
+#: lib/views/threads/post_history_live.ex:12
 #, elixir-autogen, elixir-format
 msgid "Version history"
 msgstr ""
@@ -3237,7 +3242,7 @@ msgstr ""
 msgid "Video"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:388
 #: lib/components/feeds/controls/tab_filter_buttons_live.sface:50
 #, elixir-autogen, elixir-format
@@ -3318,7 +3323,7 @@ msgstr ""
 msgid "When enabled, feeds will resume from where you left off. When disabled, feeds always start from the newest."
 msgstr ""
 
-#: lib/live_handlers/feeds_live_handler.ex:2904
+#: lib/live_handlers/feeds_live_handler.ex:2907
 #, elixir-autogen, elixir-format
 msgid "Whether the feed navigation sidebar should be open by default."
 msgstr ""
@@ -3381,13 +3386,13 @@ msgstr ""
 msgid "You can import your web of relationships from others compatible platforms, this is a key feature of the fediverse. You can import data that you have previously exported from another instance in CVS format."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:326
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:328
 #, elixir-autogen, elixir-format
 msgid "You can lock this discussion to prevent any replies from users on this instance and to block any remote replies from federating back to this instance."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/bookmarks https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed
 #: lib/views/feeds/feeds_live.ex:121
 #, elixir-autogen, elixir-format
 msgid "You can start by following some people, or writing a new post yourself."
@@ -3398,13 +3403,13 @@ msgstr ""
 msgid "You can subscribe to this feed's public posts using your favourite RSS or Atom feed reader app."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0 https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
-#: lib/components/activity/actions/advanced_actions_live.sface:355
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#: lib/components/activity/actions/advanced_actions_live.sface:357
 #, elixir-autogen, elixir-format
 msgid "You can unlock this discussion to accept replies again."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed
 #: lib/components/feeds/controls/feed_filters_modal_content_live.sface:475
 #, elixir-autogen, elixir-format
 msgid "You haven't created any circles yet. Create one in your boundary settings to filter by specific groups of people."
@@ -3431,7 +3436,7 @@ msgstr ""
 msgid "Your feed comes alive once you follow a few people. Start with one."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/feed
+#. URLs: https://campground.bonfire.cafe/feed/bookmarks https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed
 #: lib/views/feeds/feeds_live.ex:119
 #, elixir-autogen, elixir-format
 msgid "Your feed is empty"
@@ -3448,13 +3453,13 @@ msgstr ""
 msgid "Your voice is what makes the feed worth coming back to."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/actions/link_to_activity_live.sface:9
 #, elixir-autogen, elixir-format
 msgid "activity timestamp"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/user/01KXDVR8JRT38YDFEWW7WC7E5E https://campground.bonfire.cafe/discussion/01KXCBA3DX2RA7MVJVMMPY6K7M https://campground.bonfire.cafe/user/01KXCB9GE67BJV5PTXXAZ8FWYB https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/post/01KXJYZJ8QY2YGKN2286R4EF1V https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/discussion/01KXJYNPYBFFTFN01FH5CWH4CY
 #: lib/components/activity/media/alt_caption_live.sface:8
 #, elixir-autogen, elixir-format
 msgid "alt"
@@ -3470,7 +3475,7 @@ msgid_plural "and %{number} others"
 msgstr[0] ""
 msgstr[1] ""
 
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/articles https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/feed/articles https://campground.bonfire.cafe/post/01KXJYZJ8QY2YGKN2286R4EF1V https://campground.bonfire.cafe/post/01KXJYZHD4DD7G1B9ZXS9B4DX0 https://campground.bonfire.cafe/feed/local
 #: lib/components/activity/activity_live.ex:419
 #, elixir-autogen, elixir-format
 msgid "article"
@@ -3492,13 +3497,12 @@ msgstr ""
 msgid "by"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local
 #: lib/components/activity/media/media_carousel_modal_live.sface:29
 #, elixir-autogen, elixir-format
 msgid "carousel"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/notifications https://campground.bonfire.cafe/comments/embed/01KXJYJJRH3NTARSWBCRQJSKY1 https://campground.bonfire.cafe/comments/embed/01KXJYJJ0HBF27NXQ3C71FE5JA https://campground.bonfire.cafe/comments/embed/01KXJYJHJM8ZW7K5QXEB5XX55F
 #: lib/components/activity/activity_live.ex:416
 #: lib/components/thread/comment_live.sface:71
 #, elixir-autogen, elixir-format
@@ -3567,7 +3571,10 @@ msgstr ""
 msgid "liked your activity"
 msgstr ""
 
+<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/search/
+=======
+>>>>>>> 4abc543b69 (misc)
 #: lib/components/activity/media/media_live.sface:117
 #: lib/components/activity/media/media_live.sface:332
 #: lib/components/activity/media/remote_media_live.sface:282
@@ -3591,7 +3598,7 @@ msgstr ""
 msgid "more link(s)"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/components/activity/actions/advanced_actions_live.ex:58
 #: lib/components/activity/actions/delete_object_live.sface:7
 #: lib/components/activity/actions/delete_object_live.sface:35
@@ -3641,7 +3648,7 @@ msgstr ""
 msgid "reacted to your activity"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXDVRBA3YRSNCQ2VSYCK2W0D https://campground.bonfire.cafe/discussion/01KXDVRAEWV2PNX32C30Z1QWA2 https://campground.bonfire.cafe/discussion/01KXCBGNZ2QPZF5YHWM0FJZMZZ https://campground.bonfire.cafe/discussion/01KXCBGKJF1S8CBEK8EVA8K0CV
+#. URLs: https://campground.bonfire.cafe/discussion/01KXK36WF3NHW5G7HTETG3NDFM https://campground.bonfire.cafe/discussion/01KXK36TR3YBNHGQAF3VKZDD8H https://campground.bonfire.cafe/discussion/01KXJYPYE7RNE2JZ7YWJ9TSSCQ https://campground.bonfire.cafe/discussion/01KXJYPX3TN96KWJXREMFW5B3R
 #: lib/components/thread/thread_branch_live.sface:137
 #, elixir-autogen, elixir-format
 msgid "read"
@@ -3653,7 +3660,7 @@ msgstr ""
 msgid "replied to you"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXDVRBA3YRSNCQ2VSYCK2W0D https://campground.bonfire.cafe/discussion/01KXDVRAEWV2PNX32C30Z1QWA2 https://campground.bonfire.cafe/discussion/01KXCBGNZ2QPZF5YHWM0FJZMZZ https://campground.bonfire.cafe/discussion/01KXCBGKJF1S8CBEK8EVA8K0CV
+#. URLs: https://campground.bonfire.cafe/discussion/01KXK36WF3NHW5G7HTETG3NDFM https://campground.bonfire.cafe/discussion/01KXK36TR3YBNHGQAF3VKZDD8H https://campground.bonfire.cafe/discussion/01KXJYPYE7RNE2JZ7YWJ9TSSCQ https://campground.bonfire.cafe/discussion/01KXJYPX3TN96KWJXREMFW5B3R
 #: lib/components/activity/preview/discussion_preview_live.sface:34
 #: lib/components/thread/thread_branch_live.sface:138
 #: lib/components/widgets/widget_participants/widget_participants_live.sface:36
@@ -3707,7 +3714,7 @@ msgstr ""
 msgid "this"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCB4VR33AED2QDCG3C17384 https://campground.bonfire.cafe/discussion/01KXCB4K1HTQD8MV13Y5V9CSY6 https://campground.bonfire.cafe/discussion/01KXCB4GYVZS4PAP4PMD8PFZ7W https://campground.bonfire.cafe/notifications
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJBCRADRRJ1GV4932K6WS https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/post/01KXJYJ8N88C6Y1C1ZEW05CS44
 #: lib/components/activity/actions/more_actions_live.sface:200
 #, elixir-autogen, elixir-format
 msgid "this %{object}"

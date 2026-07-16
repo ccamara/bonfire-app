@@ -362,8 +362,9 @@ defmodule Bonfire.Umbrella.MixProject do
     "ecto_sparkles",
     "arrows",
     "linkify",
-    "faviconic",
-    "paper_trail"
+    "faviconic"
+    # NOTE: paper_trail's standalone tests can't run in the umbrella battery
+    # "paper_trail"
   ]
 
   test_ui = [
