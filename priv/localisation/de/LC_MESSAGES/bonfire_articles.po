@@ -1,60 +1,60 @@
-## This file is a PO Template file.
-##
-## "msgid"s here are often extracted from source code.
-## Add new messages manually only if they're dynamic
-## messages that can't be statically extracted.
-##
-## Run "mix gettext.extract" to bring this file up to
-## date. Leave "msgstr"s empty as changing them here has no
-## effect: edit them in PO (.po) files instead.
+#  This file is a PO Template file.
+#
+#  "msgid"s here are often extracted from source code.
+#  Add new messages manually only if they're dynamic
+#  messages that can't be statically extracted.
+#
+#  Run "mix gettext.extract" to bring this file up to
+#  date. Leave "msgstr"s empty as changing them here has no
+#  effect: edit them in PO (.po) files instead.
 #
 msgid ""
 msgstr ""
+"Language-Team: German (https://app.transifex.com/bonfire/teams/138385/de/)\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: lib/web/widget_recent_articles_live.ex:28
 #, elixir-autogen, elixir-format
 msgid " You need to reload to see updates, if any."
-msgstr ""
+msgstr " Du musst die Seite neu laden, um etwaige Aktualisierungen zu sehen."
 
-#. URLs: https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835 https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5 https://campground.bonfire.cafe/messages https://campground.bonfire.cafe/conduct
 #: lib/web/create_article_live.ex:45
 #, elixir-autogen, elixir-format
 msgid "Article"
-msgstr ""
+msgstr "Artikel"
 
 #: lib/integration.ex:6
 #, elixir-autogen, elixir-format
 msgid "Articles"
-msgstr ""
+msgstr "Artikel"
 
-#. URLs: https://campground.bonfire.cafe/dashboard
 #: lib/web/widget_recent_articles_live.ex:51
 #: lib/web/widget_recent_articles_live.sface:42
 #, elixir-autogen, elixir-format
 msgid "Discussion"
-msgstr ""
+msgstr "Diskussion"
 
 #: lib/integration.ex:9
 #: lib/integration.ex:9
 #, elixir-autogen, elixir-format
 msgid "Functionality for writing and reading long-form articles."
-msgstr ""
+msgstr "Funktion zum Schreiben und Lesen von Langform-Artikeln."
 
-#. URLs: https://campground.bonfire.cafe/dashboard
 #: lib/web/widget_recent_articles_live.sface:15
 #, elixir-autogen, elixir-format
 msgid "No articles to read yet. Federated long-form posts will show up here as soon as they arrive."
-msgstr ""
+msgstr "Noch keine Artikel zum Lesen. Föderierte Langform-Beiträge erscheinen hier, sobald sie eintreffen."
 
 #: lib/web/widget_recent_articles_live.sface:7
 #, elixir-autogen, elixir-format
 msgid "Recent Articles"
-msgstr ""
+msgstr "Neueste Artikel"
 
 #: lib/web/widget_recent_articles_live.ex:28
 #, elixir-autogen, elixir-format
 msgid "Recent articles have been reset."
-msgstr ""
+msgstr "Neueste Artikel wurden zurückgesetzt."
 
 #: lib/web/article_live.sface:69
 #: lib/web/article_live.sface:69
@@ -62,4 +62,4 @@ msgstr ""
 #: lib/web/article_live.sface:191
 #, elixir-autogen, elixir-format
 msgid "Unknown"
-msgstr ""
+msgstr "Unbekannt"

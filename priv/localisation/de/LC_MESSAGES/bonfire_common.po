@@ -684,6 +684,12 @@ msgstr "Du musst authentifiziert sein, um die Einstellungen zu ändern."
 msgid "aggressive (5000)"
 msgstr "aggressiv (5000)"
 
+#. Object type name, generated at runtime by `Bonfire.Common.Types.object_type_display/1` from the
+#. schema module name, so it cannot be statically extracted. Reads mid-sentence ("Report this
+#. article"), hence lowercase in English — translate using your language's own noun casing.
+msgid "article"
+msgstr "Artikel"
+
 #: lib/runtime_config.ex:521 lib/runtime_config.ex:521
 #, elixir-autogen, elixir-format
 msgid "brisk (2000)"
@@ -717,6 +723,14 @@ msgstr "alles protokollieren"
 msgid "log everything"
 msgstr "alles protokollieren"
 
+#. Object type name — see the note on "article".
+msgid "message"
+msgstr "Nachricht"
+
+#. Object type name — see the note on "article".
+msgid "post"
+msgstr "Beitrag"
+
 #: lib/runtime_config.ex:520 lib/runtime_config.ex:520
 #, elixir-autogen, elixir-format
 msgid "steady (1000)"
@@ -732,3 +746,7 @@ msgstr "um die Instanzeinstellungen zu ändern."
 #, elixir-autogen, elixir-format
 msgid "use the global vacuum limit"
 msgstr "Globales VACUUM-Limit verwenden"
+
+#. Object type name — see the note on "article".
+msgid "user"
+msgstr "User"

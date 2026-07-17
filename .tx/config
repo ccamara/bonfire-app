@@ -17,6 +17,15 @@ type                   = PO
 replace_edited_strings = false
 keep_translations      = false
 
+[o:bonfire:p:bonfire:r:bonfire_articles]
+file_filter            = priv/localisation/<lang>/LC_MESSAGES/bonfire_articles.po
+source_file            = priv/localisation/bonfire_articles.po
+source_lang            = en
+type                   = PO
+minimum_perc           = 0
+replace_edited_strings = false
+keep_translations      = false
+
 [o:bonfire:p:bonfire:r:bonfire_boundaries]
 file_filter            = priv/localisation/<lang>/LC_MESSAGES/bonfire_boundaries.po
 source_file            = priv/localisation/bonfire_boundaries.po

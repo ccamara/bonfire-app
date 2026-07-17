@@ -251,4 +251,4 @@ msgstr "der User"
 #: lib/components/actions_menu/flagged_actions_live.sface:126
 #, elixir-autogen, elixir-format
 msgid "this %{object}"
-msgstr "dieses %{object}"
+msgstr "%{object}"

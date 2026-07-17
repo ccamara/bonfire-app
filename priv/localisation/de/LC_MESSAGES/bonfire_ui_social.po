@@ -4288,7 +4288,7 @@ msgstr "dies"
 #: lib/components/activity/actions/more_actions_live.sface:200
 #, elixir-autogen, elixir-format
 msgid "this %{object}"
-msgstr "dieses %{object}"
+msgstr "%{object}"
 
 #: lib/components/settings/import_export/background_processing_status_live.sface:259
 #, elixir-autogen, elixir-format

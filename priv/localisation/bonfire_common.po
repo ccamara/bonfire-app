@@ -737,6 +737,12 @@ msgstr ""
 msgid "aggressive (5000)"
 msgstr ""
 
+#. Object type name, generated at runtime by `Bonfire.Common.Types.object_type_display/1` from the
+#. schema module name, so it cannot be statically extracted. Reads mid-sentence ("Report this
+#. article"), hence lowercase in English — translate using your language's own noun casing.
+msgid "article"
+msgstr ""
+
 #: lib/runtime_config.ex:521
 #: lib/runtime_config.ex:521
 #, elixir-autogen, elixir-format
@@ -783,6 +789,14 @@ msgstr ""
 msgid "log everything"
 msgstr ""
 
+#. Object type name — see the note on "article".
+msgid "message"
+msgstr ""
+
+#. Object type name — see the note on "article".
+msgid "post"
+msgstr ""
+
 #: lib/runtime_config.ex:520
 #: lib/runtime_config.ex:520
 #, elixir-autogen, elixir-format
@@ -801,4 +815,8 @@ msgstr ""
 #: lib/runtime_config.ex:518
 #, elixir-autogen, elixir-format
 msgid "use the global vacuum limit"
+msgstr ""
+
+#. Object type name — see the note on "article".
+msgid "user"
 msgstr ""
