@@ -463,8 +463,7 @@ msgstr ""
 msgid "pin"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXQK6BTA36XH669XP0SJAQQZ https://campground.bonfire.cafe/post/01KXK3663SQ12DQEMPTJNAA5WX https://campground.bonfire.cafe/post/01KXJYS12MRSXP9KXZZEYBDTA4 https://campground.bonfire.cafe/feed/local
-#. URLs: https://campground.bonfire.cafe/feed/explore https://campground.bonfire.cafe/post/01KXK3663SQ12DQEMPTJNAA5WX https://campground.bonfire.cafe/post/01KXJYS12MRSXP9KXZZEYBDTA4 https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/post/01KXQK6BTA36XH669XP0SJAQQZ https://campground.bonfire.cafe/post/01KXK3663SQ12DQEMPTJNAA5WX https://campground.bonfire.cafe/post/01KXJYS12MRSXP9KXZZEYBDTA4
 #: lib/components/boost/boost_action_live.sface:11
 #, elixir-autogen, elixir-format
 msgid "Boosted, open boost menu"

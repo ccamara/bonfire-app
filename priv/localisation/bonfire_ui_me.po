@@ -2705,7 +2705,7 @@ msgstr ""
 msgid "Pick the identity you'd like to use."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/group/oltan https://campground.bonfire.cafe/group/Bonfire_Changelog https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/&Featured_Group
 #: lib/components/profile/profile_hero/hero_more_actions_live.sface:122
 #, elixir-autogen, elixir-format
 msgid "Pinned by admins"
@@ -3724,7 +3724,7 @@ msgstr ""
 msgid "This email is taken."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/group/oltan https://campground.bonfire.cafe/group/Bonfire_Changelog https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/&Featured_Group
 #: lib/components/profile/profile_hero/hero_more_actions_live.sface:120
 #, elixir-autogen, elixir-format
 msgid "This group is pinned to everyone's sidebar by the admins"
@@ -4554,7 +4554,7 @@ msgstr ""
 msgid "this user"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance https://campground.bonfire.cafe/&Group_With_Topics
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance https://campground.bonfire.cafe/&Group_With_Topics
 #: lib/components/profile/profile_hero/profile_hero_full_live.sface:175
 #: lib/components/settings/preferences/behaviours_live.sface:415
 #, elixir-autogen, elixir-format

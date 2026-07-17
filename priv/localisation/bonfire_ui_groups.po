@@ -540,7 +540,7 @@ msgstr ""
 msgid "Pick the reach. Then pick how posts show up. Pre-fills each post's boundary selector — authors can still change it per-post. Affects future posts only."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Featured_Group https://campground.bonfire.cafe/&Admin_Cozy_Club https://campground.bonfire.cafe/&Discover_Group
+#. URLs: https://campground.bonfire.cafe/group/design https://campground.bonfire.cafe/&Featured_Group https://campground.bonfire.cafe/&Admin_Cozy_Club https://campground.bonfire.cafe/&Discover_Group
 #: lib/components/instance_sidebar_pin/instance_sidebar_pin_live.sface:25
 #, elixir-autogen, elixir-format
 msgid "Pin to everyone's sidebar"
@@ -701,7 +701,7 @@ msgstr ""
 msgid "Unnamed group"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Featured_Group https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
+#. URLs: https://campground.bonfire.cafe/group/Bonfire_Changelog https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/&Featured_Group https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
 #: lib/components/instance_sidebar_pin/instance_sidebar_pin_live.sface:12
 #: lib/components/sidebar_groups_order/sidebar_groups_order_live.sface:34
 #: lib/components/sidebar_groups_order/sidebar_groups_order_live.sface:35

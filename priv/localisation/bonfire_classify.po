@@ -238,7 +238,7 @@ msgstr ""
 msgid "Join group"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/&Join_Flow_Group/about https://campground.bonfire.cafe/groups
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/&Join_Flow_Group/about https://campground.bonfire.cafe/groups
 #: lib/web/components/category_actions/category_actions_live.sface:26
 #: lib/web/components/category_actions/join_button_live.sface:74
 #, elixir-autogen, elixir-format
@@ -250,7 +250,7 @@ msgstr ""
 msgid "Leave"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/&Join_Flow_Group/about https://campground.bonfire.cafe/groups
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/&Join_Flow_Group/about https://campground.bonfire.cafe/groups
 #: lib/web/components/category_actions/join_button_live.sface:81
 #, elixir-autogen, elixir-format
 msgid "Leave group"
