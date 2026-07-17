@@ -542,7 +542,7 @@ msgstr ""
 msgid "Sorry, that language code is not supported, please select another or ask the instance operators or app maintainers if they can add it."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXK3C1JM4YT5PNCX1W9J9G06 https://campground.bonfire.cafe/post/01KXJYWZ7MXY5731PSXD5JZXRC
+#. URLs: https://campground.bonfire.cafe/post/01KXQK5Y6M6TCRK1F37Z4R8M6F https://campground.bonfire.cafe/post/01KXK3C1JM4YT5PNCX1W9J9G06 https://campground.bonfire.cafe/post/01KXJYWZ7MXY5731PSXD5JZXRC
 #: lib/boosts.ex:127
 #: lib/boosts.ex:127
 #: lib/boosts.ex:145

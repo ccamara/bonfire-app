@@ -201,7 +201,7 @@ msgstr ""
 msgid "Pin to sidebar"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXK3EPKTXN9AFNQMK819PT11 https://campground.bonfire.cafe/post/01KXJYVPRJ8DG53T9A7KGBMNMA
+#. URLs: https://campground.bonfire.cafe/post/01KXQK65G528B41C779GS25ZM2 https://campground.bonfire.cafe/post/01KXK3EPKTXN9AFNQMK819PT11 https://campground.bonfire.cafe/post/01KXJYVPRJ8DG53T9A7KGBMNMA
 #: lib/components/pin/pin_modal_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Pin to spotlight"
@@ -227,7 +227,7 @@ msgstr ""
 msgid "Pin to your profile"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXK3EPKTXN9AFNQMK819PT11 https://campground.bonfire.cafe/post/01KXJYVPRJ8DG53T9A7KGBMNMA https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/post/01KXQK65G528B41C779GS25ZM2 https://campground.bonfire.cafe/post/01KXK3EPKTXN9AFNQMK819PT11 https://campground.bonfire.cafe/post/01KXJYVPRJ8DG53T9A7KGBMNMA https://campground.bonfire.cafe/&Featured_Group
 #: lib/live_handlers/pins_live_handler.ex:115
 #, elixir-autogen, elixir-format
 msgid "Pinned!"
@@ -319,7 +319,7 @@ msgstr ""
 msgid "This is pinned to your profile"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXK3EPKTXN9AFNQMK819PT11 https://campground.bonfire.cafe/post/01KXJYVPRJ8DG53T9A7KGBMNMA
+#. URLs: https://campground.bonfire.cafe/post/01KXQK65G528B41C779GS25ZM2 https://campground.bonfire.cafe/post/01KXK3EPKTXN9AFNQMK819PT11 https://campground.bonfire.cafe/post/01KXJYVPRJ8DG53T9A7KGBMNMA
 #: lib/components/pin/pin_modal_live.sface:18
 #, elixir-autogen, elixir-format
 msgid "This will appear in the pinned widget on the dashboard for all users."
@@ -385,7 +385,7 @@ msgstr ""
 msgid "Unpin to remove this group from your sidebar (you'll stay a member)."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXK3ERMBAB2M0SJDSVHXJP5P https://campground.bonfire.cafe/post/01KXJYVQV7YYXY6KT70VTF08M1
+#. URLs: https://campground.bonfire.cafe/post/01KXQK639RDB1ZTM13QTP8HQ1A https://campground.bonfire.cafe/post/01KXK3ERMBAB2M0SJDSVHXJP5P https://campground.bonfire.cafe/post/01KXJYVQV7YYXY6KT70VTF08M1
 #: lib/live_handlers/pins_live_handler.ex:115
 #, elixir-autogen, elixir-format
 msgid "Unpinned"
@@ -438,7 +438,7 @@ msgstr ""
 msgid "bookmark"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXK3C1JM4YT5PNCX1W9J9G06 https://campground.bonfire.cafe/post/01KXJYWZ7MXY5731PSXD5JZXRC
+#. URLs: https://campground.bonfire.cafe/post/01KXQK5Y6M6TCRK1F37Z4R8M6F https://campground.bonfire.cafe/post/01KXK3C1JM4YT5PNCX1W9J9G06 https://campground.bonfire.cafe/post/01KXJYWZ7MXY5731PSXD5JZXRC
 #: lib/live_handlers/boosts_live_handler.ex:56
 #, elixir-autogen, elixir-format
 msgid "boost"
@@ -455,13 +455,13 @@ msgstr ""
 msgid "pending approval"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXK3EPKTXN9AFNQMK819PT11 https://campground.bonfire.cafe/post/01KXJYVPRJ8DG53T9A7KGBMNMA https://campground.bonfire.cafe/&Featured_Group
+#. URLs: https://campground.bonfire.cafe/post/01KXQK65G528B41C779GS25ZM2 https://campground.bonfire.cafe/post/01KXK3EPKTXN9AFNQMK819PT11 https://campground.bonfire.cafe/post/01KXJYVPRJ8DG53T9A7KGBMNMA https://campground.bonfire.cafe/&Featured_Group
 #: lib/live_handlers/pins_live_handler.ex:57
 #, elixir-autogen, elixir-format
 msgid "pin"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXK3663SQ12DQEMPTJNAA5WX https://campground.bonfire.cafe/post/01KXJYS12MRSXP9KXZZEYBDTA4 https://campground.bonfire.cafe/feed/local
+#. URLs: https://campground.bonfire.cafe/post/01KXQK6BTA36XH669XP0SJAQQZ https://campground.bonfire.cafe/post/01KXK3663SQ12DQEMPTJNAA5WX https://campground.bonfire.cafe/post/01KXJYS12MRSXP9KXZZEYBDTA4 https://campground.bonfire.cafe/feed/local
 #: lib/components/boost/boost_action_live.sface:11
 #, elixir-autogen, elixir-format
 msgid "Boosted, open boost menu"
