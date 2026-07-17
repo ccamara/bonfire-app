@@ -260,7 +260,7 @@ msgstr ""
 msgid "Reactions"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/bookmarks
+#. URLs: https://campground.bonfire.cafe/group/Solarpunk_Book_club https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/feed/bookmarks
 #: lib/components/bookmark/bookmark_action_live.sface:9
 #, elixir-autogen, elixir-format
 msgid "Remove bookmark"

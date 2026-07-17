@@ -26,6 +26,7 @@ msgstr ""
 msgid "Archive topic"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Bonfire_Changelog
 #: lib/components/new_topic/new_topic_live.sface:70
 #, elixir-autogen, elixir-format
 msgid "Create"
@@ -151,6 +152,7 @@ msgstr ""
 msgid "Type the group name"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Bonfire_Changelog
 #: lib/components/new_topic/new_topic_live.sface:26
 #, elixir-autogen, elixir-format
 msgid "Type the topic name"
@@ -162,6 +164,7 @@ msgstr ""
 msgid "Untitled topic"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Bonfire_Changelog
 #: lib/components/new_topic/new_topic_live.sface:35
 #: lib/components/settings/general/general_live.sface:33
 #, elixir-autogen, elixir-format

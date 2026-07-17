@@ -128,7 +128,7 @@ msgstr ""
 msgid "Create a new top-level topic"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/groups
+#. URLs: https://campground.bonfire.cafe/group/Bonfire_Changelog https://campground.bonfire.cafe/groups
 #: lib/web/classify_live_handler.ex:477
 #, elixir-autogen, elixir-format
 msgid "Created!"

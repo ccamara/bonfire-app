@@ -819,7 +819,7 @@ msgstr ""
 msgid "group"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/&Join_Flow_Group/about
+#. URLs: https://campground.bonfire.cafe/group/design https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/&Join_Flow_Group/about
 #: lib/live_handler.ex:7
 #, elixir-autogen, elixir-format
 msgid "join"
