@@ -1704,6 +1704,7 @@ msgstr ""
 msgid "Mark done"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/
 #: lib/components/activity/media/media_live.sface:294
 #, elixir-autogen, elixir-format
 msgid "Media Hidden"

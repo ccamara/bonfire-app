@@ -81,25 +81,25 @@ msgstr ""
 msgid "10 characters minimum"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:315
 #, elixir-autogen, elixir-format
 msgid "3 levels (default)"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:315
 #, elixir-autogen, elixir-format
 msgid "4 levels"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:315
 #, elixir-autogen, elixir-format
 msgid "5 levels"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:315
 #, elixir-autogen, elixir-format
 msgid "8 levels"
@@ -295,19 +295,19 @@ msgstr ""
 msgid "Also on"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:339
 #, elixir-autogen, elixir-format
 msgid "Amount of boosts"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:340
 #, elixir-autogen, elixir-format
 msgid "Amount of likes"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:338
 #: lib/components/settings/preferences/behaviours_live.sface:346
 #, elixir-autogen, elixir-format
@@ -330,7 +330,7 @@ msgstr ""
 msgid "An unexpected error occured... "
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:4
 #, elixir-autogen, elixir-format
 msgid "Appearance"
@@ -354,6 +354,7 @@ msgstr ""
 msgid "Are you a user of this instance?"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:66
 #, elixir-autogen, elixir-format
 msgid "Auth page logo"
@@ -365,13 +366,13 @@ msgstr ""
 msgid "Automatic federation"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:53
 #, elixir-autogen, elixir-format
 msgid "Autoplay media attachments"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:40
 #, elixir-autogen, elixir-format
 msgid "Available fonts for the user interface."
@@ -529,7 +530,7 @@ msgstr ""
 msgid "By invitation only"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:337
 #, elixir-autogen, elixir-format
 msgid "By latest reply"
@@ -596,6 +597,7 @@ msgstr ""
 msgid "Choose if and how this instance federates with the wider fediverse."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:10
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:15
 #, elixir-autogen, elixir-format
@@ -613,19 +615,19 @@ msgstr ""
 msgid "Choose what to display on your home screen."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:360
 #, elixir-autogen, elixir-format
 msgid "Choose what to show above replies in your feed"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:54
 #, elixir-autogen, elixir-format
 msgid "Choose when to autoplay video or audio attachments"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:336
 #: lib/components/settings/preferences/behaviours_live.sface:344
 #, elixir-autogen, elixir-format
@@ -713,6 +715,7 @@ msgstr ""
 msgid "Connection score: %{distance}"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/remote_interaction
 #: lib/components/signup/signup_form_live.sface:35
 #, elixir-autogen, elixir-format
 msgid "Contact an administrator of this instance to request access."
@@ -781,7 +784,7 @@ msgstr ""
 msgid "Creating account..."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:375
 #, elixir-autogen, elixir-format
 msgid "Curated & Trending topics"
@@ -815,7 +818,7 @@ msgstr ""
 msgid "Custom image"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance https://campground.bonfire.cafe/about
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance https://campground.bonfire.cafe/about
 #: lib/components/settings/instance/config/instance_summary_live.sface:12
 #: lib/components/settings/instance/config/instance_summary_live.sface:299
 #: lib/components/settings/instance/config/instance_summary_live.sface:342
@@ -854,13 +857,13 @@ msgstr ""
 msgid "Dashboard Widgets"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:107
 #, elixir-autogen, elixir-format
 msgid "Date format"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:78
 #, elixir-autogen, elixir-format
 msgid "Default Locale"
@@ -999,19 +1002,19 @@ msgstr ""
 msgid "Discovery Widgets"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:190
 #, elixir-autogen, elixir-format
 msgid "Discussions"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:290
 #, elixir-autogen, elixir-format
 msgid "Discussions default layout"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:327
 #, elixir-autogen, elixir-format
 msgid "Discussions default sort"
@@ -1035,7 +1038,7 @@ msgstr ""
 msgid "Display the instance administrators."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:397
 #, elixir-autogen, elixir-format
 msgid "Do not show a list of trending tags or groups"
@@ -1102,14 +1105,14 @@ msgstr ""
 msgid "Email Configuration"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/signup https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/remote_interaction https://campground.bonfire.cafe/signup https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:36
 #: lib/components/signup/signup_form_live.sface:91
 #, elixir-autogen, elixir-format
 msgid "Email address"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/remote_interaction https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:151
 #, elixir-autogen, elixir-format
 msgid "Email address or @username"
@@ -1332,7 +1335,7 @@ msgstr ""
 msgid "Federation Status"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/blocked https://campground.bonfire.cafe/settings/instance/configuration
+#. URLs: https://campground.bonfire.cafe/settings/instance/bonfire_ghost https://campground.bonfire.cafe/settings/instance https://campground.bonfire.cafe/settings/instance/boundaries/blocked https://campground.bonfire.cafe/settings/instance/configuration
 #: lib/components/settings/nav_sidebar/instance_sidebar_settings_nav_live.sface:381
 #, elixir-autogen, elixir-format
 msgid "Federation allowlist"
@@ -1404,7 +1407,7 @@ msgstr ""
 msgid "Flagged by users"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:295
 #, elixir-autogen, elixir-format
 msgid "Flat"
@@ -1444,7 +1447,7 @@ msgstr ""
 msgid "Follows"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance https://campground.bonfire.cafe/about
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance https://campground.bonfire.cafe/about
 #: lib/components/settings/instance/config/instance_summary_live.sface:91
 #: lib/components/settings/instance/config/instance_summary_live.sface:98
 #: lib/components/settings/preferences/behaviours_live.sface:34
@@ -1452,7 +1455,7 @@ msgstr ""
 msgid "Font"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:39
 #, elixir-autogen, elixir-format
 msgid "Font Families"
@@ -1464,7 +1467,7 @@ msgstr ""
 msgid "Forgot password"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/remote_interaction https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:193
 #, elixir-autogen, elixir-format
 msgid "Forgot password?"
@@ -1617,7 +1620,7 @@ msgstr ""
 msgid "Hide the number of total users on this instance"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:396
 #, elixir-autogen, elixir-format
 msgid "Hide trending topics"
@@ -1660,13 +1663,13 @@ msgstr ""
 msgid "Hooray! You are registered"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:405
 #, elixir-autogen, elixir-format
 msgid "How many days of activity to include when calculating trending topics"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:413
 #, elixir-autogen, elixir-format
 msgid "How many trending topics to show"
@@ -1712,6 +1715,7 @@ msgstr ""
 msgid "I have read the "
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/live_handlers/profiles_live_handler.ex:529
 #, elixir-autogen, elixir-format
 msgid "Icon changed!"
@@ -1746,7 +1750,7 @@ msgstr ""
 msgid "If your email is on our list, your reset link is on its way."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding https://campground.bonfire.cafe/settings/instance
 #: lib/live_handlers/profiles_live_handler.ex:550
 #, elixir-autogen, elixir-format
 msgid "Image changed!"
@@ -1904,6 +1908,7 @@ msgstr ""
 msgid "Instance-wide roles"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/remote_interaction
 #: lib/views/remote_interaction/remote_interaction_live.sface:16
 #, elixir-autogen, elixir-format
 msgid "Interact remotely"
@@ -1921,6 +1926,7 @@ msgstr ""
 msgid "Invite Only"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/remote_interaction
 #: lib/components/signup/signup_form_live.sface:10
 #, elixir-autogen, elixir-format
 msgid "Invite only"
@@ -2006,11 +2012,13 @@ msgstr ""
 msgid "Last activity"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/remote_interaction
 #: lib/components/signup/signup_form_live.sface:39
 #, elixir-autogen, elixir-format
 msgid "Learn more about this instance"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:28
 #, elixir-autogen, elixir-format
 msgid "Left panel background image"
@@ -2046,7 +2054,7 @@ msgstr ""
 msgid "Links shown to visitors on the guest homepage (e.g., forum, chat, documentation)."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:92
 #, elixir-autogen, elixir-format
 msgid "List of other languages you understand, in order of priority."
@@ -2094,12 +2102,13 @@ msgstr ""
 msgid "Log in"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/remote_interaction https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:217
 #, elixir-autogen, elixir-format
 msgid "Logging in..."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:9
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:14
 #, elixir-autogen, elixir-format
@@ -2201,7 +2210,7 @@ msgstr ""
 msgid "Manage"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/configuration
+#. URLs: https://campground.bonfire.cafe/settings/instance https://campground.bonfire.cafe/settings/instance/configuration
 #: lib/components/settings/federation_mode/federation_mode_live.ex:117
 #, elixir-autogen, elixir-format
 msgid "Manage archipelago federation allow-list"
@@ -2251,7 +2260,7 @@ msgstr ""
 msgid "Max Post Length"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:308
 #, elixir-autogen, elixir-format
 msgid "Max nesting depth"
@@ -2311,7 +2320,7 @@ msgstr ""
 msgid "Maximum number of items to query in lists"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:311
 #, elixir-autogen, elixir-format
 msgid "Maximum number of nested reply levels to display before keeping them at the same indentation level"
@@ -2377,6 +2386,7 @@ msgstr ""
 msgid "Migration"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "Minimal"
@@ -2429,13 +2439,13 @@ msgstr ""
 msgid "Name of your S3 bucket for file uploads"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:295
 #, elixir-autogen, elixir-format
 msgid "Nested threads"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:59
 #, elixir-autogen, elixir-format
 msgid "Never"
@@ -2452,6 +2462,7 @@ msgstr ""
 msgid "New filter keyword"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/remote_interaction
 #: lib/components/signup/signup_form_live.sface:18
 #, elixir-autogen, elixir-format
 msgid "New members join by invitation from an existing member or admin. If you'd like to take part, you can ask for an invite."
@@ -2592,7 +2603,7 @@ msgstr ""
 msgid "Only users I follow"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:58
 #, elixir-autogen, elixir-format
 msgid "Only when clicking on a post in a feed"
@@ -2629,7 +2640,7 @@ msgstr ""
 msgid "Optional:"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:91
 #, elixir-autogen, elixir-format
 msgid "Other languages"
@@ -2641,11 +2652,13 @@ msgstr ""
 msgid "Overview of your instance: community size, federation, and admin contacts."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:53
 #, elixir-autogen, elixir-format
 msgid "PNG up to %{size} MB"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/upload_auth_background_live.sface:34
 #, elixir-autogen, elixir-format
 msgid "PNG, JPG, GIF, WebP up to %{size} MB"
@@ -2657,7 +2670,7 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/remote_interaction https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:160
 #, elixir-autogen, elixir-format
 msgid "Password (Min 10 characters)"
@@ -2765,7 +2778,7 @@ msgstr ""
 msgid "Popular Topics"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:341
 #, elixir-autogen, elixir-format
 msgid "Popularity (combined score)"
@@ -2803,7 +2816,7 @@ msgstr ""
 msgid "Preferences"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:69
 #, elixir-autogen, elixir-format
 msgid "Preferred language"
@@ -2883,6 +2896,7 @@ msgstr ""
 msgid "Profile of %{name} on %{instance}"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:44
 #, elixir-autogen, elixir-format
 msgid "Project branding image"
@@ -2938,7 +2952,7 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:110
 #, elixir-autogen, elixir-format
 msgid "Relative"
@@ -3020,7 +3034,7 @@ msgstr ""
 msgid "Replies"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:359
 #, elixir-autogen, elixir-format
 msgid "Reply context in feeds"
@@ -3152,25 +3166,25 @@ msgstr ""
 msgid "Search users... (min 3 characters)"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:108
 #, elixir-autogen, elixir-format
 msgid "Select how to display the date/time of activities"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:35
 #, elixir-autogen, elixir-format
 msgid "Select the default font for the interface"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:328
 #, elixir-autogen, elixir-format
 msgid "Select the default sorting options for viewing discussions (can always change in the feed controls options)"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:293
 #, elixir-autogen, elixir-format
 msgid "Select the default way to view discussions (can always change in the feed controls options)"
@@ -3201,7 +3215,7 @@ msgstr ""
 msgid "Send it again"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/remote_interaction https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:56
 #: lib/views/forgot_password/forgot_password_live.sface:129
 #, elixir-autogen, elixir-format
@@ -3220,7 +3234,7 @@ msgstr ""
 msgid "SendGrid"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login https://campground.bonfire.cafe/login/forgot-password
+#. URLs: https://campground.bonfire.cafe/remote_interaction https://campground.bonfire.cafe/login https://campground.bonfire.cafe/login/forgot-password
 #: lib/components/login/login_view_live.sface:54
 #: lib/views/forgot_password/forgot_password_live.sface:124
 #, elixir-autogen, elixir-format
@@ -3245,7 +3259,7 @@ msgstr ""
 msgid "Sentry DSN for error tracking and reporting"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Set font"
@@ -3314,25 +3328,25 @@ msgstr ""
 msgid "Show metrics (likes, boosts, followers, posts)"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:366
 #, elixir-autogen, elixir-format
 msgid "Show only 'Replied in thread' label"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:365
 #, elixir-autogen, elixir-format
 msgid "Show original thread post"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:364
 #, elixir-autogen, elixir-format
 msgid "Show post being replied to"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:148
 #, elixir-autogen, elixir-format
 msgid "Show randomly-generated animal avatars for users without a profile picture?"
@@ -3422,7 +3436,7 @@ msgstr ""
 msgid "Sign in instead."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/signup https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/remote_interaction https://campground.bonfire.cafe/signup https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:26
 #: lib/components/login/login_view_live.sface:225
 #: lib/components/signup/signup_form_live.sface:208
@@ -3642,7 +3656,7 @@ msgstr ""
 msgid "The %{type} has been queued for deletion. Should be done in a few minutes... So long, and thanks for all the fish!"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:79
 #, elixir-autogen, elixir-format
 msgid "The default language locale for the application."
@@ -3674,7 +3688,7 @@ msgstr ""
 msgid "The user directory is disabled on this instance"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance https://campground.bonfire.cafe/about
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance https://campground.bonfire.cafe/about
 #: lib/components/settings/instance/config/instance_summary_live.sface:357
 #: lib/components/settings/preferences/behaviours_live.sface:11
 #, elixir-autogen, elixir-format
@@ -3709,6 +3723,7 @@ msgstr ""
 msgid "This action cannot be undone."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/remote_interaction
 #: lib/components/signup/signup_form_live.sface:15
 #, elixir-autogen, elixir-format
 msgid "This community is invitation-based"
@@ -3816,6 +3831,7 @@ msgstr ""
 msgid "Turn federation off entirely, keeping this instance isolated from the fediverse."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:12
 #, elixir-autogen, elixir-format
 msgid "Two panels"
@@ -3848,7 +3864,7 @@ msgstr ""
 msgid "Type your email"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/remote_interaction https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:166
 #, elixir-autogen, elixir-format
 msgid "Type your password"
@@ -3913,26 +3929,31 @@ msgstr ""
 msgid "Update email"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/upload_auth_background_live.sface:22
 #, elixir-autogen, elixir-format
 msgid "Upload a background image"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:52
 #, elixir-autogen, elixir-format
 msgid "Upload a branding image"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:45
 #, elixir-autogen, elixir-format
 msgid "Upload a custom PNG wordmark or project name image for the login and signup pages."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:29
 #, elixir-autogen, elixir-format
 msgid "Upload a custom image for the left panel of the login and signup pages."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:67
 #, elixir-autogen, elixir-format
 msgid "Upload a custom logo for the login and signup pages. Defaults to the instance icon if not set."
@@ -3949,7 +3970,7 @@ msgstr ""
 msgid "Use the primary color to highlight the notifications indicator"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:70
 #, elixir-autogen, elixir-format
 msgid "Used for the interface and as default when creating or displaying content."
@@ -4082,7 +4103,7 @@ msgstr ""
 msgid "We sent a sign-in link to"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/login
+#. URLs: https://campground.bonfire.cafe/remote_interaction https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:61
 #, elixir-autogen, elixir-format
 msgid "We'll email you a one-time link to sign in. No password needed."
@@ -4189,7 +4210,7 @@ msgstr ""
 msgid "When someone opens a post or discussion they don't have permission to see, show a customisable message (e.g. inviting them to become a member) instead of the standard error."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:57
 #, elixir-autogen, elixir-format
 msgid "When viewing a post directly"
@@ -4425,7 +4446,7 @@ msgstr ""
 msgid "current: %{value}"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
+#. URLs: https://campground.bonfire.cafe/settings/instance/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance
 #: lib/components/settings/preferences/behaviours_live.sface:407
 #, elixir-autogen, elixir-format
 msgid "days"
@@ -4488,6 +4509,7 @@ msgstr ""
 msgid "object"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/branding
 #: lib/components/settings/instance/config/auth/upload_auth_background_live.sface:23
 #, elixir-autogen, elixir-format
 msgid "or drag and drop"
@@ -4529,7 +4551,7 @@ msgstr ""
 msgid "retry in"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/signup
+#. URLs: https://campground.bonfire.cafe/remote_interaction https://campground.bonfire.cafe/signup
 #: lib/views/signup/signup_live.ex:28
 #, elixir-autogen, elixir-format
 msgid "signup"

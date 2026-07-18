@@ -56,7 +56,7 @@ config :http_signatures, adapter: ActivityPub.Safety.HTTP.Signatures
 
 config :activity_pub, :http,
   proxy_url: nil,
-  user_agent: "Bonfire ActivityPub federation",
+  user_agent: "Bonfire federation",
   send_user_agent: true,
   adapter: [
     recv_timeout: 30_000,
@@ -155,7 +155,6 @@ config :activity_pub,
       "mlsSignerKeyId" => "https://purl.archive.org/socialweb/mls#SignerKeyId"
     }
   }
-
 
 config :hammer,
   backend: {Hammer.Backend.ETS, [expiry_ms: 60_000 * 60 * 4, cleanup_interval_ms: 60_000 * 10]}
