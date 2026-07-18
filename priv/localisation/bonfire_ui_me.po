@@ -1240,6 +1240,7 @@ msgstr ""
 msgid "Everyone"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/terms
 #: lib/components/settings/instance/instance_old/terms_live.sface:20
 #: lib/components/settings/instance/instance_old/terms_live.sface:44
 #: lib/components/settings/instance/instance_old/terms_live.sface:70
@@ -1788,6 +1789,7 @@ msgstr ""
 msgid "Important: This username cannot be changed later"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/terms
 #: lib/components/settings/instance/instance_old/terms_live.sface:65
 #, elixir-autogen, elixir-format
 msgid "Impressum"
@@ -2024,6 +2026,7 @@ msgstr ""
 msgid "Left panel background image"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/terms
 #: lib/components/settings/instance/instance_old/terms_live.sface:66
 #, elixir-autogen, elixir-format
 msgid "Legal notice / site identification details for your instance (when left empty, no impressum link is shown)"
@@ -2847,6 +2850,7 @@ msgstr ""
 msgid "Privacy & Safety"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/terms
 #: lib/components/settings/instance/instance_old/terms_live.sface:41
 #, elixir-autogen, elixir-format
 msgid "Privacy Policy"
@@ -2902,6 +2906,7 @@ msgstr ""
 msgid "Project branding image"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/terms
 #: lib/components/settings/instance/instance_old/terms_live.sface:8
 #, elixir-autogen, elixir-format
 msgid "Protip: instead of text you can paste the URL of a remote markdown-formated document, and its contents will be pulled in."
@@ -3130,7 +3135,7 @@ msgstr ""
 msgid "Safety Defaults"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/settings/instance/terms https://campground.bonfire.cafe/settings/user/profile
 #: lib/components/settings/instance/instance_old/terms_live.sface:88
 #: lib/components/settings/profile/edit_profile_info_live.sface:98
 #, elixir-autogen, elixir-format
@@ -3628,6 +3633,7 @@ msgstr ""
 msgid "Terms / Policies"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/terms
 #: lib/components/settings/instance/instance_old/terms_live.sface:17
 #, elixir-autogen, elixir-format
 msgid "Terms of Use / Code of Conduct"
@@ -3677,6 +3683,7 @@ msgstr ""
 msgid "The following settings are already configured by the instance admin. You can still override them with your own values."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/settings/instance/terms
 #: lib/components/settings/instance/instance_old/terms_live.sface:18
 #: lib/components/settings/instance/instance_old/terms_live.sface:42
 #, elixir-autogen, elixir-format
