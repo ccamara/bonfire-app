@@ -415,10 +415,10 @@ msgstr ""
 msgid "Open Access"
 msgstr "Open Access"
 
-#. URLs: https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/default_roles
+#. https://campground.bonfire.cafe/settings/boundaries/roles
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
 #. https://campground.bonfire.cafe/login/forgot-password
-#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
 #: lib/web/routes.ex:8
 #, elixir-autogen, elixir-format
 msgid "Open Science"
@@ -476,10 +476,10 @@ msgstr "Publicaties"
 msgid "Submit"
 msgstr "Insturen"
 
-#. URLs: https://campground.bonfire.cafe/feed/local
-#. https://campground.bonfire.cafe/settings/user/profile
+#. URLs: https://campground.bonfire.cafe/settings/boundaries/default_roles
+#. https://campground.bonfire.cafe/settings/boundaries/roles
+#. https://campground.bonfire.cafe/settings/instance/boundaries/acl
 #. https://campground.bonfire.cafe/login/forgot-password
-#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
 #: lib/web/routes.ex:11 lib/web/routes.ex:11
 #, elixir-autogen, elixir-format
 msgid "The next generation of digital spaces for open science."

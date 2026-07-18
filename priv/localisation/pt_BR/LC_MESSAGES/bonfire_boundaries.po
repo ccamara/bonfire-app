@@ -24,10 +24,10 @@ msgstr ""
 msgid "Add, edit or remove boundaries"
 msgstr "Adicionar, editar ou remover limites"
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHT5Q7XQD00DRT7EYJ1N0
-#. https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS
-#. https://campground.bonfire.cafe/post/01KXCB72AJY9Y7YG4K6XFTMGCT
-#. https://campground.bonfire.cafe/post/01KXCB702YQWD4TER45W7G896S
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ2P2VH21VT988MG189GS
+#. https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF
+#. https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835
+#. https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
 #: lib/roles.ex:325
 #, elixir-autogen, elixir-format
 msgid "Administer"
@@ -43,17 +43,17 @@ msgstr "Anotar"
 msgid "Annotate a video or other content"
 msgstr "Anotar um vídeo ou outro conteúdo"
 
-#: lib/runtime_config.ex:1246
+#: lib/runtime_config.ex:1247
 #, elixir-autogen, elixir-format
 msgid "Any local user can post and interact"
 msgstr "Qualquer usuário local pode postar e interagir"
 
-#: lib/runtime_config.ex:1094 lib/runtime_config.ex:1232
+#: lib/runtime_config.ex:1095 lib/runtime_config.ex:1233
 #, elixir-autogen, elixir-format
 msgid "Anyone"
 msgstr "Qualquer pessoa"
 
-#: lib/runtime_config.ex:1149
+#: lib/runtime_config.ex:1150
 #, elixir-autogen, elixir-format
 msgid ""
 "Anyone (including guests) can see and read the group on this instance; not "
@@ -62,64 +62,64 @@ msgstr ""
 "Qualquer pessoa (incluindo convidados) pode ver e ler o grupo nessa "
 "instância; não federado"
 
-#: lib/runtime_config.ex:1141
+#: lib/runtime_config.ex:1142
 #, elixir-autogen, elixir-format
 msgid "Anyone (including guests) can see and read the group; federated"
 msgstr ""
 "Qualquer pessoa (inclusive convidados) pode ver e ler o grupo; federado"
 
-#: lib/runtime_config.ex:1096
+#: lib/runtime_config.ex:1097
 #, elixir-autogen, elixir-format
 msgid "Anyone (including remote users) can join freely"
 msgstr ""
 "Qualquer pessoa (inclusive usuários remotos) pode participar livremente"
 
-#: lib/runtime_config.ex:1234
+#: lib/runtime_config.ex:1235
 #, elixir-autogen, elixir-format
 msgid "Anyone (including remote users) can post and interact"
 msgstr ""
 "Qualquer pessoa (inclusive usuários remotos) pode publicar e interagir"
 
-#: lib/runtime_config.ex:1113
+#: lib/runtime_config.ex:1114
 #, elixir-autogen, elixir-format
 msgid "Anyone can request to join; a moderator approves"
 msgstr "Qualquer pessoa pode solicitar a participação; um moderador aprova"
 
-#: lib/runtime_config.ex:1189
+#: lib/runtime_config.ex:1190
 #, elixir-autogen, elixir-format
 msgid "Anyone can see the group exists, but only members can read content"
 msgstr ""
 "Qualquer pessoa pode ver que o grupo existe, mas somente os membros podem "
 "ler o conteúdo"
 
-#: lib/runtime_config.ex:613
+#: lib/runtime_config.ex:614
 #, elixir-autogen, elixir-format
 msgid "Anyone in the fediverse"
 msgstr "Qualquer pessoa no fediverso"
 
-#: lib/runtime_config.ex:1107
+#: lib/runtime_config.ex:1108
 #, elixir-autogen, elixir-format
 msgid "Anyone on a trusted linked instance can join freely"
 msgstr ""
 "Qualquer pessoa em uma instância vinculada confiável pode participar "
 "livremente"
 
-#: lib/runtime_config.ex:1175
+#: lib/runtime_config.ex:1176
 #, elixir-autogen, elixir-format
 msgid "Anyone on a trusted linked instance can see and read"
 msgstr "Qualquer pessoa em uma instância vinculada confiável pode ver e ler"
 
-#: lib/runtime_config.ex:603
+#: lib/runtime_config.ex:604
 #, elixir-autogen, elixir-format
 msgid "Anyone on the internet"
 msgstr "Qualquer pessoa na internet"
 
-#: lib/runtime_config.ex:1102
+#: lib/runtime_config.ex:1103
 #, elixir-autogen, elixir-format
 msgid "Anyone on this instance can join freely"
 msgstr "Qualquer pessoa nesta instância pode participar livremente"
 
-#: lib/runtime_config.ex:1167
+#: lib/runtime_config.ex:1168
 #, elixir-autogen, elixir-format
 msgid ""
 "Anyone on this instance can read with a direct link; not listed; not "
@@ -128,12 +128,12 @@ msgstr ""
 "Qualquer pessoa nesta instância pode ler com um link direto; não listado; "
 "não federado"
 
-#: lib/runtime_config.ex:1182
+#: lib/runtime_config.ex:1183
 #, elixir-autogen, elixir-format
 msgid "Anyone on this instance can see and read the group"
 msgstr "Qualquer pessoa nessa instância pode ver e ler o grupo"
 
-#: lib/runtime_config.ex:1158
+#: lib/runtime_config.ex:1159
 #, elixir-autogen, elixir-format
 msgid ""
 "Anyone on this instance can see the group exists, but only members can read "
@@ -142,18 +142,18 @@ msgstr ""
 "Qualquer pessoa nessa instância pode ver que o grupo existe, mas somente os "
 "membros podem ler o conteúdo; não federado"
 
-#: lib/runtime_config.ex:569 lib/runtime_config.ex:1173
-#: lib/runtime_config.ex:1310
+#: lib/runtime_config.ex:570 lib/runtime_config.ex:1174
+#: lib/runtime_config.ex:1311
 #, elixir-autogen, elixir-format
 msgid "Archipelago"
 msgstr "Arquipélago"
 
-#: lib/runtime_config.ex:1238
+#: lib/runtime_config.ex:1239
 #, elixir-autogen, elixir-format
 msgid "Archipelago contributors"
 msgstr "Contribuintes do arquipélago"
 
-#: lib/runtime_config.ex:1105
+#: lib/runtime_config.ex:1106
 #, elixir-autogen, elixir-format
 msgid "Archipelago members"
 msgstr "Membros do arquipélago"
@@ -198,18 +198,18 @@ msgstr "Repostar um objeto (e notificar o autor)"
 msgid "Can"
 msgstr "Pode"
 
-#: lib/runtime_config.ex:370
+#: lib/runtime_config.ex:371
 #, elixir-autogen, elixir-format
 msgid "Can read with a direct link but not found in listings or feeds"
 msgstr ""
 "Pode ser lido com um link direto, mas não é encontrado em listagens ou feeds"
 
-#: lib/runtime_config.ex:362
+#: lib/runtime_config.ex:363
 #, elixir-autogen, elixir-format
 msgid "Can see the group exists and react, but not read content"
 msgstr "Pode ver que o grupo existe e reagir, mas não pode ler o conteúdo"
 
-#: lib/runtime_config.ex:354
+#: lib/runtime_config.ex:355
 #, elixir-autogen, elixir-format
 msgid "Can see, read, and interact with content"
 msgstr "Pode ver, ler e interagir com o conteúdo"
@@ -224,23 +224,23 @@ msgstr "Não é possível"
 msgid "Change general settings"
 msgstr "Alterar configurações gerais"
 
-#: lib/runtime_config.ex:1071
+#: lib/runtime_config.ex:1072
 #, elixir-autogen, elixir-format
 msgid "Circles"
 msgstr "Círculos"
 
-#: lib/runtime_config.ex:572 lib/runtime_config.ex:1108
-#: lib/runtime_config.ex:1177 lib/runtime_config.ex:1241
-#: lib/runtime_config.ex:1314
+#: lib/runtime_config.ex:573 lib/runtime_config.ex:1109
+#: lib/runtime_config.ex:1178 lib/runtime_config.ex:1242
+#: lib/runtime_config.ex:1315
 #, elixir-autogen, elixir-format
 msgid "Coming soon: requires archipelago feature"
 msgstr "Em breve: requer o recurso de arquipélago"
 
-#: lib/runtime_config.ex:561 lib/runtime_config.ex:1097
-#: lib/runtime_config.ex:1143 lib/runtime_config.ex:1191
-#: lib/runtime_config.ex:1205 lib/runtime_config.ex:1235
-#: lib/runtime_config.ex:1286 lib/runtime_config.ex:1327
-#: lib/runtime_config.ex:1340
+#: lib/runtime_config.ex:562 lib/runtime_config.ex:1098
+#: lib/runtime_config.ex:1144 lib/runtime_config.ex:1192
+#: lib/runtime_config.ex:1206 lib/runtime_config.ex:1236
+#: lib/runtime_config.ex:1287 lib/runtime_config.ex:1328
+#: lib/runtime_config.ex:1341
 #, elixir-autogen, elixir-format
 msgid "Coming soon: requires groups federation"
 msgstr "Em breve: requer federação de grupos"
@@ -280,7 +280,7 @@ msgstr "Criar"
 msgid "Create a post or other object"
 msgstr "Criar uma postagem ou outro objeto"
 
-#: lib/runtime_config.ex:782
+#: lib/runtime_config.ex:783
 #, elixir-autogen, elixir-format
 msgid "Custom boundary"
 msgstr "Limite personalizado"
@@ -300,7 +300,7 @@ msgstr "Excluir um objeto"
 msgid "Describe"
 msgstr "Descrever"
 
-#: lib/runtime_config.ex:361 lib/runtime_config.ex:1186
+#: lib/runtime_config.ex:362 lib/runtime_config.ex:1187
 #, elixir-autogen, elixir-format
 msgid "Discoverable"
 msgstr "Pode ser descoberto"
@@ -325,37 +325,37 @@ msgstr "Editar informações e metadados, por exemplo, títulos de fios"
 msgid "Enable/disable extensions or features"
 msgstr "Ativar/desativar extensões ou recursos"
 
-#: lib/runtime_config.ex:686 lib/runtime_config.ex:690
+#: lib/runtime_config.ex:687 lib/runtime_config.ex:691
 #, elixir-autogen, elixir-format
 msgid "Everyone may read"
 msgstr "Todos podem ler"
 
-#: lib/runtime_config.ex:762
+#: lib/runtime_config.ex:763
 #, elixir-autogen, elixir-format
 msgid "Everyone may read and react (but not boost or discover)"
 msgstr "Todos podem ler e reagir (mas não repostar ou descobrir)"
 
-#: lib/runtime_config.ex:750
+#: lib/runtime_config.ex:751
 #, elixir-autogen, elixir-format
 msgid "Everyone may request (eg. to join)"
 msgstr "Todos podem solicitar (por exemplo, para participar)"
 
-#: lib/runtime_config.ex:754
+#: lib/runtime_config.ex:755
 #, elixir-autogen, elixir-format
 msgid "Everyone may see and interact (but not read)"
 msgstr "Todos podem ver e interagir (mas não ler)"
 
-#: lib/runtime_config.ex:682
+#: lib/runtime_config.ex:683
 #, elixir-autogen, elixir-format
 msgid "Everyone may see and read"
 msgstr "Todos podem ver e ler"
 
-#: lib/runtime_config.ex:766
+#: lib/runtime_config.ex:767
 #, elixir-autogen, elixir-format
 msgid "Everyone may see, read and interact"
 msgstr "Todos podem ver, ler e interagir"
 
-#: lib/runtime_config.ex:1371
+#: lib/runtime_config.ex:1372
 #, elixir-autogen, elixir-format
 msgid "Everyone on this instance."
 msgstr "Todos nesta instância."
@@ -384,23 +384,23 @@ msgstr "Seguir"
 msgid "Follow a user or thread or whatever"
 msgstr "Seguir um usuário ou fio ou qualquer outra coisa"
 
-#: lib/runtime_config.ex:1381
+#: lib/runtime_config.ex:1382
 #, elixir-autogen, elixir-format
 msgid "Follows"
 msgstr "Seguidores"
 
-#: lib/runtime_config.ex:1384
+#: lib/runtime_config.ex:1385
 #, elixir-autogen, elixir-format
 msgid "Follows: people who I follow may read, like, boost and reply."
 msgstr ""
 "Seguidores: as pessoas que eu sigo podem ler, curtir, repostar e responder."
 
-#: lib/runtime_config.ex:353
+#: lib/runtime_config.ex:354
 #, elixir-autogen, elixir-format
 msgid "Fully visible"
 msgstr "Totalmente visível"
 
-#: lib/runtime_config.ex:1072
+#: lib/runtime_config.ex:1073
 #, elixir-autogen, elixir-format
 msgid "Ghosted"
 msgstr "Invisibilizado"
@@ -410,7 +410,7 @@ msgstr "Invisibilizado"
 msgid "Grant"
 msgstr "Concessão"
 
-#: lib/runtime_config.ex:1254
+#: lib/runtime_config.ex:1255
 #, elixir-autogen, elixir-format
 msgid "Group moderators only"
 msgstr "Somente moderadores de grupos"
@@ -420,27 +420,27 @@ msgstr "Somente moderadores de grupos"
 msgid "Hidden"
 msgstr "Oculto"
 
-#: lib/runtime_config.ex:1261
+#: lib/runtime_config.ex:1262
 #, elixir-autogen, elixir-format
 msgid "How visible are posts by default?"
 msgstr "Qual é a visibilidade padrão das postagens?"
 
-#: lib/runtime_config.ex:791
+#: lib/runtime_config.ex:792
 #, elixir-autogen, elixir-format
 msgid "I may administer"
 msgstr "Posso administrar"
 
-#: lib/runtime_config.ex:618
+#: lib/runtime_config.ex:619
 #, elixir-autogen, elixir-format
 msgid "Instance Admins"
 msgstr "Administradores de instância"
 
-#: lib/runtime_config.ex:623
+#: lib/runtime_config.ex:624
 #, elixir-autogen, elixir-format
 msgid "Instance Moderators"
 msgstr "Moderadores de instância"
 
-#: lib/runtime_config.ex:657
+#: lib/runtime_config.ex:658
 #, elixir-autogen, elixir-format
 msgid "Instances and actors I allow to federate with me"
 msgstr ""
@@ -450,7 +450,7 @@ msgstr ""
 msgid "Invite"
 msgstr "Convite"
 
-#: lib/runtime_config.ex:1116
+#: lib/runtime_config.ex:1117
 #, elixir-autogen, elixir-format
 msgid "Invite only"
 msgstr "Somente para convidados"
@@ -486,44 +486,47 @@ msgid "Like an object (and notify the author)"
 msgstr "Como um objeto (e notifique o autor)"
 
 #. URLs: https://campground.bonfire.cafe/settings/user/bonfire_ui_boundaries
-#: lib/presets.ex:152 lib/runtime_config.ex:575 lib/runtime_config.ex:1180
-#: lib/runtime_config.ex:1317 lib/runtime_config.ex:1369
+#: lib/presets.ex:152 lib/runtime_config.ex:576 lib/runtime_config.ex:1181
+#: lib/runtime_config.ex:1318 lib/runtime_config.ex:1370
 #, elixir-autogen, elixir-format
 msgid "Local"
 msgstr "Local"
 
-#. URLs: https://campground.bonfire.cafe/post/01KXCBHS8JWAZT2SR36BBEDEAS
+#. URLs: https://campground.bonfire.cafe/circle/01KXK39TXPEJ4YTKRBYXYTPHQZ
+#. https://campground.bonfire.cafe/circle/01KXJYZYTDEZZ9RJ6YZ9AFT4M2
+#. https://campground.bonfire.cafe/circle/01KXJYKD9CPJS6DMR56HWEQ5HH
+#. https://campground.bonfire.cafe/post/01KXJYJ228FXG5KTT8EEHZ8MDF
 #: lib/presets.ex:346 lib/presets.ex:378 lib/presets.ex:378
 #, elixir-autogen, elixir-format
 msgid "Local Instance"
 msgstr "Instância local"
 
-#: lib/runtime_config.ex:1244
+#: lib/runtime_config.ex:1245
 #, elixir-autogen, elixir-format
 msgid "Local contributors"
 msgstr "Colaboradores locais"
 
-#: lib/runtime_config.ex:672
+#: lib/runtime_config.ex:673
 #, elixir-autogen, elixir-format
 msgid "Local instance roles & boundaries"
 msgstr "Funções e limites da instância local"
 
-#: lib/runtime_config.ex:1100
+#: lib/runtime_config.ex:1101
 #, elixir-autogen, elixir-format
 msgid "Local members"
 msgstr "Membros locais"
 
-#: lib/runtime_config.ex:608
+#: lib/runtime_config.ex:609
 #, elixir-autogen, elixir-format
 msgid "Local users"
 msgstr "Usuários locais"
 
-#: lib/runtime_config.ex:1210
+#: lib/runtime_config.ex:1211
 #, elixir-autogen, elixir-format
 msgid "Local users can read with a direct link; not listed"
 msgstr "Os usuários locais podem ler com um link direto; não listado"
 
-#: lib/runtime_config.ex:1197
+#: lib/runtime_config.ex:1198
 #, elixir-autogen, elixir-format
 msgid ""
 "Local users can see the group exists, but only members can read content"
@@ -531,62 +534,62 @@ msgstr ""
 "Os usuários locais podem ver que o grupo existe, mas somente os membros "
 "podem ler o conteúdo"
 
-#: lib/runtime_config.ex:734
+#: lib/runtime_config.ex:735
 #, elixir-autogen, elixir-format
 msgid "Local users may contribute"
 msgstr "Os usuários locais podem contribuir"
 
-#: lib/runtime_config.ex:742
+#: lib/runtime_config.ex:743
 #, elixir-autogen, elixir-format
 msgid "Local users may follow"
 msgstr "Os usuários locais podem seguir"
 
-#: lib/runtime_config.ex:746
+#: lib/runtime_config.ex:747
 #, elixir-autogen, elixir-format
 msgid "Local users may join"
 msgstr "Usuários locais podem participar"
 
-#: lib/runtime_config.ex:726
+#: lib/runtime_config.ex:727
 #, elixir-autogen, elixir-format
 msgid "Local users may read and interact"
 msgstr "Os usuários locais podem ler e interagir"
 
-#: lib/runtime_config.ex:730
+#: lib/runtime_config.ex:731
 #, elixir-autogen, elixir-format
 msgid "Local users may read, interact and reply"
 msgstr "Os usuários locais podem ler, interagir e responder"
 
-#: lib/runtime_config.ex:722
+#: lib/runtime_config.ex:723
 #, elixir-autogen, elixir-format
 msgid "Local users may read, reply and interact (but not boost)"
 msgstr ""
 
-#: lib/runtime_config.ex:738
+#: lib/runtime_config.ex:739
 #, elixir-autogen, elixir-format
 msgid "Local users may see"
 msgstr "Os usuários locais podem ver"
 
-#: lib/runtime_config.ex:758
+#: lib/runtime_config.ex:759
 #, elixir-autogen, elixir-format
 msgid "Local users may see and interact (but not read)"
 msgstr "Os usuários locais podem ver e interagir (mas não ler)"
 
-#: lib/runtime_config.ex:770
+#: lib/runtime_config.ex:771
 #, elixir-autogen, elixir-format
 msgid "Local users may see, read and interact"
 msgstr "Os usuários locais podem ver, ler e interagir"
 
-#: lib/runtime_config.ex:1372
+#: lib/runtime_config.ex:1373
 #, elixir-autogen, elixir-format
 msgid "Local: everyone on this instance can see, interact, and reply."
 msgstr "Local: todos nessa instância podem ver, interagir e responder."
 
-#: lib/runtime_config.ex:1194
+#: lib/runtime_config.ex:1195
 #, elixir-autogen, elixir-format
 msgid "Locally discoverable"
 msgstr "Localmente detectável"
 
-#: lib/runtime_config.ex:1208
+#: lib/runtime_config.ex:1209
 #, elixir-autogen, elixir-format
 msgid "Locally unlisted"
 msgstr "Não listado localmente"
@@ -606,8 +609,8 @@ msgstr "Gerenciar blocos"
 msgid "Mediate"
 msgstr "Mediar"
 
-#: lib/runtime_config.ex:580 lib/runtime_config.ex:1214
-#: lib/runtime_config.ex:1249 lib/runtime_config.ex:1350
+#: lib/runtime_config.ex:581 lib/runtime_config.ex:1215
+#: lib/runtime_config.ex:1250 lib/runtime_config.ex:1351
 #, elixir-autogen, elixir-format
 msgid "Members only"
 msgstr "Somente para membros"
@@ -622,17 +625,17 @@ msgstr "Menção"
 msgid "Mention a user or object (and notify them)"
 msgstr "Mencionar um usuário ou objeto (e notificá-lo)"
 
-#. URLs: https://campground.bonfire.cafe/&Archived_Discoverable_Group
-#. https://campground.bonfire.cafe/group/Custom_Dims_84036
+#. URLs: https://campground.bonfire.cafe/+My_Test_Topic
 #. https://campground.bonfire.cafe/+Test_Topic
-#. https://campground.bonfire.cafe/+My_Test_Topic
+#. https://campground.bonfire.cafe/group/Form_RT_private_club_147587
+#. https://campground.bonfire.cafe/group/Custom_Dims_123587
 #: lib/presets.ex:155 lib/presets.ex:347 lib/presets.ex:379 lib/presets.ex:388
-#: lib/runtime_config.ex:1375
+#: lib/runtime_config.ex:1376
 #, elixir-autogen, elixir-format
 msgid "Mentions"
 msgstr "Menções"
 
-#: lib/runtime_config.ex:1378
+#: lib/runtime_config.ex:1379
 #, elixir-autogen, elixir-format
 msgid "Mentions: anyone mentioned will be able to see, interact, and reply."
 msgstr ""
@@ -643,7 +646,7 @@ msgstr ""
 msgid "Message"
 msgstr "Mensagem"
 
-#: lib/runtime_config.ex:676
+#: lib/runtime_config.ex:677
 #, elixir-autogen, elixir-format
 msgid "Moderators may manage"
 msgstr "Os moderadores podem gerenciar"
@@ -653,93 +656,93 @@ msgstr "Os moderadores podem gerenciar"
 msgid "Modify the contents of an existing object"
 msgstr "Modificar o conteúdo de um objeto existente"
 
-#: lib/runtime_config.ex:1111
+#: lib/runtime_config.ex:1112
 #, elixir-autogen, elixir-format
 msgid "On request"
 msgstr "Mediante solicitação"
 
-#: lib/runtime_config.ex:1251
+#: lib/runtime_config.ex:1252
 #, elixir-autogen, elixir-format
 msgid "Only group members can post and interact"
 msgstr "Somente os membros do grupo podem postar e interagir"
 
-#: lib/runtime_config.ex:1256
+#: lib/runtime_config.ex:1257
 #, elixir-autogen, elixir-format
 msgid "Only group moderators can post; members can read and react"
 msgstr ""
 "Somente os moderadores do grupo podem postar; os membros podem ler e reagir"
 
-#: lib/runtime_config.ex:1216
+#: lib/runtime_config.ex:1217
 #, elixir-autogen, elixir-format
 msgid "Only members can see or read the group"
 msgstr "Somente os membros podem ver ou ler o grupo"
 
-#: lib/runtime_config.ex:1118
+#: lib/runtime_config.ex:1119
 #, elixir-autogen, elixir-format
 msgid "Only moderators can add members"
 msgstr "Somente moderadores podem adicionar membros"
 
-#: lib/runtime_config.ex:1377
+#: lib/runtime_config.ex:1378
 #, elixir-autogen, elixir-format
 msgid "Only people you @mention."
 msgstr "Somente pessoas que você @menciona."
 
-#: lib/runtime_config.ex:1383
+#: lib/runtime_config.ex:1384
 #, elixir-autogen, elixir-format
 msgid "Only people you follow."
 msgstr "Somente pessoas que você segue."
 
-#: lib/runtime_config.ex:1389
+#: lib/runtime_config.ex:1390
 #, elixir-autogen, elixir-format
 msgid "Only you."
 msgstr "Somente você."
 
-#: lib/runtime_config.ex:641
+#: lib/runtime_config.ex:642
 #, elixir-autogen, elixir-format
 msgid "People I am following"
 msgstr "Pessoas que eu sigo"
 
-#: lib/runtime_config.ex:647
+#: lib/runtime_config.ex:648
 #, elixir-autogen, elixir-format
 msgid "People I am ghosting"
 msgstr "Pessoas que estou invisibilizando"
 
-#: lib/runtime_config.ex:652
+#: lib/runtime_config.ex:653
 #, elixir-autogen, elixir-format
 msgid "People I am silencing"
 msgstr "Pessoas que estou silenciando"
 
-#: lib/runtime_config.ex:810
+#: lib/runtime_config.ex:811
 #, elixir-autogen, elixir-format
 msgid "People I ghosted cannot see me"
 msgstr "As pessoas que eu invisibilizei não podem me ver"
 
-#: lib/runtime_config.ex:815
+#: lib/runtime_config.ex:816
 #, elixir-autogen, elixir-format
 msgid "People I silenced aren't discoverable by me"
 msgstr "As pessoas que silenciei não podem ser descobertas por mim"
 
-#: lib/runtime_config.ex:804
+#: lib/runtime_config.ex:805
 #, elixir-autogen, elixir-format
 msgid "People must request to follow"
 msgstr "As pessoas devem solicitar para seguir"
 
-#: lib/runtime_config.ex:662
+#: lib/runtime_config.ex:663
 #, elixir-autogen, elixir-format
 msgid "People silencing me"
 msgstr "As pessoas que me silenciam"
 
-#: lib/runtime_config.ex:774
+#: lib/runtime_config.ex:775
 #, elixir-autogen, elixir-format
 msgid "People who I follow may read, interact, and reply"
 msgstr "As pessoas que eu sigo podem ler, interagir e responder"
 
-#: lib/runtime_config.ex:635
+#: lib/runtime_config.ex:636
 #, elixir-autogen, elixir-format
 msgid "People who follow me"
 msgstr "Pessoas que me seguem"
 
-#: lib/runtime_config.ex:820
+#: lib/runtime_config.ex:821
 #, elixir-autogen, elixir-format
 msgid "People who silenced me cannot discover me"
 msgstr "As pessoas que me silenciaram não podem me descobrir"
@@ -754,40 +757,40 @@ msgstr "Pino"
 msgid "Pin something to highlight it"
 msgstr "Fixe algo para destacá-lo"
 
-#: lib/runtime_config.ex:1299
+#: lib/runtime_config.ex:1300
 #, elixir-autogen, elixir-format
 msgid "Post appears in feeds but full content is members-only; not federated"
 msgstr ""
 "A postagem aparece nos feeds, mas o conteúdo completo é somente para "
 "membros; não federado"
 
-#: lib/runtime_config.ex:1332
+#: lib/runtime_config.ex:1333
 #, elixir-autogen, elixir-format
 msgid "Post appears in local feeds but full content is members-only"
 msgstr ""
 "A postagem aparece nos feeds locais, mas o conteúdo completo é somente para "
 "membros"
 
-#: lib/runtime_config.ex:1325
+#: lib/runtime_config.ex:1326
 #, elixir-autogen, elixir-format
 msgid "Post appears in public feeds but full content is members-only"
 msgstr ""
 "A postagem aparece nos feeds públicos, mas o conteúdo completo é somente "
 "para membros"
 
-#: lib/runtime_config.ex:1352
+#: lib/runtime_config.ex:1353
 #, elixir-autogen, elixir-format
 msgid "Posts only visible to group members"
 msgstr "Publicações visíveis apenas para os membros do grupo"
 
-#: lib/runtime_config.ex:1284
+#: lib/runtime_config.ex:1285
 #, elixir-autogen, elixir-format
 msgid "Posts visible to anyone including guests and remote users; federated"
 msgstr ""
 "Postagens visíveis para qualquer pessoa, inclusive convidados e usuários "
 "remotos; federado"
 
-#: lib/runtime_config.ex:1292
+#: lib/runtime_config.ex:1293
 #, elixir-autogen, elixir-format
 msgid ""
 "Posts visible to anyone on this instance including guests; not federated"
@@ -795,17 +798,17 @@ msgstr ""
 "Publicações visíveis para qualquer pessoa nesta instância, inclusive "
 "convidados; não federadas"
 
-#: lib/runtime_config.ex:1319
+#: lib/runtime_config.ex:1320
 #, elixir-autogen, elixir-format
 msgid "Posts visible to logged-in users on this instance"
 msgstr "Posts visíveis para usuários conectados nesta instância"
 
-#: lib/runtime_config.ex:1312
+#: lib/runtime_config.ex:1313
 #, elixir-autogen, elixir-format
 msgid "Posts visible to trusted linked instances"
 msgstr "Posts visíveis para instâncias vinculadas confiáveis"
 
-#: lib/runtime_config.ex:1263
+#: lib/runtime_config.ex:1264
 #, elixir-autogen, elixir-format
 msgid ""
 "Pre-fills the boundary selector when posting in the group. Authors can still"
@@ -814,54 +817,54 @@ msgstr ""
 "Preenche previamente o seletor de limite ao postar no grupo. Os autores "
 "ainda podem alterá-lo. Afeta apenas postagens futuras."
 
-#: lib/runtime_config.ex:1330
+#: lib/runtime_config.ex:1331
 #, elixir-autogen, elixir-format
 msgid "Preview (local)"
 msgstr "Pré-visualização (local)"
 
-#: lib/runtime_config.ex:1296 lib/runtime_config.ex:1323
+#: lib/runtime_config.ex:1297 lib/runtime_config.ex:1324
 #, elixir-autogen, elixir-format
 msgid "Preview (public)"
 msgstr "Pré-visualização (público)"
 
-#: lib/presets.ex:158 lib/presets.ex:401 lib/runtime_config.ex:1387
+#: lib/presets.ex:158 lib/presets.ex:401 lib/runtime_config.ex:1388
 #, elixir-autogen, elixir-format
 msgid "Private"
 msgstr "Privado"
 
-#: lib/runtime_config.ex:1390
+#: lib/runtime_config.ex:1391
 #, elixir-autogen, elixir-format
 msgid "Private: only visible to the creator and/or caretaker."
 msgstr "Privado: visível apenas para o criador e/ou responsável."
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCAVF40EAQJX25CD42ZCQQY
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/discussion/01KXCAVD39Z69MDMTN75GG62D8
-#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835
+#. https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/conduct
 #: lib/presets.ex:149 lib/presets.ex:344 lib/presets.ex:377 lib/presets.ex:377
-#: lib/runtime_config.ex:564 lib/runtime_config.ex:1146
-#: lib/runtime_config.ex:1289 lib/runtime_config.ex:1360
+#: lib/runtime_config.ex:565 lib/runtime_config.ex:1147
+#: lib/runtime_config.ex:1290 lib/runtime_config.ex:1361
 #, elixir-autogen, elixir-format
 msgid "Public"
 msgstr "Público"
 
-#: lib/runtime_config.ex:558 lib/runtime_config.ex:1139
-#: lib/runtime_config.ex:1281
+#: lib/runtime_config.ex:559 lib/runtime_config.ex:1140
+#: lib/runtime_config.ex:1282
 #, elixir-autogen, elixir-format
 msgid "Public (federated)"
 msgstr "Público (federado)"
 
-#: lib/runtime_config.ex:1155
+#: lib/runtime_config.ex:1156
 #, elixir-autogen, elixir-format
 msgid "Public, discoverable only"
 msgstr "Público, somente detectável"
 
-#: lib/runtime_config.ex:1164
+#: lib/runtime_config.ex:1165
 #, elixir-autogen, elixir-format
 msgid "Public, unlisted"
 msgstr "Público, não listado"
 
-#: lib/runtime_config.ex:1364
+#: lib/runtime_config.ex:1365
 #, elixir-autogen, elixir-format
 msgid ""
 "Public: visible to everyone. People on the fediverse can see, interact, and "
@@ -870,28 +873,28 @@ msgstr ""
 "Público: visível para todos. As pessoas no fediverso podem ver, interagir e "
 "responder."
 
-#: lib/runtime_config.ex:694
+#: lib/runtime_config.ex:695
 #, elixir-autogen, elixir-format
 msgid "Publicly discoverable and readable"
 msgstr "Pode ser descoberto e lido publicamente"
 
-#: lib/runtime_config.ex:698
+#: lib/runtime_config.ex:699
 #, elixir-autogen, elixir-format
 msgid "Publicly discoverable, but contents may be hidden"
 msgstr "Pode ser descoberto publicamente, mas o conteúdo pode estar oculto"
 
-#: lib/runtime_config.ex:702
+#: lib/runtime_config.ex:703
 #, elixir-autogen, elixir-format
 msgid "Publicly readable, but not necessarily discoverable"
 msgstr ""
 "Pode ser lido publicamente, mas não necessariamente pode ser descoberto"
 
-#: lib/runtime_config.ex:1343
+#: lib/runtime_config.ex:1344
 #, elixir-autogen, elixir-format
 msgid "Quiet (local)"
 msgstr "Silencioso (local)"
 
-#: lib/runtime_config.ex:1303 lib/runtime_config.ex:1336
+#: lib/runtime_config.ex:1304 lib/runtime_config.ex:1337
 #, elixir-autogen, elixir-format
 msgid "Quiet (public)"
 msgstr "Silencioso (público)"
@@ -911,26 +914,26 @@ msgstr "Citar uma postagem ou atividade"
 msgid "Read"
 msgstr "Ler"
 
-#: lib/runtime_config.ex:1346
+#: lib/runtime_config.ex:1347
 #, elixir-autogen, elixir-format
 msgid "Readable via direct link for local users, not in feeds, no boosting"
 msgstr ""
 "Pode ser lido por meio de link direto para usuários locais, não em feeds, "
 "sem respostagem"
 
-#: lib/runtime_config.ex:1306
+#: lib/runtime_config.ex:1307
 #, elixir-autogen, elixir-format
 msgid "Readable via direct link on this instance, not in feeds, no boosting"
 msgstr ""
 "Pode ser lido por meio de um link direto nesta instância, não em feeds, sem "
 "impulsionamento"
 
-#: lib/runtime_config.ex:1338
+#: lib/runtime_config.ex:1339
 #, elixir-autogen, elixir-format
 msgid "Readable via direct link, not in feeds, no boosting"
 msgstr "Legível por meio de link direto, não em feeds, sem impulsionamento"
 
-#: lib/runtime_config.ex:1203
+#: lib/runtime_config.ex:1204
 #, elixir-autogen, elixir-format
 msgid "Readable with a direct link, not shown in listings"
 msgstr "Legível com um link direto, não mostrado nas listagens"
@@ -940,17 +943,17 @@ msgstr "Legível com um link direto, não mostrado nas listagens"
 msgid "Readable/visible (if you can see or have a direct link)"
 msgstr "Legível/visível (se você puder ver ou tiver um link direto)"
 
-#: lib/runtime_config.ex:714
+#: lib/runtime_config.ex:715
 #, elixir-autogen, elixir-format
 msgid "Remote actors may contribute"
 msgstr "Usuários remotos podem contribuir"
 
-#: lib/runtime_config.ex:706
+#: lib/runtime_config.ex:707
 #, elixir-autogen, elixir-format
 msgid "Remote actors may read and interact"
 msgstr "Usuários remotos podem ler e interagir"
 
-#: lib/runtime_config.ex:710
+#: lib/runtime_config.ex:711
 #, elixir-autogen, elixir-format
 msgid "Remote actors may read, interact and reply"
 msgstr "Usuários remotos podem ler, interagir e responder"
@@ -1006,12 +1009,12 @@ msgstr "Definir uma data esperada ou desejada"
 msgid "Set/update a status or label"
 msgstr "Definir/atualizar um status ou rótulo"
 
-#: lib/runtime_config.ex:1073
+#: lib/runtime_config.ex:1074
 #, elixir-autogen, elixir-format
 msgid "Silenced"
 msgstr "Silenciado"
 
-#: lib/runtime_config.ex:628
+#: lib/runtime_config.ex:629
 #, elixir-autogen, elixir-format
 msgid "Suggested Profiles"
 msgstr "Perfis sugeridos"
@@ -1036,7 +1039,7 @@ msgstr "Alternar"
 msgid "Unhidden"
 msgstr ""
 
-#: lib/presets.ex:345 lib/runtime_config.ex:369 lib/runtime_config.ex:1201
+#: lib/presets.ex:345 lib/runtime_config.ex:370 lib/runtime_config.ex:1202
 #, elixir-autogen, elixir-format
 msgid "Unlisted"
 msgstr "Não listado"
@@ -1046,44 +1049,44 @@ msgstr "Não listado"
 msgid "Unlocked"
 msgstr "Desbloqueado"
 
-#: lib/runtime_config.ex:1240
+#: lib/runtime_config.ex:1241
 #, elixir-autogen, elixir-format
 msgid "Users on trusted linked instances can post and interact"
 msgstr ""
 "Os usuários em instâncias vinculadas confiáveis podem publicar e interagir"
 
-#: lib/runtime_config.ex:565
+#: lib/runtime_config.ex:566
 #, elixir-autogen, elixir-format
 msgid "Visible on this instance but not sent to the wider fediverse"
 msgstr ""
 "Visível nesta instância, mas não enviado para o universo federal mais amplo"
 
-#: lib/runtime_config.ex:581
+#: lib/runtime_config.ex:582
 #, elixir-autogen, elixir-format
 msgid "Visible only to group members"
 msgstr "Visível apenas para os membros do grupo"
 
-#: lib/runtime_config.ex:576
+#: lib/runtime_config.ex:577
 #, elixir-autogen, elixir-format
 msgid "Visible only to users on this instance"
 msgstr "Visível apenas para usuários nesta instância"
 
-#: lib/runtime_config.ex:559
+#: lib/runtime_config.ex:560
 #, elixir-autogen, elixir-format
 msgid "Visible to everyone including the wider fediverse"
 msgstr "Visível para todos, incluindo o universo federal mais amplo"
 
-#: lib/runtime_config.ex:1362
+#: lib/runtime_config.ex:1363
 #, elixir-autogen, elixir-format
 msgid "Visible to everyone."
 msgstr "Visível para todos."
 
-#: lib/runtime_config.ex:718
+#: lib/runtime_config.ex:719
 #, elixir-autogen, elixir-format
 msgid "Visible to local users"
 msgstr "Visível para usuários locais"
 
-#: lib/runtime_config.ex:570
+#: lib/runtime_config.ex:571
 #, elixir-autogen, elixir-format
 msgid "Visible to users on trusted linked instances"
 msgstr "Visível para usuários em instâncias vinculadas confiáveis"
@@ -1098,17 +1101,17 @@ msgstr "Votação"
 msgid "Vote on something"
 msgstr "Votar em algo"
 
-#: lib/runtime_config.ex:1084
+#: lib/runtime_config.ex:1085
 #, elixir-autogen, elixir-format
 msgid "Who can join?"
 msgstr "Quem pode participar?"
 
-#: lib/runtime_config.ex:1222
+#: lib/runtime_config.ex:1223
 #, elixir-autogen, elixir-format
 msgid "Who can post and interact?"
 msgstr "Quem pode postar e interagir?"
 
-#: lib/runtime_config.ex:1123
+#: lib/runtime_config.ex:1124
 #, elixir-autogen, elixir-format
 msgid "Who can see the group?"
 msgstr "Quem pode ver o grupo?"

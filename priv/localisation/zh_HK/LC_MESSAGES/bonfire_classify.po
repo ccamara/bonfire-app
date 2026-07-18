@@ -242,17 +242,17 @@ msgstr "图标已更改！"
 msgid "Join"
 msgstr "加入"
 
-#. URLs: https://campground.bonfire.cafe/&Join_Flow_Group/about
-#. https://campground.bonfire.cafe/&Member_Check_Group/about
+#. URLs: https://campground.bonfire.cafe/&Member_Check_Group/about
 #. https://campground.bonfire.cafe/&Open_Participation_Group
+#. https://campground.bonfire.cafe/&Join_Flow_Group/about
 #. https://campground.bonfire.cafe/&Feed_Post_Group_Public
 #: lib/web/components/category_actions/join_button_live.sface:22
 #, elixir-autogen, elixir-format
 msgid "Join group"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Join_Flow_Group/about
-#. https://campground.bonfire.cafe/&Member_Check_Group/about
+#. URLs: https://campground.bonfire.cafe/&Member_Check_Group/about
+#. https://campground.bonfire.cafe/&Join_Flow_Group/about
 #. https://campground.bonfire.cafe/groups
 #: lib/web/components/category_actions/category_actions_live.sface:26
 #: lib/web/components/category_actions/join_button_live.sface:74
@@ -265,8 +265,8 @@ msgstr "已加入"
 msgid "Leave"
 msgstr "离开"
 
-#. URLs: https://campground.bonfire.cafe/&Join_Flow_Group/about
-#. https://campground.bonfire.cafe/&Member_Check_Group/about
+#. URLs: https://campground.bonfire.cafe/&Member_Check_Group/about
+#. https://campground.bonfire.cafe/&Join_Flow_Group/about
 #. https://campground.bonfire.cafe/groups
 #: lib/web/components/category_actions/join_button_live.sface:81
 #, elixir-autogen, elixir-format
@@ -319,10 +319,10 @@ msgstr ""
 msgid "Please log in..."
 msgstr "请登录..."
 
-#. URLs: https://campground.bonfire.cafe/+My_Test_Topic
-#. https://campground.bonfire.cafe/+Beta_topic
-#. https://campground.bonfire.cafe/+Alpha_topic
-#. https://campground.bonfire.cafe/&Hero_Campfire_Group
+#. URLs: https://campground.bonfire.cafe/group/Custom_Dims_123587
+#. https://campground.bonfire.cafe/group/Persistence_Test_51812
+#. https://campground.bonfire.cafe/group/UI_Test_Group_50980
+#. https://campground.bonfire.cafe/&Scope_Group
 #: lib/web/classify_live_handler.ex:97 lib/web/classify_live_handler.ex:150
 #, elixir-autogen, elixir-format
 msgid "Private"
@@ -442,10 +442,10 @@ msgstr "取消关注"
 msgid "Unnamed category"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/+My_Test_Topic
-#. https://campground.bonfire.cafe/+Beta_topic
-#. https://campground.bonfire.cafe/+Alpha_topic
-#. https://campground.bonfire.cafe/&Hero_Campfire_Group
+#. URLs: https://campground.bonfire.cafe/group/Custom_Dims_123587
+#. https://campground.bonfire.cafe/group/Persistence_Test_51812
+#. https://campground.bonfire.cafe/group/UI_Test_Group_50980
+#. https://campground.bonfire.cafe/&Scope_Group
 #: lib/web/classify_live_handler.ex:89 lib/web/classify_live_handler.ex:89
 #: lib/web/components/hero/category_hero_live.sface:75
 #: lib/web/components/hero/category_hero_live.sface:75
@@ -488,18 +488,18 @@ msgstr ""
 msgid "You don't have permission to create a topic in this group."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/+My_Test_Topic
-#. https://campground.bonfire.cafe/+Beta_topic
-#. https://campground.bonfire.cafe/+Alpha_topic
-#. https://campground.bonfire.cafe/&Hero_Campfire_Group
+#. URLs: https://campground.bonfire.cafe/group/Custom_Dims_123587
+#. https://campground.bonfire.cafe/group/Persistence_Test_51812
+#. https://campground.bonfire.cafe/group/UI_Test_Group_50980
+#. https://campground.bonfire.cafe/&Scope_Group
 #: lib/web/classify_live_handler.ex:251
 #, elixir-autogen, elixir-format
 msgid "follow"
 msgstr "关注"
 
-#. URLs: https://campground.bonfire.cafe/&Gated_Private_Group
-#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
+#. URLs: https://campground.bonfire.cafe/&Join_Flow_Group/about
 #. https://campground.bonfire.cafe/&Archived_Discoverable_Group
+#. https://campground.bonfire.cafe/&Feed_Post_Group_Public
 #. https://campground.bonfire.cafe/groups
 #: lib/web/components/category_actions/join_button_live.sface:5
 #: lib/web/components/category_actions/join_button_live.sface:12

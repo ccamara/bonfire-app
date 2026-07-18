@@ -128,20 +128,20 @@ msgstr "Endast offentligt"
 msgid "Results"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCAVF40EAQJX25CD42ZCQQY
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/discussion/01KXCAVD39Z69MDMTN75GG62D8
-#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835
+#. https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/conduct
 #: lib/web/form_live.sface:32 lib/web/form_live.sface:59
 #: lib/web/form_live.sface:62 lib/web/search_live.ex:8
 #, elixir-autogen, elixir-format
 msgid "Search"
 msgstr "Sök"
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCAVF40EAQJX25CD42ZCQQY
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/discussion/01KXCAVD39Z69MDMTN75GG62D8
-#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835
+#. https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/conduct
 #: lib/web/form_live.sface:35
 #, elixir-autogen, elixir-format
 msgid "Search content"
@@ -164,10 +164,10 @@ msgstr "Sökindexering"
 msgid "Search visibility"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXCAVF40EAQJX25CD42ZCQQY
-#. https://campground.bonfire.cafe/feed
-#. https://campground.bonfire.cafe/discussion/01KXCAVD39Z69MDMTN75GG62D8
-#. https://campground.bonfire.cafe/discussion/01KXCAVBKGRBG3PJJC1DHMT4TA
+#. URLs: https://campground.bonfire.cafe/post/01KXJYJ1E45ZG30MR14TFWY835
+#. https://campground.bonfire.cafe/post/01KXJYJ0R3ZTQH297F9T2KY0S5
+#. https://campground.bonfire.cafe/messages
+#. https://campground.bonfire.cafe/conduct
 #: lib/web/form_live.sface:44
 #, elixir-autogen, elixir-format
 msgid "Search..."

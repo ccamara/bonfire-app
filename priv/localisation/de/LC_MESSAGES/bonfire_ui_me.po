@@ -2462,7 +2462,7 @@ msgstr "Nur lokal"
 #: lib/views/remote_interaction/remote_interaction_live.sface:36
 #, elixir-autogen, elixir-format
 msgid "Log in"
-msgstr "Einloggen"
+msgstr "Anmelden"
 
 #. URLs: https://campground.bonfire.cafe/login
 #: lib/components/login/login_view_live.sface:217
@@ -3220,7 +3220,7 @@ msgstr ""
 #: lib/live_handlers/profiles_live_handler.ex:210
 #, elixir-autogen, elixir-format
 msgid "Please login first, and then... "
-msgstr "Bitte log dich zuerst ein, und dann... "
+msgstr "Bitte melde dich zuerst an, und dann... "
 
 #. URLs: https://campground.bonfire.cafe/settings/instance/configuration
 #: lib/components/settings/instance/config/instance_config_live.sface:374
@@ -4624,16 +4624,16 @@ msgid ""
 "Upload a custom PNG wordmark or project name image for the login and signup "
 "pages."
 msgstr ""
-"Laden Sie ein benutzerdefiniertes PNG-Logo oder ein Bild mit dem "
-"Projektnamen für die Anmelde- und Registrierungsseiten hoch."
+"Lade ein benutzerdefiniertes PNG-Logo oder ein Bild mit dem Projektnamen für"
+" die Anmelde- und Registrierungsseiten hoch."
 
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:29
 #, elixir-autogen, elixir-format
 msgid ""
 "Upload a custom image for the left panel of the login and signup pages."
 msgstr ""
-"Laden Sie ein benutzerdefiniertes Bild für den linken Bereich der Anmelde- "
-"und Registrierungsseiten hoch."
+"Lade ein benutzerdefiniertes Bild für den linken Bereich der Anmelde- und "
+"Registrierungsseiten hoch."
 
 #: lib/components/settings/instance/config/auth/instance_auth_live.sface:67
 #, elixir-autogen, elixir-format
@@ -5042,7 +5042,7 @@ msgstr ""
 #: lib/views/signup/signup_live.sface:147
 #, elixir-autogen, elixir-format
 msgid "You can now log in."
-msgstr "Du kannst dich jetzt einloggen."
+msgstr "Du kannst dich jetzt anmelden."
 
 #. URLs: https://campground.bonfire.cafe/switch-user/gisselle1959
 #. https://campground.bonfire.cafe/switch-user/Cummings_Runolfsson

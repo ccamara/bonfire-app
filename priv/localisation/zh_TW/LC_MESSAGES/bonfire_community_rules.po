@@ -24,10 +24,11 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Switching_Group/settings/boundaries
+#. URLs:
+#. https://campground.bonfire.cafe/&Private_Club_Group/settings/boundaries
+#. https://campground.bonfire.cafe/&Switching_Group/settings/boundaries
+#. https://campground.bonfire.cafe/&Custom_Dims_Group/settings/boundaries
 #. https://campground.bonfire.cafe/&Settings_Group/settings
-#. https://campground.bonfire.cafe/&Danger_Group/settings
-#. https://campground.bonfire.cafe/&Regular_Group/settings
 #: lib/web/components/rules_section_live.sface:137
 #, elixir-autogen, elixir-format
 msgid "Add custom rule"
@@ -69,18 +70,18 @@ msgstr "取消"
 msgid "Close"
 msgstr "關閉"
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/blocked
-#. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
+#. URLs: https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
+#. https://campground.bonfire.cafe/settings/instance/configuration
 #. https://campground.bonfire.cafe/settings/instance/boundaries/acl
 #: lib/integration.ex:15 lib/web/components/rules_builder_live.sface:14
 #, elixir-autogen, elixir-format
 msgid "Community Rules"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/instance/boundaries/blocked
-#. https://campground.bonfire.cafe/settings/instance/boundaries/silenced
-#. https://campground.bonfire.cafe/settings/instance/bonfire_ui_groups
+#. URLs: https://campground.bonfire.cafe/settings/instance/flags
+#. https://campground.bonfire.cafe/settings/instance/boundaries/blocked
+#. https://campground.bonfire.cafe/settings/instance/configuration
 #. https://campground.bonfire.cafe/settings/instance/boundaries/acl
 #: lib/integration.ex:17 lib/integration.ex:17
 #, elixir-autogen, elixir-format
@@ -118,10 +119,11 @@ msgstr ""
 msgid "Enforcement"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Switching_Group/settings/boundaries
+#. URLs:
+#. https://campground.bonfire.cafe/&Private_Club_Group/settings/boundaries
+#. https://campground.bonfire.cafe/&Switching_Group/settings/boundaries
+#. https://campground.bonfire.cafe/&Custom_Dims_Group/settings/boundaries
 #. https://campground.bonfire.cafe/&Settings_Group/settings
-#. https://campground.bonfire.cafe/&Danger_Group/settings
-#. https://campground.bonfire.cafe/&Regular_Group/settings
 #: lib/web/components/rules_builder_live.sface:102
 #, elixir-autogen, elixir-format
 msgid "Export JSON"
@@ -137,19 +139,20 @@ msgstr ""
 msgid "Export as JSON"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Switching_Group/settings/boundaries
+#. URLs:
+#. https://campground.bonfire.cafe/&Private_Club_Group/settings/boundaries
+#. https://campground.bonfire.cafe/&Switching_Group/settings/boundaries
+#. https://campground.bonfire.cafe/&Custom_Dims_Group/settings/boundaries
 #. https://campground.bonfire.cafe/&Settings_Group/settings
-#. https://campground.bonfire.cafe/&Danger_Group/settings
-#. https://campground.bonfire.cafe/&Regular_Group/settings
 #: lib/web/components/rules_builder_live.sface:111
 #, elixir-autogen, elixir-format
 msgid "Export config"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
-#. https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/user/profile
+#. https://campground.bonfire.cafe/settings/boundaries/default_roles
+#. https://campground.bonfire.cafe/settings/boundaries/roles
 #. https://campground.bonfire.cafe/settings/instance/boundaries/acl
-#. https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/components/settings/instance_rules_live.ex:5
 #: lib/web/views/instance_rules_view_live.ex:10
 #, elixir-autogen, elixir-format
@@ -161,10 +164,11 @@ msgstr ""
 msgid "Manage the template rules that communities can choose from."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Switching_Group/settings/boundaries
+#. URLs:
+#. https://campground.bonfire.cafe/&Private_Club_Group/settings/boundaries
+#. https://campground.bonfire.cafe/&Switching_Group/settings/boundaries
+#. https://campground.bonfire.cafe/&Custom_Dims_Group/settings/boundaries
 #. https://campground.bonfire.cafe/&Settings_Group/settings
-#. https://campground.bonfire.cafe/&Danger_Group/settings
-#. https://campground.bonfire.cafe/&Regular_Group/settings
 #: lib/web/components/rules_builder_live.sface:39
 #, elixir-autogen, elixir-format
 msgid "No rules selected yet."
@@ -183,6 +187,7 @@ msgstr ""
 msgid "Rule name..."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/about
 #: lib/web/components/rules_display_live.sface:17
 #, elixir-autogen, elixir-format
 msgid "Rules"
@@ -214,10 +219,10 @@ msgstr ""
 msgid "Selected rules"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/boundaries/acls
-#. https://campground.bonfire.cafe/settings/user/feeds
+#. URLs: https://campground.bonfire.cafe/settings/user/profile
+#. https://campground.bonfire.cafe/settings/boundaries/default_roles
+#. https://campground.bonfire.cafe/settings/boundaries/roles
 #. https://campground.bonfire.cafe/settings/instance/boundaries/acl
-#. https://campground.bonfire.cafe/settings/user/profile
 #: lib/web/components/settings/instance_rules_live.ex:7
 #: lib/web/components/settings/instance_rules_live.ex:7
 #: lib/web/components/settings/instance_rules_live.ex:7

@@ -1202,7 +1202,7 @@ msgstr "Wird geladen..."
 #: lib/components/nav/header/guest_actions_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Log in"
-msgstr "Einloggen"
+msgstr "Anmelden"
 
 #. URLs: https://campground.bonfire.cafe/feed/local
 #. https://campground.bonfire.cafe/impressum
@@ -1213,7 +1213,7 @@ msgstr "Einloggen"
 #: lib/layout/layout_live.sface:332
 #, elixir-autogen, elixir-format
 msgid "Login"
-msgstr "Login"
+msgstr "Anmelden"
 
 #: lib/components/links/link_live.ex:197
 #, elixir-autogen, elixir-format
@@ -2872,7 +2872,7 @@ msgstr "diese Diskussion"
 #: lib/components/smart_input/smart_input_live.sface:314
 #, elixir-autogen, elixir-format
 msgid "this post"
-msgstr "dieser Beitrag"
+msgstr "Dieser Beitrag"
 
 #: lib/components/smart_input/smart_input_live.sface:161
 #: lib/components/smart_input/smart_input_live_handler.ex:797

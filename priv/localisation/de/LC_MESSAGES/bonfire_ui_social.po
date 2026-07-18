@@ -10,13 +10,13 @@
 # 
 # Translators:
 # BollerwagenPicard, 2025
-# Magdalena Berger, 2026
 # Steven Bond, 2026
 # Joshua Samuel Strack, 2026
+# Magdalena Berger, 2026
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Joshua Samuel Strack, 2026\n"
+"Last-Translator: Magdalena Berger, 2026\n"
 "Language-Team: German (https://app.transifex.com/bonfire/teams/138385/de/)\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -1941,7 +1941,7 @@ msgstr "Diese Diskussion schließen"
 #: lib/components/object_with_thread/restricted_content_live.sface:42
 #, elixir-autogen, elixir-format
 msgid "Log in"
-msgstr "Einloggen"
+msgstr "Anmelden"
 
 #: lib/components/feeds/header_aside_notifications_seen_live.sface:11
 #, elixir-autogen, elixir-format
@@ -4288,7 +4288,7 @@ msgstr "dies"
 #: lib/components/activity/actions/more_actions_live.sface:200
 #, elixir-autogen, elixir-format
 msgid "this %{object}"
-msgstr "%{object}"
+msgstr "dieses %{object}"
 
 #: lib/components/settings/import_export/background_processing_status_live.sface:259
 #, elixir-autogen, elixir-format

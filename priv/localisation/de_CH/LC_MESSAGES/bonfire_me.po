@@ -36,22 +36,22 @@ msgstr ""
 "Klick auf den Button, um dich anzumelden. Kein Passwort erforderlich – der "
 "Link meldet dich direkt an."
 
-#. URLs: https://campground.bonfire.cafe/signup/email/confirm
-#. https://campground.bonfire.cafe/signup
+#. URLs: https://campground.bonfire.cafe/signup
+#. https://campground.bonfire.cafe/signup/email/confirm
 #: lib/mails/mails.ex:130
 #, elixir-autogen, elixir-format
 msgid "Confirm email"
 msgstr "E-Mail bestätigen"
 
-#. URLs: https://campground.bonfire.cafe/signup/email/confirm
-#. https://campground.bonfire.cafe/signup
+#. URLs: https://campground.bonfire.cafe/signup
+#. https://campground.bonfire.cafe/signup/email/confirm
 #: lib/mails/mails.ex:121
 #, elixir-autogen, elixir-format
 msgid "Confirm your email"
 msgstr "Bestätige deine E-Mail-Adresse"
 
-#. URLs: https://campground.bonfire.cafe/signup/email/confirm
-#. https://campground.bonfire.cafe/signup
+#. URLs: https://campground.bonfire.cafe/signup
+#. https://campground.bonfire.cafe/signup/email/confirm
 #: lib/mails/mails.ex:129
 #, elixir-autogen, elixir-format
 msgid "Confirm your email to finish setting up your account."
@@ -114,8 +114,8 @@ msgstr ""
 "Wenn du das nicht angefordert hast, kannst du diese E-Mail einfach "
 "ignorieren."
 
-#. URLs: https://campground.bonfire.cafe/signup/email/confirm
-#. https://campground.bonfire.cafe/signup
+#. URLs: https://campground.bonfire.cafe/signup
+#. https://campground.bonfire.cafe/signup/email/confirm
 #: lib/mails/mails.ex:131
 #, elixir-autogen, elixir-format
 msgid "If you didn't sign up, you can safely ignore this email."
@@ -139,8 +139,8 @@ msgstr ""
 "Benutzernamen statt einer E-Mail-Adresse anmelden oder ein Benutzerprofil "
 "auswählen, um anzugeben, welches verwendet werden soll."
 
-#. URLs: https://campground.bonfire.cafe/signup/email/confirm
-#. https://campground.bonfire.cafe/signup
+#. URLs: https://campground.bonfire.cafe/signup
+#. https://campground.bonfire.cafe/signup/email/confirm
 #. https://campground.bonfire.cafe/login/forgot-password
 #: lib/mails/mails.ex:40 lib/mails/mails.ex:233
 #, elixir-autogen, elixir-format
@@ -196,8 +196,8 @@ msgstr "Um Zugang zu erhalten, melde dich über den unten stehenden Link an."
 msgid "Users, accounts and profiles"
 msgstr "Benutzer:innen, Konten und Profile"
 
-#. URLs: https://campground.bonfire.cafe/signup/email/confirm
-#. https://campground.bonfire.cafe/signup
+#. URLs: https://campground.bonfire.cafe/signup
+#. https://campground.bonfire.cafe/signup/email/confirm
 #: lib/mails/mails.ex:128
 #, elixir-autogen, elixir-format
 msgid "Welcome to %{app_name}"
