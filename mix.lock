@@ -69,7 +69,7 @@
   "bonfire_ui_moderation": {:git, "https://github.com/bonfire-networks/bonfire_ui_moderation", "fb2c05acf258496d6c7ca1dbe127888da243475f", []},
   "bonfire_ui_posts": {:git, "https://github.com/bonfire-networks/bonfire_ui_posts", "d2ef331a29e358fefc6385bf79aaf626895222bc", []},
   "bonfire_ui_reactions": {:git, "https://github.com/bonfire-networks/bonfire_ui_reactions", "3676777bfaa048aaa391637ecb007c4b0e6acf6d", []},
-  "bonfire_ui_social": {:git, "https://github.com/bonfire-networks/bonfire_ui_social", "7c229c8bb2e5a6a95c00079a33e5958fdca1dbd2", []},
+  "bonfire_ui_social": {:git, "https://github.com/bonfire-networks/bonfire_ui_social", "fa37041398cb11ee214d7f2dd15729408d9ab5f6", []},
   "bonfire_ui_social_graph": {:git, "https://github.com/bonfire-networks/bonfire_ui_social_graph", "4a36162b0f62bf3bdbe23f96ad1024be9c679ce2", []},
   "bonfire_ui_topics": {:git, "https://github.com/bonfire-networks/bonfire_ui_topics", "af7f8b8927089b561adb426fc13a4cbf88107d17", []},
   "boruta": {:git, "https://github.com/malach-it/boruta_auth", "66072a720c4277440ac8bdaf56d4feb5e8b0c15b", []},

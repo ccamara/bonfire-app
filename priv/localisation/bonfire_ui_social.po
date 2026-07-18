@@ -22,11 +22,7 @@ msgstr ""
 msgid "%{a} only · %{b} hidden"
 msgstr ""
 
-<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/@ivan https://campground.bonfire.cafe/feed/local
-=======
-#. URLs: https://campground.bonfire.cafe/feed/local
->>>>>>> 4abc543b69 (misc)
 #: lib/components/feeds/controls/feed_controls_live.sface:41
 #: lib/components/widgets/widget_customize_feed/widget_customize_feed_live.sface:52
 #, elixir-autogen, elixir-format
@@ -1299,7 +1295,7 @@ msgstr ""
 msgid "How many items to show in feeds and other lists"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXK36TR3YBNHGQAF3VKZDD8H https://campground.bonfire.cafe/discussion/01KXJYPX3TN96KWJXREMFW5B3R
+#. URLs: https://campground.bonfire.cafe/discussion/01KXT1PCJZ5CRCZQEDNG72EVHJ https://campground.bonfire.cafe/discussion/01KXT09BQQV4XM2RHWTJVKNSQ6 https://campground.bonfire.cafe/discussion/01KXK36TR3YBNHGQAF3VKZDD8H https://campground.bonfire.cafe/discussion/01KXJYPX3TN96KWJXREMFW5B3R
 #: lib/live_handlers/threads_live_handler.ex:55
 #, elixir-autogen, elixir-format
 msgid "How many levels of replies to load/display at a time"
@@ -1454,6 +1450,7 @@ msgstr ""
 msgid "Journal Article"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/my
 #: lib/components/feeds/feed_live.sface:99
 #, elixir-autogen, elixir-format
 msgid "Jump to top"
@@ -1650,6 +1647,7 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/group/Solarpunk_Book_club https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/dashboard
 #: lib/components/thread/thread_live.sface:184
 #, elixir-autogen, elixir-format
 msgid "Loading…"
@@ -1876,10 +1874,7 @@ msgstr ""
 msgid "Newest first"
 msgstr ""
 
-<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/search/
-=======
->>>>>>> 4abc543b69 (misc)
 #: lib/components/activity/media/media_live.sface:106
 #: lib/components/settings/import_export/background_processing_status_live.sface:183
 #, elixir-autogen, elixir-format
@@ -2187,11 +2182,13 @@ msgstr ""
 msgid "Posted in"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/group/Solarpunk_Book_club https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my
 #: lib/components/widgets/widget_thread_context/widget_thread_context_live.ex:24
 #, elixir-autogen, elixir-format
 msgid "Posted in group"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Solarpunk_Book_club
 #: lib/components/widgets/widget_thread_context/widget_thread_context_live.ex:23
 #, elixir-autogen, elixir-format
 msgid "Posted in topic"
@@ -2238,10 +2235,7 @@ msgstr ""
 msgid "Preparing to send"
 msgstr ""
 
-<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/search/
-=======
->>>>>>> 4abc543b69 (misc)
 #: lib/components/activity/media/media_live.sface:95
 #: lib/components/settings/import_export/background_processing_status_live.sface:175
 #, elixir-autogen, elixir-format
@@ -2439,7 +2433,7 @@ msgstr ""
 msgid "Reply"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/discussion/01KXK36TR3YBNHGQAF3VKZDD8H https://campground.bonfire.cafe/discussion/01KXJYPX3TN96KWJXREMFW5B3R
+#. URLs: https://campground.bonfire.cafe/discussion/01KXT1PCJZ5CRCZQEDNG72EVHJ https://campground.bonfire.cafe/discussion/01KXT09BQQV4XM2RHWTJVKNSQ6 https://campground.bonfire.cafe/discussion/01KXK36TR3YBNHGQAF3VKZDD8H https://campground.bonfire.cafe/discussion/01KXJYPX3TN96KWJXREMFW5B3R
 #: lib/live_handlers/threads_live_handler.ex:54
 #, elixir-autogen, elixir-format
 msgid "Reply levels"
@@ -2468,6 +2462,7 @@ msgstr ""
 msgid "Reset all"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/my
 #: lib/components/feeds/feed_live.sface:88
 #, elixir-autogen, elixir-format
 msgid "Resumed where you left off"
@@ -2618,12 +2613,13 @@ msgstr ""
 msgid "Shares"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/search
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/search
 #: lib/components/activity/object/cw/cw_live.sface:19
 #, elixir-autogen, elixir-format
 msgid "Show"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/feed/my
 #: lib/components/participants/participants_list_live.sface:23
 #, elixir-autogen, elixir-format
 msgid "Show %{count} more"
@@ -2712,7 +2708,7 @@ msgstr ""
 msgid "Social UI"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/post/01KXK3EX6CYY184FQWE1DH51SK https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/post/01KXJYZJ8QY2YGKN2286R4EF1V
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/post/01KXK3EX6CYY184FQWE1DH51SK https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/post/01KXJYZJ8QY2YGKN2286R4EF1V
 #: lib/components/activity/media/media_live.sface:132
 #, elixir-autogen, elixir-format
 msgid "Sorry, no caption provided by author"
@@ -3084,6 +3080,7 @@ msgstr ""
 msgid "Top discussions have been reset."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/group/Solarpunk_Book_club https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/dashboard
 #: lib/components/widgets/widget_participants/widget_participants_live.sface:10
 #: lib/components/widgets/widget_participants/widget_participants_live.sface:10
 #, elixir-autogen, elixir-format
@@ -3571,10 +3568,7 @@ msgstr ""
 msgid "liked your activity"
 msgstr ""
 
-<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/feed/ https://campground.bonfire.cafe/search/
-=======
->>>>>>> 4abc543b69 (misc)
 #: lib/components/activity/media/media_live.sface:117
 #: lib/components/activity/media/media_live.sface:332
 #: lib/components/activity/media/remote_media_live.sface:282
@@ -3583,6 +3577,7 @@ msgstr ""
 msgid "media"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/group/Solarpunk_Book_club https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my
 #: lib/components/widgets/widget_thread_context/widget_thread_context_live.sface:32
 #, elixir-autogen, elixir-format
 msgid "members"
@@ -3668,6 +3663,7 @@ msgstr ""
 msgid "replies"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my
 #: lib/components/activity/preview/discussion_preview_live.sface:34
 #: lib/live_handlers/threads_live_handler.ex:383
 #, elixir-autogen, elixir-format

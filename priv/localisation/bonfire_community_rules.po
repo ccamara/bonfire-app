@@ -87,6 +87,7 @@ msgstr ""
 msgid "Could not save rules"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub/settings
 #: lib/web/components/rules_custom_rule_live.sface:44
 #: lib/web/components/rules_template_rule_live.sface:32
 #, elixir-autogen, elixir-format
@@ -148,6 +149,7 @@ msgstr ""
 msgid "Not allowed"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub/settings
 #: lib/web/components/rules_custom_rule_live.sface:23
 #: lib/web/components/rules_section_live.sface:105
 #: lib/web/components/rules_section_live.sface:111
@@ -167,6 +169,7 @@ msgstr ""
 msgid "Rules Template"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub/settings
 #: lib/web/components/rules_custom_rule_live.sface:33
 #: lib/web/components/rules_template_rule_live.sface:57
 #, elixir-autogen, elixir-format
@@ -183,6 +186,7 @@ msgstr ""
 msgid "Select which rules apply and how each one is enforced."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub/settings
 #: lib/web/components/rules_builder_live.sface:43
 #, elixir-autogen, elixir-format
 msgid "Selected rules"

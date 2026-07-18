@@ -53,6 +53,7 @@ msgstr ""
 msgid "Attempted to follow them all..."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Gesundheit_Pflege
 #: lib/components/follow/follow_button_live.sface:68
 #, elixir-autogen, elixir-format
 msgid "Cancel"
@@ -90,7 +91,7 @@ msgstr ""
 msgid "Follow"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Gleichner_Cremin https://campground.bonfire.cafe/@Kris_Ratke
+#. URLs: https://campground.bonfire.cafe/@Fay_Ernser_and_Stark https://campground.bonfire.cafe/@Kovacek_Reynolds_and_Muller https://campground.bonfire.cafe/@Gleichner_Cremin https://campground.bonfire.cafe/@Kris_Ratke
 #: lib/components/follow/follow_button_live.sface:31
 #, elixir-autogen, elixir-format
 msgid "Follow back"
@@ -113,7 +114,7 @@ msgstr ""
 msgid "Following"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Gleichner_Cremin https://campground.bonfire.cafe/@Kris_Ratke
+#. URLs: https://campground.bonfire.cafe/@Fay_Ernser_and_Stark https://campground.bonfire.cafe/@Kovacek_Reynolds_and_Muller https://campground.bonfire.cafe/@Gleichner_Cremin https://campground.bonfire.cafe/@Kris_Ratke
 #: lib/components/profile_follows/profile_follow_indicator.sface:21
 #, elixir-autogen, elixir-format
 msgid "Follows you"
@@ -186,6 +187,7 @@ msgstr ""
 msgid "Removed the alias!"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Gesundheit_Pflege
 #: lib/components/follow/follow_button_live.sface:60
 #, elixir-autogen, elixir-format
 msgid "Requested"
@@ -276,7 +278,7 @@ msgstr ""
 msgid "You need to first add this user (%{username}) as an alias on the instance you want to migrate to. If you have already done so please try again in an hour or so."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Hoeger_Abbott_and_Kshlerin https://campground.bonfire.cafe/@Torphy_Ltd
+#. URLs: https://campground.bonfire.cafe/@Considine_and_Sons https://campground.bonfire.cafe/@Runte_Schimmel https://campground.bonfire.cafe/@Hoeger_Abbott_and_Kshlerin https://campground.bonfire.cafe/@Torphy_Ltd
 #: lib/live_handlers/follows_live_handler.ex:24
 #, elixir-autogen, elixir-format
 msgid "follow"

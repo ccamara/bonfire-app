@@ -468,6 +468,7 @@ msgstr ""
 msgid "Could not save links"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/write
 #: lib/components/smart_input/upload/upload_previews_live.sface:103
 #, elixir-autogen, elixir-format
 msgid "Cover image"
@@ -812,7 +813,7 @@ msgstr ""
 msgid "How to preload data during live updates (technical setting)."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/impressum
+#. URLs: https://campground.bonfire.cafe/@Wiza_Effertz_and_Feeney https://campground.bonfire.cafe/@Torphy_Miller_and_Stracke/followers https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/impressum
 #: lib/components/nav/footer_impressum/impressum_live.sface:20
 #, elixir-autogen, elixir-format
 msgid "Impressum"
@@ -1733,6 +1734,7 @@ msgstr ""
 msgid "Sorry, an action could not be completed"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/post/01KXT4DN5M5KQWDNYNNKPSR82C
 #: lib/error/error_handling.ex:156
 #, elixir-autogen, elixir-format
 msgid "Sorry, an operation encountered an error and stopped"

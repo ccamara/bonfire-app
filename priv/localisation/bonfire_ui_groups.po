@@ -27,6 +27,7 @@ msgstr ""
 msgid "Activities"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub/settings
 #: lib/components/settings/general/general_live.sface:137
 #, elixir-autogen, elixir-format
 msgid "Admin controls for how this group appears and behaves across the whole instance."
@@ -101,6 +102,7 @@ msgstr ""
 msgid "Audience preset"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub/settings
 #: lib/components/settings/general/general_live.sface:154
 #, elixir-autogen, elixir-format
 msgid "Auto-join new users"
@@ -347,6 +349,7 @@ msgstr ""
 msgid "Identity"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub/settings
 #: lib/components/settings/general/general_live.sface:135
 #, elixir-autogen, elixir-format
 msgid "Instance settings"
@@ -428,6 +431,7 @@ msgstr ""
 msgid "Modified"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub/settings
 #: lib/components/settings/general/general_live.sface:156
 #, elixir-autogen, elixir-format
 msgid "New users automatically become members of this group when they sign up."
@@ -449,6 +453,7 @@ msgstr ""
 msgid "No groups here yet"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/groups
 #: lib/components/discover/discover_groups_live.sface:32
 #, elixir-autogen, elixir-format
 msgid "No groups match \"%{term}\""
@@ -552,7 +557,7 @@ msgstr ""
 msgid "Preview of the archived group"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Mod_Test_Group/settings
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub/settings https://campground.bonfire.cafe/&Mod_Test_Group/settings
 #: lib/components/settings/moderators/moderators_live.sface:53
 #, elixir-autogen, elixir-format
 msgid "Remove"
@@ -671,6 +676,7 @@ msgstr ""
 msgid "Topics in %{name}"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/groups
 #: lib/components/discover/discover_groups_live.sface:35
 #, elixir-autogen, elixir-format
 msgid "Try a different word, or clear the search to browse every group on this instance."
@@ -819,7 +825,7 @@ msgstr ""
 msgid "group"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/group/design https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/&Join_Flow_Group/about
+#. URLs: https://campground.bonfire.cafe/group/Gesundheit_Pflege https://campground.bonfire.cafe/group/design https://campground.bonfire.cafe/&Member_Check_Group/about https://campground.bonfire.cafe/&Join_Flow_Group/about
 #: lib/live_handler.ex:7
 #, elixir-autogen, elixir-format
 msgid "join"

@@ -342,13 +342,13 @@ msgstr ""
 msgid "Archipelago"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
+#. URLs: https://campground.bonfire.cafe/@Dooley_LLC/interact/block https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
 #: lib/components/remote_interaction/remote_interaction_form_live.sface:16
 #, elixir-autogen, elixir-format
 msgid "Are you a fediverse user?"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
+#. URLs: https://campground.bonfire.cafe/@Dooley_LLC/interact/block https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
 #: lib/components/remote_interaction/remote_interaction_form_live.sface:22
 #, elixir-autogen, elixir-format
 msgid "Are you a user of this instance?"
@@ -1208,7 +1208,7 @@ msgstr ""
 msgid "Enter your email and we'll send you a one-time sign-in link. No password needed."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
+#. URLs: https://campground.bonfire.cafe/@Dooley_LLC/interact/block https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
 #: lib/components/remote_interaction/remote_interaction_form_live.sface:28
 #, elixir-autogen, elixir-format
 msgid "Enter your fediverse nick to %{verb} %{thing_or_name} remotely"
@@ -1220,7 +1220,7 @@ msgstr ""
 msgid "Enter your name or a pseudonym"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
+#. URLs: https://campground.bonfire.cafe/@Dooley_LLC/interact/block https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
 #: lib/components/remote_interaction/remote_interaction_form_live.sface:16
 #, elixir-autogen, elixir-format
 msgid "Enter your username and you will be forwarded to your home instance, where you'll be able to proceed to %{verb} %{thing_or_name} there."
@@ -1314,7 +1314,7 @@ msgstr ""
 msgid "Federation & Privacy"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance https://campground.bonfire.cafe/settings/user/safety
+#. URLs: https://campground.bonfire.cafe/settings/user/feeds https://campground.bonfire.cafe/settings/user/preferences/behaviours https://campground.bonfire.cafe/settings/user/preferences/appearance https://campground.bonfire.cafe/settings/user/safety
 #: lib/components/settings/nav_sidebar/sidebar_settings_nav_live.sface:139
 #, elixir-autogen, elixir-format
 msgid "Federation Allowlist"
@@ -1961,7 +1961,7 @@ msgstr ""
 msgid "It was shared with a limited audience."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@carlos https://campground.bonfire.cafe/@mayel https://campground.bonfire.cafe/@ivan
+#. URLs: https://campground.bonfire.cafe/@JonasBerger https://campground.bonfire.cafe/@carlos https://campground.bonfire.cafe/@mayel https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/profile_hero/profile_stats_live.sface:41
 #, elixir-autogen, elixir-format
 msgid "Joined"
@@ -2839,7 +2839,7 @@ msgstr ""
 msgid "Privacy Policy"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
+#. URLs: https://campground.bonfire.cafe/@Dooley_LLC/interact/block https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
 #: lib/components/remote_interaction/remote_interaction_form_live.sface:46
 #, elixir-autogen, elixir-format
 msgid "Proceed to %{verb}"
@@ -2925,7 +2925,7 @@ msgstr ""
 msgid "Recently joined"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
+#. URLs: https://campground.bonfire.cafe/@Dooley_LLC/interact/block https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
 #: lib/components/remote_interaction/remote_interaction_form_live.sface:43
 #, elixir-autogen, elixir-format
 msgid "Redirecting..."
@@ -3416,7 +3416,7 @@ msgstr ""
 msgid "Sign in"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
+#. URLs: https://campground.bonfire.cafe/@Dooley_LLC/interact/block https://campground.bonfire.cafe/@Emmerich_Group/interact/block https://campground.bonfire.cafe/@Beer_Group/interact/block https://campground.bonfire.cafe/@D_Amore_Kunze/interact/block
 #: lib/components/remote_interaction/remote_interaction_form_live.sface:22
 #, elixir-autogen, elixir-format
 msgid "Sign in instead."
@@ -3696,7 +3696,7 @@ msgstr ""
 msgid "They are no longer an admin."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@Mayert_Harber_and_Fahey https://campground.bonfire.cafe/@Fadel_Inc https://campground.bonfire.cafe/@Schmidt_Inc
+#. URLs: https://campground.bonfire.cafe/@Reichel_and_Sons https://campground.bonfire.cafe/@Mayert_Harber_and_Fahey https://campground.bonfire.cafe/@Fadel_Inc https://campground.bonfire.cafe/@Schmidt_Inc
 #: lib/live_handlers/users_live_handler.ex:116
 #, elixir-autogen, elixir-format
 msgid "They are now an admin!"
@@ -4330,6 +4330,7 @@ msgstr ""
 msgid "You need to log in to see that page."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/api/v1/reports https://campground.bonfire.cafe/api/v1/statuses/01KXT3PPA72RV9ARHNCC7NTRMP/favourite https://campground.bonfire.cafe/api/v1/favourites https://campground.bonfire.cafe/api/v1/reports/01KXT3PMMBYJ5F65NJ1E2GMTGH
 #: lib/plugs/user_required.ex:35
 #, elixir-autogen, elixir-format
 msgid "You need to login first."
@@ -4442,14 +4443,14 @@ msgstr ""
 msgid "follow"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@carlos https://campground.bonfire.cafe/@mayel https://campground.bonfire.cafe/@ivan
+#. URLs: https://campground.bonfire.cafe/@JonasBerger https://campground.bonfire.cafe/@carlos https://campground.bonfire.cafe/@mayel https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/profile_hero/profile_stats_live.sface:22
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:74
 #, elixir-autogen, elixir-format
 msgid "followers"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@carlos https://campground.bonfire.cafe/@mayel https://campground.bonfire.cafe/@ivan
+#. URLs: https://campground.bonfire.cafe/@JonasBerger https://campground.bonfire.cafe/@carlos https://campground.bonfire.cafe/@mayel https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/profile_hero/profile_stats_live.sface:32
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:84
 #, elixir-autogen, elixir-format
@@ -4497,7 +4498,7 @@ msgstr ""
 msgid "please try again."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/@mayel https://campground.bonfire.cafe/@ivan
+#. URLs: https://campground.bonfire.cafe/@JonasBerger https://campground.bonfire.cafe/@mayel https://campground.bonfire.cafe/@ivan
 #: lib/components/profile/profile_hero/profile_stats_live.sface:12
 #: lib/components/widgets/widget_user_status/widget_user_status_live.sface:54
 #, elixir-autogen, elixir-format

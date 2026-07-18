@@ -54,6 +54,7 @@ msgstr[1] ""
 msgid "1 hour"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my
 #: lib/web/components/preview/question_live.ex:321
 #, elixir-autogen, elixir-format
 msgid "1 hour left"
@@ -61,7 +62,7 @@ msgid_plural "%{count} hours left"
 msgstr[0] ""
 msgstr[1] ""
 
-#. URLs: https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
 #: lib/web/components/preview/question_live.ex:317
 #, elixir-autogen, elixir-format
 msgid "1 minute left"
@@ -76,6 +77,7 @@ msgid_plural "%{count} neutral"
 msgstr[0] ""
 msgstr[1] ""
 
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my
 #: lib/web/components/preview/choice_live.ex:80
 #, elixir-autogen, elixir-format
 msgid "1 reaction"
@@ -126,6 +128,7 @@ msgstr ""
 msgid "Block the decision (veto)"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my
 #: lib/web/components/preview/question_live.ex:306
 #: lib/web/components/preview/question_live.ex:398
 #: lib/web/components/preview/question_live.ex:402
@@ -199,13 +202,14 @@ msgstr ""
 msgid "Get a fast read on a question."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my
 #: lib/contexts/presets.ex:47
 #: lib/web/components/preview/question_live.ex:349
 #, elixir-autogen, elixir-format
 msgid "Group decision"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
 #: lib/web/components/preview/question_live.sface:455
 #, elixir-autogen, elixir-format
 msgid "Hide results"
@@ -273,6 +277,7 @@ msgstr ""
 msgid "One veto can block the decision."
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my
 #: lib/web/components/preview/question_live.ex:394
 #, elixir-autogen, elixir-format
 msgid "Ongoing"
@@ -419,7 +424,7 @@ msgstr ""
 msgid "Scroll right"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
+#. URLs: https://campground.bonfire.cafe/feed/my https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
 #: lib/web/components/preview/question_live.sface:445
 #: lib/web/components/preview/question_live.sface:454
 #, elixir-autogen, elixir-format
@@ -452,7 +457,7 @@ msgstr ""
 msgid "Show more"
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
+#. URLs: https://campground.bonfire.cafe/ https://campground.bonfire.cafe/instance/pins https://campground.bonfire.cafe/instance/pins/embed
 #: lib/web/components/preview/question_live.sface:408
 #, elixir-autogen, elixir-format
 msgid "Sign in to vote"
@@ -485,6 +490,7 @@ msgstr ""
 msgid "Style"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my
 #: lib/web/components/preview/question_live.sface:433
 #, elixir-autogen, elixir-format
 msgid "Submit votes"
@@ -520,10 +526,7 @@ msgstr ""
 msgid "Suggestions first, then a scored vote."
 msgstr ""
 
-<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXHDT2GBXKDQ46BVQ28F3JZH https://campground.bonfire.cafe/discussion/01KXHCSW8XHWEP98HD27ZTRY00 https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0
-=======
->>>>>>> 4abc543b69 (misc)
 #: lib/web/poll_live_handler.ex:260
 #, elixir-autogen, elixir-format
 msgid "Thanks for participating!"
@@ -610,15 +613,13 @@ msgstr ""
 msgid "Your question"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/feed/my
 #: lib/web/components/preview/voting_live.sface:69
 #, elixir-autogen, elixir-format
 msgid "Your reaction to this choice"
 msgstr ""
 
-<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/feed/local https://campground.bonfire.cafe/dashboard https://campground.bonfire.cafe/discussion/01KXG1TMWHJ04NTVDMSZFMBHV0
-=======
->>>>>>> 4abc543b69 (misc)
 #: lib/web/components/preview/choice_live.sface:51
 #: lib/web/components/preview/choice_live.sface:225
 #, elixir-autogen, elixir-format
@@ -630,10 +631,7 @@ msgstr ""
 msgid "Your suggestion"
 msgstr ""
 
-<<<<<<< HEAD
 #. URLs: https://campground.bonfire.cafe/feed/polls https://campground.bonfire.cafe/discussion/01KXHDT2GBXKDQ46BVQ28F3JZH https://campground.bonfire.cafe/discussion/01KXHCSW8XHWEP98HD27ZTRY00
-=======
->>>>>>> 4abc543b69 (misc)
 #: lib/web/components/preview/choice_live.sface:118
 #: lib/web/components/preview/choice_live.sface:237
 #, elixir-autogen, elixir-format

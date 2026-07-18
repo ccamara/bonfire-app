@@ -54,6 +54,7 @@ msgstr ""
 msgid "Archived"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Fedi_Pub/settings
 #: lib/web/classify_live_handler.ex:713
 #, elixir-autogen, elixir-format
 msgid "Auto-join disabled."
@@ -76,6 +77,7 @@ msgstr ""
 msgid "Boundary updated!"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Gesundheit_Pflege
 #: lib/web/components/category_actions/join_button_live.sface:50
 #, elixir-autogen, elixir-format
 msgid "Cancel"
@@ -329,13 +331,14 @@ msgstr ""
 msgid "Reachable from other fediverse servers."
 msgstr ""
 
-#. URLs: https://campground.bonfire.cafe/&Discoverable_Group https://campground.bonfire.cafe/&Gated_Private_Group https://campground.bonfire.cafe/&Archived_Discoverable_Group
+#. URLs: https://campground.bonfire.cafe/group/Gesundheit_Pflege https://campground.bonfire.cafe/&Discoverable_Group https://campground.bonfire.cafe/&Gated_Private_Group https://campground.bonfire.cafe/&Archived_Discoverable_Group
 #: lib/web/components/category_actions/join_button_live.sface:22
 #: lib/web/components/category_header_aside/category_header_aside_live.sface:141
 #, elixir-autogen, elixir-format
 msgid "Request to join"
 msgstr ""
 
+#. URLs: https://campground.bonfire.cafe/group/Gesundheit_Pflege
 #: lib/web/components/category_actions/join_button_live.sface:43
 #, elixir-autogen, elixir-format
 msgid "Requested"
